@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.65.0 r53189</authoring_tool>
+    </contributor>
+    <created>2014-02-09T03:46:39</created>
+    <modified>2014-02-09T03:46:39</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="round_b_f-Geometry-mesh" name="round_b_f-Geometry">
+      <mesh>
+        <source id="round_b_f-Geometry-mesh-positions">
+          <float_array id="round_b_f-Geometry-mesh-positions-array" count="54">0.397285 -0.02819395 -0.756962 0.703556 -0.02819395 -0.485629 0.848651 -0.02819395 -0.103045 0.799331 -0.02819395 0.303146 0.566893 -0.02819395 0.63989 0.204587 -0.02819395 0.830043 -0.204587 -0.02819395 0.830043 -0.566893 -0.02819395 0.63989 -0.799331 -0.02819395 0.303146 -0.848651 -0.02819395 -0.103045 -0.703556 -0.02819395 -0.48563 0 -0.02819395 -0.854884 -0.397284 -0.02819395 -0.756962 -0.001850962 -0.187921 -0.02284497 0.385249 -0.00672096 -0.02284497 -0.001850962 -0.00672096 0.353086 -0.38895 -0.00672096 -0.02284497 -0.001850962 -0.00672096 -0.398776</float_array>
+          <technique_common>
+            <accessor source="#round_b_f-Geometry-mesh-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="round_b_f-Geometry-mesh-normals">
+          <float_array id="round_b_f-Geometry-mesh-normals-array" count="48">0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.4239326 -0.9056673 0 0 -0.9008148 0.4341868 -0.4239326 -0.9056673 0 0 -0.9008148 -0.4341868</float_array>
+          <technique_common>
+            <accessor source="#round_b_f-Geometry-mesh-normals-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="round_b_f-Geometry-mesh-map-0">
+          <float_array id="round_b_f-Geometry-mesh-map-0-array" count="90">0.733834 0.05855798 0.9141 0.2194319 0.9995 0.446268 0.9995 0.446268 0.970471 0.687101 0.833663 0.886758 0.833663 0.886758 0.620416 0.9995 0.379584 0.999501 0.9995 0.446268 0.833663 0.886758 0.379584 0.999501 0.379584 0.999501 0.166337 0.886758 0.02952897 0.687101 0.02952897 0.687101 5e-4 0.446268 0.0859 0.2194319 0.379584 0.999501 0.02952897 0.687101 0.0859 0.2194319 0.9995 0.446268 0.379584 0.999501 0.0859 0.2194319 0.733834 0.05855798 0.9995 0.446268 0.0859 0.2194319 0.5 4.99e-4 0.733834 0.05855798 0.0859 0.2194319 0.266166 0.05855798 0.5 4.99e-4 0.0859 0.2194319 0.498911 0.49382 0.72675 0.493819 0.498911 0.716711 0.498911 0.49382 0.498911 0.716711 0.271071 0.49382 0.498911 0.49382 0.271071 0.49382 0.49891 0.270928 0.498911 0.49382 0.49891 0.270928 0.72675 0.493819</float_array>
+          <technique_common>
+            <accessor source="#round_b_f-Geometry-mesh-map-0-array" count="45" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="round_b_f-Geometry-mesh-vertices">
+          <input semantic="POSITION" source="#round_b_f-Geometry-mesh-positions"/>
+        </vertices>
+        <polylist count="15">
+          <input semantic="VERTEX" source="#round_b_f-Geometry-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#round_b_f-Geometry-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#round_b_f-Geometry-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 1 0 1 2 0 2 2 1 3 3 1 4 4 1 5 4 2 6 5 2 7 6 2 8 2 3 9 4 3 10 6 3 11 6 4 12 7 4 13 8 4 14 8 5 15 9 5 16 10 5 17 6 6 18 8 6 19 10 6 20 2 7 21 6 7 22 10 7 23 0 8 24 2 8 25 10 8 26 11 9 27 0 9 28 10 9 29 12 10 30 11 10 31 10 10 32 13 11 33 14 12 34 15 13 35 13 11 36 15 13 37 16 14 38 13 11 39 16 14 40 17 15 41 13 11 42 17 15 43 14 12 44</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="round_b_f" name="round_b_f" type="NODE">
+        <translate sid="location">0 0.3037586 0</translate>
+        <rotate sid="rotationZ">0 0 1 180</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#round_b_f-Geometry-mesh"/>
+        <node id="prop_back" name="prop_back" type="NODE">
+          <translate sid="location">0 0 0</translate>
+          <rotate sid="rotationZ">0 0 1 0</rotate>
+          <rotate sid="rotationY">0 1 0 0</rotate>
+          <rotate sid="rotationX">1 0 0 1.14592e-5</rotate>
+          <scale sid="scale">1 1 1</scale>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

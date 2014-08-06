@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="brit house a">
+      <mesh>structural/earth_blacksmith.dae</mesh>
+      <props>
+        <prop actor="props/flora/bush_tempe_underbrush.xml" attachpoint="bush_1" maxheight="20" minheight="-20"/>
+        <prop actor="props/flora/bush_tempe_me_dry.xml" attachpoint="bush_3" maxheight="20" minheight="-20"/>
+        <prop actor="props/flora/bush_tempe_underbrush.xml" attachpoint="bush_4" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/anvil.xml" attachpoint="item_1" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="item_2" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="item_3" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="item_4" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="item_5" maxheight="20" minheight="-20"/>
+        <prop actor="props/flora/bush_tempe_underbrush.xml" attachpoint="bush_2" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="item_6" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="item_7" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="item_8" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/woodcord.xml" attachpoint="item_9" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="item_10" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/decals/celt_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/earth_ponies/blacksmith_prop.xml" attachpoint="root"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="garrisoned"/>
+        <prop actor="particle/flame.xml" attachpoint="fire"/>
+        <prop actor="particle/sparks.xml" attachpoint="garrisoned"/>
+      </props>
+      <textures>
+        <texture file="structural/earth_struct.png" name="baseTex"/>
+        <texture file="structural/celt_struct_1_norm.png" name="normTex"/>
+        <texture file="structural/celt_struct_1_spec.png" name="specTex"/>
+        <texture file="structural/ao/brit_house_a.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="particle/sparks.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

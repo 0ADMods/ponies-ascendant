@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="hud">
+      <mesh>props/helmet/hat_wisebiscuit.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/feathers.xml" attachpoint="feather"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="leather">
+      <textures>
+        <texture file="props/helmet/leather.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="cloth">
+      <textures>
+        <texture file="props/helmet/leather_f.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="cloth1">
+      <textures>
+        <texture file="props/helmet/leather_g.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

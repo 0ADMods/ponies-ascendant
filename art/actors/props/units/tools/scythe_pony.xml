@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>props/tool_scythe_pony.dae</mesh>
+      <textures>
+        <texture file="props/prop_tools.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="abr">
+      <mesh>props/tool_hoe_pony.dae</mesh>
+      <textures>
+        <texture file="props/prop_tools.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+</actor>

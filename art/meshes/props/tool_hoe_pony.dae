@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.65.0 r53189</authoring_tool>
+    </contributor>
+    <created>2014-02-07T23:39:24</created>
+    <modified>2014-02-07T23:39:24</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="tool_hoe2-Geometry_001-mesh" name="tool_hoe2-Geometry.001">
+      <mesh>
+        <source id="tool_hoe2-Geometry_001-mesh-positions">
+          <float_array id="tool_hoe2-Geometry_001-mesh-positions-array" count="90">0.008030951 0.06293797 -1.542685 0.06714999 0.159071 2.237978 0.008030951 0.06293696 2.237978 0.06714999 0.159071 -1.542685 0.06714999 0.159071 -1.542685 -0.05108797 0.159071 2.237978 0.06714999 0.159071 2.237978 -0.05108797 0.159071 -1.542685 -0.05108797 0.159071 -1.542685 0.008030951 0.06293696 2.237978 -0.05108797 0.159071 2.237978 0.008030951 0.06293797 -1.542685 0.116875 -0.373164 1.999962 0.116875 0.172356 2.157381 -0.116874 0.172356 2.157381 -0.116874 -0.373164 1.999962 0.116875 -0.373164 1.999962 -0.116874 -0.373164 1.999962 -0.116874 0.139014 2.013365 0.116875 0.139014 2.013365 -0.116874 -0.373164 1.999962 -0.116874 0.172356 2.157381 -0.116874 0.139014 2.013365 -0.116874 0.172356 2.157381 0.116875 0.172356 2.157381 0.116875 0.139014 2.013365 -0.116874 0.139014 2.013365 0.116875 -0.373164 1.999962 0.116875 0.139014 2.013365 0.116875 0.172356 2.157381</float_array>
+          <technique_common>
+            <accessor source="#tool_hoe2-Geometry_001-mesh-positions-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tool_hoe2-Geometry_001-mesh-normals">
+          <float_array id="tool_hoe2-Geometry_001-mesh-normals-array" count="60">0.8518021 -0.5238197 0 0.8518021 -0.5238197 0 0.8518021 -0.5238197 0 0.8518021 -0.5238197 0 0 1 0 0 1 0 0 1 0 0 1 0 -0.8518021 -0.5238197 0 -0.8518021 -0.5238197 0 -0.8518021 -0.5238197 0 -0.8518021 -0.5238197 0 0 -0.2772542 0.9607967 0 -0.2772542 0.9607967 0 0.02615976 -0.9996578 0 0.02615976 -0.9996578 -1 0 0 0 0.9742317 -0.22555 0 0.9742317 -0.22555 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#tool_hoe2-Geometry_001-mesh-normals-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tool_hoe2-Geometry_001-mesh-map-0">
+          <float_array id="tool_hoe2-Geometry_001-mesh-map-0-array" count="84">0.778584 0.005871951 0.974577 1.0011 0.778584 1.0011 0.778584 0.005871951 0.974577 0.005871951 0.974577 1.0011 0.677278 0.003491997 0.87327 0.99872 0.677278 0.99872 0.677278 0.003491997 0.87327 0.003491997 0.87327 0.99872 0.779666 0.005871951 0.975659 1.0011 0.779666 1.0011 0.779666 0.005871951 0.975659 0.005871951 0.975659 1.0011 0.483922 1 0.483922 -0.006217956 0.09326696 -0.006217956 0.09326696 -0.006217956 0.09326696 1 0.483922 1 0.09326696 1 0.483922 1 0.483922 -0.006217956 0.483922 -0.006217956 0.09326696 -0.006217956 0.09326696 1 0.553753 -0.009087979 -4.78e-4 -0.009087979 -4.78e-4 0.707045 0.004782974 0.481052 0.597277 0.481052 0.597277 0.128422 0.597277 0.128422 0.004782974 0.128422 0.004782974 0.481052 -4.78e-4 0.707045 0.553753 0.707045 0.553753 -0.009087979</float_array>
+          <technique_common>
+            <accessor source="#tool_hoe2-Geometry_001-mesh-map-0-array" count="42" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tool_hoe2-Geometry_001-mesh-vertices">
+          <input semantic="POSITION" source="#tool_hoe2-Geometry_001-mesh-positions"/>
+        </vertices>
+        <polylist count="14">
+          <input semantic="VERTEX" source="#tool_hoe2-Geometry_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#tool_hoe2-Geometry_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#tool_hoe2-Geometry_001-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 1 1 1 2 2 2 0 0 3 3 3 4 1 1 5 4 4 6 5 5 7 6 6 8 4 4 9 7 7 10 5 5 11 8 8 12 9 9 13 10 10 14 8 8 15 11 11 16 9 9 17 12 12 18 13 12 19 14 12 20 14 13 21 15 13 22 12 13 23 16 14 24 17 14 25 18 14 26 18 15 27 19 15 28 16 15 29 20 16 30 21 16 31 22 16 32 23 17 33 24 17 34 25 17 35 25 18 36 26 18 37 23 18 38 27 19 39 28 19 40 29 19 41</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="tool_hoe2" name="tool_hoe2" type="NODE">
+        <translate sid="location">0.7127072 -0.4100618 -0.4312833</translate>
+        <rotate sid="rotationZ">0 0 1 -36.26877</rotate>
+        <rotate sid="rotationY">0 1 0 -47.80889</rotate>
+        <rotate sid="rotationX">1 0 0 170.676</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#tool_hoe2-Geometry_001-mesh"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

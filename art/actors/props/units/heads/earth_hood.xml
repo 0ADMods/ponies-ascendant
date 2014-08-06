@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="hud">
+      <mesh>props/helmet/pony_hood_a.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="leather">
+      <textures>
+        <texture file="props/helmet/leather.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="cloth">
+      <textures>
+        <texture file="props/helmet/leather_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="cloth1">
+      <textures>
+        <texture file="props/helmet/leather_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="cloth2">
+      <textures>
+        <texture file="props/helmet/leather_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="cloth3">
+      <textures>
+        <texture file="props/helmet/leather_d.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_spec.xml</material>
+</actor>

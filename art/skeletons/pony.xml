@@ -1,0 +1,125 @@
+<skeletons>
+   <standard_skeleton title="pony" id="pony">
+      <bone name="spine_4">
+               <bone name="spine_1_legs">
+               </bone>
+               <bone name="spine_2_ribs">
+               </bone>
+               <bone name="spine_3_arms">
+                  <bone name="arm_right_1">
+                     <bone name="arm_right_2">
+                        <bone name="arm_right_3">
+                           <bone name="arm_right_4">
+                              <bone name="arm_right_5">
+                              </bone>
+                           </bone>
+                        </bone>
+                     </bone>
+                  </bone>
+                  <bone name="arm_left_1">
+                     <bone name="arm_left_2">
+                        <bone name="arm_left_3">
+                           <bone name="arm_left_4">
+                              <bone name="arm_left_5">
+                              </bone>
+                           </bone>
+                        </bone>
+                     </bone>
+                  </bone>
+               </bone>
+               <bone name="spine_5">
+                  <bone name="spine_6_head">
+                  </bone>
+               </bone>
+               <bone name="rib_right">
+               </bone>
+               <bone name="rib_left">
+               </bone>
+               <bone name="leg_right_1">
+                  <bone name="leg_right_2">
+                     <bone name="leg_right_3">
+                        <bone name="leg_right_4">
+                           <bone name="leg_right_5">
+                           </bone>
+                        </bone>
+                     </bone>
+                  </bone>
+               </bone>
+               <bone name="leg_left_1">
+                  <bone name="leg_left_2">
+                     <bone name="leg_left_3">
+                        <bone name="leg_left_4">
+                           <bone name="leg_left_5">
+                           </bone>
+                        </bone>
+                     </bone>
+                  </bone>
+               </bone>
+               <bone name="tail">
+               </bone>
+      </bone>
+</standard_skeleton>
+  <skeleton title="pony" target="pony">
+    <identifier>
+      <root>Pony</root>
+    </identifier>
+      <bone name="spine_4"><target>spine_4</target>
+               <bone name="spine_1_legs"><target>spine_1_legs</target>
+               </bone>
+               <bone name="spine_2_ribs"><target>spine_2_ribs</target>
+               </bone>
+               <bone name="spine_3_arms"><target>spine_3_arms</target>
+                  <bone name="arm_right_1"><target>arm_right_1</target>
+                     <bone name="arm_right_2"><target>arm_right_2</target>
+                        <bone name="arm_right_3"><target>arm_right_3</target>
+                           <bone name="arm_right_4"><target>arm_right_4</target>
+                              <bone name="arm_right_5"><target>arm_right_5</target>
+                              </bone>
+                           </bone>
+                        </bone>
+                     </bone>
+                  </bone>
+                  <bone name="arm_left_1"><target>arm_left_1</target>
+                     <bone name="arm_left_2"><target>arm_left_2</target>
+                        <bone name="arm_left_3"><target>arm_left_3</target>
+                           <bone name="arm_left_4"><target>arm_left_4</target>
+                              <bone name="arm_left_5"><target>arm_left_5</target>
+                              </bone>
+                           </bone>
+                        </bone>
+                     </bone>
+                  </bone>
+               </bone>
+               <bone name="spine_5"><target>spine_5</target>
+                  <bone name="spine_6_head"><target>spine_6_head</target>
+                  </bone>
+               </bone>
+               <bone name="rib_right"><target>rib_right</target>
+               </bone>
+               <bone name="rib_left"><target>rib_left</target>
+               </bone>
+               <bone name="leg_right_1"><target>leg_right_1</target>
+                  <bone name="leg_right_2"><target>leg_right_2</target>
+                     <bone name="leg_right_3"><target>leg_right_3</target>
+                        <bone name="leg_right_4"><target>leg_right_4</target>
+                           <bone name="leg_right_5"><target>leg_right_5</target>
+                           </bone>
+                        </bone>
+                     </bone>
+                  </bone>
+               </bone>
+               <bone name="leg_left_1"><target>leg_left_1</target>
+                  <bone name="leg_left_2"><target>leg_left_2</target>
+                     <bone name="leg_left_3"><target>leg_left_3</target>
+                        <bone name="leg_left_4"><target>leg_left_4</target>
+                           <bone name="leg_left_5"><target>leg_left_5</target>
+                           </bone>
+                        </bone>
+                     </bone>
+                  </bone>
+               </bone>
+               <bone name="tail"><target>tail</target>
+               </bone>
+      </bone>
+  </skeleton>
+</skeletons>

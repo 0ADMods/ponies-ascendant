@@ -1,0 +1,41 @@
+<skeletons>
+   <standard_skeleton title="pennant" id="pennant">
+           <bone name="flag_1">
+               <bone name="flag_2">
+                  <bone name="flag_3">
+                     <bone name="flag_4">
+                        <bone name="flag_5">
+                           <bone name="flag_6">
+                              <bone name="flag_7">
+                                 <bone name="flag_8">
+                                 </bone>
+                              </bone>
+                           </bone>
+                        </bone>
+                     </bone>
+                  </bone>
+               </bone>
+            </bone>
+</standard_skeleton>
+  <skeleton title="pennant" target="pennant">
+    <identifier>
+      <root>pennant</root>
+    </identifier>
+           <bone name="flag_1"><target>flag_1</target>
+               <bone name="flag_2"><target>flag_2</target>
+                  <bone name="flag_3"><target>flag_3</target>
+                     <bone name="flag_4"><target>flag_4</target>
+                        <bone name="flag_5"><target>flag_5</target>
+                           <bone name="flag_6"><target>flag_6</target>
+                              <bone name="flag_7"><target>flag_7</target>
+                                 <bone name="flag_8"><target>flag_8</target>
+                                 </bone>
+                              </bone>
+                           </bone>
+                        </bone>
+                     </bone>
+                  </bone>
+               </bone>
+            </bone>
+  </skeleton>
+</skeletons>

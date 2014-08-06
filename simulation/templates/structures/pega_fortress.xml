@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Attack>
+    <Ranged>
+      <Hack>0.0</Hack>
+      <Pierce>38.0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>120.0</MaxRange>
+      <ElevationBonus>15</ElevationBonus>
+      <ProjectileSpeed>60.0</ProjectileSpeed>
+      <PrepareTime>1200</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <Spread>1.5</Spread>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
+      <Bonuses>
+          <BonusShip>
+              <Classes>Ship</Classes>
+              <Multiplier>3.5</Multiplier>
+          </BonusShip>
+          <NerfSiege>
+              <Classes>Siege</Classes>
+              <Multiplier>0.5</Multiplier>
+          </NerfSiege>
+      </Bonuses>
+    </Ranged>
+  </Attack>
+ <BuildingAI>
+    <DefaultArrowCount>6</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+  </BuildingAI>
+ 
+
+  <Cost> 
+<BuildTime>2000</BuildTime>
+    <Resources>
+  <food>450</food>    <wood>2600</wood>
+      <stone>2450</stone>
+  <metal>2500</metal>  </Resources>
+ 
+    <PopulationBonus>20</PopulationBonus>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="32.0"/>
+    <Height>37.0</Height>
+  </Footprint>
+  <Health>
+    <Max>26000</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>pega</Civ>
+    <SpecificName>Pegacenean Citadel</SpecificName>
+    <Tooltip>Train Pegasus heroes, champions, and elite soldiers. Construct siege weapons. Powerful defensive structure.</Tooltip>
+    <History>The Broch is an Iron Age round tower fortification type unique to Scotland.  The origin of brochs remains a mystery. Some archaeologists believed the brochs were built by an influx of broch builders who had been displaced and pushed northward during the Roman invasion of Britain. However, this theory has been largely disproven and current thought is that they were built by itinerant (travelling) craftsmen since so many were built to almost the same exact design. </History>
+  </Identity>
+  <Obstruction>
+    <Static width="64.5" depth="64.5"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_broch.xml</select>
+      <constructed>interface/complete/building/complete_broch.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Root>true</Root>
+    <Radius>140</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+     units/pega_mechanical_siege_ballista_bolt
+     units/pega_champion_infantry
+     units/pega_infantry_spearman_e
+     units/pega_infantry_javelinist_e
+    </Entities>
+    <Technologies datatype="tokens">
+      pair_siege_attack_cost
+      pair_siege_cost_armor
+    </Technologies>
+  </ProductionQueue>
+  <Vision>
+    <Range>125</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/pegasi/fortress.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

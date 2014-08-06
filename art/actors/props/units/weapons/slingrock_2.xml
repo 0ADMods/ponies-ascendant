@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="slingrock">
+      <mesh>props/weap_slingrock_2.dae</mesh>
+      <textures>
+        <texture file="gaia/rock_ocean_1.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+</actor>

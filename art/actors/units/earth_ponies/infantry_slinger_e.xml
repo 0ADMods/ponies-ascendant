@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="1">
+      <animations>
+        <animation file="other/pony_walk.dae" name="Walk" speed="15"/>
+        <animation file="other/pony_running.dae" name="Run" speed="15"/>
+        <animation event="0.5" file="other/pony_lumbering.dae" name="attack_melee" speed="250"/>
+        <animation event="0.5" file="other/pony_slinging.dae" name="attack_ranged" speed="250"/>
+        <animation event="0.5" file="other/pony_lumbering.dae" name="attack_slaughter" speed="250"/>
+        <animation file="other/pony_walk.dae" name="carry_food" speed="15"/>
+        <animation file="other/pony_walk.dae" name="carry_meat" speed="15"/>
+        <animation file="other/pony_walk.dae" name="carry_wood" speed="15"/>
+        <animation file="other/pony_walk.dae" name="carry_stone" speed="15"/>
+        <animation file="other/pony_walk.dae" name="carry_metal" speed="15"/>
+        <animation event="0.4" file="other/pony_lumbering.dae" name="gather_tree" speed="60"/>
+        <animation file="other/pony_farming_a.dae" name="gather_grain" speed="75"/>
+        <animation file="other/pony_foraging.dae" name="gather_fruit" speed="25"/>
+        <animation file="other/pony_foraging.dae" name="gather_meat" speed="25"/>
+        <animation event="0.4" file="other/pony_mining.dae" name="gather_rock" speed="60"/>
+        <animation event="0.4" file="other/pony_mining.dae" name="gather_ore" speed="60"/>
+        <animation file="other/pony_mining.dae" name="gather_ruins" speed="60"/>
+        <animation event="0.6" file="other/pony_building.dae" name="Build" speed="70"/>
+        <animation file="other/pony_death.dae" name="Death" speed="50"/>
+        <animation event="" file="other/pony_idle.dae" load="" name="idle" speed="30"/>
+        <animation file="other/pony_promotion.dae" name="promotion" speed="45"/>
+        <animation file="other/pony_death_b.dae" name="Death" speed="50"/>
+        <animation file="other/pony_death_b.dae" name="Death" speed="50"/>
+      </animations>
+      <mesh>skeletal/pony.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/slingrock_2.xml" attachpoint="projectile"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="10">
+      <props>
+        <prop actor="props/units/heads/earth_hood_d.xml" attachpoint="hat"/>
+        <prop actor="props/units/weapons/sling.xml" attachpoint="hoof"/>
+        <prop actor="props/units/shields/celt_round_pony.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="2">
+      <textures>
+        <texture file="skeletal/pony_sling_e.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="3">
+      <textures>
+        <texture file="skeletal/pony_sling_f.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="4">
+      <textures>
+        <texture file="skeletal/pony_sling_g.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="5">
+      <textures>
+        <texture file="skeletal/pony_sling_h.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant name="attack_ranged">
+      <props>
+        <prop actor="props/units/weapons/sling.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="attack_melee">
+      <props>
+        <prop actor="props/units/tools/pitchfork.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="attack_slaughter">
+      <props>
+        <prop actor="props/units/tools/pitchfork.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="death"/>
+    <variant name="gather_tree">
+      <props>
+        <prop actor="props/units/tools/axe_pony.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="gather_grain">
+      <props>
+        <prop actor="props/units/tools/scythe_pony.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="gather_fruit"/>
+    <variant name="gather_meat"/>
+    <variant name="gather_rock">
+      <props>
+        <prop actor="props/units/tools/pick_pony.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="gather_ore">
+      <props>
+        <prop actor="props/units/tools/pick_pony.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="gather_ruins">
+      <props>
+        <prop actor="props/units/tools/pick_pony.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="Build">
+      <props>
+        <prop actor="props/units/tools/mallet.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="carry_food">
+      <props>
+        <prop actor="props/special/eyecandy/basket_celt_a.xml" attachpoint="back"/>
+        <prop actor="props/units/tools/scythe.xml" attachpoint="back"/>
+      </props>
+    </variant>
+    <variant name="carry_meat">
+      <props>
+        <prop actor="props/special/eyecandy/basket_celt_a.xml" attachpoint="back"/>
+      </props>
+    </variant>
+    <variant name="carry_wood">
+      <props>
+        <prop actor="props/special/eyecandy/pony_shuttle_wood.xml" attachpoint="back"/>
+        <prop actor="props/units/tools/axe.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="carry_stone">
+      <props>
+        <prop actor="props/special/eyecandy/block_granite.xml" attachpoint="back"/>
+        <prop actor="props/units/tools/pick.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="carry_metal">
+      <props>
+        <prop actor="props/special/eyecandy/crate_a.xml" attachpoint="back"/>
+        <prop actor="props/units/tools/pick.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

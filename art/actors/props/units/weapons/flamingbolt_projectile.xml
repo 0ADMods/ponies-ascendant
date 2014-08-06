@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>props/weap_ballista_projectile.dae</mesh>
+      <textures>
+        <texture file="structural/Pega_struct.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="1"/>
+    <variant frequency="0" name="2">
+      <props>
+        <prop actor="particle/flame_jav.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>blend_spec.xml</material>
+</actor>

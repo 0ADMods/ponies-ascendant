@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="brit house a">
+      <mesh>structural/earth_market.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/decals/celt_barracks.xml" attachpoint="root" maxheight="20" minheight="-20"/>
+        <prop actor="units/earth_ponies/female_citizen.xml" attachpoint="merchant_1"/>
+        <prop actor="units/earth_ponies/female_citizen.xml" attachpoint="merchant_2"/>
+        <prop actor="units/earth_ponies/female_citizen.xml" attachpoint="merchant_3"/>
+      </props>
+      <textures>
+        <texture file="structural/earth_struct.png" name="baseTex"/>
+        <texture file="structural/celt_struct_1_norm.png" name="normTex"/>
+        <texture file="structural/celt_struct_1_spec.png" name="specTex"/>
+        <texture file="structural/ao/brit_house_a.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax.xml</material>
+</actor>

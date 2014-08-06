@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="kettle helm">
+      <mesh>props/helmet/pega_helm_cataphract.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/pega_corinth_b_crest.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="d">
+      <props>
+        <prop attachpoint="feather_1"/>
+        <prop attachpoint="feather_2"/>
+      </props>
+    </variant>
+    <variant frequency="2" name="e">
+      <props>
+        <prop actor="props/units/heads/feathers.xml" attachpoint="feather_1"/>
+        <prop actor="props/units/heads/feathers.xml" attachpoint="feather_2"/>
+        <prop actor=""/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="leather">
+      <textures>
+        <texture file="skeletal/pegasus_cataphract_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>blend_spec.xml</material>
+</actor>

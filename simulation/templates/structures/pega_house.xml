@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house">
+   
+ <Cost>
+
+  <PopulationBonus>5</PopulationBonus>
+    
+    <BuildTime>53</BuildTime>
+
+    <Resources>
+
+      <wood>200</wood>
+
+      <metal>50</metal>
+   </Resources>
+
+  </Cost>
+
+  <GarrisonHolder>
+
+    <Max>3</Max>
+  </GarrisonHolder>
+
+  <Health>
+
+    <Max>2000</Max>
+
+  </Health>
+ <Footprint>
+
+    <Square width="12.0" depth="16.0"/>
+    <Height>7.0</Height>
+
+  </Footprint>
+
+  <Identity>
+
+    <Civ>pega</Civ>
+
+    <SpecificName>Oîkos</SpecificName>
+
+    <History>Hellenic houses from the Classical Age were generally humble yet stylish. During the Hellenistic Age, however, luxurious palaces and estates became commonplace in the rich Hellenistic metropolises like Antioch, Alexandria and Seleucia.</History>
+
+  </Identity>
+
+  <VisualActor>
+
+    <Actor>structures/pegasi/house.xml</Actor>
+
+  </VisualActor>
+
+</Entity>

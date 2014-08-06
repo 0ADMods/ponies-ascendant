@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/pega_mechanical_siege_ballista_common">
+  <Identity>
+    <Icon>units/earth_mechanical_mangonel.png</Icon>
+  </Identity>
+ <UnitMotion>
+    <WalkSpeed>7.0</WalkSpeed>
+    <Run>
+      <Speed>9.2</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/pegasi/ballista.xml</Actor>
+  </VisualActor>
+</Entity>

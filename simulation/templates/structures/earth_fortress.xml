@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress"> <Attack>
+    <Ranged>
+      <Hack>0.0</Hack>
+      <Pierce>25.0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>121.0</MaxRange>
+      <MinRange>8.0</MinRange>
+      <ProjectileSpeed>60.0</ProjectileSpeed>
+      <PrepareTime>900</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
+      <Spread>1.7</Spread>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
+      <Bonuses>
+ 
+          <BonusShip>
+              <Classes>Ship</Classes>
+              <Multiplier>3.5</Multiplier>
+          </BonusShip>        <NerfSiege>
+              <Classes>Siege</Classes>
+              <Multiplier>0.5</Multiplier>
+          </NerfSiege>
+      </Bonuses>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>6</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+  </BuildingAI>
+ 
+  <Cost> 
+<BuildTime>2000</BuildTime>
+    <Resources>
+    <food>450</food>  <wood>2700</wood>
+      <stone>4650</stone>
+  <metal>500</metal>  </Resources>
+ 
+    <PopulationBonus>25</PopulationBonus>
+  </Cost>
+ <Footprint>
+    <Square width="52.0" depth="53.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>35000</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>earth</Civ>
+    <SpecificName>Castle</SpecificName>
+    <Tooltip>Train elite earth pony troops, knights, heroes, and siege weapons.Strong defensive building</Tooltip>
+    <History>The Broch is an Iron Age round tower fortification type unique to Scotland.  The origin of brochs remains a mystery. Some archaeologists believed the brochs were built by an influx of broch builders who had been displaced and pushed northward during the Roman invasion of Britain. However, this theory has been largely disproven and current thought is that they were built by itinerant (travelling) craftsmen since so many were built to almost the same exact design. </History><Icon>structures/earth_fortress.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="42.0" depth="43.0"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_broch.xml</select>
+      <constructed>interface/complete/building/complete_broch.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+	  <alert0>interface/alarm/alarm_alert_0.xml</alert0>
+	  <alert1>interface/alarm/alarm_alert_1.xml</alert1>
+	  <alert2>interface/alarm/alarm_alert_2.xml</alert2>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Root>true</Root>
+    <Radius>140</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
+  <AlertRaiser>
+    <MaximumLevel>2</MaximumLevel>
+    <Range>140</Range>
+  </AlertRaiser>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/earth_mechanical_siege_mangonel_unpacked
+      units/earth_mechanical_siege_trebuchet_packed
+      units/earth_hero_wisebiscuit
+      units/earth_champion_infantry
+      units/earth_infantry_spearman_e
+      units/earth_infantry_slinger_e
+    </Entities>
+    <Technologies datatype="tokens">
+      pair_siege_attack_cost
+      pair_siege_cost_armor
+    </Technologies>
+  </ProductionQueue>
+  <Vision>
+    <Range>140</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/earth_ponies/fortress.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

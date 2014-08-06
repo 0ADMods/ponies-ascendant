@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="pegasus">
+      <mesh>structural/pega_statue.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
+        <prop actor="props/flora/grass_soft_small_tall.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/Pega_struct.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.65.0 r53189</authoring_tool>
+    </contributor>
+    <created>2014-02-05T02:24:50</created>
+    <modified>2014-02-05T02:24:50</modified>
+    <unit name="inch" meter="0.0254"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Circle_003-mesh" name="Circle.003">
+      <mesh>
+        <source id="Circle_003-mesh-positions">
+          <float_array id="Circle_003-mesh-positions-array" count="24">0.01479208 0.9439653 3.178462 0.4700632 0.822022 3.184683 0.4949182 0.8340296 1.100211 0.01479208 0.9626303 1.09365 -0.8108953 -0.483294 3.178462 -0.9579865 -0.03551512 3.184683 -0.9816386 -0.02128362 1.100212 -0.8265172 -0.4935088 1.09365</float_array>
+          <technique_common>
+            <accessor source="#Circle_003-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Circle_003-mesh-normals">
+          <float_array id="Circle_003-mesh-normals-array" count="24">0.2585833 0.9659414 0.008636713 0.2585833 0.9659414 0.008636713 0.2585833 0.9659414 0.008636713 0.2585833 0.9659414 0.008636713 -0.9499801 -0.3121739 0.008636713 -0.9499801 -0.3121739 0.008636713 -0.9499801 -0.3121739 0.008636713 -0.9499801 -0.3121739 0.008636713</float_array>
+          <technique_common>
+            <accessor source="#Circle_003-mesh-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Circle_003-mesh-map-0">
+          <float_array id="Circle_003-mesh-map-0-array" count="16">0.7512559 0.2463497 0.8338912 0.2463497 0.8379505 0.01609224 0.7512559 0.01609224 0.7528647 0.01522958 0.8410634 0.01700305 0.8362704 0.2472123 0.7522016 0.2455219</float_array>
+          <technique_common>
+            <accessor source="#Circle_003-mesh-map-0-array" count="8" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Circle_003-mesh-vertices">
+          <input semantic="POSITION" source="#Circle_003-mesh-positions"/>
+        </vertices>
+        <polylist count="2">
+          <input semantic="VERTEX" source="#Circle_003-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Circle_003-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Circle_003-mesh-map-0" offset="2" set="0"/>
+          <vcount>4 4 </vcount>
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 6 4 4 7 5 5 4 6 6 5 7 7</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Circle_001" name="Circle_001" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 -90</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">4.987311 4.987311 4.987311</scale>
+        <instance_geometry url="#Circle_003-mesh"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

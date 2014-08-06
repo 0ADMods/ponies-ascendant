@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="kettle helm">
+      <mesh>props/helmet/pega_helm_a.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/pega_corinth_a_crest.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="leather">
+      <textures>
+        <texture file="props/helmet/pegasus_helm_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>blend_spec.xml</material>
+</actor>

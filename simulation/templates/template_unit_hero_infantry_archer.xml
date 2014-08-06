@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Armour>
+    <Hack>5</Hack>
+    <Pierce>6</Pierce>
+    <Crush>7</Crush>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Pierce>20.0</Pierce>
+      <MaxRange>60</MaxRange>
+      <Spread>1.0</Spread>
+	  <Bonuses>
+		<BonusPrimary>
+		  <Classes>Infantry Sword</Classes>
+		  <Multiplier>3.0</Multiplier>
+		</BonusPrimary>
+		<BonusSecondary>
+		  <Classes>Cavalry Spear</Classes>
+		  <Multiplier>1.25</Multiplier>
+		</BonusSecondary>
+	  </Bonuses>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>35</BuildTime>
+    <Resources>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Circle radius="1.5"/>
+    <Height>2.5</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+  </Health>
+  <Identity>
+    <GenericName>Hero Archer</GenericName>
+    <Classes datatype="tokens">Hero Archer Bow</Classes>
+	<Tooltip>Classes: Hero Infantry Ranged Archer Bow.
+Counters: 2x vs. Swordsmen, 1.25x vs. Cavalry Spearmen.
+Countered by: Cavalry Swordsmen, Cavalry Skirmishers.</Tooltip>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Formations datatype="tokens">
+      formations/skirmish
+    </Formations>
+  </Identity>
+  <Loot>
+    <xp>350</xp>
+    <food>5</food>
+    <wood>20</wood>
+    <stone>0</stone>
+    <metal>10</metal>
+  </Loot>
+  <Minimap>
+    <Type>hero</Type>
+  </Minimap>
+  <Selectable>
+    <Overlay>
+      <AlwaysVisible/>
+      <Texture>
+        <MainTexture>star/256x256.png</MainTexture>
+        <MainTextureMask>star/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <TrainingRestrictions>
+    <Category>Hero</Category>
+  </TrainingRestrictions>
+<Sound>
+    <SoundGroups>
+      <attack>attack/weapon/bow.xml</attack>
+    </SoundGroups>
+  </Sound>
+</Entity>

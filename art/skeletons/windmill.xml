@@ -1,0 +1,17 @@
+<skeletons>
+   <standard_skeleton title="windmill" id="windmill">
+      <bone name="shaft">
+      </bone>
+      <bone name="arm">
+      </bone>
+</standard_skeleton>
+  <skeleton title="windmill" target="windmill">
+    <identifier>
+      <root>windmill</root>
+    </identifier>
+      <bone name="shaft"><target>shaft</target>
+      </bone>
+      <bone name="arm"><target>arm</target>
+      </bone>
+  </skeleton>
+</skeletons>

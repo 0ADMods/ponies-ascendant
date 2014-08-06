@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="base">
+      <props>
+        <prop actor="props/structures/decals/city_tile_3x3.xml" attachpoint="root" minheight=""/>
+      </props>
+      <textures>
+        <texture file="structural/Pega_struct.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="a">
+      <mesh>structural/pega_house_a.dae</mesh>
+      <props>
+        <prop actor="props/structures/pegasi/house_a_clouds.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/city_tile_3x3.xml" attachpoint="root" minheight=""/>
+        <prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_1"/>
+        <prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="bush_2"/>
+        <prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_3"/>
+        <prop actor="props/flora/bush_medit_underbrush.xml" attachpoint="bush_2"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="b">
+      <mesh>structural/pega_house_b.dae</mesh>
+      <props>
+        <prop actor="props/structures/pegasi/house_b_clouds.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/city_tile_3x3.xml" attachpoint="root" minheight=""/>
+        <prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_1"/>
+        <prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="bush_2"/>
+        <prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_3"/>
+        <prop actor="props/flora/bush_medit_underbrush.xml" attachpoint="bush_2"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="c">
+      <mesh>structural/pega_house_c.dae</mesh>
+      <props>
+        <prop actor="props/structures/pegasi/house_c_clouds.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/city_tile_3x3.xml" attachpoint="root" minheight=""/>
+        <prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_1"/>
+        <prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="bush_2"/>
+        <prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_3"/>
+        <prop actor="props/flora/bush_medit_underbrush.xml" attachpoint="bush_2"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="garrisoned"/>
+    <variant name="death">
+      <props>
+        <prop attachpoint="garrisoned"/>
+        <prop actor="particle/blowing_snow.xml" attachpoint="root"/>
+        <prop actor="particle/blowing_snow.xml" attachpoint="root"/>
+        <prop actor="particle/blowing_snow.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

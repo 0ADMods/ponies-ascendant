@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <group>
+    <variant frequency="100">
+      <mesh>structural/earth_civil_center_prop.dae</mesh>
+      <textures>
+        <texture file="structural/earth_struct.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

@@ -1,0 +1,33 @@
+<skeletons>
+   <standard_skeleton title="mangonel" id="mangonel">
+      <bone name="frame">
+         <bone name="arm">
+            <bone name="sling">
+            </bone>
+         </bone>
+         <bone name="axle_rear">
+         </bone>
+         <bone name="axle_front">
+         </bone>
+         <bone name="crank">
+         </bone>
+      </bone>
+</standard_skeleton>
+  <skeleton title="mangonel" target="mangonel">
+    <identifier>
+      <root>mangonel</root>
+    </identifier>
+      <bone name="frame"><target>frame</target>
+         <bone name="arm"><target>arm</target>
+            <bone name="sling"><target>sling</target>
+            </bone>
+         </bone>
+         <bone name="axle_rear"><target>axle_rear</target>
+         </bone>
+         <bone name="axle_front"><target>axle_front</target>
+         </bone>
+         <bone name="crank"><target>crank</target>
+         </bone>
+      </bone>
+  </skeleton>
+</skeletons>

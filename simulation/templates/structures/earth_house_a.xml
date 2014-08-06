@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house">
+  <Cost>
+   <PopulationBonus>8</PopulationBonus>
+    <BuildTime>150</BuildTime>
+    <Resources>
+      <wood>100</wood>
+      <stone>25</stone>
+    </Resources>
+  </Cost>
+
+<GarrisonHolder>
+<Max>6</Max></GarrisonHolder>
+  <Footprint replace="">
+    <Circle radius="8.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>earth</Civ>
+    <SpecificName>Cottage</SpecificName>
+    <History>Celts generally lived in round stone or wattle and daub walled structures with thatched roof.</History>
+ <Icon>structures/earth_house.png</Icon> </Identity>
+  <Health>
+    <Max>4200</Max>
+    <SpawnEntityOnDeath>rubble/rubble_celt_cc</SpawnEntityOnDeath>
+  </Health>
+
+  <Obstruction>
+    <Static width="10.0" depth="10.0"/>
+  </Obstruction>
+  <TerritoryInfluence>
+    <Radius>17</Radius>
+    <Weight>65536</Weight>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/earth_ponies/house_a.xml</Actor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+  </VisualActor>
+</Entity>

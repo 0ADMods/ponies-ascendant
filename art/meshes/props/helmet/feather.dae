@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.65.0 r53189</authoring_tool>
+    </contributor>
+    <created>2014-02-09T01:15:20</created>
+    <modified>2014-02-09T01:15:20</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Plane-mesh" name="Plane">
+      <mesh>
+        <source id="Plane-mesh-positions">
+          <float_array id="Plane-mesh-positions-array" count="24">0.9477135 -0.1251171 -0.005006194 0.6741928 -0.1579375 0.1841285 0.00607419 0.3027011 0.5078447 0.9326701 0.4377654 0.2027761 0.2588672 0.8850502 0.5264924 -0.9031191 1.368079 0.5484191 0.924369 0.4412989 0.1654807 0.2505661 0.8885838 0.489197</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane-mesh-normals">
+          <float_array id="Plane-mesh-normals-array" count="24">-0.2597736 -0.9656361 -0.002655088 0.3898129 -0.1975768 0.899411 0.1615039 -0.1013519 0.9816279 -0.6117435 -0.7743766 0.1614124 -0.2074953 -0.8681906 -0.4507279 -0.7603381 -0.6493728 0.01269567 -0.2034669 0.05395668 -0.9775689 -0.4150822 0.1450545 -0.8981292</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane-mesh-map-0">
+          <float_array id="Plane-mesh-map-0-array" count="40">0.7919409 0.9703267 0.9873104 0.7521274 0.986994 0.4271374 0.7959912 0.6404597 0.7919409 0.9703267 0.8886094 0.9703267 0.9873104 0.7521274 0.7959912 0.6404597 0.986994 0.4271374 0.9189292 0.03152668 0.7959912 0.6404597 0.9189292 0.03152668 0.986994 0.4271374 0.7919409 0.9703267 0.7959912 0.6404597 0.986994 0.4271374 0.9873104 0.7521274 0.9873104 0.7521274 0.8886094 0.9703267 0.7919409 0.9703267</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-map-0-array" count="20" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane-mesh-vertices">
+          <input semantic="POSITION" source="#Plane-mesh-positions"/>
+        </vertices>
+        <polylist count="6">
+          <input semantic="VERTEX" source="#Plane-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plane-mesh-map-0" offset="2" set="0"/>
+          <vcount>4 3 3 3 4 3 </vcount>
+          <p>1 0 0 3 1 1 4 2 2 2 3 3 1 0 4 0 4 5 3 1 6 2 3 7 4 2 8 5 5 9 2 3 10 5 5 11 7 6 12 1 0 13 2 3 14 7 6 15 6 7 16 6 7 17 0 4 18 1 0 19</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Plane" name="Plane" type="NODE">
+        <translate sid="location">0.009058726 0.1288 0.6907389</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 90</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">0.7046049 0.7046049 0.7046049</scale>
+        <instance_geometry url="#Plane-mesh"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

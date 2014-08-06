@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged">
+  <Armour>
+
+    <Hack>0</Hack>
+
+    <Pierce>0</Pierce>
+
+    <Crush>1</Crush>
+
+  </Armour>
+
+  <Attack>
+    <Ranged>
+
+      <Hack>0.0</Hack>
+
+      <Pierce>20.0</Pierce>
+
+      <Crush>0.0</Crush>
+
+      <MaxRange>50.0</MaxRange>
+
+      <MinRange>5.0</MinRange>
+
+      <Spread>3.0</Spread>
+
+	  <Bonuses>	<BonusAntiArmor>
+
+		  <Classes>AntiArmor</Classes>
+
+		  <Multiplier>1.5</Multiplier>
+
+		</BonusAntiArmor>
+
+		<BonusSoldier>
+
+		  <Classes>Soldier</Classes>
+
+		  <Multiplier>1.25</Multiplier>
+
+		</BonusSoldier>
+
+	  </Bonuses>
+
+      <Splash>
+
+        <Shape>Linear</Shape>
+
+        <Range>3.3</Range>
+
+        <FriendlyFire>true</FriendlyFire>
+
+        <Hack>0.0</Hack>
+
+        <Pierce>15.0</Pierce>
+
+        <Crush>0.0</Crush>
+
+      </Splash>
+
+    </Ranged>
+
+  </Attack>
+
+  <Cost>
+
+ <BuildTime>8</BuildTime>    <Resources>
+
+       <wood>50</wood> <food>75</food>
+    </Resources>
+
+  </Cost>
+
+
+ <Identity>
+
+    <Civ>pega</Civ>
+
+	<SelectionGroupName>units/pega_infantry_javelinist_b</SelectionGroupName>
+
+    <GenericName>Skirmisher</GenericName><SpecificName>Peltast</SpecificName> <Classes datatype="tokens">Skirmisher</Classes>
+
+    <History>Gesatae were young men who devoted themselves to war, often serving as mercenaries for other tribes. They were the last Celts to fight stark naked to show their courage, often carrying only a shield with several javelins and a regular Celtic spear. More often than not they were covered in geometric designs painted in woad, a blue dye.</History>
+
+    <Icon>units/pega_infantry_javelinist.png</Icon>
+
+ </Identity>
+
+  <Promotion>
+
+    <Entity>units/pega_infantry_javelinist_a</Entity>
+
+  </Promotion>
+
+  <UnitMotion>
+
+    <WalkSpeed>
+15.0</WalkSpeed>
+
+    <Run>
+
+      <Speed>22.0</Speed>
+
+    </Run>
+
+  </UnitMotion>
+
+ <Sound>
+    <SoundGroups><select>voice/hellenes/civ/female/civ_female_select.xml</select>
+      <order_walk>voice/hellenes/civ/female/civ_female_walk.xml</order_walk>
+      <order_attack>voice/hellenes/civ/female/civ_female_attack.xml</order_attack>
+      <order_build>voice/hellenes/civ/female/civ_female_build.xml</order_build>
+      <order_gather>voice/hellenes/civ/female/civ_female_gather_together.xml</order_gather>
+      <order_repair>voice/hellenes/civ/female/civ_female_repair.xml</order_repair>
+      <order_garrison>voice/hellenes/civ/female/civ_female_garrison.xml</order_garrison>
+<death>actor/human/death/female_death.xml</death></SoundGroups>
+  </Sound>   <VisualActor>
+    <Actor>units/pegasi/infantry_javelinist_b.xml</Actor>
+  </VisualActor>
+
+</Entity>

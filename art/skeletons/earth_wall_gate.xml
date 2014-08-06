@@ -1,0 +1,38 @@
+<skeletons>
+
+	<standard_skeleton title="door" id="door">
+
+			<bone name="door_right">
+
+				<bone name="pile_right"></bone>
+
+			</bone>
+
+			<bone name="door_left">
+
+				<bone name="pile_left"></bone>
+
+			</bone>
+</standard_skeleton>
+
+
+<skeleton title="door" target="door">
+ 
+<identifier>
+ 
+	<root>door</root>
+ 
+</identifier>	<bone name="door_right"><target>door_right</target>
+
+			<bone name="pile_right"><target>pile_right</target>
+			</bone>
+
+		</bone>
+
+		<bone name="door_left"><target>door_left</target>
+					<bone name="pile_left"><target>pile_left</target></bone>
+						</bone>
+
+	</skeleton>
+
+</skeletons>

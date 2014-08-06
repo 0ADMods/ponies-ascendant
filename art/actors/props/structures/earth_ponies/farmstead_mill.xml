@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="windmill">
+      <animations>
+        <animation file="mechanical/windmill.dae" name="idle" speed="10"/>
+      </animations>
+      <mesh>structural/windmill.dae</mesh>
+      <textures>
+        <texture file="structural/earth_struct.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_spec.xml</material>
+</actor>

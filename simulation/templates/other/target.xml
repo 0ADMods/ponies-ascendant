@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wall">
+  <Armour>
+    <Hack>99</Hack>
+    <Pierce>99</Pierce>
+    <Crush>99</Crush>
+  </Armour>
+  <Cost>
+    <BuildTime>8</BuildTime>
+  </Cost>
+  <Footprint>
+    <Square width="3.5" depth="1.0"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <Health>
+    <Max>99999</Max>
+    <SpawnEntityOnDeath disable=""/>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Palisade Angle Spike</SpecificName>
+    <GenericName>Big Spike</GenericName>
+    <Classes datatype="tokens">-StoneWall Palisade</Classes>
+    <History>A cheap, quick defensive spike</History>
+  </Identity>
+  <Obstruction>
+    <Static width="3.5" depth="1.0"/>
+  </Obstruction>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
+  <VisualActor>
+    <Actor>props/special/palisade_angle_spike.xml</Actor>
+  </VisualActor>
+</Entity>

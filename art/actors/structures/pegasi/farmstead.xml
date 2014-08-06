@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="base">
+      <mesh>structural/pega_farmstead.dae</mesh>
+      <props>
+        <prop actor="props/structures/pegasi/farmstead_clouds.xml" attachpoint="root"/>
+        <prop actor="props/structures/pegasi/farmstead_mill.xml" attachpoint="root" minheight=""/>
+        <prop actor="particle/blowing_snow.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/field_medit_5x5.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/city_tile_3x3.xml" attachpoint="root"/>
+        <prop actor="props/flora/farming_barley_harvest_a.xml" attachpoint="bush_1" maxheight="20" minheight="-20"/>
+        <prop actor="props/flora/farming_barley_harvest_a.xml" attachpoint="bush_2" maxheight="20" minheight="-20"/>
+        <prop actor="props/flora/farming_barley_harvest_a.xml" attachpoint="bush_3" maxheight="20" minheight="-20"/>
+        <prop actor="props/flora/farming_barley_harvest_a.xml" attachpoint="bush_4" maxheight="20" minheight="-20"/>
+      </props>
+      <textures>
+        <texture file="structural/Pega_struct.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="garrisoned"/>
+    <variant name="death">
+      <props>
+        <prop attachpoint="garrisoned"/>
+        <prop actor="particle/blowing_snow.xml" attachpoint="root"/>
+        <prop actor="particle/blowing_snow.xml" attachpoint="root"/>
+        <prop actor="particle/blowing_snow.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

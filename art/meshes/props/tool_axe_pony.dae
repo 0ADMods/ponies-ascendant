@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.65.0 r53189</authoring_tool>
+    </contributor>
+    <created>2014-02-08T01:26:50</created>
+    <modified>2014-02-08T01:26:50</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="tool_axe-Geometry-mesh" name="tool_axe-Geometry">
+      <mesh>
+        <source id="tool_axe-Geometry-mesh-positions">
+          <float_array id="tool_axe-Geometry-mesh-positions-array" count="96">-0.129654 -0.07938396 1.762545 0.626997 -0.004710972 1.810038 0.474103 -0.004524946 1.225696 -0.1351 -0.07886296 1.385319 0.03055298 -0.005067944 1.872923 0.075154 -0.001866996 -0.212727 -0.07574898 -0.04406398 -0.255341 -0.04750597 -0.02620899 1.87317 -0.07610601 0.03915697 -0.255219 -0.04768395 0.01540195 1.873229 -0.07574898 -0.04406398 -0.255341 -0.04750597 -0.02620899 1.87317 -0.130267 0.06360095 1.762753 -0.135713 0.064121 1.385525 0.474103 -0.004524946 1.225696 0.626997 -0.004710972 1.810038 0.626997 -0.004710972 1.810038 -0.129654 -0.07938396 1.762545 -0.130267 0.06360095 1.762753 -0.1351 -0.07886296 1.385319 -0.135713 0.064121 1.385525 -0.130267 0.06360095 1.762753 -0.129654 -0.07938396 1.762545 0.474103 -0.004524946 1.225696 -0.135713 0.064121 1.385525 -0.1351 -0.07886296 1.385319 0.03055298 -0.005067944 1.872923 -0.04750597 -0.02620899 1.87317 -0.04768395 0.01540195 1.873229 -0.07574898 -0.04406398 -0.255341 0.075154 -0.001866996 -0.212727 -0.07610601 0.03915697 -0.255219</float_array>
+          <technique_common>
+            <accessor source="#tool_axe-Geometry-mesh-positions-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tool_axe-Geometry-mesh-normals">
+          <float_array id="tool_axe-Geometry-mesh-normals-array" count="66">0.110538 -0.9937437 -0.0142216 0.1059297 -0.994171 -0.01947081 0.09979552 -0.9946287 -0.02642899 0.1203039 -0.9927061 -0.003082334 0.9996948 0.004211544 0.02328562 0.267983 -0.9634083 0.004242062 0.9997559 0.004242062 0.02136296 0.2614216 -0.9652089 0.004608273 -0.7031465 0.7108066 0.01712083 -0.6119571 0.7906736 0.01696825 -0.9998779 -0.004303097 0.0132755 -0.9998779 -0.00427258 0.0132755 0.1020234 0.9946898 -0.01135283 0.09738457 0.9950865 -0.01660203 0.1117893 0.9937132 -2.44148e-4 0.0912503 0.9955443 -0.02356028 -0.0624749 -0.001719772 0.9980451 -0.9998866 -0.004307389 0.01442927 -0.9998866 -0.004307568 0.01442939 -0.2534983 3.06841e-4 -0.9673358 0.003544211 -0.001402914 0.9999927 0.2710975 0.002573788 -0.9625484</float_array>
+          <technique_common>
+            <accessor source="#tool_axe-Geometry-mesh-normals-array" count="22" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tool_axe-Geometry-mesh-map-0">
+          <float_array id="tool_axe-Geometry-mesh-map-0-array" count="96">0.928567 0.419521 0.881377 0.372272 0.881377 0.419521 0.881377 0.372272 0.928567 0.419521 0.928567 0.372272 0.927734 0.619141 0.945313 0.441406 0.927734 0.441406 0.945313 0.441406 0.927734 0.619141 0.945313 0.619141 0.945313 0.441406 0.927734 0.619141 0.927734 0.441406 0.927734 0.619141 0.945313 0.441406 0.945313 0.619141 0.927734 0.441406 0.945313 0.619141 0.945313 0.441406 0.945313 0.619141 0.927734 0.441406 0.927734 0.619141 0.928567 0.419521 0.881377 0.372272 0.928567 0.372272 0.881377 0.372272 0.928567 0.419521 0.881377 0.419521 0.881377 0.394507 0.928567 0.416741 0.928567 0.375051 0.881377 0.372272 0.928567 0.390338 0.928567 0.372272 0.928567 0.390338 0.881377 0.372272 0.881377 0.390338 0.881377 0.394507 0.928567 0.416741 0.928567 0.375051 0.927734 0.619141 0.945313 0.619141 0.927734 0.619141 0.927734 0.441406 0.945313 0.441406 0.927734 0.441406</float_array>
+          <technique_common>
+            <accessor source="#tool_axe-Geometry-mesh-map-0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tool_axe-Geometry-mesh-vertices">
+          <input semantic="POSITION" source="#tool_axe-Geometry-mesh-positions"/>
+        </vertices>
+        <polylist count="16">
+          <input semantic="VERTEX" source="#tool_axe-Geometry-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#tool_axe-Geometry-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#tool_axe-Geometry-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 2 1 1 1 2 2 2 1 3 0 0 4 3 3 5 4 4 6 6 5 7 5 6 8 6 5 9 4 4 10 7 7 11 8 8 12 4 4 13 5 6 14 4 4 15 8 8 16 9 9 17 10 10 18 9 9 19 8 8 20 9 9 21 10 10 22 11 11 23 12 12 24 14 13 25 13 14 26 14 13 27 12 12 28 15 15 29 16 16 30 18 16 31 17 16 32 19 17 33 21 17 34 20 17 35 21 18 36 19 18 37 22 18 38 23 19 39 25 19 40 24 19 41 26 20 42 28 20 43 27 20 44 29 21 45 31 21 46 30 21 47</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="tool_axe" name="tool_axe" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 203.1975</rotate>
+        <rotate sid="rotationY">0 1 0 6.96546e-6</rotate>
+        <rotate sid="rotationX">1 0 0 90</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#tool_axe-Geometry-mesh"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

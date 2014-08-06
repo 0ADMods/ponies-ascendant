@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Attack>
+    <Melee>
+      <Hack>10.0</Hack>
+    </Melee>
+  </Attack>
+<Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/{civ}_house
+      structures/{civ}_storehouse
+      structures/{civ}_farmstead
+      structures/{civ}_field
+      structures/{civ}_corral
+      structures/{civ}_outpost
+      other/wallset_palisade
+      structures/{civ}_dock
+      structures/{civ}_barracks
+      structures/{civ}_blacksmith
+      structures/{civ}_temple
+      structures/{civ}_market
+      structures/{civ}_defense_tower
+      structures/{civ}_wallset_stone
+      structures/{civ}_civil_centre
+      structures/{civ}_fortress
+	  structures/{civ}_wonder
+    </Entities>
+  </Builder>
+  <Health>
+    <Max>100</Max>
+  </Health>
+  <Identity>
+    <Civ>pega</Civ>
+    <SpecificName>Citizen</SpecificName>
+    <GenericName>Civilian</GenericName>
+    <History>Brythonic women enjoyed many freedoms, especially compared to their Greek and Roman counterparts. Although they did not fight in battle as some believed, they were able to own property and were capable of gaining considerable wealth. Some noblewomen took over power when their husband's died, such as Boudicca of the Iceni. In addition, family trees were drawn up along female lines, men claiming their ancestry through female ancestors.</History>
+    <Icon>units/earth_support_female_citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/pegasi/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

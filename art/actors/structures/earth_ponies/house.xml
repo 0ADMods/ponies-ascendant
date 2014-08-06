@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="brit house a">
+      <mesh>structural/earth_house_a.dae</mesh>
+      <props>
+        <prop actor="props/special/eyecandy/handcart_1_broken.xml" attachpoint="bush" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/basket_celt_a.xml" attachpoint="bush_1" maxheight="20" minheight="-20"/>
+        <prop actor="props/flora/bush_tempe_underbrush.xml" attachpoint="bush_2" maxheight="20" minheight="-20"/>
+        <prop actor="props/flora/bush_tempe_me_dry.xml" attachpoint="bush_3" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/earth_struct.png" name="baseTex"/>
+        <texture file="structural/celt_struct_1_norm.png" name="normTex"/>
+        <texture file="structural/celt_struct_1_spec.png" name="specTex"/>
+        <texture file="structural/ao/brit_house_a.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="brit house b">
+      <mesh>structural/earth_house_b.dae</mesh>
+      <props>
+        <prop actor="props/flora/bush_tempe_me_dry.xml" attachpoint="bush" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/basket_celt_a.xml" attachpoint="bush_1" maxheight="20" minheight="-20"/>
+        <prop actor="props/flora/bush_tempe_underbrush.xml" attachpoint="bush_2" maxheight="20" minheight="-20"/>
+        <prop actor="props/flora/bush_tempe_me_dry.xml" attachpoint="bush_3" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/earth_struct.png" name="baseTex"/>
+        <texture file="structural/celt_struct_1_norm.png" name="normTex"/>
+        <texture file="structural/celt_struct_1_spec.png" name="specTex"/>
+        <texture file="structural/ao/brit_house_a.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="brit house c">
+      <mesh>structural/earth_house_c.dae</mesh>
+      <props>
+        <prop actor="props/flora/bush_tempe_me_dry.xml" attachpoint="bush" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/basket_celt_a.xml" attachpoint="bush_1" maxheight="20" minheight="-20"/>
+        <prop actor="props/flora/bush_tempe_underbrush.xml" attachpoint="bush_2" maxheight="20" minheight="-20"/>
+        <prop actor="props/flora/bush_tempe_me_dry.xml" attachpoint="bush_3" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/earth_struct.png" name="baseTex"/>
+        <texture file="structural/celt_struct_1_norm.png" name="normTex"/>
+        <texture file="structural/celt_struct_1_spec.png" name="specTex"/>
+        <texture file="structural/ao/brit_house_a.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="brit house d">
+      <mesh>structural/brit_house_d.dae</mesh>
+      <props>
+        <prop actor="props/structures/britons/house_d_props_new.xml" attachpoint="root"/>
+        <prop actor="props/structures/britons/house_d_props_1.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/celt_struct_1.dds" name="baseTex"/>
+        <texture file="structural/celt_struct_1_norm.png" name="normTex"/>
+        <texture file="structural/celt_struct_1_spec.png" name="specTex"/>
+        <texture file="structural/ao/brit_house_d.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="particle/smoke_light_delay.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

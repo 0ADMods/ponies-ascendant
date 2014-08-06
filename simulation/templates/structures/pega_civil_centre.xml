@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Attack>
+    <Ranged>
+      <MaxRange>80.0</MaxRange>
+      <ElevationBonus>12</ElevationBonus>
+      <ProjectileSpeed>55.0</ProjectileSpeed>
+      <PrepareTime>1200</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <Spread>1.5</Spread>
+      <Bonuses>
+          <BonusShip>
+              <Classes>Ship</Classes>
+              <Multiplier>3.5</Multiplier>
+          </BonusShip>
+      </Bonuses>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>500</BuildTime>
+    <Resources>
+      <wood>1200</wood>
+      <metal>1000</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="42.0" depth="41.0"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_hele_cc</SpawnEntityOnDeath>
+<Max>10000</Max>
+  </Health>
+  <Identity>
+    <Civ>pega</Civ>
+    <SpecificName>Agorā́</SpecificName>
+    <History>The most important place in Athens, the Agora served many purposes; it was a place for public speeches and was the stage for civic life and commercial interests.</History>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/pega_infantry_spearman_b
+      units/pega_infantry_javelinist_b
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/pegasi/civ_center.xml</Actor>
+  </VisualActor>
+</Entity>

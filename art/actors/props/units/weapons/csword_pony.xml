@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="sword a">
+      <mesh>props/weap_csword_pony_idle.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="texture">
+      <textures>
+        <texture file="props/prop_weap.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_spec.xml</material>
+</actor>

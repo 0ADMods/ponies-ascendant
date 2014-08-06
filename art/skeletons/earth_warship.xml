@@ -1,0 +1,45 @@
+<skeletons>
+   <standard_skeleton title="earth_warship" id="earth_warship">
+      <bone name="hull">
+         <bone name="mast">
+            <bone name="mainsail">
+            </bone>
+         </bone>
+         <bone name="foremast">
+            <bone name="foresail">
+            </bone>
+         </bone>
+         <bone name="hatch_bow">
+         </bone>
+         <bone name="hatch_stern">
+         </bone>
+         <bone name="oars_starboard">
+         </bone>
+         <bone name="oars_port">
+         </bone>
+      </bone>
+</standard_skeleton>
+  <skeleton title="earth_warship" target="earth_warship">
+    <identifier>
+      <root>earth_warship</root>
+    </identifier>
+      <bone name="hull"><target>hull</target>
+         <bone name="mast"><target>mast</target>
+            <bone name="mainsail"><target>mainsail</target>
+            </bone>
+         </bone>
+         <bone name="foremast"><target>foremast</target>
+            <bone name="foresail"><target>foresail</target>
+            </bone>
+         </bone>
+         <bone name="hatch_bow"><target>hatch_bow</target>
+         </bone>
+         <bone name="hatch_stern"><target>hatch_stern</target>
+         </bone>
+         <bone name="oars_starboard"><target>oars_starboard</target>
+         </bone>
+         <bone name="oars_port"><target>oars_port</target>
+         </bone>
+      </bone>
+  </skeleton>
+</skeletons>

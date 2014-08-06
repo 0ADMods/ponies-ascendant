@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="1">
+      <animations>
+        <animation file="other/pegasus_hover.dae" name="Walk" speed="12"/>
+        <animation file="other/pegasus_hover.dae" name="Run" speed="15"/>
+        <animation event="1" file="other/pegasus_spearing.dae" name="attack_melee" speed="250"/>
+        <animation event="1" file="other/pegasus_lumbering.dae" name="attack_slaughter" speed="250"/>
+        <animation file="other/pegasus_hover.dae" name="carry_food" speed="15"/>
+        <animation file="other/pegasus_hover.dae" name="carry_meat" speed="15"/>
+        <animation file="other/pegasus_hover.dae" name="carry_wood" speed="15"/>
+        <animation file="other/pegasus_hover.dae" name="carry_stone" speed="15"/>
+        <animation file="other/pegasus_hover.dae" name="carry_metal" speed="15"/>
+        <animation event="1" file="other/pegasus_lumbering.dae" name="gather_tree" speed="40"/>
+        <animation file="other/pegasus_farming.dae" name="gather_grain" speed="75"/>
+        <animation file="other/pegasus_hover.dae" name="gather_fruit" speed="25"/>
+        <animation file="other/pegasus_hover.dae" name="gather_meat" speed="25"/>
+        <animation event="1" file="other/pegasus_mining.dae" name="gather_rock" speed="45"/>
+        <animation event="1" file="other/pegasus_mining.dae" name="gather_ore" speed="45"/>
+        <animation event="1" file="other/pegasus_mining.dae" name="gather_ruins" speed="45"/>
+        <animation event="0.6" file="other/pegasus_building.dae" name="Build" speed="70"/>
+        <animation file="other/pegasus_death.dae" name="Death" speed="50"/>
+        <animation event="" file="other/pegasus_hover.dae" load="" name="idle" speed="40"/>
+        <animation file=""/>
+      </animations>
+      <mesh>skeletal/pony_pegasus_b.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/pega_corinth_c.xml" attachpoint="hat"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="13">
+      <animations>
+        <animation file="other/pegasus_idle.dae" name="idle" speed="40"/>
+        <animation file="other/pegasus_preening.dae" name="idle" speed="40"/>
+        <animation file="other/pegasus_idle_2.dae" name="idle" speed="30"/>
+        <animation file="other/pegasus_idle_2.dae" name="idle" speed="30"/>
+        <animation file="other/pegasus_idle.dae" name="idle" speed="40"/>
+        <animation file="other/pegasus_idle.dae" name="idle" speed="40"/>
+        <animation name=""/>
+      </animations>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="10"/>
+    <variant frequency="1" name="11"/>
+  </group>
+  <group>
+    <variant frequency="33" name="2">
+      <textures>
+        <texture file="skeletal/pegasus_spear_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="33" name="3">
+      <textures>
+        <texture file="skeletal/pegasus_spear_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="33" name="4">
+      <textures>
+        <texture file="skeletal/pegasus_spear_d.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="5">
+      <textures>
+        <texture file="skeletal/pegasus_spear_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="6">
+      <textures>
+        <texture file="skeletal/pony_e.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="7">
+      <textures>
+        <texture file="skeletal/pony_f.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="8">
+      <textures>
+        <texture file="skeletal/pony_g.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="9">
+      <textures>
+        <texture file="skeletal/pony_h.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle">
+      <props>
+        <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="hoof"/>
+        <prop actor="props/units/shields/aspis_pegasus_b.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+    <variant name="attack_melee">
+      <props>
+        <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="hoof"/>
+        <prop actor="props/units/shields/aspis_pegasus_b.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+    <variant name="attack_ranged">
+      <props>
+        <prop actor="props/units/tools/mallet.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="attack_slaughter">
+      <props>
+        <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="death">
+      <props>
+        <prop actor="props/units/shields/aspis_pegasus_b.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="gather_tree">
+      <props>
+        <prop actor="props/units/tools/axe_pony.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+    <variant name="gather_grain">
+      <props>
+        <prop actor="props/units/tools/scythe_pony.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="gather_fruit"/>
+    <variant name="gather_meat"/>
+    <variant name="gather_rock">
+      <props>
+        <prop actor="props/units/tools/pick_pegasus.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="gather_ore">
+      <props>
+        <prop actor="props/units/tools/pick_pegasus.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="gather_ruins">
+      <props>
+        <prop actor="props/units/tools/pick_pegasus.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="Build">
+      <props>
+        <prop actor="props/units/tools/mallet.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="carry_food">
+      <props>
+        <prop actor="props/special/eyecandy/basket_celt_a.xml" attachpoint="back"/>
+        <prop actor="props/units/tools/scythe.xml" attachpoint="back"/>
+      </props>
+    </variant>
+    <variant name="carry_meat">
+      <props>
+        <prop actor="props/special/eyecandy/basket_celt_a.xml" attachpoint="back"/>
+      </props>
+    </variant>
+    <variant name="carry_wood">
+      <props>
+        <prop actor="props/special/eyecandy/pony_shuttle_wood.xml" attachpoint="back"/>
+        <prop actor="props/units/tools/axe.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="carry_stone">
+      <props>
+        <prop actor="props/special/eyecandy/block_granite.xml" attachpoint="back"/>
+        <prop actor="props/units/tools/pick.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="carry_metal">
+      <props>
+        <prop actor="props/special/eyecandy/crate_a.xml" attachpoint="back"/>
+        <prop actor="props/units/tools/pick.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax.xml</material>
+</actor>

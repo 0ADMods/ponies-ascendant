@@ -1,0 +1,17 @@
+<skeletons>
+   <standard_skeleton title="vertmill" id="vertmill">
+      <bone name="shaft">
+      </bone>
+      <bone name="arm">
+      </bone>
+</standard_skeleton>
+  <skeleton title="vertmill" target="vertmill">
+    <identifier>
+      <root>vertmill</root>
+    </identifier>
+      <bone name="shaft"><target>shaft</target>
+      </bone>
+      <bone name="arm"><target>arm</target>
+      </bone>
+  </skeleton>
+</skeletons>

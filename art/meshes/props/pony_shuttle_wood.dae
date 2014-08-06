@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.65.0 r53189</authoring_tool>
+    </contributor>
+    <created>2014-02-07T22:24:31</created>
+    <modified>2014-02-07T22:24:31</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="wrld_woodcord_a-Geometry-mesh" name="wrld_woodcord_a-Geometry">
+      <mesh>
+        <source id="wrld_woodcord_a-Geometry-mesh-positions">
+          <float_array id="wrld_woodcord_a-Geometry-mesh-positions-array" count="102">-0.8272645 -1.038796 0.1333203 -0.5158487 -0.8294705 1.362778 -0.9883301 -0.8714711 1.116091 0.007760167 -0.7956047 1.561687 0.8442765 -1.038796 0.1333203 0.5313684 -0.8537216 1.220341 0.9814776 -0.9045228 0.9219637 -0.9883301 0.9196278 1.114275 -0.5158487 0.864119 1.358258 -0.8272646 1.140768 0.1422773 0.007760107 0.8193612 1.554987 0.5313684 0.8961697 1.217383 0.8442765 1.140768 0.1422773 0.9814776 0.9633098 0.9222758 0.8442765 -1.038796 0.1333203 0.8442765 1.140768 0.1422773 0.9814776 0.9633098 0.9222758 0.9814776 -0.9045228 0.9219637 0.9814776 -0.9045228 0.9219637 0.9814776 0.9633098 0.9222758 0.5313684 0.8961697 1.217383 0.5313684 -0.8537216 1.220341 0.5313684 -0.8537216 1.220341 0.5313684 0.8961697 1.217383 0.007760107 0.8193612 1.554987 0.007760167 -0.7956047 1.561687 -0.5158487 0.864119 1.358258 -0.5158487 -0.8294705 1.362778 -0.9883301 0.9196278 1.114275 -0.9883301 -0.8714711 1.116091 -0.9883301 -0.8714711 1.116091 -0.9883301 0.9196278 1.114275 -0.8272646 1.140768 0.1422773 -0.8272645 -1.038796 0.1333203</float_array>
+          <technique_common>
+            <accessor source="#wrld_woodcord_a-Geometry-mesh-positions-array" count="34" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="wrld_woodcord_a-Geometry-mesh-normals">
+          <float_array id="wrld_woodcord_a-Geometry-mesh-normals-array" count="90">1.62296e-7 -0.9858137 0.1678426 0 -0.9858137 0.1678426 0 -0.9858139 0.1678426 0 -0.9858138 0.1678427 0 -0.9858138 0.1678426 0 0.9750825 0.221842 -1.54682e-7 0.9750826 0.2218421 0 0.9750827 0.2218419 0 0.9750826 0.221842 0 0.9750826 0.221842 0.985107 1.83111e-4 -0.1718497 0.9848933 7.01926e-4 -0.1730704 0.9849544 5.49333e-4 -0.1727042 0.9851985 0 -0.1713919 0.5517747 0.001098632 0.8339793 0.5482956 -1.22074e-4 0.8362682 0.549028 1.22074e-4 0.8357799 0.5526292 0.001403808 0.8333995 0.5452437 0.002960264 0.8382519 0.541734 0.001403808 0.8405408 0.1135899 0.003173887 0.9934996 0.1124607 0.003479063 0.9936217 -0.4092227 0.002929747 0.9124119 -0.4116947 0.001800537 0.9112827 -0.4594562 0.002044737 0.8881802 -0.4628742 8.85037e-4 0.8864101 -0.9867244 4.27259e-4 -0.1622669 -0.9865108 -1.52593e-4 -0.1634876 -0.9866329 9.15555e-5 -0.1629383 -0.986816 6.40889e-4 -0.1618396</float_array>
+          <technique_common>
+            <accessor source="#wrld_woodcord_a-Geometry-mesh-normals-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="wrld_woodcord_a-Geometry-mesh-map-0">
+          <float_array id="wrld_woodcord_a-Geometry-mesh-map-0-array" count="132">1 0.119141 0.96875 0.166016 1 0.1542969 1 0.119141 0.9375 0.177734 0.96875 0.166016 1 0.119141 0.8750001 0.119141 0.90625 0.162109 0.9375 0.177734 1 0.119141 0.90625 0.162109 0.8750001 0.119141 0.8750001 0.1542969 0.90625 0.162109 1 0.1542969 0.96875 0.166016 1 0.119141 0.96875 0.166016 0.9375 0.177734 1 0.119141 1 0.119141 0.9375 0.177734 0.90625 0.162109 0.90625 0.162109 0.8750001 0.119141 1 0.119141 0.90625 0.162109 0.8750001 0.1542969 0.8750001 0.119141 0.882813 0.279297 0.882813 0.166016 0.921875 0.166016 0.921875 0.166016 0.921875 0.279297 0.882813 0.279297 0.878906 0.279297 0.878906 0.166016 0.910156 0.166016 0.910156 0.166016 0.910156 0.279297 0.878906 0.279297 0.90625 0.279297 0.90625 0.166016 0.933594 0.166016 0.933594 0.166016 0.933594 0.279297 0.90625 0.279297 0.933594 0.279297 0.933594 0.166016 0.964844 0.166016 0.964844 0.166016 0.964844 0.279297 0.933594 0.279297 0.964844 0.279297 0.964844 0.166016 1 0.166016 1 0.166016 1 0.279297 0.964844 0.279297 0.882813 0.279297 0.882813 0.166016 0.925781 0.166016 0.925781 0.166016 0.925781 0.279297 0.882813 0.279297</float_array>
+          <technique_common>
+            <accessor source="#wrld_woodcord_a-Geometry-mesh-map-0-array" count="66" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="wrld_woodcord_a-Geometry-mesh-vertices">
+          <input semantic="POSITION" source="#wrld_woodcord_a-Geometry-mesh-positions"/>
+        </vertices>
+        <polylist count="22">
+          <input semantic="VERTEX" source="#wrld_woodcord_a-Geometry-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#wrld_woodcord_a-Geometry-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#wrld_woodcord_a-Geometry-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 1 0 1 2 0 2 0 1 3 3 1 4 1 1 5 0 2 6 4 2 7 5 2 8 3 3 9 0 3 10 5 3 11 4 4 12 6 4 13 5 4 14 7 5 15 8 5 16 9 5 17 8 6 18 10 6 19 9 6 20 9 7 21 10 7 22 11 7 23 11 8 24 12 8 25 9 8 26 11 9 27 13 9 28 12 9 29 14 10 30 15 11 31 16 12 32 16 12 33 17 13 34 14 10 35 18 14 36 19 15 37 20 16 38 20 16 39 21 17 40 18 14 41 22 18 42 23 19 43 24 20 44 24 20 45 25 21 46 22 18 47 25 21 48 24 20 49 26 22 50 26 22 51 27 23 52 25 21 53 27 23 54 26 22 55 28 24 56 28 24 57 29 25 58 27 23 59 30 26 60 31 27 61 32 28 62 32 28 63 33 29 64 30 26 65</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="wrld_woodcord_a" name="wrld_woodcord_a" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 90</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#wrld_woodcord_a-Geometry-mesh"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

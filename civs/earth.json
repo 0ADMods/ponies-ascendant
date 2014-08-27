@@ -127,5 +127,13 @@
 		"General Bonbon",
 		"Sir Whooves"
 	],
+		"SkirmishReplacements":
+	{
+		"skirmish/units/default_support_female_citizen": "units/earth_support_female_citizen",
+		"skirmish/units/default_infantry_ranged_b": "units/earth_infantry_slinger_b",
+		"skirmish/units/default_cavalry": "units/earth_infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/earth_infantry_slinger_b",
+		"skirmish/structures/default_house_10": "structures/{civ}_house"
+	},
 	"SelectableInGameSetup": true	
 }

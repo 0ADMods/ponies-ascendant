@@ -23,8 +23,6 @@
       units/earth_mechanical_siege_mangonel_unpacked
     </Entities>
     <Technologies datatype="tokens">
-	  -pair_inf_armor_03
-	  -pair_inf_armor_04
     </Technologies>
   </ProductionQueue>
   <VisualActor>

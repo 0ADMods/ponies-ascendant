@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
   <Cost>
-<BuildTime>150</BuildTime>
+  <BuildTime>150</BuildTime>
     <Resources>
       <wood>350</wood>
       <stone>0</stone>
-  <metal>150</metal>  </Resources>
- 
+      <metal>150</metal>
+    </Resources>
     <PopulationBonus>5</PopulationBonus>
   </Cost>
   <Footprint>
@@ -27,8 +27,8 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/pega_infantry_spearman_b
-      units/pega_infantry_javelinist_b
+      units/pega_infantry_spearman_a
+      units/pega_infantry_javelinist_a
     </Entities>
   </ProductionQueue>
   <VisualActor>

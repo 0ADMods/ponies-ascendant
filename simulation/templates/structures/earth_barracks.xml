@@ -27,8 +27,8 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/earth_infantry_spearman_a
-      units/earth_infantry_slinger_a
+      units/earth_infantry_spearman_b
+      units/earth_infantry_slinger_b
       units/earth_champion_maceman
     </Entities>
   </ProductionQueue>

@@ -79,8 +79,8 @@
       units/earth_mechanical_siege_trebuchet_packed
       units/earth_hero_wisebiscuit
       units/earth_champion_infantry
-      units/earth_infantry_spearman_e
-      units/earth_infantry_slinger_e
+      units/earth_infantry_spearman_b
+      units/earth_infantry_slinger_b
     </Entities>
     <Technologies datatype="tokens">
       pair_siege_attack_cost

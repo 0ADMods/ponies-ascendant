@@ -72,8 +72,8 @@
     <Entities datatype="tokens">
      units/pega_mechanical_siege_ballista_bolt
      units/pega_champion_infantry
-     units/pega_infantry_spearman_e
-     units/pega_infantry_javelinist_e
+     units/pega_infantry_spearman_b
+     units/pega_infantry_javelinist_b
     </Entities>
     <Technologies datatype="tokens">
       pair_siege_attack_cost

@@ -1,0 +1,8 @@
+{
+	"name": "ponies_ascendant",
+	"label": "MLP: Friendship is Strategic",
+	"url": "http://github.com/0ADMods/ponies_ascendant",
+	"description": "LordGood's MLP:FiM Mod",
+	"dependencies": ["0ad"],
+	"type": "content addon"
+}

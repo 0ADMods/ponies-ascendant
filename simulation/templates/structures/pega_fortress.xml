@@ -13,30 +13,29 @@
       <Spread>1.5</Spread>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <Bonuses>
-          <BonusShip>
-              <Classes>Ship</Classes>
-              <Multiplier>3.5</Multiplier>
-          </BonusShip>
-          <NerfSiege>
-              <Classes>Siege</Classes>
-              <Multiplier>0.5</Multiplier>
-          </NerfSiege>
+        <BonusShip>
+          <Classes>Ship</Classes>
+          <Multiplier>3.5</Multiplier>
+        </BonusShip>
+        <NerfSiege>
+          <Classes>Siege</Classes>
+          <Multiplier>0.5</Multiplier>
+        </NerfSiege>
       </Bonuses>
     </Ranged>
   </Attack>
- <BuildingAI>
+  <BuildingAI>
     <DefaultArrowCount>6</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
   </BuildingAI>
- 
-
   <Cost> 
-<BuildTime>2000</BuildTime>
+  <BuildTime>2000</BuildTime>
     <Resources>
-  <food>450</food>    <wood>2600</wood>
+      <food>450</food>
+      <wood>2600</wood>
       <stone>2450</stone>
-  <metal>2500</metal>  </Resources>
- 
+      <metal>2500</metal>
+    </Resources>
     <PopulationBonus>20</PopulationBonus>
   </Cost>
   <Footprint replace="">

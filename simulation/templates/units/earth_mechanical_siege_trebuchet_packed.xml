@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/earth_mechanical_siege_trebuchet_common">
+<Entity parent="special_units/earth_mechanical_siege_trebuchet_common">
   <Identity>
     <Icon>units/earth_mechanical_trebuchet_packed.png</Icon>
   </Identity>

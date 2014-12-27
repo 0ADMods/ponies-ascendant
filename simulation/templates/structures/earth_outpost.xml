@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defense_outpost">
-   <Attack>
+  <Attack>
     <Ranged>
       <Hack>0.0</Hack>
       <Pierce>20.0</Pierce>
@@ -14,14 +14,14 @@
       <Spread>1.5</Spread>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <Bonuses>
-          <BonusShip>
-              <Classes>Ship</Classes>
-              <Multiplier>3.5</Multiplier>
-          </BonusShip>
-          <NerfSiege>
-              <Classes>Siege</Classes>
-              <Multiplier>0.5</Multiplier>
-          </NerfSiege>
+        <BonusShip>
+          <Classes>Ship</Classes>
+          <Multiplier>3.5</Multiplier>
+        </BonusShip>
+        <NerfSiege>
+          <Classes>Siege</Classes>
+          <Multiplier>0.5</Multiplier>
+        </NerfSiege>
       </Bonuses>
     </Ranged>
   </Attack> 
@@ -30,20 +30,19 @@
     <Resources>
       <wood>150</wood>
     </Resources>
-  </Cost> <Identity>
+  </Cost>
+  <Identity>
     <Civ>earth</Civ>
     <SpecificName>Lookout Tower</SpecificName>
     <History>*I could not find any evidence of a celtic tower, but I'm giving them one for gameplay reasons.*</History>
   </Identity>
- <ProductionQueue>
+  <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Technologies datatype="tokens">
-      vision_outpost	  decay_outpost
-    </Technologies>
   </ProductionQueue>
- <Vision>
+  <Vision>
     <Range>100</Range>
-  </Vision>  <VisualActor>
+  </Vision>
+  <VisualActor>
     <Actor>structures/earth_ponies/outpost.xml</Actor>
- </VisualActor>
+  </VisualActor>
 </Entity>

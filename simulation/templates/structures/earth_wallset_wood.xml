@@ -9,7 +9,7 @@
     <Templates>
       <Tower>structures/earth_palisade_tower</Tower>
       <WallLong>structures/earth_palisade_long</WallLong>
-          <Gate>structures/earth_palisade_gate</Gate>
+      <Gate>structures/earth_palisade_gate</Gate>
       <WallMedium>structures/earth_palisade_medium</WallMedium>
       <WallShort>structures/earth_palisade_short</WallShort>
     </Templates>

@@ -36,7 +36,7 @@
   </Cost>
   
 <Health>
-    <Max>250</Max>
+    <Max>400</Max>
   </Health>  <Identity>
   <Classes datatype="tokens">Armor</Classes>  <Civ>earth</Civ>
     <GenericName>Armor</GenericName>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="treb">
+      <animations>
+        <animation event=".73" file="mechanical/trebuchet.dae" load=".66" name="attack_ranged" speed="7"/>
+        <animation file="mechanical/trebuchet_idle.dae" name="idle" speed="2"/>
+        <animation file="mechanical/trebuchet_death.dae" name="death" speed="25"/>
+      </animations>
+      <mesh>skeletal/trebuchet.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/rock_flaming_a.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/rock_a.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/earth_struct.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/structures/decals/destruct_4x4.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

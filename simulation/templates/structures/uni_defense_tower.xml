@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Entity parent="template_structure_defense_defense_tower">
+ 
+  <Attack>
+    <Ranged>
+      <Hack>0.0</Hack>
+      <Pierce>12.0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>80.0</MaxRange>
+      <MinRange>8.0</MinRange>
+      <ElevationBonus>15</ElevationBonus>
+      <ProjectileSpeed>60.0</ProjectileSpeed>
+      <PrepareTime>900</PrepareTime>
+      <RepeatTime>1100</RepeatTime>
+      <Spread>2.0</Spread>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
+      <Bonuses>
+          <BonusShip>
+              <Classes>Ship</Classes>
+              <Multiplier>3.0</Multiplier>
+          </BonusShip>
+          <NerfSiege>
+              <Classes>Siege</Classes>
+              <Multiplier>0.5</Multiplier>
+          </NerfSiege>
+      </Bonuses>
+    </Ranged>
+  </Attack>
+  <BuildRestrictions>
+    <Category>DefenseTower</Category>
+    <Distance>
+      <FromClass>DefenseTower</FromClass>
+      <MinDistance>5</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>450</BuildTime>
+    <Resources>
+      <wood>100</wood>
+      <stone>400</stone>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="8.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+<GarrisonHolder>
+    <Max>4</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>5000</Max>
+    <SpawnEntityOnDeath>rubble/rubble_earth_defense_tower</SpawnEntityOnDeath>
+  </Health>  <Identity>
+    <Civ>uni</Civ>
+
+    <GenericName>Guard Tower</GenericName>
+
+    <History>Earth ponies would often perch upon a high tower to give themselves an advantage over attacking unicorns. Pegasi, however, outranged them all the same.</History> <Icon>structures/earth_scout_tower.png</Icon>
+  </Identity>
+  <Obstruction>
+
+    <Static width="12.0" depth="12.0"/>
+    </Obstruction>
+
+  <VisualActor>
+
+    <Actor>structures/earth_ponies/scout_tower.xml</Actor>
+
+  </VisualActor>
+
+</Entity>

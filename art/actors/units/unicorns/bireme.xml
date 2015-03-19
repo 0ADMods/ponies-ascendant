@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="100" name="bireme">
+      <animations>
+        <animation event=".68" file="mechanical/earth_bireme_attack.dae" load=".50" name="attack_ranged" speed="2"/>
+        <animation file="mechanical/earth_bireme_idle.dae" name="idle" speed="30"/>
+        <animation file="mechanical/earth_bireme_attack.dae" name="death" speed="1"/>
+        <animation file="mechanical/earth_bireme_walking.dae" name="walk" speed="5"/>
+      </animations>
+      <mesh>skeletal/earth_bireme.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/slingrock_2.xml" attachpoint="projectile" minheight="20"/>
+        <prop actor="props/units/weapons/slingrock_2.xml" attachpoint="loaded-projectile"/>
+        <prop actor="units/earth_ponies/infantry_spearman_e.xml" attachpoint="captain"/>
+        <prop actor="units/earth_ponies/infantry_slinger_b.xml" attachpoint="archer_1"/>
+        <prop actor="units/earth_ponies/infantry_slinger_a.xml" attachpoint="archer_2"/>
+        <prop actor="units/earth_ponies/infantry_slinger_b.xml" attachpoint="archer_3"/>
+        <prop actor="units/earth_ponies/infantry_slinger_e.xml" attachpoint="archer_4"/>
+        <prop actor="units/earth_ponies/infantry_slinger_e.xml" attachpoint="archer_5"/>
+        <prop actor="units/earth_ponies/infantry_slinger_b.xml" attachpoint="archer_6"/>
+        <prop actor="units/earth_ponies/infantry_slinger_b.xml" attachpoint="archer_7"/>
+        <prop actor="units/earth_ponies/infantry_slinger_a.xml" attachpoint="archer_8"/>
+        <prop actor="props/structures/earth_ponies/fortress_pennant.xml" attachpoint="flag"/>
+      </props>
+      <textures>
+        <texture file="structural/earth_trireme.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/structures/decals/destruct_2x2.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_trireme">
+ 
+  <Armour>
+
+    <Hack>1</Hack>
+
+    <Pierce>25</Pierce>
+
+    <Crush>1</Crush>
+
+  </Armour>
+
+ 
+  <Attack>
+    <Ranged>
+      <Hack>0.0</Hack>
+      <Pierce>0.0</Pierce>
+      <Crush>60.0</Crush>
+      <MaxRange>75</MaxRange>
+      
+      <ProjectileSpeed>95.0</ProjectileSpeed>
+      <PrepareTime>2480</PrepareTime>
+      <RepeatTime>5000</RepeatTime>
+      <Spread>10.5</Spread>
+      <Bonuses>
+        <BonusStructure>
+          <Classes>Structure</Classes>
+          <Multiplier>5.0</Multiplier>
+        </BonusStructure>
+        <NerfWall>
+          <Classes>StoneWall Fortress DefenseTower</Classes>
+          <Multiplier>0.5</Multiplier>
+        </NerfWall>
+      </Bonuses>
+      <Splash>
+        <Shape>Circular</Shape>
+        <Range>7</Range>
+        <FriendlyFire>true</FriendlyFire>
+        <Hack>0.0</Hack>
+        <Pierce>0.0</Pierce>
+        <Crush>35.0</Crush>
+      </Splash>
+    </Ranged>
+  </Attack>
+ <BuildingAI disable=""/>   <Cost>
+    <BuildTime>80</BuildTime>    <Resources>
+
+      <stone>250</stone> <wood>850</wood> <food>225</food> <metal>150</metal>
+    </Resources>
+
+
+  </Cost>
+ 
+  <Footprint>
+    <Square width="20.0" depth="55.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>20</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>1500</Max>
+  </Health>
+  <Identity>
+    <Civ>earth</Civ>
+    <SpecificName>Siege Galley</SpecificName>
+    <Tooltip>Classes: Medium Warship Ranged
+Transport many soldiers across the sea.</Tooltip>
+    <History>The ships of Gaul were described by Julias Caesar as:  flat bottoms to ride the shallows, exceptionally high bows and sterns, hulls were made entirely of oak, the foot wide cross-timbers were fastened with iron bolts as thick as a man's thumb, sails of raw hides or thin leather, adapted for sailing treacherous and stormy waters of the north atlantic.  Caesar could not injure them by ramming because they were so solidly built, and their height made it difficult to reach them with missiles or board them with grappling irons.</History>
+    <Icon>units/cart_ship_quinquereme.png</Icon>
+ <RequiredTechnology>phase_city</RequiredTechnology> </Identity>
+  <Obstruction>
+    <Unit radius="15.0"/>
+  </Obstruction>
+  <UnitMotion>
+    <WalkSpeed>10.0</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/earth_ponies/trireme.xml</Actor>
+  </VisualActor> <Sound>
+    <SoundGroups>
+      <attack>attack/siege/ram_attack_order.xml</attack>
+    </SoundGroups>
+  </Sound>
+</Entity>

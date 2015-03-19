@@ -63,7 +63,7 @@
   <UnitMotion>
     <WalkSpeed>11.2</WalkSpeed>
     <Run>
-      <Speed>16.6</Speed>
+      <Speed>25.6</Speed>
     </Run>
   </UnitMotion>
   <VisualActor>

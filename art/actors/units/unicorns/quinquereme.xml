@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="100" name="bireme">
+      <animations>
+        <animation event=".18" file="mechanical/earth_quinquereme_attack.dae" load="" name="attack_melee" speed="250"/>
+        <animation file="mechanical/earth_quinquereme.dae" name="idle" speed="30"/>
+        <animation file="mechanical/earth_quinquereme.dae" name="death" speed="1"/>
+        <animation file="mechanical/earth_quinquereme.dae" name="walk" speed="6"/>
+      </animations>
+      <mesh>skeletal/earth_quinquereme.dae</mesh>
+      <props>
+        <prop actor="units/earth_ponies/infantry_spearman_e.xml" attachpoint="captain"/>
+        <prop actor="props/structures/earth_ponies/fortress_pennant.xml" attachpoint="flag"/>
+      </props>
+      <textures>
+        <texture file="structural/earth_trireme.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/structures/decals/destruct_2x2.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

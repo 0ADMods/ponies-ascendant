@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Cost>
+<BuildTime>300</BuildTime>
+    <Resources>
+      <wood>220</wood>
+      <stone>250</stone>
+  <metal>70</metal>  </Resources>
+ 
+    <PopulationBonus>5</PopulationBonus>
+  </Cost>
+  <Footprint>
+    <Square width="30.0" depth="30.0"/>
+    <Height>2.0</Height>
+  </Footprint>
+  <Health>
+    <Max>6000</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>uni</Civ>
+    <SpecificName>Martial Academy</SpecificName>
+	<History>All able-bodied male Celts were expected to heed their liege lord's call to battle when need arose.</History> <Icon>structures/earth_barracks.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="29.0" depth="29.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/uni_infantry_spearman_a
+      units/uni_infantry_archer_a
+      units/uni_champion_halberdier
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/earth_ponies/barracks.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

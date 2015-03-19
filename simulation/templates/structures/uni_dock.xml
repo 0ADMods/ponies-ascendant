@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_dock">
+  <Cost>
+    <BuildTime>360</BuildTime>
+    <Resources>
+      <wood>220</wood>
+      <stone>330</stone>
+      <metal>190</metal>
+      <food>140</food>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="24.0" depth="36.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+<Health>
+<Max>5000</Max>
+    <SpawnEntityOnDeath>rubble/rubble_celt_dock</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>uni</Civ>
+    <SpecificName>Port</SpecificName>
+    <History>A crannóc (or crannoge) is the name given in Scotland and Ireland to an artificial island or natural island, used for a settlement. The name can also be used to refer to wooden platforms erected on shallow loch floors, although understandably few remains of this sort have been found. The choice of an island as a home is thought to have been for defence as well as the availability of food in the form of fish nearby.</History>
+  </Identity>
+  <Obstruction>
+    <Static width="23.0" depth="35.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/uni_ship_trireme
+      units/uni_ship_ram
+      units/uni_ship_siege
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/earth_ponies/dock.xml</Actor>
+    <FoundationActor>structures/fndn_celt_dock.xml</FoundationActor>
+  </VisualActor>
+</Entity>

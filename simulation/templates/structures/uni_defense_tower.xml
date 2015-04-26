@@ -7,13 +7,13 @@
       <Hack>0.0</Hack>
       <Pierce>12.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>80.0</MaxRange>
+      <MaxRange>100.0</MaxRange>
       <MinRange>8.0</MinRange>
       <ElevationBonus>15</ElevationBonus>
       <ProjectileSpeed>60.0</ProjectileSpeed>
       <PrepareTime>900</PrepareTime>
       <RepeatTime>1100</RepeatTime>
-      <Spread>2.0</Spread>
+      <Spread>1.5</Spread>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <Bonuses>
           <BonusShip>
@@ -65,7 +65,7 @@
 
   <VisualActor>
 
-    <Actor>structures/earth_ponies/scout_tower.xml</Actor>
+    <Actor>structures/unicorns/scout_tower.xml</Actor>
 
   </VisualActor>
 

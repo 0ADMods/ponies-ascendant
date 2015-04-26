@@ -19,6 +19,6 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/earth_ponies/blacksmith.xml</Actor>
+    <Actor>structures/pegasi/blacksmith.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_house">
   <Cost>
-    <BuildTime>160</BuildTime>
+    <BuildTime>70</BuildTime>
     <Resources>
       <wood>150</wood>
       <stone>70</stone>

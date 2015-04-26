@@ -1,8 +1,8 @@
 {
 	"name": "ponies_ascendant",
-	"label": "MLP: Friendship is Strategic",
+	"label": " ",
 	"url": "http://github.com/0ADMods/ponies_ascendant",
-	"description": "LordGood's MLP:FiS Mod",
+	"description": "LordGood's Pony Mod",
 	"dependencies": ["0ad"],
 	"type": "content addon"
 }

@@ -14,7 +14,8 @@
 
       <Pierce>0.0</Pierce>
 
-	  <Bonuses>
+	<MaxRange>11.0</MaxRange>
+  <Bonuses>
 
 		<BonusAntiArmor>
 

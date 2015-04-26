@@ -5,6 +5,7 @@
     <variant name="base">
       <props>
         <prop actor="props/structures/decals/city_tile_3x3.xml" attachpoint="root" minheight=""/>
+        <prop actor="particle/blowing_snow.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/Pega_struct.png" name="baseTex"/>

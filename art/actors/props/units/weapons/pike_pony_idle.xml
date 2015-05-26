@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Base">
+      <textures>
+        <texture file="props/prop_weap.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="spear">
+      <mesh>props/weap_spear_uni_idle.dae</mesh>
+    </variant>
+    <variant frequency="1" name="speara">
+      <mesh>props/weap_spear_uni_idle_2.dae</mesh>
+    </variant>
+  </group>
+  <material>basic_spec.xml</material>
+</actor>

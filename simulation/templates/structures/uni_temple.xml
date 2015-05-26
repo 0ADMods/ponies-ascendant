@@ -15,7 +15,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="23.5" depth="40.0"/>
+    <Square width="31.5" depth="55.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
@@ -28,10 +28,10 @@
     <History>Celts built large sanctuaries for feasting and worship. One such structure was the Sanctuary of Corent in modern-day France.</History>
   </Identity>
   <Obstruction>
-    <Static width="22.5" depth="38.5"/>
+    <Static width="30.5" depth="54.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/earth_ponies/temple.xml</Actor>
+    <Actor>structures/unicorns/temple.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

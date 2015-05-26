@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="3" name="double thatch">
+      <animations>
+        <animation event="0.5" load="0" name="attack_ranged" speed="100"/>
+      </animations>
+      <mesh>structural/uni_outpost.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/arrowbuilding_uni_projectile.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/arrowbuilding_uni_projectile.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/uni_struct.png" name="baseTex"/>
+        <texture file="structural/uni_struct.png" name="normTex"/>
+        <texture file="structural/uni_struct.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="units/unicorns/infantry_archer_b.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+    <variant name="death">
+      <props>
+        <prop attachpoint="garrisoned"/>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

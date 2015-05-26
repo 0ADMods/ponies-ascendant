@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="base">
+      <mesh>props/shield/uni_kite_inf_back.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="a">
+      <textures>
+        <texture file="props/shield/uni_kite_1_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="b">
+      <textures>
+        <texture file="props/shield/uni_kite_1_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="c">
+      <textures>
+        <texture file="props/shield/uni_kite_1_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="d">
+      <textures>
+        <texture file="props/shield/uni_kite_2_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="e">
+      <textures>
+        <texture file="props/shield/uni_kite_2_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="f">
+      <textures>
+        <texture file="props/shield/uni_kite_2_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="g">
+      <textures>
+        <texture file="props/shield/uni_kite_3_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="h">
+      <textures>
+        <texture file="props/shield/uni_kite_3_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="i">
+      <textures>
+        <texture file="props/shield/uni_kite_3_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="j">
+      <textures>
+        <texture file="props/shield/uni_kite_4_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="k">
+      <textures>
+        <texture file="props/shield/uni_kite_4_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="l">
+      <textures>
+        <texture file="props/shield/uni_kite_4_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="m">
+      <textures>
+        <texture file="props/shield/uni_kite_5_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="n">
+      <textures>
+        <texture file="props/shield/uni_kite_5_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="o">
+      <textures>
+        <texture file="props/shield/uni_kite_5_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>playercolor_spec.xml</material>
+</actor>

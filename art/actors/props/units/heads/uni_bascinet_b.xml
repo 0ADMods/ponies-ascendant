@@ -4,6 +4,9 @@
   <group>
     <variant frequency="1" name="kettle helm">
       <mesh>props/helmet/uni_bascinet_b.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/feathers.xml" attachpoint="plume"/>
+      </props>
     </variant>
   </group>
   <group>

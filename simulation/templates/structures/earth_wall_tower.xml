@@ -32,7 +32,7 @@
 
  <BuildTime>60</BuildTime>    <Resources>
 
-      <stone>200</stone> <wood>100</wood> <food>75</food>
+      <stone>100</stone> <wood>80</wood> <food>75</food>
     </Resources>
 
   </Cost>

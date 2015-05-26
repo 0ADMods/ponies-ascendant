@@ -4,63 +4,78 @@
   <group>
     <variant frequency="1" name="1">
       <animations>
-        <animation file="other/pony_walk.dae" name="Walk" speed="15"/>
-        <animation file="other/pony_running.dae" name="Run" speed="15"/>
-        <animation event="0.5" file="other/pony_lumbering.dae" name="attack_melee" speed="250"/>
-        <animation event="0.5" file="other/pony_slinging.dae" name="attack_ranged" speed="250"/>
-        <animation event="0.5" file="other/pony_lumbering.dae" name="attack_slaughter" speed="250"/>
-        <animation file="other/pony_walk.dae" name="carry_food" speed="15"/>
-        <animation file="other/pony_walk.dae" name="carry_meat" speed="15"/>
-        <animation file="other/pony_walk.dae" name="carry_wood" speed="15"/>
-        <animation file="other/pony_walk.dae" name="carry_stone" speed="15"/>
-        <animation file="other/pony_walk.dae" name="carry_metal" speed="15"/>
-        <animation event="0.4" file="other/pony_lumbering.dae" name="gather_tree" speed="60"/>
+        <animation file="other/unicorn_walk.dae" name="Walk" speed="8"/>
+        <animation file="other/unicorn_gallop.dae" name="Run" speed="10"/>
+        <animation event="0.5" file="other/unicorn_lumbering.dae" name="attack_melee" speed="250"/>
+        <animation event="0.5" file="other/unicorn_shooting.dae" name="attack_ranged" speed="250"/>
+        <animation event="0.5" file="other/unicorn_lumbering.dae" name="attack_slaughter" speed="250"/>
+        <animation file="other/unicorn_walk.dae" name="carry_food" speed="8"/>
+        <animation file="other/unicorn_walk.dae" name="carry_meat" speed="8"/>
+        <animation file="other/unicorn_walk.dae" name="carry_wood" speed="8"/>
+        <animation file="other/unicorn_walk.dae" name="carry_stone" speed="8"/>
+        <animation file="other/unicorn_walk.dae" name="carry_metal" speed="8"/>
+        <animation event="0.4" file="other/unicorn_lumbering.dae" name="gather_tree" speed="60"/>
         <animation file="other/pony_farming_a.dae" name="gather_grain" speed="75"/>
         <animation file="other/pony_foraging.dae" name="gather_fruit" speed="25"/>
         <animation file="other/pony_foraging.dae" name="gather_meat" speed="25"/>
-        <animation event="0.4" file="other/pony_mining.dae" name="gather_rock" speed="60"/>
-        <animation event="0.4" file="other/pony_mining.dae" name="gather_ore" speed="60"/>
-        <animation file="other/pony_mining.dae" name="gather_ruins" speed="60"/>
-        <animation event="0.6" file="other/pony_building.dae" name="Build" speed="70"/>
+        <animation event="0.4" file="other/unicorn_lumbering.dae" name="gather_rock" speed="60"/>
+        <animation event="0.4" file="other/unicorn_lumbering.dae" name="gather_ore" speed="60"/>
+        <animation file="other/unicorn_lumbering.dae" name="gather_ruins" speed="60"/>
+        <animation event="0.6" file="other/unicorn_building.dae" name="Build" speed="70"/>
         <animation file="other/pony_death.dae" name="Death" speed="50"/>
-        <animation event="" file="other/pony_idle.dae" load="" name="idle" speed="30"/>
-        <animation file="other/pony_promotion.dae" name="promotion" speed="45"/>
+        <animation event="" file="other/unicorn_idle.dae" load="" name="idle" speed="30"/>
+        <animation file="other/pony_promotion.dae" name="promotion" speed="60"/>
         <animation file="other/pony_death_b.dae" name="Death" speed="50"/>
       </animations>
-      <mesh>skeletal/pony.dae</mesh>
+      <mesh>skeletal/unicorn_remapped.dae</mesh>
       <props>
-        <prop actor="props/units/weapons/slingrock_2.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/arrowbuilding_uni_projectile.xml" attachpoint="projectile"/>
+        <prop actor="props/units/heads/uni_kettle.xml" attachpoint="hat"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="10">
-      <props>
-        <prop actor="props/units/heads/earth_hood_c.xml" attachpoint="hat"/>
-        <prop actor="props/units/weapons/sling.xml" attachpoint="hoof"/>
-        <prop actor="props/units/shields/celt_round_pony.xml" attachpoint="shield"/>
-      </props>
-    </variant>
+    <variant frequency="1" name="10"/>
   </group>
   <group>
     <variant frequency="1" name="2">
       <textures>
-        <texture file="skeletal/pony_sling_a.png" name="baseTex"/>
+        <texture file="skeletal/uni_archer_a_a.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="3">
       <textures>
-        <texture file="skeletal/pony_sling_b.png" name="baseTex"/>
+        <texture file="skeletal/uni_archer_a_b.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="4">
       <textures>
-        <texture file="skeletal/pony_sling_c.png" name="baseTex"/>
+        <texture file="skeletal/uni_archer_a_c.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="5">
       <textures>
-        <texture file="skeletal/pony_sling_d.png" name="baseTex"/>
+        <texture file="skeletal/uni_archer_a_d.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="6">
+      <textures>
+        <texture file="skeletal/uni_archer_a_e.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="7">
+      <textures>
+        <texture file="skeletal/uni_archer_a_f.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="8">
+      <textures>
+        <texture file="skeletal/uni_archer_a_g.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="9">
+      <textures>
+        <texture file="skeletal/uni_archer_a_h.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -68,7 +83,7 @@
     <variant frequency="1" name="Idle"/>
     <variant name="attack_ranged">
       <props>
-        <prop actor="props/units/weapons/sling.xml" attachpoint="hoof"/>
+        <prop actor="props/units/weapons/bow_pony.xml" attachpoint="shield"/>
       </props>
     </variant>
     <variant name="attack_melee">

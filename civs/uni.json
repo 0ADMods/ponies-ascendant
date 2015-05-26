@@ -15,7 +15,7 @@
 	[
 		{
 			"Name": "Unicorns",
-			"Description": "Horned, magical ponies from the palaces in the high mountains.",
+			"Description": ".",
 			"Technologies":
 			[
 				{
@@ -95,11 +95,11 @@
 		},
 		{
 			"Template": "units/uni_support_female_citizen",
-			"Count": 4
+			"Count": 3
 		},
 		{
 			"Template": "units/uni_infantry_spearman_b",
-			"Count": 2 
+			"Count": 3 
 		},		
 		{
 			"Template": "units/uni_infantry_archer_b",
@@ -109,32 +109,30 @@
 	"Formations":
 	[
 		"formations/scatter",
+		"formations/box",
+		"formations/column_closed",
 		"formations/line_closed",
+		"formations/column_open",
 		"formations/line_open",
-		"formations/syntagma",
-		"formations/flank"
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line",
+		"formations/phalanx",
+		"formations/syntagma"
 	],
 	"AINames":
 	[
-		"Chancellor Jellyhat",
-		"Advisor Wisebiscut",
-		"Advisor Berry",
-		"Chancellor Applesauce",
-		"General Mac",
-		"Advisor Smith",
-		"Sir Caramel",
-		"Advisor Lotus",
-		"Chancellor Fiddlesticks",
-		"General Bonbon",
-		"Sir Whooves"
-	],
-		"SkirmishReplacements":
-	{
-		"skirmish/units/default_support_female_citizen": "units/uni_support_female_citizen",
-		"skirmish/units/default_infantry_ranged_b": "units/uni_infantry_archer_b",
-		"skirmish/units/default_cavalry": "units/uni_infantry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/uni_infantry_archer_b",
-		"skirmish/structures/default_house_10": "structures/{civ}_house"
-	},
-	"SelectableInGameSetup": true	
+		"Princess Diamond",
+		"Squire Aurora",
+		"Squire Gneiss",
+		"Princess Crystal",
+		"Captain Quartz",
+		"Squire Pike",
+		"Count Rich",
+		"Squire Sparkler",
+		"Princess Amythest",
+		"Captain Fleur",
+		"Count Lunata"
+	]
 }

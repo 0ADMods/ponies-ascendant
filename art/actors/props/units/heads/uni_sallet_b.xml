@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="kettle helm">
+      <mesh>props/helmet/uni_sallet_b.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="leather">
+      <textures>
+        <texture file="props/helmet/kettle_helm.png" name="baseTex"/>
+        <texture file="props/helmet/mace-g-silver_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

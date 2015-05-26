@@ -1,0 +1,24 @@
+<skeletons>
+
+   <standard_skeleton title="portcullis" id="portcullis">
+
+      <bone name="portcullis">
+
+      </bone>
+
+</standard_skeleton>
+
+  <skeleton title="portcullis" target="portcullis">
+
+    <identifier>
+
+      <root>portcullis</root>
+
+    </identifier>
+
+      <bone name="portcullis"><target>portcullis</target>
+      </bone>
+
+  </skeleton>
+
+</skeletons>

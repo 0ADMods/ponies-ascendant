@@ -22,7 +22,7 @@
  
   <VisualActor>
   
-	<Actor>structures/earth_ponies/storehouse.xml</Actor>
+	<Actor>structures/unicorns/storehouse.xml</Actor>
   </VisualActor>
  
 </Entity>

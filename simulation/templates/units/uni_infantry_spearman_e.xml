@@ -30,6 +30,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/earth_ponies/infantry_spearman_e.xml</Actor>
+    <Actor>units/unicorns/infantry_spearman_e.xml</Actor>
   </VisualActor>
 </Entity>

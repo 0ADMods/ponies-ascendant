@@ -39,7 +39,7 @@
     
   </Health>
   <Obstruction>
-    <Static width="36.0" depth="38.0"/>
+    <Static width="34.0" depth="36.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
@@ -48,6 +48,6 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/earth_ponies/civic_centre.xml</Actor>
+    <Actor>structures/unicorns/civic_centre.xml</Actor>
   </VisualActor>
 </Entity>

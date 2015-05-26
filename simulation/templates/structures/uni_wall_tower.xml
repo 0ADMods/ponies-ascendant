@@ -6,10 +6,10 @@
  <Crush>5</Crush> </Armour>   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>25.0</Pierce>
+      <Pierce>16.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>50.0</MaxRange>
-      <MinRange>0.0</MinRange>
+      <MaxRange>60.0</MaxRange>
+      <MinRange>10.0</MinRange>
       <ElevationBonus>8</ElevationBonus>
       <ProjectileSpeed>50.0</ProjectileSpeed>
       <PrepareTime>900</PrepareTime>
@@ -32,7 +32,7 @@
 
  <BuildTime>60</BuildTime>    <Resources>
 
-      <stone>200</stone> <wood>100</wood> <food>75</food>
+      <stone>100</stone> <wood>100</wood> <food>60</food>
     </Resources>
 
   </Cost>
@@ -42,8 +42,8 @@
     <Height>20.0</Height>
   </Footprint>
  <Identity>
-    <Civ>earth</Civ>
-    <SpecificName>Wall Turret</SpecificName>
+    <Civ>uni</Civ>
+    <SpecificName>Bastion</SpecificName>
     <History>The Romans called this wall 'Murus Gallicus'. Translated, it means 'Gaulish wall'. It was extremely resistant to assault by battering ram. Julius Caesar described a type of wood and stone wall, known as a Murus Gallicus, in his account of the Gallic Wars. These walls were made of a stone wall filled with rubble, with wooden logs inside for stability. Caesar noted how the flexibility of the wood added to the strength of the fort in case of battering ram attack.</History>
     <Tooltip>Shoots short ranged arrows to fend off attackers.</Tooltip>
   </Identity>
@@ -51,7 +51,7 @@
     <Static width="9.0" depth="9.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/earth_ponies/wall_turret.xml</Actor>
+    <Actor>structures/unicorns/wall_turret.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>9.0</Length>

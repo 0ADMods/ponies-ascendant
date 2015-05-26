@@ -43,6 +43,6 @@
     <Range>100</Range>
   </Vision>
   <VisualActor>
-    <Actor>structures/earth_ponies/outpost.xml</Actor>
+    <Actor>structures/unicorns/outpost.xml</Actor>
   </VisualActor>
 </Entity>

@@ -27,9 +27,9 @@
         <animation file="other/pony_promotion.dae" name="promotion" speed="60"/>
         <animation file="other/pony_death_b.dae" name="Death" speed="50"/>
       </animations>
-      <mesh>skeletal/unicorn.dae</mesh>
+      <mesh>skeletal/unicorn_remapped.dae</mesh>
       <props>
-        <prop actor="props/units/weapons/slingrock_2.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/arrowbuilding_uni_projectile.xml" attachpoint="projectile"/>
       </props>
     </variant>
   </group>
@@ -39,27 +39,42 @@
   <group>
     <variant frequency="1" name="2">
       <textures>
-        <texture file="skeletal/uni_archer_b_a.png" name="baseTex"/>
+        <texture file="skeletal/uni_archer_a_a.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="3">
       <textures>
-        <texture file="skeletal/uni_archer_b_b.png" name="baseTex"/>
+        <texture file="skeletal/uni_archer_a_b.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="4">
       <textures>
-        <texture file="skeletal/uni_archer_b_c.png" name="baseTex"/>
+        <texture file="skeletal/uni_archer_a_c.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="5">
       <textures>
-        <texture file="skeletal/uni_archer_b_d.png" name="baseTex"/>
+        <texture file="skeletal/uni_archer_a_d.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="6">
       <textures>
-        <texture file="skeletal/uni_archer_b_e.png" name="baseTex"/>
+        <texture file="skeletal/uni_archer_a_e.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="7">
+      <textures>
+        <texture file="skeletal/uni_archer_a_f.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="8">
+      <textures>
+        <texture file="skeletal/uni_archer_a_g.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="9">
+      <textures>
+        <texture file="skeletal/uni_archer_a_h.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -67,7 +82,7 @@
     <variant frequency="1" name="Idle"/>
     <variant name="attack_ranged">
       <props>
-        <prop actor="props/units/weapons/sling.xml" attachpoint="hoof"/>
+        <prop actor="props/units/weapons/bow_pony.xml" attachpoint="shield"/>
       </props>
     </variant>
     <variant name="attack_melee">

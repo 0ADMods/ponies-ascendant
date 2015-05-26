@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="kettle helm">
-      <mesh>props/helmet/pony_helm_a.dae</mesh>
+      <mesh>props/helmet/uni_sallet.dae</mesh>
     </variant>
   </group>
   <group>

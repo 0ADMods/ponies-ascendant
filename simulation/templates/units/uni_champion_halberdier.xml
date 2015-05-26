@@ -53,7 +53,7 @@
     <GenericName>Anti Armor</GenericName>
     <SpecificName>Halberdier</SpecificName>
     <History>Two-handed swordsmen from Briton. These men are veteran soldiers who offer their lives in service to their Brythonic lords.</History>
-    <Icon>units/earth_champion_maceman.png</Icon>
+    <Icon>units/uni_champion_halberdier.png</Icon>
   <RequiredTechnology>phase_town</RequiredTechnology> </Identity>
   <UnitMotion>
     <WalkSpeed>8.0</WalkSpeed>

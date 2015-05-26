@@ -13,15 +13,15 @@
   </Health>
   <Identity>
     <Civ>earth</Civ>
-    <SelectionGroupName>structures/earth_wallset_stone</SelectionGroupName>
-    <SpecificName>Stone Wall</SpecificName>
+    <SelectionGroupName>structures/uni_wallset_stone</SelectionGroupName>
+    <SpecificName>City Wall</SpecificName>
     <History>The Romans called this wall 'Murus Gallicus'. Translated, it means 'Gaulish wall'. It was extremely resistant to assault by battering ram. Julius Caesar described a type of wood and stone wall, known as a Murus Gallicus, in his account of the Gallic Wars. These walls were made of a stone wall filled with rubble, with wooden logs inside for stability. Caesar noted how the flexibility of the wood added to the strength of the fort in case of battering ram attack.</History>
   </Identity>
   <Obstruction>
     <Static width="37.0" depth="7.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/earth_ponies/wall_long.xml</Actor>
+    <Actor>structures/unicorns/wall_long.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>37.0</Length>

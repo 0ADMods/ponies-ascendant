@@ -4,78 +4,113 @@
   <group>
     <variant frequency="1" name="1">
       <animations>
-        <animation file="other/pony_walk.dae" name="Walk" speed="12"/>
-        <animation file="other/pony_running.dae" name="Run" speed="17"/>
-        <animation event="0.6" file="other/pony_brute_attack_a.dae" name="attack_melee" speed="250"/>
-        <animation event="0.5" file="other/pony_a_idle.dae" name="attack_ranged" speed="250"/>
-        <animation event="0.5" file="other/pony_a_idle_b.dae" name="attack_ranged" speed="250"/>
-        <animation event="0.5" file="other/pony_lumbering.dae" name="attack_slaughter" speed="250"/>
-        <animation file="other/pony_walk.dae" name="carry_food" speed="15"/>
-        <animation file="other/pony_walk.dae" name="carry_meat" speed="15"/>
-        <animation file="other/pony_walk.dae" name="carry_wood" speed="15"/>
-        <animation file="other/pony_walk.dae" name="carry_stone" speed="15"/>
-        <animation file="other/pony_walk.dae" name="carry_metal" speed="15"/>
-        <animation event="0.4" file="other/pony_lumbering.dae" name="gather_tree" speed="60"/>
+        <animation file="other/unicorn_b_syntagma_front_walk.dae" name="Walk" speed="8"/>
+        <animation file="other/unicorn_b_syntagma_front.dae" name="syntagma_front_idle" speed="8"/>
+        <animation file="other/unicorn_b_syntagma_front_walk.dae" name="syntagma_front_walk" speed="8"/>
+        <animation file="other/unicorn_b_syntagma_front_walk.dae" name="syntagma_front_run" speed="8"/>
+        <animation file="other/unicorn_walk.dae" name="syntagma_med_walk" speed="8"/>
+        <animation file="other/unicorn_walk.dae" name="syntagma_back_walk" speed="8"/>
+        <animation file="other/unicorn_b_syntagma_front_walk.dae" name="Run" speed="10"/>
+        <animation event="0.5" file="other/unicorn_b_spearing.dae" name="attack_melee" speed="250"/>
+        <animation event="0.5" file="other/unicorn_halberding_a.dae" name="attack_melee" speed="250"/>
+        <animation event="0.5" file="other/unicorn_halberding_b.dae" name="attack_melee" speed="250"/>
+        <animation event="0.5" file="other/unicorn_lumbering.dae" name="attack_slaughter" speed="250"/>
+        <animation file="other/unicorn_walk.dae" name="carry_food" speed="8"/>
+        <animation file="other/unicorn_walk.dae" name="carry_meat" speed="8"/>
+        <animation file="other/unicorn_walk.dae" name="carry_wood" speed="8"/>
+        <animation file="other/unicorn_walk.dae" name="carry_stone" speed="8"/>
+        <animation file="other/unicorn_walk.dae" name="carry_metal" speed="8"/>
+        <animation event="0.4" file="other/unicorn_lumbering.dae" name="gather_tree" speed="60"/>
         <animation file="other/pony_farming_a.dae" name="gather_grain" speed="75"/>
         <animation file="other/pony_foraging.dae" name="gather_fruit" speed="25"/>
         <animation file="other/pony_foraging.dae" name="gather_meat" speed="25"/>
-        <animation event="0.4" file="other/pony_mining.dae" name="gather_rock" speed="60"/>
-        <animation event="0.4" file="other/pony_mining.dae" name="gather_ore" speed="60"/>
-        <animation file="other/pony_mining.dae" name="gather_ruins" speed="60"/>
-        <animation event="0.6" file="other/pony_building.dae" name="Build" speed="70"/>
-        <animation file="other/pony_death.dae" name="Death" speed="50"/>
-        <animation event="" file="other/pony_a_idle.dae" load="" name="idle" speed="30"/>
-        <animation event="" file="other/pony_a_idle_b.dae" load="" name="idle" speed="30"/>
-        <animation file="other/pony_death_b.dae" name="Death" speed="50"/>
+        <animation event="0.4" file="other/unicorn_lumbering.dae" name="gather_rock" speed="60"/>
+        <animation event="0.4" file="other/unicorn_lumbering.dae" name="gather_ore" speed="60"/>
+        <animation file="other/unicorn_lumbering.dae" name="gather_ruins" speed="60"/>
+        <animation event="0.6" file="other/unicorn_building.dae" name="Build" speed="70"/>
+        <animation file="other/uni_death.dae" name="Death" speed="70"/>
+        <animation file="other/uni_death.dae" name="Death" speed="70"/>
+        <animation file="other/uni_death.dae" name="Death" speed="70"/>
+        <animation event="" file="other/unicorn_b_syntagma_front.dae" load="" name="idle" speed="30"/>
+        <animation file="other/pony_promotion.dae" name="promotion" speed="60"/>
       </animations>
-      <mesh>skeletal/pony_brute.dae</mesh>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="10">
+      <mesh>skeletal/unicorn_b.dae</mesh>
       <props>
-        <prop actor="props/units/shields/celt_round_pony.xml" attachpoint="shield"/>
+        <prop actor="props/units/heads/uni_sallet_b.xml" attachpoint="hat"/>
+        <prop actor="props/units/shields/kite_uni.xml" attachpoint="back"/>
       </props>
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="10"/>
+  </group>
+  <group>
     <variant frequency="1" name="2">
       <textures>
-        <texture file="skeletal/pony_brute_a.png" name="baseTex"/>
-        <texture file="skeletal/pony_brute_a.png" name="normTex"/>
-        <texture file="skeletal/pony_brute_a.png" name="specTex"/>
+        <texture file="skeletal/uni_halberd_a.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="3">
       <textures>
-        <texture file="skeletal/pony_brute_b.png" name="baseTex"/>
+        <texture file="skeletal/uni_halberd_b.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="4">
       <textures>
-        <texture file="skeletal/pony_brute_c.png" name="baseTex"/>
+        <texture file="skeletal/uni_halberd_c.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="5">
       <textures>
-        <texture file="skeletal/pony_brute_d.png" name="baseTex"/>
+        <texture file="skeletal/uni_halberd_d.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="6">
+      <textures>
+        <texture file="skeletal/uni_halberd_e.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="7">
+      <textures>
+        <texture file="skeletal/uni_halberd_f.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="8">
+      <textures>
+        <texture file="skeletal/uni_halberd_g.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="9">
+      <textures>
+        <texture file="skeletal/uni_halberd_h.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="Idle">
       <props>
-        <prop actor="props/units/weapons/mace_medieval.xml" attachpoint="hoof"/>
+        <prop actor="props/units/weapons/halberd_pony.xml" attachpoint="hoof"/>
       </props>
     </variant>
+    <variant name="attack_ranged"/>
     <variant name="attack_melee">
       <props>
-        <prop actor="props/units/weapons/mace_medieval.xml" attachpoint="hoof"/>
+        <prop actor="props/units/weapons/halberd_pony.xml" attachpoint="hoof"/>
       </props>
     </variant>
-    <variant name="attack_ranged">
+    <variant name="syntagma_front_idle">
       <props>
-        <prop actor="props/units/weapons/sling.xml" attachpoint="hoof"/>
+        <prop actor="props/units/weapons/pike_pony.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="syntagma_front_walk">
+      <props>
+        <prop actor="props/units/weapons/pike_pony.xml" attachpoint="hoof"/>
+      </props>
+    </variant>
+    <variant name="attack_slaughter">
+      <props>
+        <prop actor="props/units/weapons/pike_pony.xml" attachpoint="hoof"/>
       </props>
     </variant>
     <variant name="death"/>

@@ -10,7 +10,7 @@
       <ProjectileSpeed>60.0</ProjectileSpeed>
       <PrepareTime>900</PrepareTime>
       <RepeatTime>1100</RepeatTime>
-      <Spread>1.8</Spread>
+      <Spread>1.5</Spread>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <Bonuses>
         <BonusShip>
@@ -53,7 +53,7 @@
     <History>The Broch is an Iron Age round tower fortification type unique to Scotland.  The origin of brochs remains a mystery. Some archaeologists believed the brochs were built by an influx of broch builders who had been displaced and pushed northward during the Roman invasion of Britain. However, this theory has been largely disproven and current thought is that they were built by itinerant (travelling) craftsmen since so many were built to almost the same exact design. </History><Icon>structures/earth_fortress.png</Icon>
   </Identity>
   <Obstruction>
-    <Static width="42.0" depth="43.0"/>
+    <Static width="39.0" depth="40.0"/>
   </Obstruction>
   <Sound>
     <SoundGroups>
@@ -92,7 +92,7 @@
     <Range>140</Range>
   </Vision>
   <VisualActor>
-    <Actor>structures/earth_ponies/fortress.xml</Actor>
+    <Actor>structures/unicorns/fortress.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

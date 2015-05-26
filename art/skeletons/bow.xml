@@ -1,0 +1,45 @@
+<skeletons>
+
+   <standard_skeleton title="bow" id="bow">
+
+      <bone name="constant">
+
+      </bone>
+
+      <bone name="bottom">
+
+      </bone>
+
+      <bone name="top">
+
+      </bone>
+
+      <bone name="string">
+
+      </bone>
+
+</standard_skeleton>
+
+  <skeleton title="bow" target="bow">
+
+    <identifier>
+
+      <root>bow</root>
+
+    </identifier>
+
+      <bone name="constant"><target>constant</target>
+      </bone>
+
+      <bone name="bottom"><target>bottom</target>
+      </bone>
+
+      <bone name="top"><target>top</target>
+      </bone>
+
+      <bone name="string"><target>string</target>
+      </bone>
+
+  </skeleton>
+
+</skeletons>

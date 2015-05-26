@@ -30,7 +30,7 @@
     <Weight>65536</Weight>
   </TerritoryInfluence>
   <VisualActor>
-    <Actor>structures/earth_ponies/house.xml</Actor>
+    <Actor>structures/unicorns/house.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

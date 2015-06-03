@@ -5,19 +5,19 @@
 
     <Hack>1</Hack>
 
-    <Pierce>6</Pierce>
+    <Pierce>15</Pierce>
 
-    <Crush>5</Crush>
+    <Crush>7</Crush>
 
   </Armour>
 
  <Attack>
   <Ranged disable=""/>  <Melee>
-      <Hack>100.0</Hack>
+      <Hack>200.0</Hack>
       <Pierce>0.0</Pierce>
-      <Crush>300.0</Crush>
-      <MaxRange>28.5</MaxRange>
-      <RepeatTime>8000</RepeatTime>
+      <Crush>200.0</Crush>
+      <MaxRange>31.5</MaxRange>
+      <RepeatTime>7000</RepeatTime>
 	  
       <RestrictedClasses datatype="tokens">Organic</RestrictedClasses>
       <PreferredClasses datatype="tokens">Ship  Structure</PreferredClasses>
@@ -28,7 +28,7 @@
 
  <BuildTime>80</BuildTime>    <Resources>
 
-      <stone>100</stone> <wood>750</wood> <food>675</food><metal>225</metal>
+      <wood>700</wood> <food>675</food><metal>100</metal>
     </Resources>
 
   </Cost>
@@ -42,13 +42,12 @@
     <Max>45</Max>
   </GarrisonHolder>
   <Health>
-    <Max>1400</Max>
+    <Max>1500</Max>
   </Health>
   <Identity>
-    <Civ>earth</Civ>
-    <SpecificName>Ramming Galley</SpecificName>
-    <Tooltip>Classes: Medium Warship Ranged
-Transport many soldiers across the sea.</Tooltip>
+    <Civ>pega</Civ>
+    <SpecificName>Ramming Monoreme</SpecificName>
+    <Tooltip>Ramming ship, holds 45 units. Effective against docks and siege ships. vunerable to shore defenses and war ships. </Tooltip>
     <History>The ships of Gaul were described by Julias Caesar as:  flat bottoms to ride the shallows, exceptionally high bows and sterns, hulls were made entirely of oak, the foot wide cross-timbers were fastened with iron bolts as thick as a man's thumb, sails of raw hides or thin leather, adapted for sailing treacherous and stormy waters of the north atlantic.  Caesar could not injure them by ramming because they were so solidly built, and their height made it difficult to reach them with missiles or board them with grappling irons.</History>
     <Icon>units/cart_ship_trireme.png</Icon>
   </Identity>
@@ -61,9 +60,9 @@ Transport many soldiers across the sea.</Tooltip>
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed>14.0</WalkSpeed>
+    <WalkSpeed>17.0</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/earth_ponies/quinquereme.xml</Actor>
+    <Actor>units/pegasi/ship_ram.xml</Actor>
   </VisualActor>
 </Entity>

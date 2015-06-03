@@ -9,7 +9,7 @@
         <prop actor="props/flora/bush_tempe_underbrush.xml" attachpoint="bush_2" maxheight="20" minheight="-20"/>
         <prop actor="props/flora/bush_tempe_me_dry.xml" attachpoint="bush_3" maxheight="20" minheight="-20"/>
         <prop actor="props/flora/bush_tempe_underbrush.xml" attachpoint="bush_4" maxheight="20" minheight="-20"/>
-        <prop actor="props/structures/decals/dirt_4x6.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/uni_struct.png" name="baseTex"/>

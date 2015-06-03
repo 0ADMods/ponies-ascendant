@@ -11,7 +11,7 @@
       <Pierce>70.0</Pierce>
       <Crush>15.0</Crush>
       <MaxRange>100</MaxRange>
-   <ProjectileSpeed>80.0</ProjectileSpeed>
+   <ProjectileSpeed>70.0</ProjectileSpeed>
       <PrepareTime>2666</PrepareTime>
       <RepeatTime>4000</RepeatTime>
       <Spread>3.2</Spread>

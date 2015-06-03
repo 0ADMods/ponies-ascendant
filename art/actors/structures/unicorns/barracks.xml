@@ -14,8 +14,7 @@
       </props>
       <textures>
         <texture file="structural/uni_struct.png" name="baseTex"/>
-        <texture file="structural/uni_struct.png" name="normTex"/>
-        <texture file="structural/uni_struct.png" name="specTex"/>
+        <texture file="structural/ao/uni_barracks_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -34,5 +33,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  <material>player_trans_ao.xml</material>
 </actor>

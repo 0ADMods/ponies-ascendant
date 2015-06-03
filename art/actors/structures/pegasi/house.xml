@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="base">
+    <variant frequency="100" name="base">
       <props>
         <prop actor="props/structures/decals/city_tile_3x3.xml" attachpoint="root" minheight=""/>
         <prop actor="particle/blowing_snow.xml" attachpoint="root"/>
@@ -17,7 +17,6 @@
       <mesh>structural/pega_house_a.dae</mesh>
       <props>
         <prop actor="props/structures/pegasi/house_a_clouds.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/city_tile_3x3.xml" attachpoint="root" minheight=""/>
         <prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_1"/>
         <prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="bush_2"/>
         <prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_3"/>
@@ -28,7 +27,6 @@
       <mesh>structural/pega_house_b.dae</mesh>
       <props>
         <prop actor="props/structures/pegasi/house_b_clouds.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/city_tile_3x3.xml" attachpoint="root" minheight=""/>
         <prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_1"/>
         <prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="bush_2"/>
         <prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_3"/>
@@ -39,7 +37,6 @@
       <mesh>structural/pega_house_c.dae</mesh>
       <props>
         <prop actor="props/structures/pegasi/house_c_clouds.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/city_tile_3x3.xml" attachpoint="root" minheight=""/>
         <prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_1"/>
         <prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="bush_2"/>
         <prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_3"/>
@@ -59,5 +56,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  <material>player_trans.xml</material>
 </actor>

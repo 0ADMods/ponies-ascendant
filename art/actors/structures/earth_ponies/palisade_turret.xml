@@ -73,5 +73,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  <material>player_trans.xml</material>
 </actor>

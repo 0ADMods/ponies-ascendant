@@ -5,7 +5,7 @@
 
     <Hack>10</Hack>
 
-    <Pierce>20</Pierce>
+    <Pierce>18</Pierce>
 
     <Crush>2</Crush>
 
@@ -16,19 +16,19 @@
 
       <Hack>0.0</Hack>
 
-      <Pierce>10.0</Pierce>
+      <Pierce>20.0</Pierce>
 
       <Crush>0.0</Crush>
 
-      <MaxRange>85.0</MaxRange>
+      <MaxRange>75.0</MaxRange>
 
-      <ProjectileSpeed>60.0</ProjectileSpeed>
+      <ProjectileSpeed>40.0</ProjectileSpeed>
 
-      <PrepareTime>900</PrepareTime>
+      <PrepareTime>1250</PrepareTime>
 
-      <RepeatTime>1500</RepeatTime>
+      <RepeatTime>1250</RepeatTime>
 
-      <Spread>4.5</Spread>
+      <Spread>4.0</Spread>
 
 	  <Bonuses>
 <BonusInfantryRanged>
@@ -84,7 +84,7 @@
 
  <BuildTime>80</BuildTime>    <Resources>
 
-      <stone>100</stone> <wood>700</wood> <food>675</food>
+     <wood>700</wood> <food>675</food>
     </Resources>
 
   </Cost>
@@ -98,13 +98,12 @@
     <Max>25</Max>
   </GarrisonHolder>
   <Health>
-    <Max>1600</Max>
+    <Max>1300</Max>
   </Health>
   <Identity>
-    <Civ>earth</Civ>
-    <SpecificName>War Galley</SpecificName>
-    <Tooltip>Classes: Medium Warship Ranged
-Transport many soldiers across the sea.</Tooltip>
+    <Civ>pega</Civ>
+    <SpecificName>War Monoreme</SpecificName>
+    <Tooltip> Pegasus skirmish ship. Holds 25 units. Effective for harassing shore units and fighting ramming ships. Battle effectiveness increases with troops garrisoned.</Tooltip>
     <History>The ships of Gaul were described by Julias Caesar as:  flat bottoms to ride the shallows, exceptionally high bows and sterns, hulls were made entirely of oak, the foot wide cross-timbers were fastened with iron bolts as thick as a man's thumb, sails of raw hides or thin leather, adapted for sailing treacherous and stormy waters of the north atlantic.  Caesar could not injure them by ramming because they were so solidly built, and their height made it difficult to reach them with missiles or board them with grappling irons.</History>
     <Icon>units/cart_ship_trireme.png</Icon>
   </Identity>
@@ -115,6 +114,6 @@ Transport many soldiers across the sea.</Tooltip>
     <WalkSpeed>10.5</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/earth_ponies/bireme.xml</Actor>
+    <Actor>units/pegasi/ship_skirmish.xml</Actor>
   </VisualActor>
 </Entity>

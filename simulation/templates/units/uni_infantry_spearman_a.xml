@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/uni_infantry_spearman_b">
   <Armour>
-    <Hack>7</Hack>
+    <Hack>8</Hack>
     <Pierce>6</Pierce>
     <Crush>7</Crush>
   </Armour>

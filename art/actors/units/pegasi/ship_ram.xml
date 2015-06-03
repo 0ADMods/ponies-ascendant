@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="100" name="ram">
+      <animations>
+        <animation event=".5" file="mechanical/pega_ship_ram_attack.dae" load="" name="attack_melee" speed="250"/>
+        <animation file="mechanical/pega_ship_ram.dae" name="idle" speed="30"/>
+        <animation file="mechanical/pega_ship_ram.dae" name="death" speed="1"/>
+        <animation file="mechanical/pega_ship_ram.dae" name="walk" speed="7"/>
+        <animation file="mechanical/pega_ship_ram.dae" name="run" speed="7"/>
+      </animations>
+      <mesh>skeletal/pega_ship_ram.dae</mesh>
+      <props>
+        <prop actor="props/structures/earth_ponies/fortress_pennant.xml" attachpoint="flag"/>
+        <prop actor="particle/blowing_snow.xml" attachpoint="root"/>
+        <prop actor="" attachpoint=""/>
+      </props>
+      <textures>
+        <texture file="structural/pega_ship.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/structures/decals/destruct_2x2.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

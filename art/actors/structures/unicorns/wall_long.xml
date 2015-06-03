@@ -12,7 +12,7 @@
       </props>
       <textures>
         <texture file="structural/uni_struct.png" name="baseTex"/>
-        <texture file="structural/ao/uni_wall_long_A_.png" name="aoTex"/>
+        <texture file="structural/ao/uni_wall_long_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

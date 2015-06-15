@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
   <Armour>
-    <Hack>14</Hack>
-    <Pierce>22</Pierce>
+    <Hack>17</Hack>
+    <Pierce>25</Pierce>
  <Crush>6</Crush> </Armour>
   <Attack>
     <Melee>
-      <Hack>25.0</Hack>
+      <Hack>17.0</Hack>
 
  	  <Bonuses>
 
@@ -30,22 +30,28 @@
  <BuildTime>20</BuildTime>
     <Resources>
       <wood>50</wood>
- <food>125</food> <metal>220</metal> </Resources>
+ <food>125</food> <metal>250</metal> </Resources>
   </Cost>
-  
+ 
+ <Footprint>
+    <Circle radius="3.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+
+ 
 <Health>
-    <Max>500</Max>
+    <Max>450</Max>
   </Health>  <Identity>
-  <Classes datatype="tokens">Armor</Classes>  <Civ>earth</Civ>
+  <Classes datatype="tokens">Armor</Classes>  <Civ>uni</Civ>
     <GenericName>Armor</GenericName>
-    <SpecificName>Knight</SpecificName>
+    <SpecificName>Cavalier</SpecificName>
     <History>Two-handed swordsmen from Briton. These men are veteran soldiers who offer their lives in service to their Brythonic lords.</History>
     <Icon>units/earth_champion_infantry.png</Icon>
   </Identity>
   <UnitMotion>
-    <WalkSpeed>4.0</WalkSpeed>
+    <WalkSpeed>5.0</WalkSpeed>
     <Run>
-      <Speed>6.0</Speed>
+      <Speed>7.0</Speed>
     </Run>
   </UnitMotion>
  <Sound>
@@ -60,6 +66,6 @@
       <order_garrison>voice/hellenes/civ/female/civ_female_garrison.xml</order_garrison>
 <death>actor/human/death/female_death.xml</death> </SoundGroups>
   </Sound> <VisualActor>
-    <Actor>units/earth_ponies/champion_infantry.xml</Actor>
+    <Actor>units/unicorns/champion_infantry.xml</Actor>
   </VisualActor>
 </Entity>

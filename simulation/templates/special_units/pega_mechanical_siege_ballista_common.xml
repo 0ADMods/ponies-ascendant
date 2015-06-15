@@ -45,7 +45,7 @@
     <Resources>
     <food>150</food>  <wood>150</wood>
       <stone>0</stone>
-   <metal>175</metal>  </Resources>
+   <metal>100</metal>  </Resources>
   </Cost>
   <Decay>
     <DelayTime>80.0</DelayTime>

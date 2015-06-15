@@ -1,0 +1,25 @@
+<skeletons>
+
+   <standard_skeleton title="uni_mill" id="uni_mill">
+
+      <bone name="blades">
+
+      </bone>
+
+</standard_skeleton>
+
+  <skeleton title="uni_mill" target="uni_mill">
+
+    <identifier>
+
+      <root>uni_mill</root>
+
+    </identifier>
+
+      <bone name="blades"><target>blades</target>
+
+      </bone>
+
+  </skeleton>
+
+</skeletons>

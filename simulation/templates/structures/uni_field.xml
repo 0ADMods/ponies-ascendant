@@ -5,7 +5,7 @@
     <SpecificName>Vineyard</SpecificName>
     <History>A farmer's field.</History>
   <Icon>structures/earth_field.png</Icon> </Identity><VisualActor>
-    <Actor>structures/plot_field_temp.xml</Actor>
+    <Actor>structures/unicorns/field.xml</Actor>
     <FoundationActor>props/structures/decals/field_temperate_5x5_foundation.xml</FoundationActor>
     <SelectionShape>
       <Footprint/>

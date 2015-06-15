@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
   <Armour>
-    <Hack>8</Hack>
+    <Hack>9</Hack>
     <Pierce>6</Pierce>
  <Crush>7</Crush> </Armour>
   <Attack>
@@ -16,7 +16,7 @@
 
 		  <Classes>Armor</Classes>
 
-		  <Multiplier>1.5</Multiplier>
+		  <Multiplier>2.0</Multiplier>
 
 		</BonusArmor>
 
@@ -45,7 +45,13 @@
       <wood>10</wood>
  <food>80</food> <metal>25</metal> </Resources>
   </Cost>
-  
+ 
+ <Footprint>
+    <Circle radius="2.5"/>
+    <Height>5.0</Height>
+  </Footprint>
+
+ 
 <Health>
     <Max>200</Max>
   </Health>  <Identity>

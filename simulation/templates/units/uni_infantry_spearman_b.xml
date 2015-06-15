@@ -25,7 +25,13 @@
 
 		</BonusAntiArmor>
 
-	  </Bonuses>
+ <BonusSkirmisher>
+
+		  <Classes>Skirmisher</Classes>
+
+		  <Multiplier>2.0</Multiplier>
+
+		</BonusSkirmisher>	  </Bonuses>
 
     </Melee>
 
@@ -45,7 +51,13 @@
       <wood>30</wood>
  <food>60</food> <metal>10</metal> </Resources>
   </Cost>
-  <Identity>
+ 
+ <Footprint>
+    <Circle radius="2.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+
+ <Identity>
     <Classes datatype="tokens">Soldier</Classes>
     <Civ>uni</Civ>
 	<SelectionGroupName>units/uni_infantry_spearman_b</SelectionGroupName>
@@ -78,6 +90,7 @@
       <order_gather>voice/hellenes/civ/female/civ_female_gather_together.xml</order_gather>
       <order_repair>voice/hellenes/civ/female/civ_female_repair.xml</order_repair>
       <order_garrison>voice/hellenes/civ/female/civ_female_garrison.xml</order_garrison>
-<death>actor/human/death/female_death.xml</death></SoundGroups>
+<death>actor/human/death/female_death.xml</death>
+      <attack>attack/weapon/pike.xml</attack></SoundGroups>
   </Sound>
 </Entity>

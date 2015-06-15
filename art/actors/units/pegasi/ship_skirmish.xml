@@ -13,8 +13,8 @@
       </animations>
       <mesh>skeletal/pega_ship_skirmish.dae</mesh>
       <props>
-        <prop actor="props/units/weapons/jav_projectile.xml" attachpoint="projectile" minheight="20"/>
-        <prop actor="props/units/weapons/jav_projectile.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/weapons/jav_pega_projectile.xml" attachpoint="projectile" minheight="20"/>
+        <prop actor="props/units/weapons/jav_pega_projectile.xml" attachpoint="loaded-projectile"/>
         <prop actor="units/pegasi/infantry_spearman_e.xml" attachpoint="captain"/>
         <prop actor="units/pegasi/infantry_javelinist_b.xml" attachpoint="archer_1"/>
         <prop actor="units/pegasi/infantry_javelinist_a.xml" attachpoint="archer_2"/>
@@ -29,6 +29,8 @@
       </props>
       <textures>
         <texture file="structural/pega_ship.png" name="baseTex"/>
+        <texture file="structural/pega_ship_norm.png" name="normTex"/>
+        <texture file="structural/pega_ship_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -41,5 +43,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>

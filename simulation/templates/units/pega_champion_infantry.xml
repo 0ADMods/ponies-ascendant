@@ -34,11 +34,17 @@
       <wood>50</wood>
  <food>125</food> <metal>200</metal> </Resources>
   </Cost>
-  
+ 
+ <Footprint>
+    <Circle radius="3.5"/>
+    <Height>6.0</Height>
+  </Footprint>
+
+ 
 <Health>
     <Max>400</Max>
   </Health>  <Identity>
-  <Classes datatype="tokens">Armor</Classes>  <Civ>earth</Civ>
+  <Classes datatype="tokens">Armor</Classes>  <Civ>pega</Civ>
     <GenericName>Armor</GenericName>
     <SpecificName>Cataphract</SpecificName>
     <History>Two-handed swordsmen from Briton. These men are veteran soldiers who offer their lives in service to their Brythonic lords.</History>

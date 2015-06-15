@@ -15,7 +15,7 @@
 
       <Hack>0.0</Hack>
 
-      <Pierce>20.0</Pierce>
+      <Pierce>15.0</Pierce>
 
       <Crush>0.0</Crush>
 
@@ -25,7 +25,9 @@
 
       <Spread>3.0</Spread>
 
-	  <Bonuses>	<BonusAntiArmor>
+	 <ProjectileSpeed>45.0</ProjectileSpeed>
+
+   <Bonuses>	<BonusAntiArmor>
 
 		  <Classes>AntiArmor</Classes>
 
@@ -73,6 +75,12 @@
   </Cost>
 
 
+
+ <Footprint>
+    <Circle radius="3.0"/>
+    <Height>7.0</Height>
+  </Footprint>
+
  <Identity>
 
     <Civ>pega</Civ>
@@ -114,7 +122,8 @@
       <order_gather>voice/hellenes/civ/female/civ_female_gather_together.xml</order_gather>
       <order_repair>voice/hellenes/civ/female/civ_female_repair.xml</order_repair>
       <order_garrison>voice/hellenes/civ/female/civ_female_garrison.xml</order_garrison>
-<death>actor/human/death/female_death.xml</death></SoundGroups>
+<death>actor/human/death/female_death.xml</death>
+      <attack>attack/weapon/javelin.xml</attack></SoundGroups>
   </Sound>   <VisualActor>
     <Actor>units/pegasi/infantry_javelinist_b.xml</Actor>
   </VisualActor>

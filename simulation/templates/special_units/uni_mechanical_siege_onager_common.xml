@@ -9,13 +9,13 @@
     <Ranged>
       <Hack>0.0</Hack>
       <Pierce>0.0</Pierce>
-      <Crush>60.0</Crush>
-      <MaxRange>70</MaxRange>
-      <MinRange>30.0</MinRange>
-      <ProjectileSpeed>50.0</ProjectileSpeed>
-      <PrepareTime>3300</PrepareTime>
-      <RepeatTime>5000</RepeatTime>
-      <Spread>9.0</Spread>
+      <Crush>40.0</Crush>
+      <MaxRange>80</MaxRange>
+      <MinRange>35.0</MinRange>
+      <ProjectileSpeed>45.0</ProjectileSpeed>
+      <PrepareTime>200</PrepareTime>
+      <RepeatTime>4000</RepeatTime>
+      <Spread>8.0</Spread>
       <Bonuses>
         <BonusStructure>
           <Classes>Structure</Classes>
@@ -28,7 +28,7 @@
       </Bonuses>
       <Splash>
         <Shape>Circular</Shape>
-        <Range>7</Range>
+        <Range>6</Range>
         <FriendlyFire>true</FriendlyFire>
         <Hack>0.0</Hack>
         <Pierce>0.0</Pierce>
@@ -39,8 +39,8 @@
   <Cost>
     <BuildTime>50</BuildTime>
     <Resources>
-    <food>150</food>  <wood>120</wood>
-      <stone>50</stone>
+    <food>120</food>  <wood>150</wood>
+      <stone>60</stone>
    <metal>25</metal>  </Resources>
   </Cost>
   <Decay>
@@ -53,11 +53,11 @@
     <Height>4.5</Height>
   </Footprint>
   <Health>
-    <Max>400</Max>
+    <Max>350</Max>
   </Health>
    <Identity>
     <Civ>earth</Civ>
-    <SpecificName>Mangonel</SpecificName>
+    <SpecificName>Onager</SpecificName>
   </Identity>
   <Obstruction>
     <Unit radius="6.0"/>

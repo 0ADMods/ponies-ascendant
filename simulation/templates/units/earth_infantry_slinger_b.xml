@@ -87,7 +87,13 @@
 
   </Cost>
 
-  <Health>
+
+ <Footprint>
+    <Circle radius="2.5"/>
+    <Height>6.0</Height>
+  </Footprint>
+
+ <Health>
 
     <Max>100</Max>
 

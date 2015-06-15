@@ -19,6 +19,12 @@
 		structures/{civ}_wallset_wood
 		</Entities>
 	</Builder>
+
+ <Footprint>
+    <Circle radius="3.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+
 	<Identity>
 		<Civ>earth</Civ>
 		<SpecificName>Advisor Wisebiscuit</SpecificName>

@@ -5,7 +5,6 @@
     <variant frequency="100" name="windmill">
       <mesh>structural/uni_farmstead.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/field_temperate_5x5.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/farmstead_mud.xml" attachpoint="root"/>
         <prop actor="props/flora/farming_wheat_harvest_b.xml" attachpoint="bush_1" maxheight="20" minheight="-20"/>
         <prop actor="props/flora/farming_wheat_harvest_b.xml" attachpoint="bush_2" maxheight="20" minheight="-20"/>
@@ -14,12 +13,13 @@
         <prop actor="props/flora/farming_wheat_harvest_b.xml" attachpoint="bush_4" maxheight="20" minheight="-20"/>
         <prop actor="props/flora/farming_wheat_harvest_b.xml" attachpoint="bush_5" maxheight="20" minheight="-20"/>
         <prop actor="props/flora/farming_wheat_harvest_b.xml" attachpoint="bush_6" maxheight="20" minheight="-20"/>
-        <prop actor="props/structures/earth_ponies/farmstead_mill.xml" attachpoint="root"/>
+        <prop actor="props/structures/unicorns/farmstead_mill.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/uni_struct.png" name="baseTex"/>
-        <texture file="structural/uni_struct.png" name="normTex"/>
-        <texture file="structural/uni_struct.png" name="specTex"/>
+        <texture file="structural/ao/uni_farmstead_AO.png" name="aoTex"/>
+        <texture file="structural/uni_struct_norm.png" name="normTex"/>
+        <texture file="structural/uni_struct_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -36,5 +36,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

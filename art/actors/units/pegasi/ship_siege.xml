@@ -20,6 +20,8 @@
       </props>
       <textures>
         <texture file="structural/pega_ship.png" name="baseTex"/>
+        <texture file="structural/pega_ship_norm.png" name="normTex"/>
+        <texture file="structural/pega_ship_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -32,5 +34,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>

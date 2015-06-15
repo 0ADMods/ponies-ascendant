@@ -32,6 +32,12 @@
       <wood>50</wood>
  <food>125</food> <metal>220</metal> </Resources>
   </Cost>
+
+ <Footprint>
+    <Circle radius="3.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+
   
 <Health>
     <Max>500</Max>

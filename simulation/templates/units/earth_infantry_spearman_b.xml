@@ -44,7 +44,14 @@
       <wood>30</wood>
  <food>75</food> <metal>5</metal> </Resources>
   </Cost>
-  <Identity>
+
+ 
+ <Footprint>
+    <Circle radius="2.0"/>
+    <Height>3.0</Height>
+  </Footprint>
+
+ <Identity>
     <Classes datatype="tokens">Soldier</Classes>
     <Civ>earth</Civ>
 	<SelectionGroupName>units/earth_infantry_spearman_b</SelectionGroupName>

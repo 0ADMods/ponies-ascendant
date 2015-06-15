@@ -27,7 +27,7 @@
       </animations>
       <mesh>skeletal/pony_pegasus.dae</mesh>
       <props>
-        <prop actor="props/units/weapons/jav_projectile.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/jav_pega_projectile.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="shield"/>
         <prop actor="props/units/shields/pelta_pegasus_b.xml" attachpoint="shield"/>
       </props>
@@ -168,5 +168,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_parallax.xml</material>
+  <material>player_trans.xml</material>
 </actor>

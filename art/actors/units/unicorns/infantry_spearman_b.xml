@@ -11,9 +11,9 @@
         <animation file="other/unicorn_walk.dae" name="syntagma_med_walk" speed="8"/>
         <animation file="other/unicorn_walk.dae" name="syntagma_back_walk" speed="8"/>
         <animation file="other/unicorn_gallop.dae" name="Run" speed="10"/>
-        <animation event="0.5" file="other/unicorn_b_spearing.dae" name="attack_melee" speed="250"/>
-        <animation event="0.5" file="other/unicorn_b_spearing_2.dae" name="attack_melee" speed="250"/>
-        <animation event="0.5" file="other/unicorn_b_spearing_3.dae" name="attack_melee" speed="250"/>
+        <animation event="0.2" file="other/unicorn_b_spearing.dae" name="attack_melee" speed="250"/>
+        <animation event="0.2" file="other/unicorn_b_spearing_2.dae" name="attack_melee" speed="250"/>
+        <animation event="0.2" file="other/unicorn_b_spearing_3.dae" name="attack_melee" speed="250"/>
         <animation event="0.5" file="other/unicorn_lumbering.dae" name="attack_slaughter" speed="250"/>
         <animation file="other/unicorn_walk.dae" name="carry_food" speed="8"/>
         <animation file="other/unicorn_walk.dae" name="carry_meat" speed="8"/>
@@ -38,12 +38,17 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="10"/>
+    <variant frequency="1" name="10">
+      <textures>
+        <texture file="skeletal/uni_spearman_norm.png" name="normTex"/>
+        <texture file="skeletal/uni_spearman_spec.png" name="specTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
     <variant frequency="1" name="2">
       <textures>
-        <texture file="skeletal/uni_spearman_e_a.png" name="baseTex"/>
+        <texture file="skeletal/uni_spearman_e_b.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="0" name="3">
@@ -172,5 +177,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>

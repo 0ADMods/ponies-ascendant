@@ -63,7 +63,7 @@
   <Loot>
     <xp>100</xp>
     <food>0</food>
-    <wood>8</wood>
+    <wood>100</wood>
     <stone>0</stone>
     <metal>0</metal>
   </Loot>
@@ -91,7 +91,7 @@
     <HeightOffset>18.0</HeightOffset>
   </StatusBars>
   <TerritoryDecay>
-    <HealthDecayRate>2</HealthDecayRate>
+    <HealthDecayRate>1</HealthDecayRate>
   </TerritoryDecay>
   <Vision>
     <Range>80</Range>

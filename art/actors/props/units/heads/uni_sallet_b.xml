@@ -10,9 +10,10 @@
     <variant frequency="1" name="leather">
       <textures>
         <texture file="props/helmet/kettle_helm.png" name="baseTex"/>
-        <texture file="props/helmet/mace-g-silver_spec.png" name="specTex"/>
+        <texture file="props/helmet/kettle_helm_norm.png" name="normTex"/>
+        <texture file="props/helmet/kettle_helm_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
-  <material>basic_trans.xml</material>
+  <material>basic_trans_parallax_spec.xml</material>
 </actor>

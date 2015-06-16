@@ -77,7 +77,7 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/uni_mechanical_siege_onager_unpacked
-      units/uni_mechanical_siege_trebuchet_packed
+   units/uni_mechanical_siege_ram   units/uni_mechanical_siege_trebuchet_packed
       units/uni_hero_wisebiscuit
       units/uni_champion_infantry
       units/uni_infantry_spearman_e

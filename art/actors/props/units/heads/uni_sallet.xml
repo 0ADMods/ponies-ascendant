@@ -8,8 +8,11 @@
   </group>
   <group>
     <variant frequency="1" name="leather">
+      <props>
+        <prop actor="props/units/heads/plume.xml" attachpoint="feather_3"/>
+      </props>
       <textures>
-        <texture file="props/helmet/mace-g-silver.dds" name="baseTex"/>
+        <texture file="skeletal/uni_cavalier.png" name="baseTex"/>
         <texture file="props/helmet/mace-g-silver_spec.png" name="specTex"/>
       </textures>
     </variant>

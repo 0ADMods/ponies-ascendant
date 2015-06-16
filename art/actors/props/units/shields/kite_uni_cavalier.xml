@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>props/shield/shield_heater_pony.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="shield-E">
+      <textures>
+        <texture file="skeletal/uni_cavalier.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="shieldkr">
+      <textures>
+        <texture file="skeletal/uni_cavalier_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

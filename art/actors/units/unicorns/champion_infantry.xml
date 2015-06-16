@@ -34,15 +34,26 @@
   <group>
     <variant frequency="1" name="10">
       <props>
-        <prop actor="props/units/shields/earth_heater_pony.xml" attachpoint="shield"/>
-        <prop actor="props/units/heads/pony_helm_b.xml" attachpoint="hat"/>
+        <prop actor="props/units/shields/kite_uni_cavalier.xml" attachpoint="shield"/>
+        <prop actor="props/units/heads/uni_armet.xml" attachpoint="hat"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="11">
+      <props>
+        <prop actor="props/units/shields/kite_uni_cavalier.xml" attachpoint="shield"/>
+        <prop actor="props/units/heads/uni_sallet.xml" attachpoint="hat"/>
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="2">
       <textures>
-        <texture file="skeletal/pony_knight_a.png" name="baseTex"/>
+        <texture file="skeletal/uni_cavalier.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="3">
+      <textures>
+        <texture file="skeletal/uni_cavalier_b.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -125,5 +136,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_spec_helmet.xml</material>
+  <material>player_trans.xml</material>
 </actor>

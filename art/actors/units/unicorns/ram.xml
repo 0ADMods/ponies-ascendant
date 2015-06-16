@@ -2,22 +2,22 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="mangonel">
+    <variant frequency="100" name="ram">
       <animations>
-        <animation event=".68" file="mechanical/mangonel.dae" load=".50" name="attack_ranged" speed="50"/>
-        <animation file="mechanical/mangonel_idle.dae" name="idle" speed="2"/>
-        <animation file="mechanical/mangonel_death.dae" name="death" speed="45"/>
-        <animation file="mechanical/mangonel_walk.dae" name="walk" speed="7"/>
+        <animation event=".4" file="mechanical/uni_ram_attack.dae" load=".50" name="attack_melee" speed="50"/>
+        <animation file="mechanical/uni_ram_idle.dae" name="idle" speed="2"/>
+        <animation file="mechanical/uni_ram_death.dae" name="death" speed="45"/>
+        <animation file="mechanical/uni_ram_walk.dae" name="walk" speed="7"/>
       </animations>
-      <mesh>skeletal/mangonel.dae</mesh>
+      <mesh>skeletal/uni_siege_ram.dae</mesh>
       <props>
-        <prop actor="props/units/weapons/rock_flaming.xml" attachpoint="projectile"/>
-        <prop actor="props/units/weapons/rock.xml" attachpoint="loaded-projectile"/>
-        <prop actor="units/earth_ponies/infantry_slinger_a.xml" attachpoint="engineer_1" maxheight="20" minheight="-20"/>
-        <prop actor="units/earth_ponies/infantry_spearman_a.xml" attachpoint="engineer_2" maxheight="20" minheight="-20"/>
+        <prop actor="units/unicorns/infantry_archer_e.xml" attachpoint="engineer_1" maxheight="20" minheight="-20"/>
+        <prop actor="units/unicorns/infantry_archer_e.xml" attachpoint="engineer_2" maxheight="20" minheight="-20"/>
       </props>
       <textures>
-        <texture file="structural/earth_struct.png" name="baseTex"/>
+        <texture file="structural/uni_struct.png" name="baseTex"/>
+        <texture file="structural/uni_struct_norm.png" name="normTex"/>
+        <texture file="structural/uni_struct_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -30,5 +30,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>

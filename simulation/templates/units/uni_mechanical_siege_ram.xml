@@ -16,7 +16,7 @@
       <Hack>0.0</Hack>
       <Pierce>0.0</Pierce>
       <Crush>300.0</Crush>
-      <MaxRange>5.5</MaxRange>
+      <MaxRange>7.5</MaxRange>
       <RepeatTime>4000</RepeatTime>
 	  
       <RestrictedClasses datatype="tokens"> /Organic </RestrictedClasses>
@@ -60,7 +60,7 @@
     <Icon>units/celt_mechanical_siege_ram.png</Icon>
   </Identity>
   <Obstruction>
-    <Unit radius="5.0"/>
+    <Unit radius="4.5"/>
   </Obstruction>
   <VisualActor>
     <Actor>units/unicorns/ram.xml</Actor>

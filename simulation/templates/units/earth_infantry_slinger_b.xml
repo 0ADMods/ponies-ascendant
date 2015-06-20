@@ -44,13 +44,13 @@
 
 		  <Classes>AntiArmor</Classes>
 
-		  <Multiplier>1.5</Multiplier>
+		  <Multiplier>1.25</Multiplier>
 
 		</BonusAntiArmor>
 
 		<BonusSoldier>
 
-		  <Classes>Soldier</Classes>
+		  <Classes>Soldier Skirmisher</Classes>
 
 		  <Multiplier>1.25</Multiplier>
 
@@ -147,6 +147,6 @@
       <order_gather>voice/hellenes/civ/female/civ_female_gather_together.xml</order_gather>
       <order_repair>voice/hellenes/civ/female/civ_female_repair.xml</order_repair>
       <order_garrison>voice/hellenes/civ/female/civ_female_garrison.xml</order_garrison>
-<death>actor/human/death/female_death.xml</death></SoundGroups>
+<death>actor/human/death/female_death.xml</death><attack>attack/weapon/sling.xml</attack></SoundGroups>
   </Sound>
       </Entity>

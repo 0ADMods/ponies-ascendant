@@ -4,7 +4,7 @@
 
     <Hack>0</Hack>
 
-    <Pierce>0</Pierce>
+    <Pierce>1</Pierce>
 
     <Crush>1</Crush>
 
@@ -15,7 +15,7 @@
 
       <Hack>0.0</Hack>
 
-      <Pierce>15.0</Pierce>
+      <Pierce>18.0</Pierce>
 
       <Crush>0.0</Crush>
 
@@ -37,9 +37,9 @@
 
 		<BonusSoldier>
 
-		  <Classes>Soldier</Classes>
+		  <Classes>Skirmisher</Classes>
 
-		  <Multiplier>1.25</Multiplier>
+		  <Multiplier>1.5</Multiplier>
 
 		</BonusSoldier>
 
@@ -55,7 +55,7 @@
 
         <Hack>0.0</Hack>
 
-        <Pierce>15.0</Pierce>
+        <Pierce>12.0</Pierce>
 
         <Crush>0.0</Crush>
 

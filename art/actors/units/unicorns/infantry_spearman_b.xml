@@ -48,37 +48,37 @@
   <group>
     <variant frequency="1" name="2">
       <textures>
+        <texture file="skeletal/uni_spearman_e_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="3">
+      <textures>
         <texture file="skeletal/uni_spearman_e_b.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="3">
+    <variant frequency="1" name="4">
       <textures>
-        <texture file="skeletal/uni_archer_e_b.png" name="baseTex"/>
+        <texture file="skeletal/uni_spearman_e_c.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="4">
+    <variant frequency="1" name="5">
       <textures>
-        <texture file="skeletal/uni_archer_e_c.png" name="baseTex"/>
+        <texture file="skeletal/uni_spearman_e_d.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="5">
+    <variant frequency="1" name="6">
       <textures>
-        <texture file="skeletal/uni_archer_e_d.png" name="baseTex"/>
+        <texture file="skeletal/uni_spearman_e_e.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="6">
+    <variant frequency="1" name="7">
       <textures>
-        <texture file="skeletal/uni_archer_e_e.png" name="baseTex"/>
+        <texture file="skeletal/uni_spearman_e_f.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="7">
+    <variant frequency="1" name="8">
       <textures>
-        <texture file="skeletal/uni_archer_e_f.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="8">
-      <textures>
-        <texture file="skeletal/uni_archer_e_g.png" name="baseTex"/>
+        <texture file="skeletal/uni_spearman_e_g.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="9">

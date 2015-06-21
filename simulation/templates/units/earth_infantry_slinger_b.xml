@@ -16,9 +16,9 @@
 
       <Hack>0.0</Hack>
 
-      <Pierce>10.0</Pierce>
+      <Pierce>9.0</Pierce>
 
-      <Crush>0.0</Crush>
+      <Crush>0.5</Crush>
 
       <MaxRange>80.0</MaxRange>
 
@@ -62,7 +62,7 @@
 
         <Shape>Circular</Shape>
 
-        <Range>1.5</Range>
+        <Range>1.0</Range>
 
         <FriendlyFire>true</FriendlyFire>
 

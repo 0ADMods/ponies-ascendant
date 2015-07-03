@@ -42,6 +42,27 @@
 
   </Attack>
 
+ <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+   -other/wallset_palisade -other/palisade_rocks_fort   structures/{civ}_house
+      structures/{civ}_storehouse
+      structures/{civ}_farmstead
+      structures/{civ}_field
+      structures/{civ}_outpost
+      
+      structures/{civ}_dock
+      structures/{civ}_barracks
+      structures/{civ}_blacksmith
+      structures/{civ}_temple
+      structures/{civ}_market
+      structures/{civ}_defense_tower
+    structures/{civ}_wallset_wood  structures/{civ}_wallset_stone
+      structures/{civ}_civil_centre
+      structures/{civ}_fortress
+	  structures/{civ}_wonder
+    </Entities>
+  </Builder>
   <Cost>
 
  <BuildTime>9</BuildTime>    <Resources>
@@ -58,7 +79,7 @@
     <Classes datatype="tokens">Soldier</Classes>
     <Civ>pega</Civ>
 	<SelectionGroupName>units/pega_infantry_spearman_b</SelectionGroupName>
-    <SpecificName>Hoplite</SpecificName>
+    <SpecificName>Recruit Hoplite</SpecificName>
     <GenericName>Soldier</GenericName>
     <History>The spear was the main weapon of the Celts, arming the bulk of their forces. The average Celt would only have to take up his long spear and body shield to be ready for battle. While armor was rare, the rabid fighting spirit of the Celts more than made up for in vigor what was lost in protection.</History>
     <Icon>units/pega_infantry_spearman.png</Icon>

@@ -1,8 +1,9 @@
 {
 	"name": "ponies_ascendant",
-	"label": " ",
+	"label": "0 A.D. Pony Extension",
+	"version": "0.0.19",
 	"url": "http://github.com/0ADMods/ponies_ascendant",
 	"description": "LordGood's Pony Mod",
-	"dependencies": ["0ad"],
+	"dependencies": ["0ad>=0.0.19"],
 	"type": "content addon"
 }

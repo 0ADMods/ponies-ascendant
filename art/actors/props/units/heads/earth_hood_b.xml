@@ -33,5 +33,5 @@
       </textures>
     </variant>
   </group>
-  <material>basic_trans_spec.xml</material>
+  <material>basic_trans.xml</material>
 </actor>

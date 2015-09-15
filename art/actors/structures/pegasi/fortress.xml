@@ -23,9 +23,9 @@
         <prop actor="props/flora/grass_soft_large_tall.xml" attachpoint="bush_3" maxheight="20" minheight="-20"/>
         <prop actor="props/flora/grass_soft_large_tall.xml" attachpoint="bush_5" maxheight="20" minheight="-20"/>
         <prop actor="props/structures/decals/city_tile_6x6.xml" attachpoint="root" maxheight="20" minheight="-20"/>
-        <prop actor="props/structures/pegasi/fortress_clouds.xml" attachpoint="root" maxheight="" minheight=""/>
-        <prop actor="props/structures/pegasi/fortress_shields.xml" attachpoint="root" maxheight="" minheight=""/>
-        <prop actor="particle/blowing_snow.xml" attachpoint="garrisoned" maxheight="" minheight=""/>
+        <prop actor="props/structures/pegasi/fortress_clouds.xml" attachpoint="root"/>
+        <prop actor="props/structures/pegasi/fortress_shields.xml" attachpoint="root"/>
+        <prop actor="particle/blowing_snow.xml" attachpoint="garrisoned"/>
         <prop actor="props/structures/decals/city_tile_3x3.xml" attachpoint="portal" maxheight="20" minheight="-20"/>
       </props>
       <textures>

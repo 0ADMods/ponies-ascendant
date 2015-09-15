@@ -30,7 +30,7 @@
   </Obstruction>
   <TerritoryInfluence>
     <Radius>17</Radius>
-    <Weight>65536</Weight>
+    <Weight>65535</Weight>
   </TerritoryInfluence>
   <VisualActor>
     <Actor>structures/earth_ponies/house_a.xml</Actor>

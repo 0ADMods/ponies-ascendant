@@ -26,7 +26,6 @@
         <texture file="structural/Pega_struct.png" name="baseTex"/>
         <texture file="structural/Pega_struct_norm.png" name="normTex"/>
         <texture file="structural/Pega_struct_spec.png" name="specTex"/>
-        <texture name=""/>
       </textures>
     </variant>
   </group>

@@ -3,46 +3,36 @@
   <Armour>
     <Hack>14</Hack>
     <Pierce>22</Pierce>
- <Crush>6</Crush> </Armour>
-  <Attack>
-    <Melee>
-      <Hack>25.0</Hack>
-
- 	  <Bonuses>
-
-		<BonusSoldier>
-
-		  <Classes>Soldier Skirmisher</Classes>
-
-		  <Multiplier>3.0</Multiplier>
-
-		</BonusSoldier>
-
-	  </Bonuses>
-
-   </Melee>
-    <Charge>
-      <Hack>35.0</Hack>
-    </Charge>
-  </Attack> 
-<Cost>
-
- <BuildTime>20</BuildTime>
-    <Resources>
-      <wood>50</wood>
- <food>125</food> <metal>220</metal> </Resources>
-  </Cost>
-
- <Footprint>
-    <Circle radius="3.0"/>
-    <Height>6.0</Height>
-  </Footprint>
-
-  
-<Health>
-    <Max>500</Max>
-  </Health>  <Identity>
-  <Classes datatype="tokens">Armor</Classes>  <Civ>earth</Civ>
+    <Crush>6</Crush> </Armour>
+    <Attack>
+      <Melee>
+        <Hack>25.0</Hack>
+        <Bonuses>
+          <BonusSoldier>
+            <Classes>Soldier Skirmisher</Classes>
+            <Multiplier>3.0</Multiplier>
+          </BonusSoldier>
+        </Bonuses>
+      </Melee>
+      <Charge>
+        <Hack>35.0</Hack>
+      </Charge>
+    </Attack>
+    <Cost>
+      <BuildTime>20</BuildTime>
+      <Resources>
+        <wood>50</wood>
+        <food>125</food> <metal>220</metal>
+      </Resources>
+    </Cost>
+    <Footprint>
+      <Circle radius="3.0"/>
+      <Height>6.0</Height>
+    </Footprint>
+    <Health>
+      <Max>500</Max>
+    </Health>  <Identity>
+    <Classes datatype="tokens">Armor</Classes>  <Civ>earth</Civ>
     <GenericName>Armor</GenericName>
     <SpecificName>Knight</SpecificName>
     <History>Two-handed swordsmen from Briton. These men are veteran soldiers who offer their lives in service to their Brythonic lords.</History>
@@ -54,18 +44,18 @@
       <Speed>6.0</Speed>
     </Run>
   </UnitMotion>
- <Sound>
+  <Sound>
     <SoundGroups>
       <attack>attack/impact/shield_metal.xml</attack>
-  <select>voice/hellenes/civ/female/civ_female_select.xml</select>
+      <select>voice/hellenes/civ/female/civ_female_select.xml</select>
       <order_walk>voice/hellenes/civ/female/civ_female_walk.xml</order_walk>
       <order_attack>voice/hellenes/civ/female/civ_female_attack.xml</order_attack>
       <order_build>voice/hellenes/civ/female/civ_female_build.xml</order_build>
       <order_gather>voice/hellenes/civ/female/civ_female_gather_together.xml</order_gather>
       <order_repair>voice/hellenes/civ/female/civ_female_repair.xml</order_repair>
       <order_garrison>voice/hellenes/civ/female/civ_female_garrison.xml</order_garrison>
-<death>actor/human/death/female_death.xml</death> </SoundGroups>
-  </Sound> <VisualActor>
+      <death>actor/human/death/female_death.xml</death> </SoundGroups>
+    </Sound> <VisualActor>
     <Actor>units/earth_ponies/champion_infantry.xml</Actor>
   </VisualActor>
 </Entity>

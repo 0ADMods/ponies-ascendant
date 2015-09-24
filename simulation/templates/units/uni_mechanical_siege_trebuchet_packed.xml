@@ -8,9 +8,6 @@
     <Time>15000</Time>
     <State>packed</State>
   </Pack> 
-	<Obstruction>
-    <Unit radius="4.5"/>
-  </Obstruction>
   <VisualActor>
     <Actor>units/athenians/siege_rock_packed.xml</Actor>
   </VisualActor>

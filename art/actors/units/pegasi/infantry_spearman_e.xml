@@ -38,7 +38,7 @@
         <animation file="other/pegasus_idle_2.dae" name="idle" speed="10"/>
         <animation file="other/pegasus_idle.dae" name="idle" speed="25"/>
         <animation file="other/pegasus_idle.dae" name="idle" speed="25"/>
-        <animation name=""/>
+        
       </animations>
     </variant>
   </group>

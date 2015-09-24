@@ -38,15 +38,13 @@
         <animation file="other/pegasus_idle_2.dae" name="idle" speed="10"/>
         <animation file="other/pegasus_idle_2.dae" name="idle" speed="10"/>
         <animation file="other/pegasus_idle.dae" name="idle" speed="25"/>
-        <animation file="other/pegasus_idle.dae" name="idle" speed="25"/>
-        <animation name=""/>
+        <animation file="other/pegasus_idle.dae" name="idle" speed="25"/>       
       </animations>
     </variant>
     <variant frequency="1" name="14">
       <animations>
         <animation file="other/cataphract_idle.dae" name="idle" speed="15"/>
-        <animation file="other/cataphract_idle.dae" name="idle" speed="20"/>
-        <animation name=""/>
+        <animation file="other/cataphract_idle.dae" name="idle" speed="20"/>       
       </animations>
     </variant>
   </group>

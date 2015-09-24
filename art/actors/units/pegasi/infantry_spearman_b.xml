@@ -23,25 +23,17 @@
         <animation event="0.6" file="other/pegasus_building.dae" name="Build" speed="70"/>
         <animation file="other/pegasus_death.dae" name="Death" speed="50"/>
         <animation event="" file="other/pegasus_hover.dae" load="" name="idle" speed="40"/>
-        <animation file=""/>
-      </animations>
-      <mesh>skeletal/pony_pegasus_b.dae</mesh>
-      <props>
-        <prop actor="props/units/heads/pega_corinth_c.xml" attachpoint="hat"/>
-      </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="13">
-      <animations>
-        <animation file="other/pegasus_idle.dae" name="idle" speed="40"/>
+		<animation file="other/pegasus_idle.dae" name="idle" speed="40"/>
         <animation file="other/pegasus_preening.dae" name="idle" speed="40"/>
         <animation file="other/pegasus_idle_2.dae" name="idle" speed="30"/>
         <animation file="other/pegasus_idle_2.dae" name="idle" speed="30"/>
         <animation file="other/pegasus_idle.dae" name="idle" speed="40"/>
         <animation file="other/pegasus_idle.dae" name="idle" speed="40"/>
-        <animation name=""/>
       </animations>
+      <mesh>skeletal/pony_pegasus_b.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/pega_corinth_c.xml" attachpoint="hat"/>
+      </props>
     </variant>
   </group>
   <group>

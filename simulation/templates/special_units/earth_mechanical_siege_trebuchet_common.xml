@@ -59,9 +59,6 @@
     <Civ>earth</Civ>
     <SpecificName>Trebuchet</SpecificName>
   </Identity>
-  <Obstruction>
-    <Unit radius="10.5"/>
-  </Obstruction>
   <Vision>
     <Range>88</Range>
   </Vision> <Loot>

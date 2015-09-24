@@ -7,9 +7,7 @@
     <Entity>units/earth_mechanical_siege_trebuchet_unpacked</Entity>
     <Time>15000</Time>
     <State>packed</State>
-  </Pack> <Obstruction>
-    <Unit radius="4.5"/>
-  </Obstruction>
+  </Pack>
   <VisualActor>
     <Actor>units/athenians/siege_rock_packed.xml</Actor>
   </VisualActor>

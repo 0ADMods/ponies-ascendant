@@ -6,7 +6,6 @@
       <animations>
         <animation file="mechanical/uni_portcullis_closing.dae" name="gate_closing" speed="12"/>
         <animation file="mechanical/uni_portcullis_opening.dae" name="gate_opening" speed="12"/>
-        <animation name=""/>
       </animations>
       <mesh>structural/uni_portcullis.dae</mesh>
       <textures>

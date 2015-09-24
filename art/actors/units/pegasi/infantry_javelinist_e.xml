@@ -41,8 +41,7 @@
         <animation file="other/pegasus_idle_2.dae" name="idle" speed="20"/>
         <animation file="other/pegasus_idle_2.dae" name="idle" speed="20"/>
         <animation file="other/pegasus_idle.dae" name="idle" speed="30"/>
-        <animation file="other/pegasus_idle.dae" name="idle" speed="30"/>
-        <animation name=""/>
+        <animation file="other/pegasus_idle.dae" name="idle" speed="30"/>   
       </animations>
     </variant>
   </group>

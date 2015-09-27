@@ -1,0 +1,37 @@
+{
+	"Code": "athen",
+	"Culture": "",
+	"Name": "",
+	"Emblem":"",
+	"History": "",
+	"Music": [],
+	"Factions": [],
+	"CivBonuses": [],
+	"TeamBonuses": [],
+	"Structures": [],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/athen_civil_centre"
+		},
+		{
+			"Template": "units/athen_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/athen_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/athen_infantry_slinger_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/athen_cavalry_javelinist_b"
+		}
+	],
+	"Formations": [],
+	"AINames": [],
+	"SkirmishReplacements": {},
+	"SelectableInGameSetup": false
+}

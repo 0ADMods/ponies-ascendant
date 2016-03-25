@@ -20,16 +20,13 @@
       <Crush>0.0</Crush>
       <MaxRange>4.0</MaxRange>
       <RepeatTime>1000</RepeatTime>
- <Bonuses>
-<BonusStructure>
-
-		  <Classes>Structure</Classes>
-
-		  <Multiplier>7.0</Multiplier>
-
-		</BonusStructure>
-
-</Bonuses>
+      <Bonuses>
+        <BonusStructure>
+          <Classes>Structure</Classes>
+          <Multiplier>7.0</Multiplier>
+        </BonusStructure>
+      </Bonuses>
+      <RestrictedClasses datatype="tokens">Infantry Cavalry Champion Structure CitizenSoldier</RestrictedClasses>
     </Melee>
     <Slaughter>
       <Hack>25.0</Hack>
@@ -45,11 +42,18 @@
       structures/{civ}_storehouse
       structures/{civ}_farmstead
       structures/{civ}_field
-      structures/{civ}_corral
       structures/{civ}_dock
       structures/{civ}_temple
       structures/{civ}_market
       structures/{civ}_civil_centre
+      structures/{civ}_outpost
+      structures/{civ}_wallset_wood
+      structures/{civ}_barracks
+      structures/{civ}_blacksmith
+      structures/{civ}_defense_tower
+      structures/{civ}_wallset_stone
+      structures/{civ}_fortress
+      structures/{civ}_wonder
     </Entities>
   </Builder>
   <Cost>
@@ -65,6 +69,8 @@
     <History>Women in the ancient world took on a variety of roles - from leadership (Celts) to servant (Greeks). Women are hard workers, the economic backbone of any civilization. In history, it was typical when all the males (capable of fighting) were killed for the females, children, and elderly to be sold as slaves.</History>
     <Classes datatype="tokens">Worker Female Citizen</Classes>
     <Formations disable=""/>
+    <Gender>female</Gender>
+    <Lang>greek</Lang>
   </Identity>
   <ResourceGatherer>
     <MaxDistance>2.0</MaxDistance>
@@ -83,15 +89,15 @@
   <Sound>
     <SoundGroups>
       <trained>interface/alarm/alarm_create_female.xml</trained>
-      <select>voice/hellenes/civ/female/civ_female_select.xml</select>
-      <order_walk>voice/hellenes/civ/female/civ_female_walk.xml</order_walk>
-      <order_attack>voice/hellenes/civ/female/civ_female_attack.xml</order_attack>
-      <order_build>voice/hellenes/civ/female/civ_female_build.xml</order_build>
-      <order_gather>voice/hellenes/civ/female/civ_female_gather_together.xml</order_gather>
-      <order_repair>voice/hellenes/civ/female/civ_female_repair.xml</order_repair>
-      <order_garrison>voice/hellenes/civ/female/civ_female_garrison.xml</order_garrison>
+      <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
+      <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
+      <order_attack>voice/{lang}/civ/civ_{gender}_attack.xml</order_attack>
+      <order_build>voice/{lang}/civ/civ_{gender}_build.xml</order_build>
+      <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
+      <order_repair>voice/{lang}/civ/civ_{gender}_repair.xml</order_repair>
+      <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
       <attack>attack/weapon/sword.xml</attack>
-      <death>actor/human/death/female_death.xml</death>
+      <death>actor/human/death/{gender}_death.xml</death>
       <build>resource/construction/con_wood.xml</build>
       <gather_fruit>resource/foraging/forage_leaves.xml</gather_fruit>
       <gather_grain>resource/farming/farm.xml</gather_grain>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_cavalry_javelinist">
+<Entity parent="template_unit_hero_cavalry">
   <Armour>
     <Hack>5</Hack>
     <Pierce>7</Pierce>
@@ -40,18 +40,15 @@
     <Circle radius="3.0"/>
     <Height>3.0</Height>
   </Footprint>
-  <Health>
-    <Max>1500</Max>
-  </Health>
   <Identity>
-    <Classes datatype="tokens">Hero Bow Archer -Javelin</Classes>
+    <Classes datatype="tokens">Bow</Classes>
     <GenericName>Hero Cavalry Archer</GenericName>
     <Tooltip>Hero Aura: n/a.
 Ranged attack 2x vs. spearmen. Ranged attack 1.5x vs. Swordsmen.</Tooltip>
-    <RequiredTechnology>phase_city</RequiredTechnology>
     <Formations datatype="tokens">
       formations/skirmish
     </Formations>
+    <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
   <Loot>
     <xp>450</xp>
@@ -60,21 +57,6 @@ Ranged attack 2x vs. spearmen. Ranged attack 1.5x vs. Swordsmen.</Tooltip>
     <stone>0</stone>
     <metal>0</metal>
   </Loot>
-  <Minimap>
-    <Type>hero</Type>
-  </Minimap>
-  <Selectable>
-    <Overlay>
-      <AlwaysVisible/>
-      <Texture>
-        <MainTexture>star/256x256.png</MainTexture>
-        <MainTextureMask>star/256x256_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
-  <TrainingRestrictions>
-    <Category>Hero</Category>
-  </TrainingRestrictions>
   <UnitMotion>
     <WalkSpeed>14.0</WalkSpeed>
     <Run>
@@ -82,7 +64,8 @@ Ranged attack 2x vs. spearmen. Ranged attack 1.5x vs. Swordsmen.</Tooltip>
       <Range>1000.0</Range>
       <RangeMin>16.0</RangeMin>
     </Run>
-  </UnitMotion><Sound>
+  </UnitMotion>
+  <Sound>
     <SoundGroups>
       <attack>attack/weapon/bow.xml</attack>
     </SoundGroups>

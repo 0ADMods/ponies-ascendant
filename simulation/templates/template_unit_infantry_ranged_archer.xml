@@ -49,7 +49,6 @@ Countered by: Cavalry Swordsmen, Cavalry Skirmishers.</Tooltip>
       <attack>attack/weapon/bow.xml</attack>
     </SoundGroups>
   </Sound>
-
   <UnitMotion>
     <WalkSpeed>8.5</WalkSpeed>
     <Run>

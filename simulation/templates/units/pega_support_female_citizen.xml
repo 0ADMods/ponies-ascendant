@@ -5,26 +5,9 @@
       <Hack>9.0</Hack>
     </Melee>
   </Attack>
-<Builder>
-    <Rate>1.0</Rate>
+  <Builder>
     <Entities datatype="tokens">
-      structures/{civ}_house
-      structures/{civ}_storehouse
-      structures/{civ}_farmstead
-      structures/{civ}_field
-      structures/{civ}_corral
-      structures/{civ}_outpost
-      other/wallset_palisade
-      structures/{civ}_dock
-      structures/{civ}_barracks
-      structures/{civ}_blacksmith
-      structures/{civ}_temple
-      structures/{civ}_market
-      structures/{civ}_defense_tower
-      structures/{civ}_wallset_stone
-      structures/{civ}_civil_centre
-      structures/{civ}_fortress
-	  structures/{civ}_wonder
+      -structures/{civ}_wallset_wood
     </Entities>
   </Builder>
   <Health>

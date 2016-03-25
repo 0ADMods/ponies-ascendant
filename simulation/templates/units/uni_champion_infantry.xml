@@ -3,50 +3,45 @@
   <Armour>
     <Hack>17</Hack>
     <Pierce>25</Pierce>
- <Crush>6</Crush> </Armour>
+    <Crush>6</Crush>
+  </Armour>
   <Attack>
     <Melee>
       <Hack>17.0</Hack>
-
- 	  <Bonuses>
-
-		<BonusSoldier>
-
-		  <Classes>Soldier Skirmisher</Classes>
-
-		  <Multiplier>3.0</Multiplier>
-
-		</BonusSoldier>
-
-	  </Bonuses>
-
-   </Melee>
+      <Bonuses>
+        <BonusSoldier>
+          <Classes>Soldier Skirmisher</Classes>
+          <Multiplier>3.0</Multiplier>
+        </BonusSoldier>
+      </Bonuses>
+    </Melee>
     <Charge>
       <Hack>35.0</Hack>
     </Charge>
   </Attack> 
-<Cost>
-
- <BuildTime>20</BuildTime>
+  <Cost>
+    <BuildTime>20</BuildTime>
     <Resources>
       <wood>50</wood>
- <food>125</food> <metal>250</metal> </Resources>
+      <food>125</food>
+      <metal>250</metal>
+    </Resources>
   </Cost>
- 
- <Footprint>
+  <Footprint>
     <Circle radius="3.0"/>
     <Height>6.0</Height>
   </Footprint>
-
- 
-<Health>
+  <Health>
     <Max>450</Max>
-  </Health>  <Identity>
-  <Classes datatype="tokens">Armor</Classes>  <Civ>uni</Civ>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Armor</Classes>
+    <Civ>uni</Civ>
     <GenericName>Armor</GenericName>
     <SpecificName>Cavalier</SpecificName>
     <History>Two-handed swordsmen from Briton. These men are veteran soldiers who offer their lives in service to their Brythonic lords.</History>
     <Icon>units/earth_champion_infantry.png</Icon>
+    <Gender>female</Gender>
   </Identity>
   <UnitMotion>
     <WalkSpeed>5.0</WalkSpeed>
@@ -54,18 +49,21 @@
       <Speed>7.0</Speed>
     </Run>
   </UnitMotion>
- <Sound>
+  <Sound>
     <SoundGroups>
       <attack>attack/impact/shield_metal.xml</attack>
-  <select>voice/hellenes/civ/female/civ_female_select.xml</select>
-      <order_walk>voice/hellenes/civ/female/civ_female_walk.xml</order_walk>
-      <order_attack>voice/hellenes/civ/female/civ_female_attack.xml</order_attack>
-      <order_build>voice/hellenes/civ/female/civ_female_build.xml</order_build>
-      <order_gather>voice/hellenes/civ/female/civ_female_gather_together.xml</order_gather>
-      <order_repair>voice/hellenes/civ/female/civ_female_repair.xml</order_repair>
-      <order_garrison>voice/hellenes/civ/female/civ_female_garrison.xml</order_garrison>
-<death>actor/human/death/female_death.xml</death> </SoundGroups>
-  </Sound> <VisualActor>
+      <trained>interface/alarm/alarm_create_female.xml</trained>
+      <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
+      <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
+      <order_attack>voice/{lang}/civ/civ_{gender}_attack.xml</order_attack>
+      <order_build>voice/{lang}/civ/civ_{gender}_build.xml</order_build>
+      <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
+      <order_repair>voice/{lang}/civ/civ_{gender}_repair.xml</order_repair>
+      <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
+      <death>actor/human/death/{gender}_death.xml</death>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
     <Actor>units/unicorns/champion_infantry.xml</Actor>
   </VisualActor>
 </Entity>

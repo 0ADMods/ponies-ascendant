@@ -3,7 +3,9 @@
  <Armour>
     <Hack>40</Hack>
     <Pierce>100</Pierce>
- <Crush>5</Crush> </Armour>   <Attack>
+    <Crush>5</Crush>
+  </Armour>
+  <Attack>
     <Ranged>
       <Hack>0.0</Hack>
       <Pierce>16.0</Pierce>
@@ -17,31 +19,30 @@
       <Spread>1.5</Spread>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <Bonuses>
-          <BonusShip>
-              <Classes>Ship</Classes>
-              <Multiplier>3.5</Multiplier>
-          </BonusShip>
-          <NerfSiege>
-              <Classes>Siege</Classes>
-              <Multiplier>0.5</Multiplier>
-          </NerfSiege>
+        <BonusShip>
+          <Classes>Ship</Classes>
+          <Multiplier>3.5</Multiplier>
+        </BonusShip>
+        <NerfSiege>
+          <Classes>Siege</Classes>
+          <Multiplier>0.5</Multiplier>
+        </NerfSiege>
       </Bonuses>
     </Ranged>
   </Attack>
- <Cost>
-
- <BuildTime>60</BuildTime>    <Resources>
-
-      <stone>100</stone> <wood>100</wood> <food>60</food>
+  <Cost>
+    <BuildTime>60</BuildTime>
+    <Resources>
+      <stone>100</stone>
+      <wood>100</wood>
+      <food>60</food>
     </Resources>
-
   </Cost>
-
-<Footprint>
+  <Footprint>
     <Square width="10.0" depth="10.0"/>
     <Height>20.0</Height>
   </Footprint>
- <Identity>
+  <Identity>
     <Civ>uni</Civ>
     <SpecificName>Bastion</SpecificName>
     <History>The Romans called this wall 'Murus Gallicus'. Translated, it means 'Gaulish wall'. It was extremely resistant to assault by battering ram. Julius Caesar described a type of wood and stone wall, known as a Murus Gallicus, in his account of the Gallic Wars. These walls were made of a stone wall filled with rubble, with wooden logs inside for stability. Caesar noted how the flexibility of the wood added to the strength of the fort in case of battering ram attack.</History>

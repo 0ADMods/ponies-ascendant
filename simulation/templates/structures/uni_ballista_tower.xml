@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Entity parent="template_structure_defense_defense_tower">
- 
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
@@ -16,26 +15,27 @@
       <Spread>1.2</Spread>
       <PreferredClasses datatype="tokens"> Mechanical Armor Organic </PreferredClasses>
       <Bonuses>
-          <BonusShip>
-              <Classes>Ship Siege</Classes>
-              <Multiplier>3.0</Multiplier>
-          </BonusShip>
-          
+        <BonusShip>
+          <Classes>Ship Siege</Classes>
+          <Multiplier>3.0</Multiplier>
+        </BonusShip>
       </Bonuses>
-  <Splash>
+      <Splash>
         <Shape>Linear</Shape>
         <Range>7</Range>
         <FriendlyFire>true</FriendlyFire>
         <Hack>0.0</Hack>
         <Pierce>50.0</Pierce>
         <Crush>40.0</Crush>
-      </Splash>  </Ranged>
+      </Splash>
+    </Ranged>
   </Attack>
- <BuildingAI>
+  <BuildingAI>
     <DefaultArrowCount>1</DefaultArrowCount>
     <GarrisonArrowMultiplier>0.1</GarrisonArrowMultiplier>
-	<GarrisonArrowClasses>Infantry Ranged</GarrisonArrowClasses>
-  </BuildingAI> <BuildRestrictions>
+    <GarrisonArrowClasses>Infantry Ranged</GarrisonArrowClasses>
+  </BuildingAI>
+  <BuildRestrictions>
     <Category>DefenseTower</Category>
     <Distance>
       <FromClass>DefenseTower</FromClass>
@@ -45,7 +45,8 @@
   <Cost>
     <BuildTime>500</BuildTime>
     <Resources>
-   <metal>150</metal>   <wood>350</wood>
+      <metal>150</metal>
+      <wood>350</wood>
       <stone>300</stone>
     </Resources>
   </Cost>
@@ -53,32 +54,29 @@
     <Circle radius="8.0"/>
     <Height>12.0</Height>
   </Footprint>
-<GarrisonHolder>
+  <GarrisonHolder>
     <Max>4</Max>
   </GarrisonHolder>
   <Health>
     <Max>4000</Max>
     <SpawnEntityOnDeath>rubble/rubble_earth_defense_tower</SpawnEntityOnDeath>
-  </Health>  <Identity>
+  </Health>
+  <Identity>
     <Civ>uni</Civ>
-
     <GenericName>Artillery Tower</GenericName>
-
     <History>Earth ponies would often perch upon a high tower to give themselves an advantage over attacking unicorns. Pegasi, however, outranged them all the same.</History> <Icon>structures/earth_scout_tower.png</Icon>
- <Tooltip>Long range counter-siege tower. Deals high damage to a single target over a long range, however it is very slow to fire and will damage friendly units should they get in the way.</Tooltip> <RequiredTechnology>phase_city</RequiredTechnology> </Identity> 
-<Sound>
+    <Tooltip>Long range counter-siege tower. Deals high damage to a single target over a long range, however it is very slow to fire and will damage friendly units should they get in the way.</Tooltip>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity> 
+  <Sound>
     <SoundGroups>
-   <attack>attack/siege/ram_attack_order.xml</attack>
+      <attack>attack/siege/ram_attack_order.xml</attack>
     </SoundGroups>
-  </Sound>  <Obstruction>
-
+  </Sound>
+  <Obstruction>
     <Static width="12.0" depth="12.0"/>
-    </Obstruction>
-
+  </Obstruction>
   <VisualActor>
-
     <Actor>structures/unicorns/ballista_tower.xml</Actor>
-
   </VisualActor>
-
 </Entity>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
   <Cost>
-<BuildTime>300</BuildTime>
+    <BuildTime>300</BuildTime>
     <Resources>
       <wood>300</wood>
       <stone>200</stone>
-  <metal>50</metal>  </Resources>
- 
+      <metal>50</metal>
+    </Resources>
     <PopulationBonus>5</PopulationBonus>
   </Cost>
   <Footprint>
@@ -27,9 +27,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/earth_infantry_spearman_a
-      units/earth_infantry_slinger_a
-      units/earth_champion_maceman
+      units/{civ}_champion_maceman
     </Entities>
   </ProductionQueue>
   <VisualActor>

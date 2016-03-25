@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
   <Cost>
-<BuildTime>300</BuildTime>
+    <BuildTime>300</BuildTime>
     <Resources>
       <wood>220</wood>
       <stone>250</stone>
-  <metal>70</metal>  </Resources>
- 
+      <metal>70</metal>
+    </Resources>
     <PopulationBonus>5</PopulationBonus>
   </Cost>
   <Footprint>
@@ -20,16 +20,16 @@
   <Identity>
     <Civ>uni</Civ>
     <SpecificName>Martial Academy</SpecificName>
-	<History>All able-bodied male Celts were expected to heed their liege lord's call to battle when need arose.</History> <Icon>structures/earth_barracks.png</Icon>
+    <History>All able-bodied male Celts were expected to heed their liege lord's call to battle when need arose.</History> <Icon>structures/earth_barracks.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="28.0" depth="28.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/uni_infantry_spearman_a
-      units/uni_infantry_archer_a
-      units/uni_champion_halberdier
+      units/{civ}_infantry_spearman_a
+      units/{civ}_infantry_archer_a
+      units/{civ}_champion_halberdier
     </Entities>
   </ProductionQueue>
   <VisualActor>

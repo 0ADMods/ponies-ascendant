@@ -13,8 +13,8 @@
     <Square width="24.0" depth="36.0"/>
     <Height>8.0</Height>
   </Footprint>
-<Health>
-<Max>5000</Max>
+  <Health>
+    <Max>5000</Max>
     <SpawnEntityOnDeath>rubble/rubble_celt_dock</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -27,9 +27,8 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/uni_ship_trireme
-      units/uni_ship_ram
-      units/uni_ship_siege
+      units/{civ}_ship_ram
+      units/{civ}_ship_siege
     </Entities>
   </ProductionQueue>
   <VisualActor>

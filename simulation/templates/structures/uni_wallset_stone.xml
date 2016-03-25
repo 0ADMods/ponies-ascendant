@@ -9,7 +9,7 @@
     <Templates>
       <Tower>structures/uni_wall_tower</Tower>
       <WallLong>structures/uni_wall_long</WallLong>
-          <Gate>structures/uni_wall_gate</Gate>
+      <Gate>structures/uni_wall_gate</Gate>
       <WallMedium>structures/uni_wall_medium</WallMedium>
       <WallShort>structures/uni_wall_short</WallShort>
     </Templates>

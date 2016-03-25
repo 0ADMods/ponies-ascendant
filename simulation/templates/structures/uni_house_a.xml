@@ -8,9 +8,9 @@
       <stone>25</stone>
     </Resources>
   </Cost>
-
-<GarrisonHolder>
-<Max>6</Max></GarrisonHolder>
+  <GarrisonHolder>
+    <Max>6</Max>
+  </GarrisonHolder>
   <Footprint replace="">
     <Circle radius="8.0"/>
     <Height>5.0</Height>
@@ -24,7 +24,6 @@
     <Max>4200</Max>
     <SpawnEntityOnDeath>rubble/rubble_celt_cc</SpawnEntityOnDeath>
   </Health>
-
   <Obstruction>
     <Static width="10.0" depth="10.0"/>
   </Obstruction>

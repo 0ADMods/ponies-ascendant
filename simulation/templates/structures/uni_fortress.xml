@@ -28,7 +28,7 @@
     <DefaultArrowCount>8</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
   </BuildingAI>
-  <Cost> 
+  <Cost>
     <BuildTime>2000</BuildTime>
     <Resources>
       <food>450</food>
@@ -60,9 +60,9 @@
       <select>interface/select/building/sel_broch.xml</select>
       <constructed>interface/complete/building/complete_broch.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
-	  <alert0>interface/alarm/alarm_alert_0.xml</alert0>
-	  <alert1>interface/alarm/alarm_alert_1.xml</alert1>
-	  <alert2>interface/alarm/alarm_alert_2.xml</alert2>
+      <alert0>interface/alarm/alarm_alert_0.xml</alert0>
+      <alert1>interface/alarm/alarm_alert_1.xml</alert1>
+      <alert2>interface/alarm/alarm_alert_2.xml</alert2>
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>
@@ -76,12 +76,12 @@
   </AlertRaiser>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/uni_mechanical_siege_onager_unpacked
-   units/uni_mechanical_siege_ram   units/uni_mechanical_siege_trebuchet_packed
-      units/uni_hero_wisebiscuit
-      units/uni_champion_infantry
-      units/uni_infantry_spearman_e
-      units/uni_infantry_archer_e
+      units/{civ}_mechanical_siege_onager_unpacked
+      units/{civ}_mechanical_siege_trebuchet_packed
+      units/{civ}_hero_wisebiscuit
+      units/{civ}_champion_infantry
+      units/{civ}_infantry_spearman_e
+      units/{civ}_infantry_archer_e
     </Entities>
     <Technologies datatype="tokens">
       pair_siege_attack_cost

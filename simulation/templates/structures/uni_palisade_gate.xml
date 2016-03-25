@@ -3,11 +3,13 @@
  <Armour>
     <Hack>10</Hack>
     <Pierce>27</Pierce>
- <Crush>5</Crush> </Armour> <Cost>
+    <Crush>5</Crush>
+  </Armour>
+  <Cost>
     <BuildTime>30</BuildTime>
     <Resources>
       <wood>150</wood>
-     </Resources>
+    </Resources>
   </Cost>
   <Footprint>
     <Square width="38.5" depth="9.0"/>

@@ -18,11 +18,9 @@
     <Civ>uni</Civ>
     <SpecificName>Storehouse</SpecificName>
     <History>In southern parts of the country, most of the wildwood had been cleared and given way to farming or coppice management. In northern parts, or where the ground was particularly unsuitable for agriculture, wildwood remained, but under constant threat. Land around the farmsteads was usually enclosed by hazel fencing or hedging.</History>
- <Icon>structures/earth_storehouse.png</Icon> </Identity>
- 
+    <Icon>structures/earth_storehouse.png</Icon>
+  </Identity>
   <VisualActor>
-  
-	<Actor>structures/unicorns/storehouse.xml</Actor>
+    <Actor>structures/unicorns/storehouse.xml</Actor>
   </VisualActor>
- 
 </Entity>

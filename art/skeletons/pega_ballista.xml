@@ -1,39 +1,29 @@
 <skeletons>
-   <standard_skeleton title="ballista" id="ballista">
+   <standard_skeleton title="pega_ballista" id="pega_ballista">
     <bone name="ground">
       <bone name="pivot">
          <bone name="stock">
-            <bone name="sling">
-            </bone>
-            <bone name="axle">
-            </bone>
-            <bone name="bow_left">
-            </bone>
-            <bone name="bow_right">
-            </bone>
-            <bone name="crank">
-            </bone>
+            <bone name="sling"></bone>
+            <bone name="axle"></bone>
+            <bone name="bow_left"></bone>
+            <bone name="bow_right"></bone>
+            <bone name="crank"></bone>
          </bone>
       </bone>
     </bone>
-</standard_skeleton>
-  <skeleton title="ballista" target="ballista">
+  </standard_skeleton>
+  <skeleton title="pega_ballista" target="pega_ballista">
     <identifier>
-      <root>ballista</root>
+      <root>pega_ballista</root>
     </identifier>
     <bone name="ground"><target>ground</target>
       <bone name="pivot"><target>pivot</target>
          <bone name="stock"><target>stock</target>
-            <bone name="sling"><target>sling</target>
-            </bone>
-            <bone name="axle"><target>axle</target>
-            </bone>
-            <bone name="bow_left"><target>bow_left</target>
-            </bone>
-            <bone name="bow_right"><target>bow_right</target>
-            </bone>
-            <bone name="crank"><target>crank</target>
-            </bone>
+            <bone name="sling"><target>sling</target></bone>
+            <bone name="axle"><target>axle</target></bone>
+            <bone name="bow_left"><target>bow_left</target></bone>
+            <bone name="bow_right"><target>bow_right</target></bone>
+            <bone name="crank"><target>crank</target></bone>
          </bone>
       </bone>
     </bone>

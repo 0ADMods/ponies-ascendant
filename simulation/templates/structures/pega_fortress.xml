@@ -69,10 +69,10 @@
   </TerritoryInfluence>
   <ProductionQueue>
     <Entities datatype="tokens">
-     units/pega_mechanical_siege_ballista_bolt
-     units/pega_champion_infantry
-     units/pega_infantry_spearman_e
-     units/pega_infantry_javelinist_e
+      units/{civ}_mechanical_siege_ballista_bolt
+      units/{civ}_champion_infantry
+      units/{civ}_infantry_spearman_e
+      units/{civ}_infantry_javelinist_e
     </Entities>
     <Technologies datatype="tokens">
       pair_siege_attack_cost

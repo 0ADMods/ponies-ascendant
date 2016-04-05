@@ -3,20 +3,20 @@
   <Armour>
     <Hack>10</Hack>
     <Pierce>27</Pierce>
- <Crush>7</Crush> </Armour>
-   <BuildRestrictions>
+    <Crush>7</Crush> 
+  </Armour>
+  <BuildRestrictions>
     <Territory>own neutral</Territory>
-  </BuildRestrictions>  <Cost>
-
- <BuildTime>60</BuildTime>    <Resources>
-
-      <stone>0</stone> <wood>150</wood> <food>0</food>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>60</BuildTime>
+    <Resources>
+      <stone>0</stone>
+      <wood>150</wood>
+      <food>0</food>
     </Resources>
-
   </Cost>
-
-
-   <Footprint>
+  <Footprint>
     <Square width="38.5" depth="8.5"/>
     <Height>9.0</Height>
   </Footprint>
@@ -25,11 +25,11 @@
   </Health>
   <Identity>
     <Civ>earth</Civ>
-  <SpecificName>Palisade</SpecificName>
-
-  <SelectionGroupName>structures/earth_wallset_wood</SelectionGroupName>
+    <SpecificName>Palisade</SpecificName>
+    <SelectionGroupName>structures/earth_wallset_wood</SelectionGroupName>
     <History>The Romans called this wall 'Murus Gallicus'. Translated, it means 'Gaulish wall'. It was extremely resistant to assault by battering ram. Julius Caesar described a type of wood and stone wall, known as a Murus Gallicus, in his account of the Gallic Wars. These walls were made of a stone wall filled with rubble, with wooden logs inside for stability. Caesar noted how the flexibility of the wood added to the strength of the fort in case of battering ram attack.</History>
- <RequiredTechnology>phase_village</RequiredTechnology> </Identity>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+  </Identity>
   <Obstruction>
     <Static width="37.0" depth="7.0"/>
   </Obstruction>

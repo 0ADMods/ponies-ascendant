@@ -7,85 +7,55 @@
     <Max>170 </Max>
   </Health>
   <Attack>
-
     <Melee>
-
       <Hack>6.0</Hack>
-
       <Pierce>0.0</Pierce>
-
-	<MaxRange>11.0</MaxRange>
-  <Bonuses>
-
-		<BonusAntiArmor>
-
-		  <Classes>AntiArmor</Classes>
-
-		  <Multiplier>1.5</Multiplier>
-
-		</BonusAntiArmor>
-
- <BonusSkirmisher>
-
-		  <Classes>Skirmisher</Classes>
-
-		  <Multiplier>2.0</Multiplier>
-
-		</BonusSkirmisher>	  </Bonuses>
-
+      <MaxRange>11.0</MaxRange>
+      <Bonuses>
+        <BonusAntiArmor>
+          <Classes>AntiArmor</Classes>
+          <Multiplier>1.5</Multiplier>
+        </BonusAntiArmor>
+        <BonusSkirmisher>
+          <Classes>Skirmisher</Classes>
+          <Multiplier>2.0</Multiplier>
+        </BonusSkirmisher>    </Bonuses>
     </Melee>
-
     <Charge>
-
       <Hack>15.0</Hack>
-
       <Pierce>0.0</Pierce>
-
     </Charge>
-
   </Attack>
-
- <Builder>
-    <Rate>1.0</Rate>
+  <Builder>
     <Entities datatype="tokens">
-      structures/{civ}_house
-      structures/{civ}_storehouse
-      structures/{civ}_farmstead
-      structures/{civ}_field
-      structures/{civ}_outpost
-      
-      structures/{civ}_dock
-      structures/{civ}_barracks
-      structures/{civ}_blacksmith
-      structures/{civ}_temple
-      structures/{civ}_market
-      structures/{civ}_defense_tower
-  structures/{civ}_ballista_tower  structures/{civ}_wallset_wood  structures/{civ}_wallset_stone
-      structures/{civ}_civil_centre
-      structures/{civ}_fortress
-	  structures/{civ}_wonder
+      -other/wallset_palisade
+      -structures/{civ}_corral
+      -structures/{civ}_wooden_tower
+      structures/{civ}_wallset_wood
+      structures/{civ}_ballista_tower
     </Entities>
   </Builder>
- <Cost>
-
- <BuildTime>9</BuildTime>    <Resources>
+  <Cost>
+    <BuildTime>9</BuildTime>
+    <Resources>
       <wood>30</wood>
- <food>60</food> <metal>10</metal> </Resources>
+      <food>60</food>
+      <metal>10</metal>
+    </Resources>
   </Cost>
- 
- <Footprint>
+  <Footprint>
     <Circle radius="2.0"/>
     <Height>5.0</Height>
   </Footprint>
-
- <Identity>
+  <Identity>
     <Classes datatype="tokens">Soldier</Classes>
     <Civ>uni</Civ>
-	<SelectionGroupName>units/uni_infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/uni_infantry_spearman_b</SelectionGroupName>
     <SpecificName>Infantry</SpecificName>
     <GenericName>Soldier</GenericName>
     <History>The spear was the main weapon of the Celts, arming the bulk of their forces. The average Celt would only have to take up his long spear and body shield to be ready for battle. While armor was rare, the rabid fighting spirit of the Celts more than made up for in vigor what was lost in protection.</History>
     <Icon>units/uni_infantry_spearman.png</Icon>
+    <Gender>female</Gender>
   </Identity>
   <Promotion>
     <Entity>units/uni_infantry_spearman_a</Entity>
@@ -99,19 +69,17 @@
   <VisualActor>
     <Actor>units/unicorns/infantry_spearman_b.xml</Actor>
   </VisualActor>
-<Sound>
-
+  <Sound>
     <SoundGroups>
-
       <trained>interface/alarm/alarm_create_female.xml</trained>
-      <select>voice/hellenes/civ/female/civ_female_select.xml</select>
-      <order_walk>voice/hellenes/civ/female/civ_female_walk.xml</order_walk>
-      <order_attack>voice/hellenes/civ/female/civ_female_attack.xml</order_attack>
-      <order_build>voice/hellenes/civ/female/civ_female_build.xml</order_build>
-      <order_gather>voice/hellenes/civ/female/civ_female_gather_together.xml</order_gather>
-      <order_repair>voice/hellenes/civ/female/civ_female_repair.xml</order_repair>
-      <order_garrison>voice/hellenes/civ/female/civ_female_garrison.xml</order_garrison>
-<death>actor/human/death/female_death.xml</death>
+      <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
+      <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
+      <order_attack>voice/{lang}/civ/civ_{gender}_attack.xml</order_attack>
+      <order_build>voice/{lang}/civ/civ_{gender}_build.xml</order_build>
+      <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
+      <order_repair>voice/{lang}/civ/civ_{gender}_repair.xml</order_repair>
+      <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
+      <death>actor/human/death/{gender}_death.xml</death>
       <attack>attack/weapon/pike.xml</attack></SoundGroups>
   </Sound>
 </Entity>

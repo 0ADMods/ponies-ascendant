@@ -32,7 +32,7 @@
     <Civ>earth</Civ>
     <SpecificName>Manor</SpecificName>
     <History>This was be the center of the town, a great hall where the chancellor resided. All political matters were probably performed inside such a structure.</History>
-<Icon>structures/earth_civic_center.png</Icon>
+    <Icon>structures/earth_civic_center.png</Icon>
   </Identity>
   <Health>
     <Max>15000</Max>
@@ -43,8 +43,8 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/earth_infantry_spearman_b
-      units/earth_infantry_slinger_b
+      units/{civ}_infantry_spearman_b
+      units/{civ}_infantry_slinger_b
     </Entities>
   </ProductionQueue>
   <VisualActor>

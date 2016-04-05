@@ -7,7 +7,6 @@
       <stone>70</stone>
     </Resources>
   </Cost>
-
   <Footprint replace="">
     <Circle radius="8.0"/>
     <Height>5.0</Height>
@@ -16,12 +15,12 @@
     <Civ>uni</Civ>
     <SpecificName>Hovel</SpecificName>
     <History>Celts generally lived in round stone or wattle and daub walled structures with thatched roof.</History>
- <Icon>structures/earth_house.png</Icon> </Identity>
+    <Icon>structures/earth_house.png</Icon>
+  </Identity>
   <Health>
     <Max>3000</Max>
     <SpawnEntityOnDeath>rubble/rubble_celt_cc</SpawnEntityOnDeath>
   </Health>
-
   <Obstruction>
     <Static width="10.0" depth="10.0"/>
   </Obstruction>

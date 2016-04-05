@@ -16,7 +16,7 @@
   <BuildingAI>
     <DefaultArrowCount>3</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
-	<GarrisonArrowClasses>Infantry Ranged</GarrisonArrowClasses>
+    <GarrisonArrowClasses>Infantry Ranged</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
     <Population>3</Population>
@@ -47,13 +47,12 @@
     <Tooltip>Classes: Mechanical Warship Medium Ranged Melee.
 Secondary Attack: Ramming.</Tooltip>
     <Classes datatype="tokens">Warship Medium Ranged</Classes>
-	<RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <ResourceGatherer disable=""/>
   <Sound>
     <SoundGroups>
       <attack>attack/weapon/arrowfly.xml</attack>
- 
     </SoundGroups>
   </Sound>
   <StatusBars>

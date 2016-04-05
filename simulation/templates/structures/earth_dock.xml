@@ -27,9 +27,8 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/earth_ship_trireme
-      units/earth_ship_ram
-      units/earth_ship_siege
+      units/{civ}_ship_ram
+      units/{civ}_ship_siege
     </Entities>
   </ProductionQueue>
   <VisualActor>

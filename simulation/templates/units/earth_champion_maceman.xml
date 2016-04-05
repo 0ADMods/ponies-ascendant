@@ -3,57 +3,42 @@
   <Armour>
     <Hack>8</Hack>
     <Pierce>3</Pierce>
- <Crush>7</Crush> </Armour>
+    <Crush>7</Crush>
+  </Armour>
   <Attack>
     <Melee>
       <Crush>20.0</Crush>
-
- <Hack>0.0</Hack>
-
- 	  <Bonuses>
-
-		<BonusArmor>
-
-		  <Classes>Armor</Classes>
-
-		  <Multiplier>2.5</Multiplier>
-
-		</BonusArmor>
-
-		<BonusStructure>
-
-		  <Classes>Structure Ship</Classes>
-
-		  <Multiplier>4.5</Multiplier>
-
-		</BonusStructure>
-
-	  </Bonuses>
-
-  <RepeatTime>2000</RepeatTime>
+      <Hack>0.0</Hack>
+      <Bonuses>
+        <BonusArmor>
+          <Classes>Armor</Classes>
+          <Multiplier>2.5</Multiplier>
+        </BonusArmor>
+        <BonusStructure>
+          <Classes>Structure Ship</Classes>
+          <Multiplier>4.5</Multiplier>
+        </BonusStructure>
+     </Bonuses>
+     <RepeatTime>2000</RepeatTime>
    </Melee>
-    <Charge>
-      <Crush>45.0</Crush>
-   <Hack>0.0</Hack>
-
-  </Charge>
+   <Charge>
+     <Crush>45.0</Crush>
+     <Hack>0.0</Hack>
+    </Charge>
   </Attack> 
-<Cost>
-
- <BuildTime>12</BuildTime>
+  <Cost>
+   <BuildTime>12</BuildTime>
     <Resources>
       <wood>20</wood>
- <food>100</food> <metal>25</metal> </Resources>
+      <food>100</food>
+      <metal>25</metal>
+    </Resources>
   </Cost>
-
- 
- <Footprint>
+  <Footprint>
     <Circle radius="2.5"/>
     <Height>6.0</Height>
   </Footprint>
-
- 
-<Health>
+  <Health>
     <Max>220</Max>
   </Health>  <Identity>
   <Classes datatype="tokens">AntiArmor /Champion Sword</Classes>  <Civ>earth</Civ>
@@ -61,25 +46,30 @@
     <SpecificName>Brute</SpecificName>
     <History>Two-handed swordsmen from Briton. These men are veteran soldiers who offer their lives in service to their Brythonic lords.</History>
     <Icon>units/earth_champion_maceman.png</Icon>
-  <RequiredTechnology>phase_town</RequiredTechnology> </Identity>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Gender>female</Gender>
+  </Identity>
   <UnitMotion>
     <WalkSpeed>12.0</WalkSpeed>
     <Run>
       <Speed>14.5</Speed>
     </Run>
   </UnitMotion>
- <Sound>
+  <Sound>
     <SoundGroups>
+      <trained>interface/alarm/alarm_create_female.xml</trained>
+      <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
+      <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
+      <order_attack>voice/{lang}/civ/civ_{gender}_attack.xml</order_attack>
+      <order_build>voice/{lang}/civ/civ_{gender}_build.xml</order_build>
+      <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
+      <order_repair>voice/{lang}/civ/civ_{gender}_repair.xml</order_repair>
+      <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
+      <death>actor/human/death/{gender}_death.xml</death>
       <attack>attack/impact/shield_wooden.xml</attack>
-  <select>voice/hellenes/civ/female/civ_female_select.xml</select>
-      <order_walk>voice/hellenes/civ/female/civ_female_walk.xml</order_walk>
-      <order_attack>voice/hellenes/civ/female/civ_female_attack.xml</order_attack>
-      <order_build>voice/hellenes/civ/female/civ_female_build.xml</order_build>
-      <order_gather>voice/hellenes/civ/female/civ_female_gather_together.xml</order_gather>
-      <order_repair>voice/hellenes/civ/female/civ_female_repair.xml</order_repair>
-      <order_garrison>voice/hellenes/civ/female/civ_female_garrison.xml</order_garrison>
-<death>actor/human/death/female_death.xml</death></SoundGroups>
-  </Sound> <VisualActor>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
     <Actor>units/earth_ponies/infantry_maceman.xml</Actor>
   </VisualActor>
 </Entity>

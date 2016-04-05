@@ -2,63 +2,57 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Armour>
     <Hack>1</Hack>
-  <Pierce>3</Pierce> <Crush>6</Crush> </Armour>
+    <Pierce>3</Pierce>
+    <Crush>6</Crush>
+  </Armour>
   <Health>
     <Max>200 </Max>
   </Health>
   <Attack>
-
     <Melee>
-
       <Hack>10.0</Hack>
-
       <Pierce>0.0</Pierce>
-
-	  <Bonuses>
-
-		<BonusAntiArmor>
-
-		  <Classes>AntiArmor</Classes>
-
-		  <Multiplier>1.5</Multiplier>
-
-		</BonusAntiArmor>
-
-	  </Bonuses>
-
+      <Bonuses>
+        <BonusAntiArmor>
+          <Classes>AntiArmor</Classes>
+          <Multiplier>1.5</Multiplier>
+        </BonusAntiArmor>
+      </Bonuses>
     </Melee>
-
     <Charge>
-
       <Hack>20.0</Hack>
-
       <Pierce>0.0</Pierce>
-
     </Charge>
-
   </Attack>
-
+  <Builder>
+    <Entities datatype="tokens">
+      -other/wallset_palisade
+      -structures/{civ}_corral
+      -structures/{civ}_wooden_tower
+      structures/{civ}_wallset_wood
+    </Entities>
+  </Builder>
   <Cost>
-
- <BuildTime>9</BuildTime>    <Resources>
+    <BuildTime>9</BuildTime>
+    <Resources>
       <wood>30</wood>
- <food>75</food> <metal>5</metal> </Resources>
+      <food>75</food>
+      <metal>5</metal>
+    </Resources>
   </Cost>
-
- 
- <Footprint>
+  <Footprint>
     <Circle radius="2.0"/>
     <Height>3.0</Height>
-  </Footprint>
-
- <Identity>
+   </Footprint>
+  <Identity>
     <Classes datatype="tokens">Soldier</Classes>
     <Civ>earth</Civ>
-	<SelectionGroupName>units/earth_infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/earth_infantry_spearman_b</SelectionGroupName>
     <SpecificName>Militia</SpecificName>
     <GenericName>Soldier</GenericName>
     <History>The spear was the main weapon of the Celts, arming the bulk of their forces. The average Celt would only have to take up his long spear and body shield to be ready for battle. While armor was rare, the rabid fighting spirit of the Celts more than made up for in vigor what was lost in protection.</History>
     <Icon>units/earth_infantry_spearman.png</Icon>
+    <Gender>female</Gender>
   </Identity>
   <Promotion>
     <Entity>units/earth_infantry_spearman_a</Entity>
@@ -72,18 +66,17 @@
   <VisualActor>
     <Actor>units/earth_ponies/infantry_spearman_b.xml</Actor>
   </VisualActor>
-<Sound>
-
+  <Sound>
     <SoundGroups>
-
       <trained>interface/alarm/alarm_create_female.xml</trained>
-      <select>voice/hellenes/civ/female/civ_female_select.xml</select>
-      <order_walk>voice/hellenes/civ/female/civ_female_walk.xml</order_walk>
-      <order_attack>voice/hellenes/civ/female/civ_female_attack.xml</order_attack>
-      <order_build>voice/hellenes/civ/female/civ_female_build.xml</order_build>
-      <order_gather>voice/hellenes/civ/female/civ_female_gather_together.xml</order_gather>
-      <order_repair>voice/hellenes/civ/female/civ_female_repair.xml</order_repair>
-      <order_garrison>voice/hellenes/civ/female/civ_female_garrison.xml</order_garrison>
-<death>actor/human/death/female_death.xml</death></SoundGroups>
+      <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
+      <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
+      <order_attack>voice/{lang}/civ/civ_{gender}_attack.xml</order_attack>
+      <order_build>voice/{lang}/civ/civ_{gender}_build.xml</order_build>
+      <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
+      <order_repair>voice/{lang}/civ/civ_{gender}_repair.xml</order_repair>
+      <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
+      <death>actor/human/death/{gender}_death.xml</death>
+    </SoundGroups>
   </Sound>
 </Entity>

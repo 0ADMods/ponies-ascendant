@@ -26,6 +26,7 @@
           <Multiplier>7.0</Multiplier>
         </BonusStructure>
       </Bonuses>
+      <RestrictedClasses datatype="tokens">Infantry Cavalry Champion Structure CitizenSoldier</RestrictedClasses>
     </Melee>
     <Slaughter>
       <Hack>25.0</Hack>

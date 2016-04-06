@@ -22,7 +22,7 @@
         <animation event="1" file="other/pegasus_mining.dae" name="gather_ruins" speed="45"/>
         <animation event="0.6" file="other/pegasus_building.dae" name="Build" speed="70"/>
         <animation file="other/pegasus_death.dae" name="Death" speed="50"/>
-        <animation event="" file="other/pegasus_hover.dae" load="" name="idle" speed="40"/>
+        <animation file="other/pegasus_hover.dae" name="idle" speed="40"/>
       </animations>
       <mesh>skeletal/pony_pegasus.dae</mesh>
     </variant>

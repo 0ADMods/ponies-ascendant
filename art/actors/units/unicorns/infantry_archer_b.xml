@@ -22,7 +22,7 @@
         <animation event="0.4" file="other/unicorn_lumbering.dae" name="gather_ore" speed="60"/>
         <animation file="other/unicorn_lumbering.dae" name="gather_ruins" speed="60"/>
         <animation event="0.6" file="other/unicorn_building.dae" name="Build" speed="70"/>
-        <animation event="" file="other/unicorn_idle.dae" load="" name="idle" speed="30"/>
+        <animation file="other/unicorn_idle.dae" name="idle" speed="30"/>
         <animation file="other/pony_promotion.dae" name="promotion" speed="60"/>
         <animation file="other/uni_death.dae" name="Death" speed="70"/>
         <animation file="other/uni_death_b.dae" name="Death" speed="70"/>

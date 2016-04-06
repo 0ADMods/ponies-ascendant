@@ -24,8 +24,8 @@
         <animation file="other/pony_mining.dae" name="gather_ruins" speed="60"/>
         <animation event="0.6" file="other/pony_building.dae" name="Build" speed="70"/>
         <animation file="other/pony_death.dae" name="Death" speed="50"/>
-        <animation event="" file="other/pony_a_idle.dae" load="" name="idle" speed="20"/>
-        <animation event="" file="other/pony_a_idle_b.dae" load="" name="idle" speed="20"/>
+        <animation file="other/pony_a_idle.dae" name="idle" speed="20"/>
+        <animation file="other/pony_a_idle_b.dae" name="idle" speed="20"/>
         <animation file="other/pony_death_b.dae" name="Death" speed="50"/>
       </animations>
       <mesh>skeletal/pony_b.dae</mesh>

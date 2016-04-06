@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="1">
+    <variant frequency="1" name="base">
       <animations>
         <animation file="other/pony_walk.dae" name="Walk" speed="15"/>
         <animation file="other/pony_running.dae" name="Run" speed="15"/>
@@ -23,8 +23,8 @@
         <animation file="other/pony_mining.dae" name="gather_ruins" speed="60"/>
         <animation event="0.6" file="other/pony_building.dae" name="Build" speed="70"/>
         <animation file="other/pony_death.dae" name="Death" speed="50"/>
-        <animation event="" file="other/pony_slinging.dae" name="idle" speed="100"/>
-        <animation event="" file="other/pony_slinging.dae" name="idle" speed="50"/>
+        <animation file="other/pony_slinging.dae" name="idle" speed="100"/>
+        <animation file="other/pony_slinging.dae" name="idle" speed="50"/>
       </animations>
       <mesh>skeletal/pony.dae</mesh>
       <props>
@@ -33,7 +33,7 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="10">
+    <variant frequency="1" name="base">
       <props>
         <prop actor="props/units/heads/earth_hood_c.xml" attachpoint="hat"/>
         <prop actor="props/units/weapons/sling.xml" attachpoint="hoof"/>
@@ -42,22 +42,22 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="2">
+    <variant frequency="1" name="a">
       <textures>
         <texture file="skeletal/pony_sling_a.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="3">
+    <variant frequency="1" name="b">
       <textures>
         <texture file="skeletal/pony_sling_b.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="4">
+    <variant frequency="1" name="c">
       <textures>
         <texture file="skeletal/pony_sling_c.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="5">
+    <variant frequency="1" name="d">
       <textures>
         <texture file="skeletal/pony_sling_d.png" name="baseTex"/>
       </textures>

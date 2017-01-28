@@ -1,17 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_swordsman">
-  <Auras>
-    <Aura1>
-      <AuraName>Builder Aura</AuraName>
-      <AuraDescription>Buildings construct 15% faster within her vision.</AuraDescription>
-      <Type>range</Type>
-      <Radius>100</Radius>
-      <Affects>Worker</Affects>
-      <Modifications>
-        <Builder.Rate> <Multiply>1.15</Multiply> </Builder.Rate>
-      </Modifications>
-    </Aura1>
-  </Auras>
+  <Auras datatype="tokens">hero_wisebiscuit</Auras>
   <Builder>
     <Rate>2.0</Rate>
     <Entities datatype="tokens">

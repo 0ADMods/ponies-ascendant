@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support">
-  <Auras>
-    <Aura1>
-      <Type>range</Type>
-      <Radius>10</Radius>
-      <Affects>Citizen+Soldier</Affects>
-      <Modifications>
-        <Builder.Rate> <Multiply>1.1</Multiply> </Builder.Rate>
-        <ResourceGatherer.BaseSpeed> <Multiply>1.1</Multiply> </ResourceGatherer.BaseSpeed>
-      </Modifications>
-      <AuraName>Inspiration Aura</AuraName>
-      <AuraDescription>Nearby males work 10% faster</AuraDescription>
-    </Aura1>
-  </Auras>
+  <Auras datatype="tokens">female_inspiration</Auras>
   <Attack>
     <Melee>
       <Hack>2.0</Hack>

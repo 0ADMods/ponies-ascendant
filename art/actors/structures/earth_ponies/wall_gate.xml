@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="3" name="double thatch">
+    <variant frequency="1" name="Wall gate">
       <mesh>structural/earth_wall_gate.dae</mesh>
       <props>
         <prop actor="props/structures/earth_ponies/wall_gate_door.xml" attachpoint="root"/>

@@ -6,7 +6,7 @@
       <mesh>structural/pega_farmstead.dae</mesh>
       <props>
         <prop actor="props/structures/pegasi/farmstead_clouds.xml" attachpoint="root"/>
-        <prop actor="props/structures/pegasi/farmstead_mill.xml" attachpoint="root" minheight=""/>
+        <prop actor="props/structures/pegasi/farmstead_mill.xml" attachpoint="root"/>
         <prop actor="particle/blowing_snow.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/field_medit_5x5.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/city_tile_3x3.xml" attachpoint="root"/>

@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_temple">
-  <Auras>
-    <heal>
-      <Type>range</Type>
-      <Radius>120</Radius>
-    </heal>
-  </Auras>
   <Cost>
     <PopulationBonus>10</PopulationBonus>
     <BuildTime>800</BuildTime>

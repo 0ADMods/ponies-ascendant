@@ -27,6 +27,8 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
+      -units/{civ}_infantry_spearman_b
+      -units/{civ}_infantry_javelinist_b
       units/{civ}_infantry_spearman_a
       units/{civ}_infantry_javelinist_a
     </Entities>

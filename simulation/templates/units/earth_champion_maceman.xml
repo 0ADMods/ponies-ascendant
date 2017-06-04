@@ -21,10 +21,6 @@
      </Bonuses>
      <RepeatTime>2000</RepeatTime>
    </Melee>
-   <Charge>
-     <Crush>45.0</Crush>
-     <Hack>0.0</Hack>
-    </Charge>
   </Attack> 
   <Cost>
    <BuildTime>12</BuildTime>

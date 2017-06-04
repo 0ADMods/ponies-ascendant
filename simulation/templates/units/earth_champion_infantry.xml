@@ -14,9 +14,6 @@
           </BonusSoldier>
         </Bonuses>
       </Melee>
-      <Charge>
-        <Hack>35.0</Hack>
-      </Charge>
     </Attack>
     <Cost>
       <BuildTime>20</BuildTime>

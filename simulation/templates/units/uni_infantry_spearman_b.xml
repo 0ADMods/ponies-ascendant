@@ -21,16 +21,12 @@
           <Multiplier>2.0</Multiplier>
         </BonusSkirmisher>    </Bonuses>
     </Melee>
-    <Charge>
-      <Hack>15.0</Hack>
-      <Pierce>0.0</Pierce>
-    </Charge>
   </Attack>
   <Builder>
     <Entities datatype="tokens">
       -other/wallset_palisade
       -structures/{civ}_corral
-      -structures/{civ}_wooden_tower
+      -structures/{civ}_sentry_tower
       structures/{civ}_wallset_wood
       structures/{civ}_ballista_tower
     </Entities>

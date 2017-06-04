@@ -9,9 +9,6 @@
     <Melee>
       <Hack>7.0</Hack>
     </Melee>
-    <Charge>
-      <Hack>17.0</Hack>
-    </Charge>
   </Attack>
   <Health>
     <Max>190</Max>

@@ -4,7 +4,7 @@
   <group>
     <variant frequency="100" name="base">
       <props>
-        <prop actor="props/structures/decals/city_tile_3x3.xml" attachpoint="root" minheight=""/>
+        <prop actor="props/structures/decals/city_tile_3x3.xml" attachpoint="root"/>
         <prop actor="particle/blowing_snow.xml" attachpoint="root"/>
       </props>
       <textures>

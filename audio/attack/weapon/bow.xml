@@ -4,8 +4,6 @@
 	<Pitch>1.2</Pitch>
 	<Priority>100</Priority>
 	<ConeGain>1</ConeGain>
-	<ConeInner>360</ConeInner>
-	<ConeOuter>360</ConeOuter>
 	<Looping>0</Looping>
 	<RandOrder>1</RandOrder>
 	<RandGain>1</RandGain>
@@ -15,8 +13,6 @@
 	<PitchUpper>1.4</PitchUpper>
 	<PitchLower>1.0</PitchLower>
 	<Threshold>100</Threshold>
-	<Decay>3</Decay>
-	<Replacement>bow_1.ogg</Replacement>
 	<Path>audio/attack/weapon/</Path>
 	<Sound>bow_1.ogg</Sound>
 	<Sound>bow_2.ogg</Sound>

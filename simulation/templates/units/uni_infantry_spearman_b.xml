@@ -21,10 +21,6 @@
           <Multiplier>2.0</Multiplier>
         </BonusSkirmisher>    </Bonuses>
     </Melee>
-    <Charge>
-      <Hack>15.0</Hack>
-      <Pierce>0.0</Pierce>
-    </Charge>
   </Attack>
   <Builder>
     <Entities datatype="tokens">

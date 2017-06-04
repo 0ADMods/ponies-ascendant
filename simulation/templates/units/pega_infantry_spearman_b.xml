@@ -21,12 +21,6 @@
         </BonusAntiArmor>
       </Bonuses>
     </Melee>
-    <Charge>
-      <Hack>40.0</Hack>
-      <Pierce>0.0</Pierce>
-      <MaxRange>7.0</MaxRange>
-      <MinRange>5.0</MinRange>
-    </Charge>
   </Attack>
   <Builder>
     <Entities datatype="tokens">

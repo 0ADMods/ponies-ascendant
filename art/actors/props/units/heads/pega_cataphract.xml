@@ -20,7 +20,6 @@
       <props>
         <prop actor="props/units/heads/feathers.xml" attachpoint="feather_1"/>
         <prop actor="props/units/heads/feathers.xml" attachpoint="feather_2"/>
-        <prop actor=""/>
       </props>
     </variant>
   </group>

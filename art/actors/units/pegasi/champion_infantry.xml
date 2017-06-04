@@ -26,7 +26,6 @@
       </animations>
       <mesh>skeletal/pegasus_cataphract.dae</mesh>
       <props>
-        <prop/>
         <prop actor="props/units/heads/pega_cataphract.xml" attachpoint="hat"/>
       </props>
     </variant>

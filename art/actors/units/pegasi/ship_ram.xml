@@ -5,7 +5,7 @@
   <group>
     <variant frequency="100" name="ram">
       <animations>
-        <animation event=".5" file="mechanical/pega_ship_ram_attack.dae" load="" name="attack_melee" speed="250"/>
+        <animation event=".5" file="mechanical/pega_ship_ram_attack.dae" name="attack_melee" speed="250"/>
         <animation file="mechanical/pega_ship_ram.dae" name="idle" speed="30"/>
         <animation file="mechanical/pega_ship_ram.dae" name="death" speed="1"/>
         <animation file="mechanical/pega_ship_ram.dae" name="walk" speed="7"/>

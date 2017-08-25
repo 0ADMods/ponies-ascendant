@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_trireme">
+  <Armour>
+    <Hack>1</Hack>
+    <Pierce>6</Pierce>
+    <Crush>5</Crush>
+  </Armour>
+  <Attack>
+    <Ranged disable=""/>
+    <Melee>
+      <Hack>100.0</Hack>
+      <Pierce>0.0</Pierce>
+      <Crush>300.0</Crush>
+      <MaxRange>28.5</MaxRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>8000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Organic</RestrictedClasses>
+      <PreferredClasses datatype="tokens">Ship Structure</PreferredClasses>
+    </Melee>
+  </Attack>
+  <BuildingAI disable=""/>
+  <Cost>
+    <BuildTime>80</BuildTime>
+    <Resources>
+      <stone>100</stone>
+      <wood>750</wood>
+      <food>675</food>
+      <metal>225</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="20.0" depth="55.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>45</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>1400</Max>
+  </Health>
+  <Identity>
+    <SpecificName>Ramming Galley</SpecificName>
+    <Tooltip>Transport many soldiers across the sea.</Tooltip>
+    <Icon>units/cart_ship_trireme.png</Icon>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack>attack/siege/ram_attack.xml</attack>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <WalkSpeed>14.0</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/earth_ponies/quinquereme.xml</Actor>
+  </VisualActor>
+</Entity>

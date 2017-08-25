@@ -26,7 +26,7 @@
     <Entities datatype="tokens">
       -other/wallset_palisade
       -structures/{civ}_corral
-      -structures/{civ}_wooden_tower
+      -structures/{civ}_sentry_tower
     </Entities>
   </Builder>
   <Cost>

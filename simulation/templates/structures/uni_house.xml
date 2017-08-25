@@ -19,7 +19,7 @@
   </Identity>
   <Health>
     <Max>3000</Max>
-    <SpawnEntityOnDeath>rubble/rubble_celt_cc</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>rubble/rubble_brit_cc</SpawnEntityOnDeath>
   </Health>
   <Obstruction>
     <Static width="10.0" depth="10.0"/>

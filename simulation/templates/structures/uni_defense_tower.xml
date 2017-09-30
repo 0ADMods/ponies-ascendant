@@ -49,7 +49,7 @@
   </GarrisonHolder>
   <Health>
     <Max>5000</Max>
-    <SpawnEntityOnDeath>rubble/rubble_earth_defense_tower</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_earth_defense_tower</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>uni</Civ>

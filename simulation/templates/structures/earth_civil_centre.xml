@@ -36,7 +36,7 @@
   </Identity>
   <Health>
     <Max>15000</Max>
-    <SpawnEntityOnDeath>rubble/rubble_brit_cc</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_brit_cc</SpawnEntityOnDeath>
   </Health>
   <Obstruction>
     <Static width="36.0" depth="38.0"/>

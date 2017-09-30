@@ -10,7 +10,7 @@
   </Cost>
   <Health>
     <Max>4500</Max>
-    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
  <Footprint>
     <Square width="30.0" depth="30.0"/>

@@ -15,7 +15,7 @@
   </Footprint>
   <Health>
     <Max>4000</Max>
-    <SpawnEntityOnDeath>rubble/rubble_celt_dock</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_celt_dock</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>pega</Civ>

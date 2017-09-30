@@ -22,7 +22,7 @@
  <Icon>structures/earth_house.png</Icon> </Identity>
   <Health>
     <Max>4200</Max>
-    <SpawnEntityOnDeath>rubble/rubble_brit_cc</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_brit_cc</SpawnEntityOnDeath>
   </Health>
   <Obstruction>
     <Static width="10.0" depth="10.0"/>

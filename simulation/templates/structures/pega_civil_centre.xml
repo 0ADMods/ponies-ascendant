@@ -28,7 +28,7 @@
     <Height>15.0</Height>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>rubble/rubble_hele_cc</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_hele_cc</SpawnEntityOnDeath>
     <Max>10000</Max>
   </Health>
   <Identity>

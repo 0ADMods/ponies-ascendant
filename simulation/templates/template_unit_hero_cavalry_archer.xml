@@ -46,7 +46,7 @@
     <Tooltip>Hero Aura: n/a.
 Ranged attack 2x vs. spearmen. Ranged attack 1.5x vs. Swordsmen.</Tooltip>
     <Formations datatype="tokens">
-      formations/skirmish
+      special/formations/skirmish
     </Formations>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>

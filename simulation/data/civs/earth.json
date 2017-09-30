@@ -41,10 +41,10 @@
 	],
 	"Formations":
 	[
-		"formations/scatter",
-		"formations/line_closed",
-		"formations/line_open",
-		"formations/flank"
+		"special/formations/scatter",
+		"special/formations/line_closed",
+		"special/formations/line_open",
+		"special/formations/flank"
 	],
 	"AINames":
 	[

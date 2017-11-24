@@ -21,6 +21,11 @@
 	"CivBonuses": [],
 	"TeamBonuses": [],
 	"Structures": [],
+	"WallSets":
+	[
+		"structures/earth_wallset_wood",
+		"structures/earth_wallset_stone"
+	],
 	"StartEntities":
 	[
 		{

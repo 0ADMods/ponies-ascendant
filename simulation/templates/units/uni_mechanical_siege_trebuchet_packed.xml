@@ -56,7 +56,7 @@
     <Max>1000</Max>
   </Health>
   <Identity>
-    <Civ>earth</Civ>
+    <Civ>uni</Civ>
     <SpecificName>Trebuchet</SpecificName>
     <Icon>units/earth_mechanical_trebuchet_packed.png</Icon>
   </Identity>

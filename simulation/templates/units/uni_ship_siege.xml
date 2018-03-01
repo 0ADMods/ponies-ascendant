@@ -63,7 +63,7 @@
     <Max>1500</Max>
   </Health>
   <Identity>
-    <Civ>earth</Civ>
+    <Civ>uni</Civ>
     <SpecificName>Siege Galley</SpecificName>
     <Tooltip>Classes: Medium Warship Ranged
 Transport many soldiers across the sea.</Tooltip>

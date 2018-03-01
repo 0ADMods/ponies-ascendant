@@ -56,7 +56,7 @@
     <Max>350</Max>
   </Health>
   <Identity>
-    <Civ>earth</Civ>
+    <Civ>uni</Civ>
     <SpecificName>Onager</SpecificName>
     <Icon>units/earth_mechanical_mangonel.png</Icon>
   </Identity>

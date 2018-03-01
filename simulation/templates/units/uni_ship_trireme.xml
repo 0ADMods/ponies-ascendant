@@ -101,7 +101,7 @@
     <Max>1600</Max>
   </Health>
   <Identity>
-    <Civ>earth</Civ>
+    <Civ>uni</Civ>
     <SpecificName>War Galley</SpecificName>
     <Tooltip>Classes: Medium Warship Ranged
 Transport many soldiers across the sea.</Tooltip>

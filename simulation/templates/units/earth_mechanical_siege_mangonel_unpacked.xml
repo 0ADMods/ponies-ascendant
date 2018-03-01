@@ -69,6 +69,7 @@
     <stone>25</stone>
     <metal>25</metal>
   </Loot>
+  <Pack disable=""/>
   <Sound>
     <SoundGroups>
       <attack>attack/siege/ram_attack_order.xml</attack>

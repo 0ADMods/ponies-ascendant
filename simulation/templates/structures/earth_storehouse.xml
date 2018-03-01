@@ -13,16 +13,15 @@
     <Resources>
       <wood>250</wood>
       <stone>75</stone>
-    </Resources></Cost>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>earth</Civ>
     <SpecificName>Stockpile</SpecificName>
     <History>In southern parts of the country, most of the wildwood had been cleared and given way to farming or coppice management. In northern parts, or where the ground was particularly unsuitable for agriculture, wildwood remained, but under constant threat. Land around the farmsteads was usually enclosed by hazel fencing or hedging.</History>
- <Icon>structures/earth_storehouse.png</Icon> </Identity>
- 
+    <Icon>structures/earth_storehouse.png</Icon>
+  </Identity>
   <VisualActor>
-  
-	<Actor>structures/earth_ponies/storehouse.xml</Actor>
+    <Actor>structures/earth_ponies/storehouse.xml</Actor>
   </VisualActor>
- 
 </Entity>

@@ -3,7 +3,7 @@
   <Armour>
     <Hack>10</Hack>
     <Pierce>27</Pierce>
-    <Crush>7</Crush> 
+    <Crush>7</Crush>
   </Armour>
   <BuildRestrictions>
     <Territory>own neutral</Territory>

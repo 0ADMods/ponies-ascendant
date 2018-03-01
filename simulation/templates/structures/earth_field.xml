@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_field">
- <Cost>
+  <Cost>
     <BuildTime>40</BuildTime>
     <Resources>
       <wood>0</wood>
     </Resources>
-  </Cost> <Identity>
+  </Cost>
+  <Identity>
     <Civ>earth</Civ>
     <SpecificName>Farm</SpecificName>
     <History>A farmer's field.</History>
-  <Icon>structures/earth_field.png</Icon> </Identity><VisualActor>
+    <Icon>structures/earth_field.png</Icon>
+  </Identity>
+  <VisualActor>
     <Actor>structures/plot_field_temp.xml</Actor>
     <FoundationActor>props/structures/decals/field_temperate_5x5_foundation.xml</FoundationActor>
     <SelectionShape>

@@ -13,16 +13,14 @@
     <Resources>
       <wood>250</wood>
       <metal>50</metal>
-    </Resources></Cost>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>pega</Civ>
     <SpecificName>Storehouse</SpecificName>
     <History>In southern parts of the country, most of the wildwood had been cleared and given way to farming or coppice management. In northern parts, or where the ground was particularly unsuitable for agriculture, wildwood remained, but under constant threat. Land around the farmsteads was usually enclosed by hazel fencing or hedging.</History>
   </Identity>
- 
   <VisualActor>
-  
-	<Actor>structures/pegasi/storehouse.xml</Actor>
+    <Actor>structures/pegasi/storehouse.xml</Actor>
   </VisualActor>
- 
 </Entity>

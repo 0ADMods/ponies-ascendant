@@ -5,11 +5,13 @@
     <Resources>
       <wood>70</wood>
     </Resources>
-  </Cost>  <Identity>
+  </Cost>
+  <Identity>
     <Civ>pega</Civ>
     <SpecificName>Farm</SpecificName>
     <History>A farmer's field.</History>
-</Identity><VisualActor>
+  </Identity>
+  <VisualActor>
     <Actor>structures/plot_field_medit.xml</Actor>
     <FoundationActor>structures/plot_field_found.xml</FoundationActor>
     <SelectionShape>

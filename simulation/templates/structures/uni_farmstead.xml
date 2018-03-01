@@ -12,7 +12,8 @@
     <Resources>
       <wood>250</wood>
       <stone>70</stone>
-    </Resources></Cost>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>uni</Civ>
     <SpecificName>Silo</SpecificName>

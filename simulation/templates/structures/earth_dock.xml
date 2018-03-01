@@ -13,8 +13,8 @@
     <Square width="24.0" depth="36.0"/>
     <Height>8.0</Height>
   </Footprint>
-<Health>
-<Max>6000</Max>
+  <Health>
+    <Max>6000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_celt_dock</SpawnEntityOnDeath>
   </Health>
   <Identity>

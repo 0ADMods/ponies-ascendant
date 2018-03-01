@@ -3,8 +3,9 @@
   <Armour>
     <Hack>40</Hack>
     <Pierce>100</Pierce>
- <Crush>5</Crush> </Armour>
-   <Footprint>
+    <Crush>5</Crush>
+  </Armour>
+  <Footprint>
     <Square width="38.5" depth="8.5"/>
     <Height>9.0</Height>
   </Footprint>

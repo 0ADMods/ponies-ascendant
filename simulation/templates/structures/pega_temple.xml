@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_temple">
-  <Auras datatype="tokens">structures/temple_heal_r160</Auras> 
+  <Auras datatype="tokens">structures/temple_heal_r160</Auras>
   <Cost>
     <PopulationBonus>0</PopulationBonus>
     <BuildTime>400</BuildTime>

@@ -13,7 +13,8 @@
     <Resources>
       <wood>200</wood>
       <stone>80</stone>
-    </Resources></Cost>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>uni</Civ>
     <SpecificName>Storehouse</SpecificName>

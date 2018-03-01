@@ -12,7 +12,8 @@
     <Resources>
       <wood>250</wood>
       <metal>75</metal>
-    </Resources></Cost>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>pega</Civ>
     <SpecificName>Silo</SpecificName>

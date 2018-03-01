@@ -22,8 +22,7 @@
     <Entities datatype="tokens">
       units/{civ}_mechanical_siege_mangonel_unpacked
     </Entities>
-    <Technologies datatype="tokens">
-    </Technologies>
+    <Technologies datatype="tokens"/>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/earth_ponies/blacksmith.xml</Actor>

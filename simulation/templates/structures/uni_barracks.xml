@@ -20,7 +20,8 @@
   <Identity>
     <Civ>uni</Civ>
     <SpecificName>Martial Academy</SpecificName>
-    <History>All able-bodied male Celts were expected to heed their liege lord's call to battle when need arose.</History> <Icon>structures/earth_barracks.png</Icon>
+    <History>All able-bodied male Celts were expected to heed their liege lord's call to battle when need arose.</History>
+    <Icon>structures/earth_barracks.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="28.0" depth="28.0"/>

@@ -28,8 +28,8 @@
     <DefaultArrowCount>6</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
   </BuildingAI>
-  <Cost> 
-  <BuildTime>2000</BuildTime>
+  <Cost>
+    <BuildTime>2000</BuildTime>
     <Resources>
       <food>450</food>
       <wood>2600</wood>

@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defense_tower_stone">
-
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
@@ -15,71 +14,46 @@
       <Spread>1.5</Spread>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <Bonuses>
-          <NerfSiege>
-              <Classes>Siege</Classes>
-              <Multiplier>0.5</Multiplier>
-          </NerfSiege>
+        <NerfSiege>
+          <Classes>Siege</Classes>
+          <Multiplier>0.5</Multiplier>
+        </NerfSiege>
       </Bonuses>
     </Ranged>
-  </Attack><Cost>
-    
+  </Attack>
+  <Cost>
     <BuildTime>103</BuildTime>
-
     <Resources>
-
       <wood>200</wood>
-
       <stone>200</stone>
       <metal>50</metal>
       <food>75</food>
-   </Resources>
-
+    </Resources>
   </Cost>
-
   <GarrisonHolder>
-
     <Max>2</Max>
   </GarrisonHolder>
-
   <Health>
-
     <Max>3000</Max>
-
-  </Health>  <Footprint>
-
+  </Health>
+  <Footprint>
     <Square width="11.5" depth="12.0"/>
-
     <Height>15.0</Height>
-
   </Footprint>
-
   <Identity>
-
     <Civ>pega</Civ>
-
     <GenericName>Sentry Tower</GenericName>
-
     <History>Towers were an important part of city fortifications. The defending troops shot arrows at the enemy and poured boiling oil over the assailants.</History>
-
   </Identity>
-
   <Obstruction>
-
     <Static width="11.0" depth="11.5"/>
   </Obstruction>
   <StatusBars>
-
     <BarWidth>6.0</BarWidth>
     <BarHeight>0.6</BarHeight>
-
     <HeightOffset>22.0</HeightOffset>
-
   </StatusBars>
-
   <VisualActor>
-
     <Actor>structures/pegasi/scout_tower.xml</Actor>
-
   </VisualActor>
-
 </Entity>

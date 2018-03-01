@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_house">
   <Cost>
-   <PopulationBonus>8</PopulationBonus>
+    <PopulationBonus>8</PopulationBonus>
     <BuildTime>150</BuildTime>
     <Resources>
       <wood>100</wood>

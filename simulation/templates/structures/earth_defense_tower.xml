@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <Entity parent="template_structure_defense_tower_stone">
- 
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
@@ -16,14 +14,14 @@
       <Spread>1.5</Spread>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <Bonuses>
-          <BonusShip>
-              <Classes>Ship</Classes>
-              <Multiplier>3.5</Multiplier>
-          </BonusShip>
-          <NerfSiege>
-              <Classes>Siege</Classes>
-              <Multiplier>0.5</Multiplier>
-          </NerfSiege>
+        <BonusShip>
+          <Classes>Ship</Classes>
+          <Multiplier>3.5</Multiplier>
+        </BonusShip>
+        <NerfSiege>
+          <Classes>Siege</Classes>
+          <Multiplier>0.5</Multiplier>
+        </NerfSiege>
       </Bonuses>
     </Ranged>
   </Attack>
@@ -45,28 +43,23 @@
     <Circle radius="8.0"/>
     <Height>12.0</Height>
   </Footprint>
-<GarrisonHolder>
+  <GarrisonHolder>
     <Max>3</Max>
   </GarrisonHolder>
   <Health>
     <Max>6000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_earth_defense_tower</SpawnEntityOnDeath>
-  </Health>  <Identity>
+  </Health>
+  <Identity>
     <Civ>earth</Civ>
-
     <GenericName>Watch Tower</GenericName>
-
-    <History>Earth ponies would often perch upon a high tower to give themselves an advantage over attacking unicorns. Pegasi, however, outranged them all the same.</History> <Icon>structures/earth_scout_tower.png</Icon>
+    <History>Earth ponies would often perch upon a high tower to give themselves an advantage over attacking unicorns. Pegasi, however, outranged them all the same.</History>
+    <Icon>structures/earth_scout_tower.png</Icon>
   </Identity>
   <Obstruction>
-
     <Static width="12.0" depth="12.0"/>
-    </Obstruction>
-
+  </Obstruction>
   <VisualActor>
-
     <Actor>structures/earth_ponies/scout_tower.xml</Actor>
-
   </VisualActor>
-
 </Entity>

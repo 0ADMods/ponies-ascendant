@@ -28,7 +28,7 @@
     <DefaultArrowCount>6</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
   </BuildingAI>
-  <Cost> 
+  <Cost>
     <BuildTime>2000</BuildTime>
     <Resources>
       <food>450</food>
@@ -50,7 +50,8 @@
     <Civ>earth</Civ>
     <SpecificName>Castle</SpecificName>
     <Tooltip>Train elite earth pony troops, knights, heroes, and siege weapons.Strong defensive building</Tooltip>
-    <History>The Broch is an Iron Age round tower fortification type unique to Scotland.  The origin of brochs remains a mystery. Some archaeologists believed the brochs were built by an influx of broch builders who had been displaced and pushed northward during the Roman invasion of Britain. However, this theory has been largely disproven and current thought is that they were built by itinerant (travelling) craftsmen since so many were built to almost the same exact design. </History><Icon>structures/earth_fortress.png</Icon>
+    <History>The Broch is an Iron Age round tower fortification type unique to Scotland.  The origin of brochs remains a mystery. Some archaeologists believed the brochs were built by an influx of broch builders who had been displaced and pushed northward during the Roman invasion of Britain. However, this theory has been largely disproven and current thought is that they were built by itinerant (travelling) craftsmen since so many were built to almost the same exact design. </History>
+    <Icon>structures/earth_fortress.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="42.0" depth="43.0"/>
@@ -60,9 +61,9 @@
       <select>interface/select/building/sel_broch.xml</select>
       <constructed>interface/complete/building/complete_broch.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
-	  <alert0>interface/alarm/alarm_alert_0.xml</alert0>
-	  <alert1>interface/alarm/alarm_alert_1.xml</alert1>
-	  <alert2>interface/alarm/alarm_alert_2.xml</alert2>
+      <alert0>interface/alarm/alarm_alert_0.xml</alert0>
+      <alert1>interface/alarm/alarm_alert_1.xml</alert1>
+      <alert2>interface/alarm/alarm_alert_2.xml</alert2>
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>

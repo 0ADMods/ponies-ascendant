@@ -11,12 +11,12 @@
       <Pierce>70.0</Pierce>
       <Crush>15.0</Crush>
       <MaxRange>100</MaxRange>
-	  <ProjectileSpeed>70.0</ProjectileSpeed>
+      <ProjectileSpeed>70.0</ProjectileSpeed>
       <PrepareTime>2666</PrepareTime>
       <RepeatTime>4000</RepeatTime>
       <Spread>3.2</Spread>
       <Bonuses>
-	    <NerfOrganic>
+        <NerfOrganic>
           <Classes>Organic</Classes>
           <Multiplier>0.5</Multiplier>
         </NerfOrganic>
@@ -46,9 +46,11 @@
   <Cost>
     <BuildTime>45</BuildTime>
     <Resources>
-    <food>150</food>  <wood>150</wood>
+      <food>150</food>
+      <wood>150</wood>
       <stone>0</stone>
-   <metal>100</metal>  </Resources>
+      <metal>100</metal>
+    </Resources>
   </Cost>
   <Decay>
     <DelayTime>80.0</DelayTime>

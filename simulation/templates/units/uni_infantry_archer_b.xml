@@ -24,7 +24,8 @@
         <BonusInfantryMelee>
           <Classes>Infantry Melee</Classes>
           <Multiplier>1.0</Multiplier>
-        </BonusInfantryMelee>       <BonusAntiArmor>
+        </BonusInfantryMelee>
+        <BonusAntiArmor>
           <Classes>AntiArmor</Classes>
           <Multiplier>1.5</Multiplier>
         </BonusAntiArmor>

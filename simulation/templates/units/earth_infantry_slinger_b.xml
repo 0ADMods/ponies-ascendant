@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <Entity parent="template_unit_infantry_ranged_slinger">
   <Armour>
     <Hack>1</Hack>
@@ -67,7 +66,7 @@
   </Footprint>
   <Health>
     <Max>100</Max>
-   </Health>
+  </Health>
   <Identity>
     <Classes datatype="tokens">Skirmisher</Classes>
     <Civ>earth</Civ>

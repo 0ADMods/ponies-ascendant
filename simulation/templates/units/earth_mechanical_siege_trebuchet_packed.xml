@@ -41,7 +41,8 @@
     <Resources>
       <wood>450</wood>
       <stone>150</stone>
-   <metal>150</metal>  </Resources>
+      <metal>150</metal>
+    </Resources>
   </Cost>
   <Decay>
     <DelayTime>18.0</DelayTime>

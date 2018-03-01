@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <Entity parent="template_unit_infantry_ranged">
   <Armour>
     <Hack>0</Hack>
@@ -44,10 +43,10 @@
   </Builder>
   <Cost>
     <BuildTime>8</BuildTime>
-      <Resources>
-        <wood>50</wood>
-        <food>75</food>
-     </Resources>
+    <Resources>
+      <wood>50</wood>
+      <food>75</food>
+    </Resources>
   </Cost>
   <Footprint>
     <Circle radius="3.0"/>
@@ -56,7 +55,9 @@
   <Identity>
     <Civ>pega</Civ>
     <SelectionGroupName>units/pega_infantry_javelinist_b</SelectionGroupName>
-    <GenericName>Skirmisher</GenericName><SpecificName>Peltast</SpecificName> <Classes datatype="tokens">Skirmisher</Classes>
+    <GenericName>Skirmisher</GenericName>
+    <SpecificName>Peltast</SpecificName>
+    <Classes datatype="tokens">Skirmisher</Classes>
     <History>Gesatae were young men who devoted themselves to war, often serving as mercenaries for other tribes. They were the last Celts to fight stark naked to show their courage, often carrying only a shield with several javelins and a regular Celtic spear. More often than not they were covered in geometric designs painted in woad, a blue dye.</History>
     <Icon>units/pega_infantry_javelinist.png</Icon>
     <Gender>female</Gender>

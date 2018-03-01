@@ -16,7 +16,7 @@
         </BonusSoldier>
       </Bonuses>
     </Melee>
-  </Attack> 
+  </Attack>
   <Cost>
     <BuildTime>16</BuildTime>
     <Resources>

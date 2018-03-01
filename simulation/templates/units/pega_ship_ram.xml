@@ -30,7 +30,7 @@
   <Identity>
     <Civ>pega</Civ>
     <SpecificName>Ramming Monoreme</SpecificName>
-    <Tooltip>Ramming ship, holds 45 units. Effective against docks and siege ships. vunerable to shore defenses and war ships. </Tooltip>
+    <Tooltip>Ramming ship, holds 45 units. Effective against docks and siege ships. vunerable to shore defenses and war ships.</Tooltip>
   </Identity>
   <UnitMotion>
     <WalkSpeed>17.0</WalkSpeed>

@@ -21,7 +21,7 @@
       </Bonuses>
       <RepeatTime>1500</RepeatTime>
     </Melee>
-  </Attack> 
+  </Attack>
   <Cost>
     <BuildTime>14</BuildTime>
     <Resources>

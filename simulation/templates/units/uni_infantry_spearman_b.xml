@@ -2,9 +2,11 @@
 <Entity parent="template_unit_infantry_melee_pikeman">
   <Armour>
     <Hack>7</Hack>
-  <Pierce>5</Pierce> <Crush>6</Crush> </Armour>
+    <Pierce>5</Pierce>
+    <Crush>6</Crush>
+  </Armour>
   <Health>
-    <Max>170 </Max>
+    <Max>170</Max>
   </Health>
   <Attack>
     <Melee>
@@ -19,7 +21,8 @@
         <BonusSkirmisher>
           <Classes>Skirmisher</Classes>
           <Multiplier>2.0</Multiplier>
-        </BonusSkirmisher>    </Bonuses>
+        </BonusSkirmisher>
+      </Bonuses>
     </Melee>
   </Attack>
   <Builder>
@@ -76,6 +79,7 @@
       <order_repair>voice/{lang}/civ/civ_{gender}_repair.xml</order_repair>
       <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
       <death>actor/human/death/{gender}_death.xml</death>
-      <attack>attack/weapon/pike.xml</attack></SoundGroups>
+      <attack>attack/weapon/pike.xml</attack>
+    </SoundGroups>
   </Sound>
 </Entity>

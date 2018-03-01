@@ -6,7 +6,7 @@
     <Crush>6</Crush>
   </Armour>
   <Health>
-    <Max>200 </Max>
+    <Max>200</Max>
   </Health>
   <Attack>
     <Melee>
@@ -39,7 +39,7 @@
   <Footprint>
     <Circle radius="2.0"/>
     <Height>3.0</Height>
-   </Footprint>
+  </Footprint>
   <Identity>
     <Classes datatype="tokens">Soldier</Classes>
     <Civ>earth</Civ>

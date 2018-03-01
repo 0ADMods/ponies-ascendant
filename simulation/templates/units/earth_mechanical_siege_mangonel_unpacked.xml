@@ -39,9 +39,11 @@
   <Cost>
     <BuildTime>50</BuildTime>
     <Resources>
-    <food>150</food>  <wood>120</wood>
+      <food>150</food>
+      <wood>120</wood>
       <stone>50</stone>
-   <metal>25</metal>  </Resources>
+      <metal>25</metal>
+    </Resources>
   </Cost>
   <Decay>
     <DelayTime>18.0</DelayTime>

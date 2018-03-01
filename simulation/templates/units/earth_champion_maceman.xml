@@ -18,12 +18,12 @@
           <Classes>Structure Ship</Classes>
           <Multiplier>4.5</Multiplier>
         </BonusStructure>
-     </Bonuses>
-     <RepeatTime>2000</RepeatTime>
-   </Melee>
-  </Attack> 
+      </Bonuses>
+      <RepeatTime>2000</RepeatTime>
+    </Melee>
+  </Attack>
   <Cost>
-   <BuildTime>12</BuildTime>
+    <BuildTime>12</BuildTime>
     <Resources>
       <wood>20</wood>
       <food>100</food>
@@ -36,8 +36,10 @@
   </Footprint>
   <Health>
     <Max>220</Max>
-  </Health>  <Identity>
-  <Classes datatype="tokens">AntiArmor /Champion Sword</Classes>  <Civ>earth</Civ>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">AntiArmor /Champion Sword</Classes>
+    <Civ>earth</Civ>
     <GenericName>Anti Armor</GenericName>
     <SpecificName>Brute</SpecificName>
     <History>Two-handed swordsmen from Briton. These men are veteran soldiers who offer their lives in service to their Brythonic lords.</History>

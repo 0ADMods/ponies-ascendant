@@ -3,33 +3,37 @@
   <Armour>
     <Hack>14</Hack>
     <Pierce>22</Pierce>
-    <Crush>6</Crush> </Armour>
-    <Attack>
-      <Melee>
-        <Hack>25.0</Hack>
-        <Bonuses>
-          <BonusSoldier>
-            <Classes>Soldier Skirmisher</Classes>
-            <Multiplier>3.0</Multiplier>
-          </BonusSoldier>
-        </Bonuses>
-      </Melee>
-    </Attack>
-    <Cost>
-      <BuildTime>20</BuildTime>
-      <Resources>
-        <wood>50</wood>
-        <food>125</food> <metal>220</metal>
-      </Resources>
-    </Cost>
-    <Footprint>
-      <Circle radius="3.0"/>
-      <Height>6.0</Height>
-    </Footprint>
-    <Health>
-      <Max>500</Max>
-    </Health>  <Identity>
-    <Classes datatype="tokens">Armor</Classes>  <Civ>earth</Civ>
+    <Crush>6</Crush>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>25.0</Hack>
+      <Bonuses>
+        <BonusSoldier>
+          <Classes>Soldier Skirmisher</Classes>
+          <Multiplier>3.0</Multiplier>
+        </BonusSoldier>
+      </Bonuses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <wood>50</wood>
+      <food>125</food>
+      <metal>220</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Circle radius="3.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Health>
+    <Max>500</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Armor</Classes>
+    <Civ>earth</Civ>
     <GenericName>Armor</GenericName>
     <SpecificName>Knight</SpecificName>
     <History>Two-handed swordsmen from Briton. These men are veteran soldiers who offer their lives in service to their Brythonic lords.</History>
@@ -55,7 +59,8 @@
       <death>actor/human/death/{gender}_death.xml</death>
       <attack>attack/impact/shield_metal.xml</attack>
     </SoundGroups>
-    </Sound> <VisualActor>
+  </Sound>
+  <VisualActor>
     <Actor>units/earth_ponies/champion_infantry.xml</Actor>
   </VisualActor>
 </Entity>

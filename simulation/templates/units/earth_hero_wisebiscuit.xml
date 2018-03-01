@@ -13,12 +13,12 @@
     <Height>6.0</Height>
   </Footprint>
   <Identity>
-     <Civ>earth</Civ>
-     <SpecificName>Advisor Wisebiscuit</SpecificName>
-     <History>Carthage's most famous son. Hannibal Barca was the eldest son of Hamilcar Barca and proved an even greater commander than his father. Lived 247-182 BC. While he ultimately lost the Second Punic War, his victories at Trebia, Lake Trasimene, and Cannae, and the feat of crossing the Alps have secured his position as among the best tacticians and strategists in history.</History>
-     <Icon>units/earth_hero_wisebiscuit.png</Icon>
-     <Tooltip>Level headed advisor of high chancellor Jellyhat. Her sense for enemy weakness, as well as her uncanny situational awareness, inspires her troops to fight harder.She can also build field fortifications.</Tooltip>
-     <Gender>female</Gender>
+    <Civ>earth</Civ>
+    <SpecificName>Advisor Wisebiscuit</SpecificName>
+    <History>Carthage's most famous son. Hannibal Barca was the eldest son of Hamilcar Barca and proved an even greater commander than his father. Lived 247-182 BC. While he ultimately lost the Second Punic War, his victories at Trebia, Lake Trasimene, and Cannae, and the feat of crossing the Alps have secured his position as among the best tacticians and strategists in history.</History>
+    <Icon>units/earth_hero_wisebiscuit.png</Icon>
+    <Tooltip>Level headed advisor of high chancellor Jellyhat. Her sense for enemy weakness, as well as her uncanny situational awareness, inspires her troops to fight harder.She can also build field fortifications.</Tooltip>
+    <Gender>female</Gender>
   </Identity>
   <Sound>
     <SoundGroups>
@@ -32,7 +32,7 @@
       <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
       <death>actor/human/death/{gender}_death.xml</death>
     </SoundGroups>
-  </Sound> 
+  </Sound>
   <VisualActor>
     <Actor>units/earth_ponies/hero_wisebiscuit.xml</Actor>
   </VisualActor>

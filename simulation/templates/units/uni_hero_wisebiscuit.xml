@@ -28,7 +28,7 @@
       <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
       <death>actor/human/death/{gender}_death.xml</death>
     </SoundGroups>
-  </Sound> 
+  </Sound>
   <VisualActor>
     <Actor>units/earth_ponies/hero_wisebiscuit.xml</Actor>
   </VisualActor>

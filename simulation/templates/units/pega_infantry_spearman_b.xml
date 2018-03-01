@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <Entity parent="template_unit_infantry_melee_spearman">
   <Armour>
     <Hack>1</Hack>
@@ -30,10 +29,10 @@
     </Entities>
   </Builder>
   <Cost>
-    <BuildTime>9</BuildTime>    
+    <BuildTime>9</BuildTime>
     <Resources>
       <wood>30</wood>
-      <food>75</food> 
+      <food>75</food>
       <metal>5</metal>
     </Resources>
   </Cost>

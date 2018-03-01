@@ -20,7 +20,6 @@
   <Identity>
     <Civ>uni</Civ>
     <SpecificName>Cathedral</SpecificName>
-    <History>Celts built large sanctuaries for feasting and worship. One such structure was the Sanctuary of Corent in modern-day France.</History>
   </Identity>
   <Obstruction>
     <Static width="30.5" depth="54.0"/>

@@ -34,7 +34,6 @@
   <Identity>
     <Civ>pega</Civ>
     <SpecificName>Outpost</SpecificName>
-    <History>*I could not find any evidence of a celtic tower, but I'm giving them one for gameplay reasons.*</History>
   </Identity>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>

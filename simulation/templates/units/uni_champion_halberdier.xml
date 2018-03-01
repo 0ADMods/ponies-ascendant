@@ -42,7 +42,6 @@
     <Civ>uni</Civ>
     <GenericName>Anti Armor</GenericName>
     <SpecificName>Halberdier</SpecificName>
-    <History>Two-handed swordsmen from Briton. These men are veteran soldiers who offer their lives in service to their Brythonic lords.</History>
     <Icon>units/uni_champion_halberdier.png</Icon>
     <Gender>female</Gender>
     <RequiredTechnology>phase_town</RequiredTechnology>

@@ -18,7 +18,6 @@
   <Identity>
     <Civ>earth</Civ>
     <SpecificName>Cottage</SpecificName>
-    <History>Celts generally lived in round stone or wattle and daub walled structures with thatched roof.</History>
     <Icon>structures/earth_house.png</Icon>
   </Identity>
   <Health>

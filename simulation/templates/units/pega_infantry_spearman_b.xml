@@ -46,7 +46,6 @@
     <SelectionGroupName>units/pega_infantry_spearman_b</SelectionGroupName>
     <SpecificName>Recruit Hoplite</SpecificName>
     <GenericName>Soldier</GenericName>
-    <History>The spear was the main weapon of the Celts, arming the bulk of their forces. The average Celt would only have to take up his long spear and body shield to be ready for battle. While armor was rare, the rabid fighting spirit of the Celts more than made up for in vigor what was lost in protection.</History>
     <Icon>units/pega_infantry_spearman.png</Icon>
     <Gender>female</Gender>
   </Identity>

@@ -3,7 +3,6 @@
   <Identity>
     <Civ>pega</Civ>
     <SpecificName>/Fishing Boat/</SpecificName>
-    <History>Need History</History>
     <Icon>units/celt_ship_fishing.png</Icon>
   </Identity>
   <VisualActor>

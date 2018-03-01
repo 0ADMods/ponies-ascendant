@@ -36,7 +36,6 @@
     <Civ>uni</Civ>
     <GenericName>Armor</GenericName>
     <SpecificName>Cavalier</SpecificName>
-    <History>Two-handed swordsmen from Briton. These men are veteran soldiers who offer their lives in service to their Brythonic lords.</History>
     <Icon>units/earth_champion_infantry.png</Icon>
     <Gender>female</Gender>
   </Identity>

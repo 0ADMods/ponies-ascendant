@@ -63,7 +63,6 @@
   <Identity>
     <Civ>uni</Civ>
     <GenericName>Artillery Tower</GenericName>
-    <History>Earth ponies would often perch upon a high tower to give themselves an advantage over attacking unicorns. Pegasi, however, outranged them all the same.</History>
     <Icon>structures/earth_scout_tower.png</Icon>
     <Tooltip>Long range counter-siege tower. Deals high damage to a single target over a long range, however it is very slow to fire and will damage friendly units should they get in the way.</Tooltip>
     <RequiredTechnology>phase_city</RequiredTechnology>

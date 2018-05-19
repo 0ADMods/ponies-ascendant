@@ -7,7 +7,6 @@
   <Identity>
     <Civ>uni</Civ>
     <SpecificName>Curach</SpecificName>
-    <History>These very small boats were used mainly for fishing, but they were also used to transport goods and personnel. The shell is wickerwork, covered with animal hides.</History>
     <Icon>units/celt_ship_merchant.png</Icon>
   </Identity>
   <VisualActor>

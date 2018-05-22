@@ -26,7 +26,7 @@
         <texture file="structural/earth_struct_norm.png" name="normTex"/>
         <texture file="structural/earth_struct_spec.png" name="specTex"/>
         <texture file="structural/earth_struct.png" name="baseTex"/>
-        <texture file="structural/ao/earth_civil_centre_ao.png" name="aoTex"/>
+        <texture file="structural/ao/earth_civil_centre.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -51,5 +51,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

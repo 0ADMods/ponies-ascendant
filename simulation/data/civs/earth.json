@@ -5,31 +5,35 @@
 	"Emblem": "session/portraits/emblems/emblem_earth_ponies.png",
 	"History": "",
 	"Music": [
-			{"File":"The_Road_Ahead.ogg", "Type":"peace"},
-			{"File":"Highland_Mist.ogg", "Type":"peace"},
-			{"File":"Celtic_Pride.ogg", "Type":"peace"},
-			{"File":"Celtica.ogg", "Type":"peace"},
-			{"File":"Cisalpine_Gaul.ogg", "Type":"peace"}
+		{
+			"File": "Old_Thatch.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Working_the_Fields.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Wartime_Economy.ogg",
+			"Type": "peace"
+		}
 	],
-	"Factions":
-	[
+	"Factions": [
 		{
 			"Name": "Earth Ponies",
 			"Description": "The strong ponies who lack wings or a horn."
-		} 
+		}
 	],
 	"CivBonuses": [],
 	"TeamBonuses": [],
 	"Structures": [],
-	"WallSets":
-	[
+	"WallSets": [
 		"structures/earth_wallset_wood",
 		"structures/earth_wallset_stone"
 	],
-	"StartEntities":
-	[
+	"StartEntities": [
 		{
-			"Template": "structures/earth_civil_centre" 
+			"Template": "structures/earth_civil_centre"
 		},
 		{
 			"Template": "units/earth_support_female_citizen",
@@ -37,22 +41,20 @@
 		},
 		{
 			"Template": "units/earth_infantry_spearman_b",
-			"Count": 2 
+			"Count": 2
 		},
 		{
 			"Template": "units/earth_infantry_slinger_b",
-			"Count": 3 
+			"Count": 3
 		}
 	],
-	"Formations":
-	[
+	"Formations": [
 		"special/formations/scatter",
 		"special/formations/line_closed",
 		"special/formations/line_open",
 		"special/formations/flank"
 	],
-	"AINames":
-	[
+	"AINames": [
 		"Chancellor Jellyhat",
 		"Advisor Wisebiscut",
 		"Advisor Berry",
@@ -65,8 +67,7 @@
 		"General Bonbon",
 		"Sir Whooves"
 	],
-	"SkirmishReplacements":
-	{
+	"SkirmishReplacements": {
 		"skirmish/units/default_support_female_citizen": "units/earth_support_female_citizen",
 		"skirmish/units/default_infantry_ranged_b": "units/earth_infantry_slinger_b",
 		"skirmish/units/default_cavalry": "units/earth_infantry_spearman_b",

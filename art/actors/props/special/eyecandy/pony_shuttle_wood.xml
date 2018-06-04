@@ -9,4 +9,5 @@
       </textures>
     </variant>
   </group>
+  <material>basic_trans_spec.xml</material>
 </actor>

@@ -1,72 +1,62 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defense">
-   <Auras>
-    <speed>
-      <Type>range</Type>
-      <Radius>30</Radius>
-      <Affects>Unit Mechanical Formation</Affects>
-      <Modifications>
-        <UnitMotion.WalkSpeed> <Multiply>1.25</Multiply> </UnitMotion.WalkSpeed>
-      </Modifications>
-      <AuraName>Speed Aura</AuraName>
-      <AuraDescription>Increases the speed of all nearby units by 25%</AuraDescription>
-    </speed>
-  </Auras> 
-  <BuildRestrictions>
-	<Territory>own neutral</Territory>
-	<PlacementType>land-shore</PlacementType>
-    <Category>Wall</Category>
-  </BuildRestrictions>
-  <Cost>
-    <BuildTime>10</BuildTime>
-    <Resources>
-      <stone>10</stone>
-    </Resources>
-  </Cost>
-  <Footprint>
-    <Square width="6.0" depth="6.0"/>
-    <Height>8.0</Height>
-  </Footprint>
-  <Health>
-    <Max>4000</Max>
-    <SpawnEntityOnDeath>rubble/rubble_wall</SpawnEntityOnDeath>
-  </Health>
-  <Identity>
-    <Classes datatype="tokens">-ConquestCritical Road</Classes>
-    <GenericName>Road</GenericName>
-    <Tooltip>Lay roads to boost movement speed.</Tooltip>
-    <Icon>structures/wall.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
-  </Identity>
-  <Loot>
-    <xp>0</xp>
-    <food>0</food>
-    <wood>0</wood>
-    <stone>10</stone>
-    <metal>0</metal>
-  </Loot>
-<Obstruction>
-    <Static width="6.0" depth="6.0"/>
-    <BlockMovement>false</BlockMovement>
-    <BlockPathfinding>false</BlockPathfinding>
-  </Obstruction>
-  <RallyPoint disable=""/>
-  <Sound>
-    <SoundGroups>
-      <select>interface/select/building/sel_wall.xml</select>
-      <constructed>interface/complete/building/sel_wall.xml</constructed>
-      <death>attack/destruction/building_collapse_large.xml</death>
-    </SoundGroups>
-  </Sound>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>20</Radius>
-    <Weight>65536</Weight>
-  </TerritoryInfluence>
-  <Vision>
-    <Range>0</Range>
-  </Vision>
-  <VisualActor>
-    <FoundationActor>structures/fndn_wall.xml</FoundationActor>
-  </VisualActor>
+  <Auras datatype="tokens">structures/road_speed_aura</Auras>
+	<BuildRestrictions>
+		<Territory>own neutral</Territory>
+		<PlacementType>land-shore</PlacementType>
+		<Category>Wall</Category>
+	</BuildRestrictions>
+	<Cost>
+		<BuildTime>10</BuildTime>
+		<Resources>
+			<stone>10</stone>
+		</Resources>
+	</Cost>
+	<Footprint>
+		<Square width="6.0" depth="6.0"/>
+		<Height>8.0</Height>
+	</Footprint>
+	<Health>
+		<Max>4000</Max>
+		<SpawnEntityOnDeath>rubble/rubble_wall</SpawnEntityOnDeath>
+	</Health>
+	<Identity>
+		<Classes datatype="tokens">-ConquestCritical Road</Classes>
+		<GenericName>Road</GenericName>
+		<Tooltip>Lay roads to boost movement speed.</Tooltip>
+		<Icon>structures/wall.png</Icon>
+		<RequiredTechnology>phase_town</RequiredTechnology>
+	</Identity>
+	<Loot>
+		<xp>0</xp>
+		<food>0</food>
+		<wood>0</wood>
+		<stone>10</stone>
+		<metal>0</metal>
+	</Loot>
+	<Obstruction>
+		<Static width="6.0" depth="6.0"/>
+		<BlockMovement>false</BlockMovement>
+		<BlockPathfinding>false</BlockPathfinding>
+	</Obstruction>
+	<RallyPoint disable=""/>
+	<Sound>
+		<SoundGroups>
+			<select>interface/select/building/sel_wall.xml</select>
+			<constructed>interface/complete/building/sel_wall.xml</constructed>
+			<death>attack/destruction/building_collapse_large.xml</death>
+		</SoundGroups>
+	</Sound>
+	<TerritoryInfluence>
+		<Root>false</Root>
+		<Radius>20</Radius>
+		<Weight>65536</Weight>
+	</TerritoryInfluence>
+	<Vision>
+		<Range>0</Range>
+	</Vision>
+	<VisualActor>
+		<FoundationActor>structures/fndn_wall.xml</FoundationActor>
+	</VisualActor>
 </Entity>

@@ -1,0 +1,10 @@
+{
+    "type": "range",
+    "radius": 30,
+    "affects": ["Human", "Mechanical", "Formation"],
+    "modifications": [
+		{ "value": "UnitMotion.WalkSpeed", "multiply": 1.25 }
+    ],
+    "auraName": "Speed Aura",
+	"auraDescription": "Increases the speed of all nearby units by 25%."
+}

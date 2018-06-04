@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/earth_infantry_javelinist_b">
+  <Armour>
+    <Hack>0</Hack>
+    <Pierce>7</Pierce>
+    <Crush>1</Crush>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Spread>2.8</Spread>
+      <MaxRange>45</MaxRange>
+    </Ranged>
+  </Attack>
+  <Health>
+    <Max>110</Max>
+  </Health>
+  <Identity>
+    <Rank>Advanced</Rank>
+ <SpecificName>Ranked Javelinist</SpecificName> </Identity>
+  <Promotion>
+    <Entity>units/earth_infantry_javelinist_e</Entity>
+  </Promotion>
+  <ResourceGatherer>
+    <BaseSpeed>0.75</BaseSpeed>
+  </ResourceGatherer>
+  <UnitMotion>
+    <WalkSpeed>14.0</WalkSpeed>
+    <Run>
+      <Speed>22.5</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/earth_ponies/infantry_javelinist_a.xml</Actor>
+  </VisualActor>
+</Entity>

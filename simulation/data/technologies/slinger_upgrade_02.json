@@ -1,0 +1,25 @@
+{
+	"genericName": "Train Slingers",
+	"specificName": {
+		"generic": "Elite Slingers",
+		"earth": "Guerilla Excercises",
+		"uni": "Tactical Repositioning",
+		"pega": "Lead Bullet Practice"
+	},
+	"description": "Invests in better equipped and better trained slinger troops.",
+	"cost": {
+		"food": 1500,
+		"wood": 0,
+		"stone": 500,
+		"metal": 0
+	},
+	"requirements": {
+		"tech": "slinger_advanced_upgrade phase_city"
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"supersedes": "slinger_upgrade_01",
+	"icon": "armor_leather.png",
+	"researchTime": 40,
+	"tooltip": "All Slingers Upgrade to the Elite Rank.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

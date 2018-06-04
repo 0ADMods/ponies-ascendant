@@ -1,0 +1,24 @@
+{
+	"genericName": "Train Slingers",
+	"specificName": {
+		"generic": "Train Slingers",
+		"earth": "Clay Shot Practice",
+		"uni": "Neighzantine Technique",
+		"pega": "Slinging Tournaments"
+	},
+	"description": "Invests in better equipped and better trained slinger troops.",
+	"cost": {
+		"food": 500,
+		"wood": 0,
+		"stone": 100,
+		"metal": 0
+	},
+	"requirements": {
+		"tech": "phase_town"
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "armor_leather.png",
+	"researchTime": 40,
+	"tooltip": "Unlocks Slingers.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

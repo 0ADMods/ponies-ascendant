@@ -21,12 +21,12 @@
         <animation file="other/unicorn_walk.dae" name="carry_stone" speed="8"/>
         <animation file="other/unicorn_walk.dae" name="carry_metal" speed="8"/>
         <animation event="0.4" file="other/unicorn_lumbering.dae" name="gather_tree" speed="60"/>
-        <animation file="other/pony_farming_a.dae" name="gather_grain" speed="75"/>
-        <animation file="other/pony_foraging.dae" name="gather_fruit" speed="25"/>
-        <animation file="other/pony_foraging.dae" name="gather_meat" speed="25"/>
-        <animation event="0.4" file="other/unicorn_lumbering.dae" name="gather_rock" speed="60"/>
-        <animation event="0.4" file="other/unicorn_lumbering.dae" name="gather_ore" speed="60"/>
-        <animation file="other/unicorn_lumbering.dae" name="gather_ruins" speed="60"/>
+        <animation file="other/uni_farming.dae" name="gather_grain" speed="75"/>
+        <animation file="other/uni_farming.dae" name="gather_fruit" speed="25"/>
+        <animation file="other/uni_farming.dae" name="gather_meat" speed="25"/>
+        <animation event="0.75" file="other/uni_mining.dae" name="gather_rock" speed="70"/>
+        <animation event="0.75" file="other/uni_mining.dae" name="gather_ore" speed="70"/>
+        <animation event="0.75" file="other/uni_mining.dae" name="gather_ruins" speed="70"/>
         <animation event="0.6" file="other/unicorn_building.dae" name="Build" speed="70"/>
         <animation file="other/uni_death.dae" name="Death" speed="70"/>
         <animation file="other/uni_death_b.dae" name="Death" speed="70"/>

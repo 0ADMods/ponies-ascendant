@@ -5,15 +5,9 @@
     <variant frequency="1" name="1">
       <animations>
         <animation file="other/unicorn_walk.dae" name="Walk" speed="8"/>
-        <animation file="other/unicorn_b_syntagma_front.dae" name="syntagma_front_idle" speed="8"/>
-        <animation file="other/unicorn_b_syntagma_front_walk.dae" name="syntagma_front_walk" speed="8"/>
-        <animation file="other/unicorn_b_syntagma_front_walk.dae" name="syntagma_front_run" speed="8"/>
-        <animation file="other/unicorn_walk.dae" name="syntagma_med_walk" speed="8"/>
-        <animation file="other/unicorn_walk.dae" name="syntagma_back_walk" speed="8"/>
         <animation file="other/unicorn_gallop.dae" name="Run" speed="10"/>
-        <animation event="0.2" file="other/unicorn_b_spearing.dae" name="attack_melee" speed="250"/>
-        <animation event="0.2" file="other/unicorn_b_spearing_2.dae" name="attack_melee" speed="250"/>
-        <animation event="0.2" file="other/unicorn_b_spearing_3.dae" name="attack_melee" speed="250"/>
+        <animation event="0.5" file="other/unicorn_lumbering.dae" name="attack_melee" speed="250"/>
+        <animation event="0.74" file="other/uni_slinging.dae" name="attack_ranged" speed="250"/>
         <animation event="0.5" file="other/unicorn_lumbering.dae" name="attack_slaughter" speed="250"/>
         <animation file="other/unicorn_walk.dae" name="carry_food" speed="8"/>
         <animation file="other/unicorn_walk.dae" name="carry_meat" speed="8"/>
@@ -28,90 +22,78 @@
         <animation event="0.4" file="other/uni_mining.dae" name="gather_ore" speed="60"/>
         <animation file="other/uni_mining.dae" name="gather_ruins" speed="60"/>
         <animation event="0.6" file="other/unicorn_building.dae" name="Build" speed="70"/>
+        <animation event="" file="other/unicorn_idle.dae" load="" name="idle" speed="30"/>
+        <animation file="other/pony_promotion.dae" name="promotion" speed="60"/>
         <animation file="other/uni_death.dae" name="Death" speed="70"/>
         <animation file="other/uni_death_b.dae" name="Death" speed="70"/>
         <animation file="other/uni_death_c.dae" name="Death" speed="70"/>
-        <animation file="other/unicorn_idle.dae" name="idle" speed="30"/>
-        <animation file="other/pony_promotion.dae" name="promotion" speed="60"/>
       </animations>
-      <mesh>skeletal/unicorn_c.dae</mesh>
+      <mesh>skeletal/unicorn_remapped.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/slingrock_2.xml" attachpoint="projectile"/>
+      </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="10">
-      <textures>
-        <texture file="skeletal/uni_spearman_norm.png" name="normTex"/>
-        <texture file="skeletal/uni_spearman_spec.png" name="specTex"/>
-      </textures>
-    </variant>
+    <variant frequency="1" name="10"/>
   </group>
   <group>
     <variant frequency="1" name="2">
       <textures>
-        <texture file="skeletal/uni_spearman_e_a.png" name="baseTex"/>
+        <texture file="skeletal/uni_slinger_e_a.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="3">
       <textures>
-        <texture file="skeletal/uni_spearman_e_b.png" name="baseTex"/>
+        <texture file="skeletal/uni_slinger_e_b.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="4">
       <textures>
-        <texture file="skeletal/uni_spearman_e_c.png" name="baseTex"/>
+        <texture file="skeletal/uni_slinger_e_c.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="5">
       <textures>
-        <texture file="skeletal/uni_spearman_e_d.png" name="baseTex"/>
+        <texture file="skeletal/uni_slinger_e_d.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="6">
       <textures>
-        <texture file="skeletal/uni_spearman_e_e.png" name="baseTex"/>
+        <texture file="skeletal/uni_slinger_e_e.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="7">
       <textures>
-        <texture file="skeletal/uni_spearman_e_f.png" name="baseTex"/>
+        <texture file="skeletal/uni_slinger_e_f.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="8">
       <textures>
-        <texture file="skeletal/uni_spearman_e_g.png" name="baseTex"/>
+        <texture file="skeletal/uni_slinger_e_g.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="9">
       <textures>
-        <texture file="skeletal/uni_spearman_e_h.png" name="baseTex"/>
+        <texture file="skeletal/uni_slinger_e_h.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle">
+    <variant frequency="1" name="Idle"/>
+    <variant name="attack_ranged">
       <props>
-        <prop actor="props/units/weapons/pike_pony_idle.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/uni_sling.xml" attachpoint="root"/>
       </props>
     </variant>
-    <variant name="attack_ranged"/>
     <variant name="attack_melee">
       <props>
-        <prop actor="props/units/weapons/pike_pony.xml" attachpoint="hoof"/>
-      </props>
-    </variant>
-    <variant name="syntagma_front_idle">
-      <props>
-        <prop actor="props/units/weapons/pike_pony.xml" attachpoint="hoof"/>
-      </props>
-    </variant>
-    <variant name="syntagma_front_walk">
-      <props>
-        <prop actor="props/units/weapons/pike_pony.xml" attachpoint="hoof"/>
+        <prop actor="props/units/tools/pitchfork.xml" attachpoint="hoof"/>
       </props>
     </variant>
     <variant name="attack_slaughter">
       <props>
-        <prop actor="props/units/weapons/pike_pony.xml" attachpoint="hoof"/>
+        <prop actor="props/units/tools/pitchfork.xml" attachpoint="hoof"/>
       </props>
     </variant>
     <variant name="death"/>
@@ -177,5 +159,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  <material>player_trans.xml</material>
 </actor>

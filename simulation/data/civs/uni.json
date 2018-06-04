@@ -5,25 +5,54 @@
 	"Emblem": "session/portraits/emblems/emblem_earth_ponies.png",
 	"History": "",
 	"Music": [
-			{"File":"The_Road_Ahead.ogg", "Type":"peace"},
-			{"File":"Highland_Mist.ogg", "Type":"peace"},
-			{"File":"Celtic_Pride.ogg", "Type":"peace"},
-			{"File":"Celtica.ogg", "Type":"peace"},
-			{"File":"Cisalpine_Gaul.ogg", "Type":"peace"}
+		{
+			"File": "Unicorn_Intro.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Gain_the_Walls.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Snowing_Sideways.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Testing_Buttresses.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Unicorn_Superiority.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Altitude_Sickness.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Organ_Donor.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Armed_to_the_Horn.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Armed_to_the_Horn.ogg",
+			"Type": "war"
+		}
 	],
 	"Factions": [],
 	"CivBonuses": [],
 	"TeamBonuses": [],
 	"Structures": [],
-	"WallSets":
-	[
+	"WallSets": [
 		"structures/uni_wallset_wood",
 		"structures/uni_wallset_stone"
 	],
-	"StartEntities":
-	[
+	"StartEntities": [
 		{
-			"Template": "structures/uni_civil_centre" 
+			"Template": "structures/uni_civil_centre"
 		},
 		{
 			"Template": "units/uni_support_female_citizen",
@@ -31,15 +60,14 @@
 		},
 		{
 			"Template": "units/uni_infantry_spearman_b",
-			"Count": 3 
+			"Count": 3
 		},
 		{
 			"Template": "units/uni_infantry_archer_b",
-			"Count": 3 
+			"Count": 3
 		}
 	],
-	"Formations":
-	[
+	"Formations": [
 		"special/formations/scatter",
 		"special/formations/box",
 		"special/formations/column_closed",
@@ -53,8 +81,7 @@
 		"special/formations/phalanx",
 		"special/formations/syntagma"
 	],
-	"AINames":
-	[
+	"AINames": [
 		"Princess Diamond",
 		"Squire Aurora",
 		"Squire Gneiss",
@@ -67,8 +94,7 @@
 		"Captain Fleur",
 		"Count Lunata"
 	],
-	"SkirmishReplacements":
-	{
+	"SkirmishReplacements": {
 		"skirmish/units/default_support_female_citizen": "units/uni_support_female_citizen",
 		"skirmish/units/default_infantry_ranged_b": "units/uni_infantry_archer_b",
 		"skirmish/units/default_cavalry": "units/uni_infantry_spearman_b",

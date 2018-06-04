@@ -8,7 +8,7 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>18.0</Pierce>
+			<Pierce>15.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>50.0</MaxRange>
       <MinRange>5.0</MinRange>
@@ -49,29 +49,32 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Circle radius="3.0"/>
-    <Height>7.0</Height>
-  </Footprint>
-  <Identity>
-    <Civ>pega</Civ>
-    <SelectionGroupName>units/pega_infantry_javelinist_b</SelectionGroupName>
-    <GenericName>Skirmisher</GenericName>
-    <SpecificName>Peltast</SpecificName>
-    <Classes datatype="tokens">Skirmisher</Classes>
-    <Icon>units/pega_infantry_javelinist.png</Icon>
+		<Circle radius="3.0"/>
+		<Height>7.0</Height>
+	</Footprint>
+	<Health>
+		<Max>90</Max>
+	</Health>
+	<Identity>
+		<Civ>pega</Civ>
+		<SelectionGroupName>units/pega_infantry_javelinist_b</SelectionGroupName>
+		<GenericName>Skirmisher</GenericName>
+		<SpecificName>Recruit Peltast</SpecificName>
+		<Classes datatype="tokens">Skirmisher</Classes>
+		<Icon>units/pega_infantry_javelinist.png</Icon>
     <Gender>female</Gender>
-  </Identity>
-  <Promotion>
-    <Entity>units/pega_infantry_javelinist_a</Entity>
-  </Promotion>
-  <UnitMotion>
+	</Identity>
+	<Promotion>
+		<Entity>units/pega_infantry_javelinist_a</Entity>
+	</Promotion>
+	<UnitMotion>
     <WalkSpeed>15.0</WalkSpeed>
-    <Run>
-      <Speed>22.0</Speed>
-    </Run>
-  </UnitMotion>
-  <Sound>
-    <SoundGroups>
+		<Run>
+			<Speed>22.0</Speed>
+		</Run>
+	</UnitMotion>
+	<Sound>
+		<SoundGroups>
       <trained>interface/alarm/alarm_create_female.xml</trained>
       <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
       <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
@@ -81,9 +84,9 @@
       <order_repair>voice/{lang}/civ/civ_{gender}_repair.xml</order_repair>
       <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
       <death>actor/human/death/{gender}_death.xml</death>
-      <attack>attack/weapon/javelin.xml</attack>
-    </SoundGroups>
-  </Sound>
+			<attack>attack/weapon/javelin.xml</attack>
+		</SoundGroups>
+	</Sound>
   <VisualActor>
     <Actor>units/pegasi/infantry_javelinist_b.xml</Actor>
   </VisualActor>

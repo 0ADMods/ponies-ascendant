@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_slinger">
+<Entity parent="template_unit_infantry_ranged_archer">
   <Armour>
     <Hack>1</Hack>
     <Pierce>0</Pierce>
@@ -8,7 +8,7 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>12.0</Pierce>
+			<Pierce>14.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>90.0</MaxRange>
       <MinRange>10.0</MinRange>
@@ -35,7 +35,7 @@
         </BonusSoldier>
       </Bonuses>
       <Splash>
-        <Shape>Circular</Shape>
+				<Shape>Linear</Shape>
         <Range>1.2</Range>
         <FriendlyFire>true</FriendlyFire>
         <Hack>0.0</Hack>
@@ -71,15 +71,16 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">Skirmisher</Classes>
-    <Civ>uni</Civ>
-    <SelectionGroupName>units/uni_infantry_archer_b</SelectionGroupName>
-    <GenericName>Skirmisher</GenericName>
+		<Civ>uni</Civ>
+		<SelectionGroupName>units/uni_infantry_archer_b</SelectionGroupName>
+		<GenericName>Skirmisher</GenericName>
     <SpecificName>Archer</SpecificName>
-    <Icon>units/uni_infantry_archer.png</Icon>
+		<SpecificName>Drafted Archer</SpecificName>
+		<Icon>units/uni_infantry_archer.png</Icon>
     <Gender>female</Gender>
-  </Identity>
-  <Promotion>
-    <Entity>units/uni_infantry_archer_a</Entity>
+	</Identity>
+	<Promotion>
+		<Entity>units/uni_infantry_archer_a</Entity>
   </Promotion>
   <UnitMotion>
     <WalkSpeed>9.00</WalkSpeed>

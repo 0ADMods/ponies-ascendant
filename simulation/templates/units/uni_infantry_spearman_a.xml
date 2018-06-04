@@ -15,7 +15,7 @@
   </Health>
   <Identity>
     <Rank>Advanced</Rank>
-  </Identity>
+ <SpecificName> Competent Infantry</SpecificName> </Identity>
   <Promotion>
     <Entity>units/uni_infantry_spearman_e</Entity>
   </Promotion>

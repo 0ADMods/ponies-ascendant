@@ -47,16 +47,16 @@
     <Height>5.0</Height>
   </Footprint>
   <Identity>
-    <Classes datatype="tokens">Soldier</Classes>
-    <Civ>uni</Civ>
-    <SelectionGroupName>units/uni_infantry_spearman_b</SelectionGroupName>
-    <SpecificName>Infantry</SpecificName>
-    <GenericName>Soldier</GenericName>
-    <Icon>units/uni_infantry_spearman.png</Icon>
+		<Classes datatype="tokens">Soldier</Classes>
+		<Civ>uni</Civ>
+		<SelectionGroupName>units/uni_infantry_spearman_b</SelectionGroupName>
+		<SpecificName>Drafted Infantry</SpecificName>
+		<GenericName>Soldier</GenericName>
+		<Icon>units/uni_infantry_spearman.png</Icon>
     <Gender>female</Gender>
-  </Identity>
-  <Promotion>
-    <Entity>units/uni_infantry_spearman_a</Entity>
+	</Identity>
+	<Promotion>
+		<Entity>units/uni_infantry_spearman_a</Entity>
   </Promotion>
   <UnitMotion>
     <WalkSpeed>7.0</WalkSpeed>

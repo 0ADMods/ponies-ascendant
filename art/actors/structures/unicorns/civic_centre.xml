@@ -10,8 +10,8 @@
       <props>
         <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/celt_barracks.xml" attachpoint="root"/>
-        <prop actor="props/units/weapons/arrowbuilding_projectile.xml" attachpoint="loaded-projectile"/>
-        <prop actor="props/units/weapons/arrowbuilding_projectile.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/arrowbuilding_uni_projectile.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/weapons/arrowbuilding_uni_projectile.xml" attachpoint="projectile"/>
         <prop actor="props/flora/bush_tempe_underbrush.xml" attachpoint="bush_1" maxheight="20" minheight="-20"/>
         <prop actor="flora/trees/apple_bloom.xml" attachpoint="bush_2" maxheight="20" minheight="-20"/>
         <prop actor="props/flora/bush_tempe_underbrush.xml" attachpoint="bush_2" maxheight="20" minheight="-20"/>

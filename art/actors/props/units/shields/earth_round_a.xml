@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <textures>
+        <texture file="props/shield/earth_round_a_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="quad">
+      <textures>
+        <texture file="props/shield/earth_round_a_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="circle">
+      <textures>
+        <texture file="props/shield/earth_round_a_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="circle1">
+      <textures>
+        <texture file="props/shield/earth_round_a_d.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="circle2">
+      <textures>
+        <texture file="props/shield/earth_round_a_e.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="circle3">
+      <textures>
+        <texture file="props/shield/earth_round_a_f.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="circle4">
+      <textures>
+        <texture file="props/shield/earth_round_a_g.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="circle5">
+      <textures>
+        <texture file="props/shield/earth_round_a_h.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="circle6">
+      <textures>
+        <texture file="props/shield/earth_round_a_i.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="circle7">
+      <textures>
+        <texture file="props/shield/earth_round_a_j.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="circle8">
+      <textures>
+        <texture file="props/shield/earth_round_a_k.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="circle9">
+      <textures>
+        <texture file="props/shield/earth_round_a_l.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="attack_ranged">
+      <mesh>props/shield/earth_shield_round.dae</mesh>
+    </variant>
+    <variant frequency="100" name="idle">
+      <mesh>props/shield/earth_shield_round_idle.dae</mesh>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

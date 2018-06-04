@@ -5,21 +5,43 @@
 	"Emblem": "session/portraits/emblems/emblem_athenians.png",
 	"History": "",
 	"Music": [
-			{"File":"Helen_Leaves_Sparta.ogg", "Type":"peace"},
-			{"File":"Harvest_Festival.ogg", "Type":"peace"},
-			{"File":"Forging_a_City-State.ogg", "Type":"peace"},
-			{"File":"The_Hellespont.ogg", "Type":"peace"}
+		{
+			"File": "Cirrus.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Melody_of_Neighkilos.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Cloud_Hopping.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "No_More_Reinforcements.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Legend_of_Hayjax.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Pegasi_Mobilize.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Pegasi_Mobilize.ogg",
+			"Type": "battle"
+		}
 	],
 	"Factions": [],
 	"CivBonuses": [],
 	"TeamBonuses": [],
 	"Structures": [],
-	"WallSets":
-	[
+	"WallSets": [
 		"structures/pega_wallset_stone"
 	],
-	"StartEntities":
-	[
+	"StartEntities": [
 		{
 			"Template": "structures/pega_civil_centre"
 		},
@@ -36,8 +58,7 @@
 			"Count": 2
 		}
 	],
-	"Formations":
-	[
+	"Formations": [
 		"special/formations/scatter",
 		"special/formations/box",
 		"special/formations/column_closed",
@@ -50,8 +71,7 @@
 		"special/formations/battle_line",
 		"special/formations/phalanx"
 	],
-	"AINames":
-	[
+	"AINames": [
 		"Commander Cyclone",
 		"Private Poppy",
 		"Captain Typhoon",
@@ -66,8 +86,7 @@
 		"Colonel Cotton",
 		"Sergeant Stratus"
 	],
-	"SkirmishReplacements":
-	{
+	"SkirmishReplacements": {
 		"skirmish/units/default_infantry_ranged_b": "units/pega_infantry_javelinist_b",
 		"skirmish/units/default_cavalry": "units/pega_infantry_spearman_b"
 	},

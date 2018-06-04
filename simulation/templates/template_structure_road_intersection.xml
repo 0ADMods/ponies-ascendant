@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_road">
+  <StatusBars>
+    <HeightOffset>20.0</HeightOffset>
+  </StatusBars>
+   <VisualActor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+  </VisualActor>
+</Entity>

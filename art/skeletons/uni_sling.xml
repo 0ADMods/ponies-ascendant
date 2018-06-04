@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+	<standard_skeleton title="sling" id="sling">
+		<bone name="sling_1">
+			<bone name="sling_2">
+				<bone name="sling_3">
+					<bone name="sling_4"></bone>
+				</bone>
+			</bone>
+		</bone>
+	</standard_skeleton>
+	<skeleton title="sling" target="sling">
+		<identifier>
+			<root>sling</root>
+		</identifier>
+		<bone name="sling_1">
+			<target>sling_1</target>
+			<bone name="sling_2">
+				<target>sling_2</target>
+				<bone name="sling_3">
+					<target>sling_3</target>
+					<bone name="sling_4">
+						<target>sling_4</target>
+					</bone>
+				</bone>
+			</bone>
+		</bone>
+	</skeleton>
+</skeletons>

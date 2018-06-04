@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.73.0 commit date:2015-01-20, commit time:18:16, hash:bbf09d9</authoring_tool>
+    </contributor>
+    <created>2015-06-27T02:11:21</created>
+    <modified>2015-06-27T02:11:21</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Cube-mesh" name="Cube">
+      <mesh>
+        <source id="Cube-mesh-positions">
+          <float_array id="Cube-mesh-positions-array" count="84">-8.129085 3.692629 0.5844512 -8.129085 5.421386 0.5844512 -7.81348 5.421386 0.5844512 -7.81348 3.692629 0.5844512 -7.626566 3.940179 17.07738 -7.626566 5.173837 17.07738 -7.472445 5.173837 17.07738 -7.472445 3.940179 17.07738 -8.652644 2.838361 -19.18121 -8.652644 6.275653 -19.18121 -8.278852 6.275653 -17.40979 -8.278852 2.838361 -17.40979 -7.164687 2.016027 -21.69751 -7.164687 7.097987 -21.69751 -7.164687 7.097987 -19.92609 -7.164687 2.016027 -19.92609 -6.200291 3.692629 0.5844512 -6.200291 5.421386 0.5844512 -6.515896 5.421386 0.5844512 -6.515896 3.692629 0.5844512 -6.70281 3.940179 17.07738 -6.70281 5.173837 17.07738 -6.85693 5.173837 17.07738 -6.85693 3.940179 17.07738 -5.676732 2.838361 -19.18122 -5.676732 6.275653 -19.18122 -6.050524 6.275653 -17.40979 -6.050524 2.838361 -17.40979</float_array>
+          <technique_common>
+            <accessor source="#Cube-mesh-positions-array" count="28" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube-mesh-normals">
+          <float_array id="Cube-mesh-normals-array" count="84">-0.5684072 0.5741447 0.5892209 -0.7323832 0.6796167 0.04129153 -0.7323832 -0.6796167 0.04129153 0.5846431 0.5715507 0.5757317 0.6906339 0.7231361 0.005584836 0.5846431 -0.5715507 0.5757317 0.6906339 -0.7231361 0.005584836 -0.5684072 -0.5741447 0.5892209 -0.8699301 -0.4667806 -0.1590625 0.5728324 -0.7947936 0.200293 0.6912443 -0.4624775 -0.5552232 0.3084811 -0.9165624 0.2543718 0.5728324 0.7947936 0.200293 -0.8699301 0.4667806 -0.1590625 0.6912443 0.4624775 -0.5552232 0.3084811 0.9165624 0.2543718 0.7323832 -0.6796167 0.04129153 0.7323832 0.6796167 0.04129153 0.5684072 0.5741447 0.5892209 -0.6906339 0.7231361 0.005584836 -0.6906339 -0.7231361 0.005584836 -0.5846431 -0.5715507 0.5757317 0.5684072 -0.5741447 0.5892209 -0.5728324 -0.7947936 0.200293 0.8699301 -0.4667806 -0.1590625 -0.5846431 0.5715507 0.5757317 -0.5728324 0.7947936 0.200293 0.8699301 0.4667806 -0.1590625</float_array>
+          <technique_common>
+            <accessor source="#Cube-mesh-normals-array" count="28" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube-mesh-map-0">
+          <float_array id="Cube-mesh-map-0-array" count="324">0.4921777 0.6942631 0.4932416 0.6372224 0.4872623 0.6372006 0.4894093 0.6942529 0.4899424 0.6942549 0.4889705 0.6372068 0.4809935 0.6942223 0.480345 0.6371755 0.4863241 0.6371973 0.4894093 0.6942529 0.487879 0.6372029 0.4889705 0.6372068 0.4876523 0.6994591 0.4860904 0.6310895 0.487361 0.6372209 0.489916 0.7015059 0.4893829 0.7015039 0.4893985 0.6972371 0.4858638 0.6933456 0.4910418 0.6846613 0.4910194 0.690788 0.4801183 0.6994316 0.4773903 0.6371846 0.4892787 0.6372278 0.4876523 0.6994591 0.4887439 0.699463 0.487361 0.6372209 0.4930149 0.6994786 0.4962185 0.6311263 0.4843299 0.631083 0.5057346 0.6985496 0.5057123 0.7046765 0.4881355 0.7046124 0.4771636 0.6994408 0.4743511 0.6907274 0.491928 0.6907914 0.4858385 0.700263 0.487109 0.7063946 0.4909943 0.6977054 0.5028839 0.700325 0.5057598 0.6916323 0.4881829 0.6915683 0.4872623 0.6372006 0.4932416 0.6372224 0.4921777 0.6942631 0.4856869 0.6942394 0.4876326 0.637202 0.4865411 0.6371981 0.4863241 0.6371973 0.480345 0.6371755 0.4809935 0.6942223 0.4865411 0.6371981 0.4876326 0.637202 0.4856869 0.6942394 0.4881506 0.6372238 0.4894658 0.6311017 0.487406 0.6994582 0.4856761 0.6972235 0.4856606 0.7014904 0.4851276 0.7014884 0.4892787 0.6372278 0.4773903 0.6371846 0.4801183 0.6994316 0.487406 0.6994582 0.4894658 0.6311017 0.4881506 0.6372238 0.4843299 0.631083 0.4962185 0.6311263 0.4930149 0.6994786 0.4841021 0.6907628 0.4841244 0.6846361 0.4892391 0.6933579 0.491928 0.6907914 0.4743511 0.6907274 0.4771636 0.6994408 0.489214 0.7002753 0.4840992 0.6915535 0.4840769 0.6976802 0.4881829 0.6915683 0.5057598 0.6916323 0.5028839 0.700325 0.4879109 0.6942475 0.4921777 0.6942631 0.4872623 0.6372006 0.487879 0.6372029 0.4894093 0.6942529 0.4889705 0.6372068 0.4852603 0.6942378 0.4809935 0.6942223 0.4863241 0.6371973 0.4899424 0.6942549 0.4894093 0.6942529 0.4889705 0.6372068 0.4887439 0.699463 0.4876523 0.6994591 0.487361 0.6372209 0.4899315 0.697239 0.489916 0.7015059 0.4893985 0.6972371 0.4871342 0.6994771 0.4858638 0.6933456 0.4910194 0.690788 0.4860976 0.6994534 0.4801183 0.6994316 0.4892787 0.6372278 0.4860904 0.6310895 0.4876523 0.6994591 0.487361 0.6372209 0.4870357 0.6994569 0.4930149 0.6994786 0.4843299 0.631083 0.4881577 0.6984857 0.5057346 0.6985496 0.4881355 0.7046124 0.4890521 0.6994841 0.4771636 0.6994408 0.491928 0.6907914 0.4910166 0.6915786 0.4858385 0.700263 0.4909943 0.6977054 0.4909955 0.7002817 0.5028839 0.700325 0.4881829 0.6915683 0.4879109 0.6942475 0.4872623 0.6372006 0.4921777 0.6942631 0.4851539 0.6942375 0.4856869 0.6942394 0.4865411 0.6371981 0.4852603 0.6942378 0.4863241 0.6371973 0.4809935 0.6942223 0.4851539 0.6942375 0.4865411 0.6371981 0.4856869 0.6942394 0.4863145 0.6994542 0.4881506 0.6372238 0.487406 0.6994582 0.4851431 0.6972216 0.4856761 0.6972235 0.4851276 0.7014884 0.4860976 0.6994534 0.4892787 0.6372278 0.4801183 0.6994316 0.4863145 0.6994542 0.487406 0.6994582 0.4881506 0.6372238 0.4870357 0.6994569 0.4843299 0.631083 0.4930149 0.6994786 0.4879239 0.69948 0.4841021 0.6907628 0.4892391 0.6933579 0.4890521 0.6994841 0.491928 0.6907914 0.4771636 0.6994408 0.4878988 0.7063973 0.489214 0.7002753 0.4840769 0.6976802 0.4909955 0.7002817 0.4881829 0.6915683 0.5028839 0.700325</float_array>
+          <technique_common>
+            <accessor source="#Cube-mesh-map-0-array" count="162" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube-mesh-vertices">
+          <input semantic="POSITION" source="#Cube-mesh-positions"/>
+        </vertices>
+        <polylist count="54">
+          <input semantic="VERTEX" source="#Cube-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>5 0 0 1 1 1 0 2 2 5 0 3 6 3 4 2 4 5 7 5 6 3 6 7 2 4 8 4 7 9 0 2 10 3 6 11 0 2 12 8 8 13 11 9 14 6 3 15 5 0 16 4 7 17 8 8 18 12 10 19 15 11 20 3 6 21 11 9 22 10 12 23 1 1 24 2 4 25 10 12 26 1 1 27 9 13 28 8 8 29 13 14 30 14 15 31 15 11 32 11 9 33 15 11 34 14 15 35 9 13 36 10 12 37 14 15 38 9 13 39 13 14 40 12 10 41 16 16 42 17 17 43 21 18 44 21 18 45 17 17 46 18 19 47 18 19 48 19 20 49 23 21 50 19 20 51 16 16 52 20 22 53 27 23 54 24 24 55 16 16 56 20 22 57 21 18 58 22 25 59 26 26 60 27 23 61 19 20 62 17 17 63 25 27 64 26 26 65 24 24 66 25 27 67 17 17 68 15 11 69 12 10 70 24 24 71 14 15 72 15 11 73 27 23 74 25 27 75 13 14 76 14 15 77 12 10 78 13 14 79 25 27 80 4 7 81 5 0 82 0 2 83 1 1 84 5 0 85 2 4 86 6 3 87 7 5 88 2 4 89 7 5 90 4 7 91 3 6 92 3 6 93 0 2 94 11 9 95 7 5 96 6 3 97 4 7 98 11 9 99 8 8 100 15 11 101 2 4 102 3 6 103 10 12 104 9 13 105 1 1 106 10 12 107 0 2 108 1 1 109 8 8 110 12 10 111 13 14 112 15 11 113 10 12 114 11 9 115 14 15 116 13 14 117 9 13 118 14 15 119 8 8 120 9 13 121 12 10 122 20 22 123 16 16 124 21 18 125 22 25 126 21 18 127 18 19 128 22 25 129 18 19 130 23 21 131 23 21 132 19 20 133 20 22 134 19 20 135 27 23 136 16 16 137 23 21 138 20 22 139 22 25 140 18 19 141 26 26 142 19 20 143 18 19 144 17 17 145 26 26 146 16 16 147 24 24 148 17 17 149 27 23 150 15 11 151 24 24 152 26 26 153 14 15 154 27 23 155 26 26 156 25 27 157 14 15 158 24 24 159 12 10 160 25 27 161</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_animations>
+    <animation id="sling_sling_1_pose_matrix">
+      <source id="sling_sling_1_pose_matrix-input">
+        <float_array id="sling_sling_1_pose_matrix-input-array" count="13">0 0.125 0.25 0.375 0.4583333 0.5416667 0.625 0.7916667 1.125 1.208333 1.25 1.333333 1.625</float_array>
+        <technique_common>
+          <accessor source="#sling_sling_1_pose_matrix-input-array" count="13" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="sling_sling_1_pose_matrix-output">
+        <float_array id="sling_sling_1_pose_matrix-output-array" count="208">-6.87786e-7 7.11814e-8 -1 -0.8467636 1 0 -6.87786e-7 0.4720797 -4.9738e-14 -0.9999999 -7.11814e-8 1.783711 0 0 0 1 -0.3356519 6.81257e-8 -0.9419861 -1.656004 0.9049651 -0.2775922 -0.3224605 2.277156 -0.261488 -0.960699 0.09317427 2.24805 0 0 0 1 -6.87786e-7 7.11814e-8 -1 -0.5175793 1 0 -6.87786e-7 3.718257 -4.9738e-14 -0.9999999 -7.11814e-8 2.712389 0 0 0 1 0.3083111 -0.852513 -0.4220971 -2.171356 0.649547 0.5128343 -0.5613286 1.753995 0.6950057 -0.1011081 0.7118597 3.753964 0 0 0 1 -0.8219613 -0.2599437 0.5067632 -1.866633 0.4429291 -0.8511013 0.2818517 0.4912129 0.3580412 0.4561312 0.8147089 4.201962 0 0 0 1 -0.8683998 0.4886263 0.08441557 -0.3747198 -0.2819331 -0.6265826 0.7265727 -0.5879579 0.4079159 0.607156 0.6818841 4.087007 0 0 0 1 -0.2132231 0.8350267 -0.5072142 -0.7506276 -0.9334183 -0.02077608 0.3581876 -0.6241888 0.2885582 0.5498168 0.7838592 4.245779 0 0 0 1 0.3271959 0.9376092 0.1176068 -0.06418037 -0.9397705 0.3358911 -0.06330837 1.561875 -0.09886166 -0.08980953 0.9910399 5.117835 0 0 0 1 0.9736403 0.1969886 0.1149771 -0.06418037 -0.2220486 0.9338533 0.280378 3.043803 -0.05214065 -0.2985181 0.9529784 4.166592 0 0 0 1 0.6073774 -0.7881794 -0.09932677 -1.763618 0.7942211 0.6052161 0.05409466 0.9352547 0.01747782 -0.1117433 0.9935833 4.07128 0 0 0 1 -0.8892922 -0.4564391 -0.02868196 -0.2008235 0.4573374 -0.8873526 -0.05871869 -1.363955 0.001350487 -0.06533539 0.9978624 3.478955 0 0 0 1 -0.6818856 0.5185034 0.5159323 -0.09990776 -0.2919896 -0.8396636 0.4579378 -1.504119 0.6706518 0.1616143 0.7239521 2.019047 0 0 0 1 -6.87786e-7 7.11814e-8 -1 -0.8467636 1 0 -6.87786e-7 0.4720797 -4.9738e-14 -0.9999999 -7.11814e-8 1.783711 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#sling_sling_1_pose_matrix-output-array" count="13" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="sling_sling_1_pose_matrix-interpolation">
+        <Name_array id="sling_sling_1_pose_matrix-interpolation-array" count="13">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#sling_sling_1_pose_matrix-interpolation-array" count="13" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="sling_sling_1_pose_matrix-sampler">
+        <input semantic="INPUT" source="#sling_sling_1_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#sling_sling_1_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#sling_sling_1_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#sling_sling_1_pose_matrix-sampler" target="sling_1/transform"/>
+    </animation>
+    <animation id="sling_sling_2_pose_matrix">
+      <source id="sling_sling_2_pose_matrix-input">
+        <float_array id="sling_sling_2_pose_matrix-input-array" count="13">0 0.125 0.25 0.375 0.4583333 0.5416667 0.625 0.7916667 1.125 1.208333 1.25 1.333333 1.625</float_array>
+        <technique_common>
+          <accessor source="#sling_sling_2_pose_matrix-input-array" count="13" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="sling_sling_2_pose_matrix-output">
+        <float_array id="sling_sling_2_pose_matrix-output-array" count="208">0.03510728 -0.9986774 0.03755778 0 -0.001319394 0.03753459 0.9992942 1.674726 -0.9993825 -0.03513206 8.76952e-8 0 0 0 0 1 0.01594347 -0.8566353 0.5156756 0 -0.1173391 0.5105743 0.851789 1.674726 -0.9929638 -0.07408942 -0.09237655 0 0 0 0 1 0.03114437 -0.8859482 0.4627371 0 -0.01625712 0.4624513 0.8864953 1.674726 -0.9993826 -0.03513212 -2.05868e-7 0 0 0 0 1 0.6623988 0.00318148 0.7491446 0 -0.5232369 0.7176269 0.4596021 1.674726 -0.5361442 -0.6964201 0.4770201 0 0 0 0 1 0.9154876 0.07851179 -0.3946118 0 -0.0786933 0.9967741 0.01575164 1.674726 0.3945756 0.01663288 0.918713 0 0 0 0 1 0.9610912 0.06956244 -0.2673284 0 -0.04435392 0.994077 0.09921228 1.674726 0.2726465 -0.08349501 0.9584843 0 0 0 0 1 0.9993318 0.03654294 6.52446e-4 0 -0.035985 0.9806366 0.1925002 1.674726 0.006394714 -0.1923951 0.9812967 0 0 0 0 1 0.859436 -0.06939425 0.5065116 0 0.1246539 0.9892871 -0.075973 1.674726 -0.4958135 0.1284326 0.8588795 0 0 0 0 1 0.859436 -0.06939425 0.5065116 0 0.1246539 0.9892871 -0.075973 1.674726 -0.4958135 0.1284326 0.8588795 0 0 0 0 1 0.8245068 -0.1503363 0.5455155 0 0.1666261 0.9858202 0.01983473 1.674726 -0.5407624 0.07454327 0.8378658 0 0 0 0 1 0.7947476 -0.2047518 0.5713602 0 0.131277 0.9770848 0.1675438 1.674726 -0.5925725 -0.0581486 0.8034154 0 0 0 0 1 0.717254 -0.366849 0.5924258 0 -0.02123604 0.8382918 0.5448077 1.674726 -0.696488 -0.4033464 0.5934779 0 0 0 0 1 0.03510728 -0.9986774 0.03755778 0 -0.001319394 0.03753459 0.9992942 1.674726 -0.9993825 -0.03513206 8.76952e-8 0 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#sling_sling_2_pose_matrix-output-array" count="13" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="sling_sling_2_pose_matrix-interpolation">
+        <Name_array id="sling_sling_2_pose_matrix-interpolation-array" count="13">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#sling_sling_2_pose_matrix-interpolation-array" count="13" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="sling_sling_2_pose_matrix-sampler">
+        <input semantic="INPUT" source="#sling_sling_2_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#sling_sling_2_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#sling_sling_2_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#sling_sling_2_pose_matrix-sampler" target="sling_2/transform"/>
+    </animation>
+    <animation id="sling_sling_3_pose_matrix">
+      <source id="sling_sling_3_pose_matrix-input">
+        <float_array id="sling_sling_3_pose_matrix-input-array" count="13">0 0.125 0.25 0.375 0.4583333 0.5416667 0.625 0.7916667 1.125 1.208333 1.25 1.333333 1.625</float_array>
+        <technique_common>
+          <accessor source="#sling_sling_3_pose_matrix-input-array" count="13" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="sling_sling_3_pose_matrix-output">
+        <float_array id="sling_sling_3_pose_matrix-output-array" count="208">0.9941545 0.1080646 6.50762e-8 5.96046e-8 0.108067 -0.9941441 7.45058e-9 2.253227 6.56582e-8 -3.72529e-9 -1 0 0 0 0 1 0.9941545 0.1080646 6.50762e-8 5.96046e-8 0.108067 -0.9941441 7.45058e-9 2.253227 6.56582e-8 -3.72529e-9 -1 0 0 0 0 1 0.9941545 0.1080646 6.50762e-8 5.96046e-8 0.108067 -0.9941441 7.45058e-9 2.253227 6.56582e-8 -3.72529e-9 -1 0 0 0 0 1 0.9941545 0.1080646 6.50762e-8 5.96046e-8 0.108067 -0.9941441 7.45058e-9 2.253227 6.56582e-8 -3.72529e-9 -1 0 0 0 0 1 0.9941545 0.1080646 6.50762e-8 5.96046e-8 0.108067 -0.9941441 7.45058e-9 2.253227 6.56582e-8 -3.72529e-9 -1 0 0 0 0 1 0.9941545 0.1080646 6.50762e-8 5.96046e-8 0.108067 -0.9941441 7.45058e-9 2.253227 6.56582e-8 -3.72529e-9 -1 0 0 0 0 1 0.9941545 0.1080646 6.50762e-8 5.96046e-8 0.108067 -0.9941441 7.45058e-9 2.253227 6.56582e-8 -3.72529e-9 -1 0 0 0 0 1 0.9941545 0.1080646 6.50762e-8 5.96046e-8 0.108067 -0.9941441 7.45058e-9 2.253227 6.56582e-8 -3.72529e-9 -1 0 0 0 0 1 0.9941545 0.1080646 6.50762e-8 5.96046e-8 0.108067 -0.9941441 7.45058e-9 2.253227 6.56582e-8 -3.72529e-9 -1 0 0 0 0 1 0.9941545 0.1080646 6.50762e-8 5.96046e-8 0.108067 -0.9941441 7.45058e-9 2.253227 6.56582e-8 -3.72529e-9 -1 0 0 0 0 1 0.2347942 -0.4366396 -0.8684692 5.96046e-8 0.1015337 0.8995634 -0.4248267 2.253227 0.9667285 0.01156783 0.2555432 0 0 0 0 1 -0.03775492 0.7052646 0.7079533 5.96046e-8 -0.04659981 -0.7089204 0.703748 2.253227 0.9982001 -0.006420577 0.05962981 0 0 0 0 1 0.9941545 0.1080646 6.50762e-8 5.96046e-8 0.108067 -0.9941441 7.45058e-9 2.253227 6.56582e-8 -3.72529e-9 -1 0 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#sling_sling_3_pose_matrix-output-array" count="13" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="sling_sling_3_pose_matrix-interpolation">
+        <Name_array id="sling_sling_3_pose_matrix-interpolation-array" count="13">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#sling_sling_3_pose_matrix-interpolation-array" count="13" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="sling_sling_3_pose_matrix-sampler">
+        <input semantic="INPUT" source="#sling_sling_3_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#sling_sling_3_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#sling_sling_3_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#sling_sling_3_pose_matrix-sampler" target="sling_3/transform"/>
+    </animation>
+    <animation id="sling_sling_4_pose_matrix">
+      <source id="sling_sling_4_pose_matrix-input">
+        <float_array id="sling_sling_4_pose_matrix-input-array" count="13">0 0.125 0.25 0.375 0.4583333 0.5416667 0.625 0.7916667 1.125 1.208333 1.25 1.333333 1.625</float_array>
+        <technique_common>
+          <accessor source="#sling_sling_4_pose_matrix-input-array" count="13" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="sling_sling_4_pose_matrix-output">
+        <float_array id="sling_sling_4_pose_matrix-output-array" count="208">0.9973266 8.22103e-4 0.07306827 -1.19209e-7 0.07307285 -0.01123308 -0.9972634 2.230858 9.2972e-7 0.9999366 -0.01126314 2.23517e-8 0 0 0 1 0.9954728 0.05621196 0.07664118 -1.19209e-7 0.036397 0.5194398 -0.8537315 2.230858 -0.0878004 0.8526562 0.5150422 2.23517e-8 0 0 0 1 0.9973266 -0.03871797 0.0619728 -1.19209e-7 0.07307328 0.5284346 -0.8458233 2.230858 -1.16109e-8 0.8480906 0.5298511 2.23517e-8 0 0 0 1 0.9240121 0.3423733 -0.1702409 -1.19209e-7 -0.381091 0.7883338 -0.4830107 2.230858 -0.03116334 0.5111851 0.8589056 2.23517e-8 0 0 0 1 0.9629626 -0.0304166 0.267914 -1.19209e-7 0.02055463 0.9990065 0.03953879 2.230858 -0.2688505 -0.0325675 0.9626311 2.23517e-8 0 0 0 1 0.9464024 -0.2231998 0.2334615 -1.19209e-7 0.226046 0.9740034 0.01484958 2.230858 -0.2307068 0.03871938 0.9722526 2.23517e-8 0 0 0 1 0.9481657 -0.2699445 0.1676657 -1.19209e-7 0.2802512 0.9590616 -0.04074305 2.230858 -0.1498034 0.0856197 0.9850017 2.23517e-8 0 0 0 1 0.9620587 -0.2726613 0.009927547 -1.19209e-7 0.27274 0.9620571 -0.007670313 2.230858 -0.007459469 0.01008694 0.9999214 2.23517e-8 0 0 0 1 0.9620587 -0.2726613 0.009927547 -1.19209e-7 0.27274 0.9620571 -0.007670313 2.230858 -0.007459469 0.01008694 0.9999214 2.23517e-8 0 0 0 1 0.9647248 -0.262002 0.02570893 -1.19209e-7 0.2632511 0.9592687 -0.1024806 2.230858 0.002188348 0.1056335 0.9944027 2.23517e-8 0 0 0 1 0.9763411 -0.2131688 -0.03629011 -1.19209e-7 0.2162236 0.9642109 0.1534433 2.230858 0.002281987 -0.1576598 0.9874908 2.23517e-8 0 0 0 1 0.9910915 0.00124281 -0.1331765 -1.19209e-7 0.1136112 0.5139154 0.8502842 2.230858 0.0694982 -0.85784 0.509196 2.23517e-8 0 0 0 1 0.9973266 8.22103e-4 0.07306827 -1.19209e-7 0.07307285 -0.01123308 -0.9972634 2.230858 9.2972e-7 0.9999366 -0.01126314 2.23517e-8 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#sling_sling_4_pose_matrix-output-array" count="13" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="sling_sling_4_pose_matrix-interpolation">
+        <Name_array id="sling_sling_4_pose_matrix-interpolation-array" count="13">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#sling_sling_4_pose_matrix-interpolation-array" count="13" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="sling_sling_4_pose_matrix-sampler">
+        <input semantic="INPUT" source="#sling_sling_4_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#sling_sling_4_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#sling_sling_4_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#sling_sling_4_pose_matrix-sampler" target="sling_4/transform"/>
+    </animation>
+    <animation id="sling_prop_projectile_pose_matrix">
+      <source id="sling_prop_projectile_pose_matrix-input">
+        <float_array id="sling_prop_projectile_pose_matrix-input-array" count="13">0 0.125 0.25 0.375 0.4583333 0.5416667 0.625 0.7916667 1.125 1.208333 1.25 1.333333 1.625</float_array>
+        <technique_common>
+          <accessor source="#sling_prop_projectile_pose_matrix-input-array" count="13" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="sling_prop_projectile_pose_matrix-output">
+        <float_array id="sling_prop_projectile_pose_matrix-output-array" count="208">0.9993826 -0.03513276 4.80795e-8 5.96046e-8 0.03513276 0.9993827 7.45058e-9 2.253227 -4.82235e-8 -3.72529e-9 1 0 0 0 0 1 0.9993826 -0.03513276 4.80795e-8 5.96046e-8 0.03513276 0.9993827 7.45058e-9 2.253227 -4.82235e-8 -3.72529e-9 1 0 0 0 0 1 0.9993826 -0.03513276 4.80795e-8 5.96046e-8 0.03513276 0.9993827 7.45058e-9 2.253227 -4.82235e-8 -3.72529e-9 1 0 0 0 0 1 0.9993826 -0.03513276 4.80795e-8 5.96046e-8 0.03513276 0.9993827 7.45058e-9 2.253227 -4.82235e-8 -3.72529e-9 1 0 0 0 0 1 0.9993826 -0.03513276 4.80795e-8 5.96046e-8 0.03513276 0.9993827 7.45058e-9 2.253227 -4.82235e-8 -3.72529e-9 1 0 0 0 0 1 0.9993826 -0.03513276 4.80795e-8 5.96046e-8 0.03513276 0.9993827 7.45058e-9 2.253227 -4.82235e-8 -3.72529e-9 1 0 0 0 0 1 0.9993826 -0.03513276 4.80795e-8 5.96046e-8 0.03513276 0.9993827 7.45058e-9 2.253227 -4.82235e-8 -3.72529e-9 1 0 0 0 0 1 0.9993826 -0.03513276 4.80795e-8 5.96046e-8 0.03513276 0.9993827 7.45058e-9 2.253227 -4.82235e-8 -3.72529e-9 1 0 0 0 0 1 0.9993826 -0.03513276 4.80795e-8 5.96046e-8 0.03513276 0.9993827 7.45058e-9 2.253227 -4.82235e-8 -3.72529e-9 1 0 0 0 0 1 0.9993826 -0.03513276 4.80795e-8 5.96046e-8 0.03513276 0.9993827 7.45058e-9 2.253227 -4.82235e-8 -3.72529e-9 1 0 0 0 0 1 0.9993826 -0.03513276 4.80795e-8 5.96046e-8 0.03513276 0.9993827 7.45058e-9 2.253227 -4.82235e-8 -3.72529e-9 1 0 0 0 0 1 0.9993826 -0.03513276 4.80795e-8 5.96046e-8 0.03513276 0.9993827 7.45058e-9 2.253227 -4.82235e-8 -3.72529e-9 1 0 0 0 0 1 0.9993826 -0.03513276 4.80795e-8 5.96046e-8 0.03513276 0.9993827 7.45058e-9 2.253227 -4.82235e-8 -3.72529e-9 1 0 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#sling_prop_projectile_pose_matrix-output-array" count="13" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="sling_prop_projectile_pose_matrix-interpolation">
+        <Name_array id="sling_prop_projectile_pose_matrix-interpolation-array" count="13">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#sling_prop_projectile_pose_matrix-interpolation-array" count="13" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="sling_prop_projectile_pose_matrix-sampler">
+        <input semantic="INPUT" source="#sling_prop_projectile_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#sling_prop_projectile_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#sling_prop_projectile_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#sling_prop_projectile_pose_matrix-sampler" target="prop_projectile/transform"/>
+    </animation>
+  </library_animations>
+  <library_controllers>
+    <controller id="sling_Cube_004-skin" name="sling">
+      <skin source="#Cube-mesh">
+        <bind_shape_matrix>0.102724 0 0 7.45058e-9 0 0.102724 0 2.98023e-8 0 0 0.102724 0 0 0 0 1</bind_shape_matrix>
+        <source id="sling_Cube_004-skin-joints">
+          <Name_array id="sling_Cube_004-skin-joints-array" count="5">sling_1 sling_2 sling_3 sling_4 prop_projectile</Name_array>
+          <technique_common>
+            <accessor source="#sling_Cube_004-skin-joints-array" count="5" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="sling_Cube_004-skin-bind_poses">
+          <float_array id="sling_Cube_004-skin-bind_poses-array" count="80">-6.87786e-7 1 0 -0.4720803 0 0 -1 1.783711 -1 -6.87786e-7 0 -0.8467631 0 0 0 1 0.9993828 0 0.03513276 0.8424119 0.03513276 0 -0.9993831 0.1386667 0 1 0 -0.4720798 0 0 0 1 0.9973161 0 -0.0730701 0.6089628 0.07307201 0 0.9973269 2.193212 0 -1 0 0.4720798 0 0 0 1 0.9999895 0 7.89753e-7 0.6045842 1.90733e-6 0 1 -0.08204364 0 -1 0 0.4720798 0 0 0 1 1 0 0 0.7676015 0 0 -1.000001 -2.142851 0 1 0 -0.4720798 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#sling_Cube_004-skin-bind_poses-array" count="5" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="sling_Cube_004-skin-weights">
+          <float_array id="sling_Cube_004-skin-weights-array" count="28">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#sling_Cube_004-skin-weights-array" count="28" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#sling_Cube_004-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#sling_Cube_004-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="28">
+          <input semantic="JOINT" source="#sling_Cube_004-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#sling_Cube_004-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 1 0 2 0 3 0 4 0 5 0 6 0 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 2 16 2 17 2 18 2 19 3 20 3 21 3 22 3 23 2 24 2 25 2 26 2 27</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="sling" name="sling" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <node id="sling_1" name="sling_1" sid="sling_1" type="JOINT">
+          <matrix sid="transform">-6.87786e-7 7.11814e-8 -1 -0.8467636 1 0 -6.87786e-7 0.4720797 -4.9738e-14 -0.9999999 -7.11814e-8 1.783711 0 0 0 1</matrix>
+          <node id="sling_2" name="sling_2" sid="sling_2" type="JOINT">
+            <matrix sid="transform">-6.39333e-7 -2.23518e-8 0.9999999 0 -0.03513268 0.9993823 -7.45058e-9 1.674726 -0.9993826 -0.03513269 -6.39586e-7 0 0 0 0 1</matrix>
+            <node id="sling_3" name="sling_3" sid="sling_3" type="JOINT">
+              <matrix sid="transform">0.9941546 0.1080646 6.49125e-8 5.96046e-8 0.108067 -0.9941441 1.17002e-8 2.253226 6.57983e-8 -4.617e-9 -1 0 0 0 0 1</matrix>
+              <node id="sling_4" name="sling_4" sid="sling_4" type="JOINT">
+                <matrix sid="transform">0.9973267 -0.07307092 -1.13231e-7 0 0.07307091 0.9973267 -7.59878e-9 2.230858 1.11896e-7 -2.09616e-8 1 -2.98023e-8 0 0 0 1</matrix>
+              </node>
+            </node>
+            <node id="prop_projectile" name="prop_projectile" sid="prop_projectile" type="JOINT">
+              <matrix sid="transform">0.9993827 -0.03513276 4.82229e-8 5.96046e-8 0.03513276 0.9993826 1.93297e-10 2.253226 -4.81999e-8 1.50103e-9 1 0 0 0 0 1</matrix>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="Cube_004" name="Cube_004" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#sling_Cube_004-skin">
+          <skeleton>#sling_1</skeleton>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

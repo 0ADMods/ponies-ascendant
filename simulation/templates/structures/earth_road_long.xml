@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_road_long">
-	<Footprint>
-		<Square width="38.5" depth="8.5"/>
-		<Height>0.1</Height>
-	</Footprint>
-	<Identity>
-		<Civ>earth</Civ>
-		<SelectionGroupName>structures/earth_roadset</SelectionGroupName>
-	</Identity>
-	<VisualActor>
-		<Actor>structures/earth_ponies/road_long.xml</Actor>
-	</VisualActor>
-	<WallPiece>
-		<Length>37.0</Length>
-	</WallPiece>
+  <Footprint>
+    <Square width="38.5" depth="8.5"/>
+    <Height>0.1</Height>
+  </Footprint>
+  <Identity>
+    <Civ>earth</Civ>
+    <SelectionGroupName>structures/earth_roadset</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/earth_ponies/road_long.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>37.0</Length>
+  </WallPiece>
 </Entity>

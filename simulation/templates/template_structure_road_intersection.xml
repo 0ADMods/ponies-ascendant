@@ -3,7 +3,7 @@
   <StatusBars>
     <HeightOffset>20.0</HeightOffset>
   </StatusBars>
-   <VisualActor>
+  <VisualActor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

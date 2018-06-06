@@ -77,18 +77,8 @@
     <Weight>40000</Weight>
   </TerritoryInfluence>
   <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_mechanical_siege_onager_unpacked
-      units/{civ}_mechanical_siege_trebuchet_packed
-      units/{civ}_hero_wisebiscuit
-      units/{civ}_champion_infantry
-      units/{civ}_infantry_spearman_e
-      units/{civ}_infantry_archer_e
-    </Entities>
-    <Technologies datatype="tokens">
-      pair_siege_attack_cost
-      pair_siege_cost_armor
-    </Technologies>
+    <Entities datatype="tokens"> units/{civ}_mechanical_siege_onager_unpacked units/{civ}_mechanical_siege_trebuchet_packed units/{civ}_hero_wisebiscuit units/{civ}_champion_infantry units/{civ}_infantry_spearman_e units/{civ}_infantry_archer_e </Entities>
+    <Technologies datatype="tokens"> pair_siege_attack_cost pair_siege_cost_armor </Technologies>
   </ProductionQueue>
   <Vision>
     <Range>140</Range>
@@ -97,4 +87,8 @@
     <Actor>structures/unicorns/fortress.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
+  <WallPiece>
+    <Length>23</Length>
+    <Indent>7.8</Indent>
+  </WallPiece>
 </Entity>

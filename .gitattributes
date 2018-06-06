@@ -6,3 +6,6 @@
 *.dae text
 *.json text
 *.xml text
+
+*.dds binary
+*.png binary

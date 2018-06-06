@@ -23,9 +23,6 @@
     <Classes datatype="tokens">-StoneWall Palisade</Classes>
     <History>A cheap, quick defensive spike</History>
   </Identity>
-  <Obstruction>
-    <Static width="3.5" depth="1.0"/>
-  </Obstruction>
   <TerritoryDecay disable=""/>
   <TerritoryInfluence disable=""/>
   <VisualActor>

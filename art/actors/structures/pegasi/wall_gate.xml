@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="3" name="double thatch">
+			<mesh>structural/pega_wall_gate.dae</mesh>
+			<props>
+				<prop actor="props/structures/pegasi/wall_gate_door.xml" attachpoint="root"/>
+				<prop actor="props/structures/pegasi/wall_long_clouds.xml" attachpoint="root"/>
+				<prop actor="particle/blowing_snow.xml" attachpoint="root"/>
+			</props>
+			<textures>
+				<texture file="structural/Pega_struct.png" name="baseTex"/>
+				<texture file="structural/Pega_struct_norm.png" name="normTex"/>
+				<texture file="structural/Pega_struct_spec.png" name="specTex"/>
+				<texture file="structural/ao/pega_wall_gate.png" name="aoTex"/>
+			</textures>
+		</variant>
+	</group>
+	<group>
+		<variant frequency="100" name="Idle"/>
+		<variant name="garrisoned"/>
+		<variant name="death">
+			<props>
+				<prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+				<prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+				<prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+			</props>
+		</variant>
+	</group>
+	<material>player_trans_ao_parallax_spec.xml</material>
+</actor>

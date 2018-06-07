@@ -49,7 +49,7 @@
 		}
 	],
 	"Formations": [
-		"special/formations/scatter",
+		"special/formations/null",
 		"special/formations/line_closed",
 		"special/formations/line_open",
 		"special/formations/flank"

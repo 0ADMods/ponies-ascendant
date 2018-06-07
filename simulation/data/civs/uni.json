@@ -68,7 +68,7 @@
 		}
 	],
 	"Formations": [
-		"special/formations/scatter",
+		"special/formations/null",
 		"special/formations/box",
 		"special/formations/column_closed",
 		"special/formations/line_closed",

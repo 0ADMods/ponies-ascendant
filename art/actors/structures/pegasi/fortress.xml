@@ -6,7 +6,7 @@
       <animations>
         <animation event="0.5" load="0" name="attack_ranged" speed="100"/>
       </animations>
-      <mesh>structural/Pega_fortress.dae</mesh>
+      <mesh>structural/pega_fortress.dae</mesh>
       <props>
         <prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_3" maxheight="20" minheight="-20"/>
         <prop actor="props/units/weapons/arrowbuilding_pega_projectile.xml" attachpoint="projectile"/>

@@ -34,7 +34,7 @@
       <animations>
         <animation event="0.5" load="0" name="attack_ranged" speed="100"/>
       </animations>
-      <mesh>structural/Pega_scout_tower_b.dae</mesh>
+      <mesh>structural/pega_scout_tower_b.dae</mesh>
       <props>
         <prop actor="props/units/weapons/arrowbuilding_pega_projectile.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/arrowbuilding_pega_projectile.xml" attachpoint="loaded-projectile"/>

@@ -27,11 +27,14 @@
 	</Obstruction>
 	<ProductionQueue>
 		<Entities datatype="tokens">
-      units/{civ}_infantry_spearman_a
-      units/{civ}_infantry_slinger_a
-      units/{civ}_infantry_javelinist_a
-      units/{civ}_champion_maceman
-    </Entities>
+		-units/{civ}_infantry_spearman_b
+		-units/{civ}_infantry_javelinist_b
+		-units/{civ}_infantry_slinger_b
+		units/{civ}_infantry_spearman_a
+		units/{civ}_infantry_slinger_a
+		units/{civ}_infantry_javelinist_a
+		units/{civ}_champion_maceman
+	</Entities>
 	</ProductionQueue>
 	<VisualActor>
 		<Actor>structures/earth_ponies/barracks.xml</Actor>

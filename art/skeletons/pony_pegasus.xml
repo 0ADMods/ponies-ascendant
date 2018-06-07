@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <skeletons>
    <standard_skeleton title="pony_pegasus" id="pony_pegasus">
       <bone name="spine_4">
@@ -77,7 +78,7 @@
 </standard_skeleton>
   <skeleton title="pony_pegasus" target="pony_pegasus">
     <identifier>
-      <root>pony_pegasus</root>
+      <root>spine_4</root>
     </identifier>
       <bone name="spine_4"><target>spine_4</target>
                <bone name="spine_1_legs"><target>spine_1_legs</target>

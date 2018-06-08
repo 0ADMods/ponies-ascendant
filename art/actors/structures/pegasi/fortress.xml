@@ -6,7 +6,7 @@
       <animations>
         <animation event="0.5" load="0" name="attack_ranged" speed="100"/>
       </animations>
-      <mesh>structural/Pega_fortress.dae</mesh>
+      <mesh>structural/pega_fortress.dae</mesh>
       <props>
         <prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_3" maxheight="20" minheight="-20"/>
         <prop actor="props/units/weapons/arrowbuilding_pega_projectile.xml" attachpoint="projectile"/>
@@ -29,9 +29,9 @@
         <prop actor="props/structures/decals/city_tile_3x3.xml" attachpoint="portal" maxheight="20" minheight="-20"/>
       </props>
       <textures>
-        <texture file="structural/Pega_struct.png" name="baseTex"/>
-        <texture file="structural/Pega_struct_norm.png" name="normTex"/>
-        <texture file="structural/Pega_struct_spec.png" name="specTex"/>
+        <texture file="structural/pega_struct.png" name="baseTex"/>
+        <texture file="structural/pega_struct_norm.png" name="normTex"/>
+        <texture file="structural/pega_struct_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

@@ -3,11 +3,11 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="pegasus">
-      <mesh>structural/Pega_fortress_shield.dae</mesh>
+      <mesh>structural/pega_fortress_shield.dae</mesh>
       <textures>
-        <texture file="structural/Pega_struct.png" name="baseTex"/>
-        <texture file="structural/Pega_struct_norm.png" name="normTex"/>
-        <texture file="structural/Pega_struct_spec.png" name="specTex"/>
+        <texture file="structural/pega_struct.png" name="baseTex"/>
+        <texture file="structural/pega_struct_norm.png" name="normTex"/>
+        <texture file="structural/pega_struct_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

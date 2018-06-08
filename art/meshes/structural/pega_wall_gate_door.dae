@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Stanislas Daniel Claude Dolcini</author>
+      <authoring_tool>Blender 2.79.0 commit date:2018-02-21, commit time:10:41, hash:8928d99270f</authoring_tool>
+    </contributor>
+    <created>2018-06-07T22:36:38</created>
+    <modified>2018-06-07T22:36:38</modified>
+    <unit name="inch" meter="0.0254"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="pega_wall_gate_door-mesh" name="pega_wall_gate_door">
+      <mesh>
+        <source id="pega_wall_gate_door-mesh-positions">
+          <float_array id="pega_wall_gate_door-mesh-positions-array" count="72">0 0.2947011 13.31263 0 -0.2947004 13.31263 -7.714728 -0.2947011 13.31263 -7.714728 0.2947004 13.31263 0 0.2947011 0.004599571 0 -0.2947004 0.004599571 -7.714728 0.2947004 0.004599571 -7.714728 -0.2947011 0.004599571 0 0.2947004 13.31263 0 -0.2947011 13.31263 7.714728 -0.2947004 13.31263 7.714728 0.2947011 13.31263 0 -0.2947011 0.004599571 0 0.2947004 0.004599571 7.714728 0.2947011 0.004599571 7.714728 -0.2947004 0.004599571 -11.96347 -0.2947011 13.31263 -11.96347 0.2947004 13.31263 -11.96347 0.2947004 0.004599571 -11.96347 -0.2947011 0.004599571 12.14146 -0.2947004 13.31263 12.14146 0.2947011 13.31263 12.14146 0.2947011 0.004599571 12.14146 -0.2947004 0.004599571</float_array>
+          <technique_common>
+            <accessor source="#pega_wall_gate_door-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pega_wall_gate_door-mesh-normals">
+          <float_array id="pega_wall_gate_door-mesh-normals-array" count="24">1 0 0 0 1 0 0 0 1 0 -1 0 -1 0 0 0 -1 0 0 1 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pega_wall_gate_door-mesh-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pega_wall_gate_door-mesh-map-0">
+          <float_array id="pega_wall_gate_door-mesh-map-0-array" count="168">0.7156369 0.003788948 0.6394194 4.06774e-4 0.6394194 0.003789007 0.758386 -2.4575e-4 0.6120632 0.07989901 0.6120632 -2.4575e-4 0.6860256 0.003618419 0.6455649 5.22802e-4 0.6455649 0.003618478 0.758386 0.07989901 0.6120632 -2.4575e-4 0.6120632 0.07989901 0.758386 -2.4575e-4 0.6120632 0.07989901 0.6120632 -2.4575e-4 0.7156369 4.13382e-4 0.6394194 0.003788948 0.6394194 4.13191e-4 0.6860256 5.27281e-4 0.6455649 0.003618419 0.6455649 5.27281e-4 0.758386 0.07989901 0.6120632 -2.4575e-4 0.6120632 0.07989901 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.7156369 0.003788948 0.7156369 4.06589e-4 0.6394194 4.06774e-4 0.758386 -2.4575e-4 0.758386 0.07989901 0.6120632 0.07989901 0.6860256 0.003618419 0.6860256 5.22806e-4 0.6455649 5.22802e-4 0.758386 0.07989901 0.758386 -2.4575e-4 0.6120632 -2.4575e-4 0.758386 -2.4575e-4 0.758386 0.07989901 0.6120632 0.07989901 0.7156369 4.13382e-4 0.7156369 0.003788948 0.6394194 0.003788948 0.6860256 5.27281e-4 0.6860256 0.003618419 0.6455649 0.003618419 0.758386 0.07989901 0.758386 -2.4575e-4 0.6120632 -2.4575e-4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</float_array>
+          <technique_common>
+            <accessor source="#pega_wall_gate_door-mesh-map-0-array" count="84" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pega_wall_gate_door-mesh-map-1">
+          <float_array id="pega_wall_gate_door-mesh-map-1-array" count="168">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</float_array>
+          <technique_common>
+            <accessor source="#pega_wall_gate_door-mesh-map-1-array" count="84" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pega_wall_gate_door-mesh-vertices">
+          <input semantic="POSITION" source="#pega_wall_gate_door-mesh-positions"/>
+        </vertices>
+        <triangles count="28">
+          <input semantic="VERTEX" source="#pega_wall_gate_door-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pega_wall_gate_door-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pega_wall_gate_door-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#pega_wall_gate_door-mesh-map-1" offset="2" set="1"/>
+          <p>0 0 0 5 0 1 4 0 2 3 1 3 4 1 4 6 1 5 1 2 6 3 2 7 2 2 8 1 3 9 7 3 10 5 3 11 10 3 12 12 3 13 15 3 14 9 4 15 13 4 16 12 4 17 10 2 18 8 2 19 9 2 20 8 1 21 14 1 22 13 1 23 2 5 24 19 5 25 7 5 26 6 6 27 17 6 28 3 6 29 3 2 30 16 2 31 2 2 32 15 5 33 20 5 34 10 5 35 11 6 36 22 6 37 14 6 38 10 2 39 21 2 40 11 2 41 0 0 42 1 0 43 5 0 44 3 1 45 0 1 46 4 1 47 1 7 48 0 7 49 3 7 50 1 3 51 2 3 52 7 3 53 10 3 54 9 3 55 12 3 56 9 4 57 8 4 58 13 4 59 10 7 60 11 7 61 8 7 62 8 1 63 11 1 64 14 1 65 2 5 66 16 5 67 19 5 68 6 6 69 18 6 70 17 6 71 3 2 72 17 2 73 16 2 74 15 5 75 23 5 76 20 5 77 11 6 78 21 6 79 22 6 80 10 2 81 20 2 82 21 2 83</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_animations>
+    <animation id="door_door_left_pose_matrix">
+      <source id="door_door_left_pose_matrix-input">
+        <float_array id="door_door_left_pose_matrix-input-array" count="15">0.0416665 0.08333331 0.125 0.1666666 0.2083333 0.25 0.2916666 0.3333333 0.375 0.4166666 0.4583333 0.5 0.5416667 0.5833333 0.625</float_array>
+        <technique_common>
+          <accessor source="#door_door_left_pose_matrix-input-array" count="15" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_door_left_pose_matrix-output">
+        <float_array id="door_door_left_pose_matrix-output-array" count="240">0.3659543 0.9306328 -1.60373e-7 -10.26093 -0.9306328 0.3659543 -1.30734e-7 0.03517379 -6.29764e-8 1.97091e-7 0.9999998 2.86738 0 0 0 1 0.4374907 0.8992229 -1.50021e-7 -10.26093 -0.8992229 0.4374906 -1.0311e-7 0.03517284 -2.7086e-8 1.80012e-7 0.9999998 2.86738 0 0 0 1 0.5506403 0.8347427 -1.42044e-7 -10.26093 -0.8347426 0.5506404 -5.32656e-8 0.03517284 3.37519e-8 1.479e-7 0.9999999 2.86738 0 0 0 1 0.6876883 0.7260059 -1.0567e-7 -10.26093 -0.726006 0.6876882 -5.58043e-8 0.03517236 3.21541e-8 1.15093e-7 0.9999998 2.86738 0 0 0 1 0.819348 0.5732964 -7.07618e-8 -10.26093 -0.5732964 0.8193479 -1.53795e-7 0.03517236 -3.01918e-8 1.6658e-7 0.9999998 2.86738 0 0 0 1 0.9176643 0.3973563 -5.13191e-8 -10.26093 -0.3973564 0.9176642 -1.60317e-7 0.03517284 -1.66092e-8 1.67509e-7 0.9999998 2.86738 0 0 0 1 0.9728245 0.2315437 -4.46034e-8 -10.26093 -0.2315437 0.9728245 -1.15616e-7 0.03517284 1.6621e-8 1.22802e-7 0.9999998 2.867379 0 0 0 1 0.9946436 0.1033638 -4.00004e-8 -10.26093 -0.1033638 0.9946436 -1.92162e-7 0.03517248 1.99235e-8 1.95268e-7 0.9999999 2.86738 0 0 0 1 0.9996737 0.02554065 -3.17153e-8 -10.26093 -0.02554065 0.9996737 -1.48631e-7 0.03517278 2.79088e-8 1.49392e-7 0.9999999 2.86738 0 0 0 1 1 -4.47035e-8 -4.47035e-8 -10.26093 4.47035e-8 1 -1.63913e-7 0.03517295 4.47035e-8 1.63913e-7 1 2.86738 0 0 0 1 1 -4.47035e-8 -4.47035e-8 -10.26093 4.47035e-8 1 -1.63913e-7 0.03517295 4.47035e-8 1.63913e-7 1 2.86738 0 0 0 1 1 -4.47035e-8 -4.47035e-8 -10.26093 4.47035e-8 1 -1.63913e-7 0.03517295 4.47035e-8 1.63913e-7 1 2.86738 0 0 0 1 1 -4.47035e-8 -4.47035e-8 -10.26093 4.47035e-8 1 -1.63913e-7 0.03517295 4.47035e-8 1.63913e-7 1 2.86738 0 0 0 1 1 -4.47035e-8 -4.47035e-8 -10.26093 4.47035e-8 1 -1.63913e-7 0.03517295 4.47035e-8 1.63913e-7 1 2.86738 0 0 0 1 1 -4.47035e-8 -4.47035e-8 -10.26093 4.47035e-8 1 -1.63913e-7 0.03517295 4.47035e-8 1.63913e-7 1 2.86738 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#door_door_left_pose_matrix-output-array" count="15" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_door_left_pose_matrix-interpolation">
+        <Name_array id="door_door_left_pose_matrix-interpolation-array" count="15">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#door_door_left_pose_matrix-interpolation-array" count="15" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="door_door_left_pose_matrix-sampler">
+        <input semantic="INPUT" source="#door_door_left_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#door_door_left_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#door_door_left_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#door_door_left_pose_matrix-sampler" target="door_door_left/transform"/>
+    </animation>
+    <animation id="door_pile_left_pose_matrix">
+      <source id="door_pile_left_pose_matrix-input">
+        <float_array id="door_pile_left_pose_matrix-input-array" count="15">0.0416665 0.08333331 0.125 0.1666666 0.2083333 0.25 0.2916666 0.3333333 0.375 0.4166666 0.4583333 0.5 0.5416667 0.5833333 0.625</float_array>
+        <technique_common>
+          <accessor source="#door_pile_left_pose_matrix-input-array" count="15" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_pile_left_pose_matrix-output">
+        <float_array id="door_pile_left_pose_matrix-output-array" count="240">0.9999998 -7.45058e-8 -4.17232e-7 6.405592 7.47387e-8 0.9999999 -5.96047e-8 -1.179221 4.32134e-7 5.96046e-8 0.9999998 11.04464 0 0 0 1 0.9999998 -7.45058e-8 -4.17232e-7 6.405592 7.47387e-8 0.9999999 -5.96047e-8 -1.179221 4.32134e-7 5.96046e-8 0.9999998 11.04464 0 0 0 1 0.9999998 -7.45058e-8 -4.17232e-7 6.405592 7.47387e-8 0.9999999 -5.96047e-8 -1.179221 4.32134e-7 5.96046e-8 0.9999998 11.04464 0 0 0 1 0.9999998 -7.45058e-8 -4.17232e-7 6.405592 7.47387e-8 0.9999999 -5.96047e-8 -1.179221 4.32134e-7 5.96046e-8 0.9999998 11.04464 0 0 0 1 0.9999998 -7.45058e-8 -4.17232e-7 6.405592 7.47387e-8 0.9999999 -5.96047e-8 -1.179221 4.32134e-7 5.96046e-8 0.9999998 11.04464 0 0 0 1 0.9999998 -7.45058e-8 -4.17232e-7 6.405592 7.47387e-8 0.9999999 -5.96047e-8 -1.179221 4.32134e-7 5.96046e-8 0.9999998 11.04464 0 0 0 1 0.9999998 -7.45058e-8 -4.17232e-7 6.405592 7.47387e-8 0.9999999 -5.96047e-8 -1.179221 4.32134e-7 5.96046e-8 0.9999998 11.04464 0 0 0 1 0.9999998 -7.45058e-8 -4.17232e-7 6.405592 7.47387e-8 0.9999999 -5.96047e-8 -1.179221 4.32134e-7 5.96046e-8 0.9999998 11.04464 0 0 0 1 0.9999998 -7.45058e-8 -4.17232e-7 6.405592 7.47387e-8 0.9999999 -5.96047e-8 -1.179221 4.32134e-7 5.96046e-8 0.9999998 11.04464 0 0 0 1 0.9999998 -7.45058e-8 -4.17232e-7 6.405592 7.47387e-8 0.9999999 -5.96047e-8 -1.179221 4.32134e-7 5.96046e-8 0.9999998 11.04464 0 0 0 1 0.9999998 -7.45058e-8 -4.17232e-7 6.405592 7.47387e-8 0.9999999 -5.96047e-8 -1.179221 4.32134e-7 5.96046e-8 0.9999998 11.04464 0 0 0 1 0.9999998 -7.45058e-8 -4.17232e-7 6.405592 7.47387e-8 0.9999999 -5.96047e-8 -1.179221 4.32134e-7 5.96046e-8 0.9999998 10.12348 0 0 0 1 0.9999998 -7.45058e-8 -4.17232e-7 6.405589 7.47387e-8 0.9999999 -5.96047e-8 -1.179221 4.32134e-7 5.96046e-8 0.9999998 8.26158 0 0 0 1 0.9999998 -7.45058e-8 -4.17232e-7 6.405594 7.47387e-8 0.9999999 -5.96047e-8 -1.179222 4.32134e-7 5.96046e-8 0.9999998 6.19887 0 0 0 1 0.9999998 -7.45058e-8 -4.17232e-7 6.405594 7.47387e-8 0.9999999 -5.96047e-8 -1.179221 4.32134e-7 5.96046e-8 0.9999998 4.876118 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#door_pile_left_pose_matrix-output-array" count="15" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_pile_left_pose_matrix-interpolation">
+        <Name_array id="door_pile_left_pose_matrix-interpolation-array" count="15">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#door_pile_left_pose_matrix-interpolation-array" count="15" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="door_pile_left_pose_matrix-sampler">
+        <input semantic="INPUT" source="#door_pile_left_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#door_pile_left_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#door_pile_left_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#door_pile_left_pose_matrix-sampler" target="door_pile_left/transform"/>
+    </animation>
+    <animation id="door_door_right_pose_matrix">
+      <source id="door_door_right_pose_matrix-input">
+        <float_array id="door_door_right_pose_matrix-input-array" count="15">0.0416665 0.08333331 0.125 0.1666666 0.2083333 0.25 0.2916666 0.3333333 0.375 0.4166666 0.4583333 0.5 0.5416667 0.5833333 0.625</float_array>
+        <technique_common>
+          <accessor source="#door_door_right_pose_matrix-input-array" count="15" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_door_right_pose_matrix-output">
+        <float_array id="door_door_right_pose_matrix-output-array" count="240">0.3659543 -0.9306326 1.66402e-7 9.832151 0.9306328 0.3659542 5.88261e-8 0.0351727 -1.15641e-7 1.33332e-7 0.9999999 2.867378 0 0 0 1 0.4374908 -0.8992227 1.23886e-7 9.832152 0.8992229 0.4374907 2.56664e-8 0.03517174 -7.72787e-8 1.00172e-7 1 2.867377 0 0 0 1 0.5506402 -0.8347425 1.97012e-7 9.832152 0.8347426 0.5506402 3.39832e-8 0.03517365 -1.3685e-7 1.45742e-7 1 2.867378 0 0 0 1 0.6876885 -0.7260057 1.49104e-7 9.832152 0.726006 0.6876883 5.36562e-8 0.0351727 -1.41492e-7 7.13513e-8 1 2.867378 0 0 0 1 0.8193482 -0.5732961 2.06066e-7 9.832151 0.5732961 0.819348 3.62672e-8 0.0351727 -1.89631e-7 8.84212e-8 1 2.867378 0 0 0 1 0.9176643 -0.3973562 2.76671e-7 9.832151 0.3973562 0.9176641 6.5099e-8 0.03517246 -2.79758e-7 5.01978e-8 1 2.867378 0 0 0 1 0.9728244 -0.2315435 3.14802e-7 9.832151 0.2315436 0.9728243 6.73443e-9 0.0351727 -3.07807e-7 6.6339e-8 1 2.867378 0 0 0 1 0.9946435 -0.1033636 2.96932e-7 9.832152 0.1033636 0.9946434 3.03284e-8 0.03517222 -2.98476e-7 5.26029e-10 1 2.867378 0 0 0 1 0.9996738 -0.02554047 2.68201e-7 9.832152 0.02554047 0.9996736 3.42556e-9 0.03517267 -2.68201e-7 3.42555e-9 1 2.867378 0 0 0 1 1 1.93715e-7 1.63913e-7 9.832151 -1.93715e-7 1 -1.49012e-8 0.03517276 -1.63913e-7 1.49011e-8 1 2.867378 0 0 0 1 1 1.93715e-7 1.3411e-7 9.832151 -1.93715e-7 1 -1.49012e-8 0.0351727 -1.3411e-7 1.49011e-8 1 2.867376 0 0 0 1 1 1.93715e-7 7.45058e-8 9.832151 -1.93715e-7 1 1.49012e-8 0.03517252 -7.45058e-8 -1.49012e-8 1 2.867377 0 0 0 1 1 2.38419e-7 -8.9407e-8 9.832151 -2.38419e-7 1 1.42109e-14 0.03517288 8.94069e-8 7.10542e-15 1 2.867378 0 0 0 1 1 2.38419e-7 -8.9407e-8 9.832151 -2.38419e-7 1 1.42109e-14 0.03517288 8.94069e-8 7.10542e-15 1 2.867378 0 0 0 1 1 2.38419e-7 -8.9407e-8 9.832151 -2.38419e-7 1 1.42109e-14 0.03517288 8.94069e-8 7.10542e-15 1 2.867378 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#door_door_right_pose_matrix-output-array" count="15" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_door_right_pose_matrix-interpolation">
+        <Name_array id="door_door_right_pose_matrix-interpolation-array" count="15">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#door_door_right_pose_matrix-interpolation-array" count="15" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="door_door_right_pose_matrix-sampler">
+        <input semantic="INPUT" source="#door_door_right_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#door_door_right_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#door_door_right_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#door_door_right_pose_matrix-sampler" target="door_door_right/transform"/>
+    </animation>
+    <animation id="door_pile_right_pose_matrix">
+      <source id="door_pile_right_pose_matrix-input">
+        <float_array id="door_pile_right_pose_matrix-input-array" count="15">0.0416665 0.08333331 0.125 0.1666666 0.2083333 0.25 0.2916666 0.3333333 0.375 0.4166666 0.4583333 0.5 0.5416667 0.5833333 0.625</float_array>
+        <technique_common>
+          <accessor source="#door_pile_right_pose_matrix-input-array" count="15" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_pile_right_pose_matrix-output">
+        <float_array id="door_pile_right_pose_matrix-output-array" count="240">1 -1.3411e-7 -5.68434e-14 -5.98012 1.3411e-7 1 -2.98023e-8 -1.179221 2.84217e-14 2.98023e-8 0.9999998 11.18629 0 0 0 1 1 -1.3411e-7 -5.68434e-14 -5.98012 1.3411e-7 1 -2.98023e-8 -1.179221 2.84217e-14 2.98023e-8 0.9999998 11.18629 0 0 0 1 1 -1.3411e-7 -5.68434e-14 -5.98012 1.3411e-7 1 -2.98023e-8 -1.179221 2.84217e-14 2.98023e-8 0.9999998 11.18629 0 0 0 1 1 -1.3411e-7 -5.68434e-14 -5.98012 1.3411e-7 1 -2.98023e-8 -1.179221 2.84217e-14 2.98023e-8 0.9999998 11.18629 0 0 0 1 1 -1.3411e-7 -5.68434e-14 -5.98012 1.3411e-7 1 -2.98023e-8 -1.179221 2.84217e-14 2.98023e-8 0.9999998 11.18629 0 0 0 1 1 -1.3411e-7 -5.68434e-14 -5.98012 1.3411e-7 1 -2.98023e-8 -1.179221 2.84217e-14 2.98023e-8 0.9999998 11.18629 0 0 0 1 1 -1.3411e-7 -5.68434e-14 -5.980119 1.3411e-7 1 -2.98023e-8 -1.179222 2.84217e-14 2.98023e-8 0.9999998 11.18629 0 0 0 1 1 -1.3411e-7 -5.68434e-14 -5.980119 1.3411e-7 1 -2.98023e-8 -1.179222 2.84217e-14 2.98023e-8 0.9999998 11.18629 0 0 0 1 1 -1.3411e-7 -5.68434e-14 -5.980119 1.3411e-7 1 -2.98023e-8 -1.179223 2.84217e-14 2.98023e-8 0.9999998 11.18629 0 0 0 1 1 -1.3411e-7 -5.68434e-14 -5.980118 1.3411e-7 1 -2.98023e-8 -1.179223 2.84217e-14 2.98023e-8 0.9999998 11.18629 0 0 0 1 1 -1.3411e-7 -5.68434e-14 -5.980116 1.3411e-7 1 -2.98023e-8 -1.179222 2.84217e-14 2.98023e-8 0.9999998 10.57189 0 0 0 1 1 -1.3411e-7 -5.68434e-14 -5.980119 1.3411e-7 1 -2.98023e-8 -1.179223 2.84217e-14 2.98023e-8 0.9999998 9.16992 0 0 0 1 1 -1.3411e-7 -5.68434e-14 -5.980115 1.3411e-7 1 -2.98023e-8 -1.179223 2.84217e-14 2.98023e-8 0.9999998 7.43576 0 0 0 1 1 -1.3411e-7 -5.68434e-14 -5.980115 1.3411e-7 1 -2.98023e-8 -1.179223 2.84217e-14 2.98023e-8 0.9999998 5.772931 0 0 0 1 1 -1.3411e-7 -5.68434e-14 -5.980114 1.3411e-7 1 -2.98023e-8 -1.179222 2.84217e-14 2.98023e-8 0.9999998 4.876121 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#door_pile_right_pose_matrix-output-array" count="15" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="door_pile_right_pose_matrix-interpolation">
+        <Name_array id="door_pile_right_pose_matrix-interpolation-array" count="15">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#door_pile_right_pose_matrix-interpolation-array" count="15" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="door_pile_right_pose_matrix-sampler">
+        <input semantic="INPUT" source="#door_pile_right_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#door_pile_right_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#door_pile_right_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#door_pile_right_pose_matrix-sampler" target="door_pile_right/transform"/>
+    </animation>
+  </library_animations>
+  <library_controllers>
+    <controller id="door_pega_wall_gate_door-skin" name="door">
+      <skin source="#pega_wall_gate_door-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="door_pega_wall_gate_door-skin-joints">
+          <Name_array id="door_pega_wall_gate_door-skin-joints-array" count="2">door_right door_left</Name_array>
+          <technique_common>
+            <accessor source="#door_pega_wall_gate_door-skin-joints-array" count="2" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="door_pega_wall_gate_door-skin-bind_poses">
+          <float_array id="door_pega_wall_gate_door-skin-bind_poses-array" count="32">0.308607 0.766122 0.563754 -4.67771 -0.766122 -0.151072 0.624687 5.746726 0.563754 -0.624687 0.540322 -7.070252 0 0 0 1 0.275115 -0.787289 -0.551804 4.432857 0.787289 -0.1449339 0.599308 6.364975 -0.551804 -0.599308 0.579951 -7.30388 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#door_pega_wall_gate_door-skin-bind_poses-array" count="2" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="door_pega_wall_gate_door-skin-weights">
+          <float_array id="door_pega_wall_gate_door-skin-weights-array" count="24">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#door_pega_wall_gate_door-skin-weights-array" count="24" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#door_pega_wall_gate_door-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#door_pega_wall_gate_door-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="24">
+          <input semantic="JOINT" source="#door_pega_wall_gate_door-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#door_pega_wall_gate_door-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>1 0 1 1 1 2 1 3 1 4 1 5 1 6 1 7 0 8 0 9 0 10 0 11 0 12 0 13 0 14 0 15 1 16 1 17 1 18 1 19 0 20 0 21 0 22 0 23</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="door" name="door" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="door_door_left" name="door_left" sid="door_left" type="JOINT">
+          <matrix sid="transform">0.275115 0.787289 -0.551804 -10.26093 -0.787289 -0.144934 -0.599308 0.035173 -0.551804 0.599308 0.579951 2.86738 0 0 0 1</matrix>
+          <node id="door_pile_left" name="pile_left" sid="pile_left" type="JOINT">
+            <matrix sid="transform">1 0 0 4e-6 0 1 0 8.136259 0 0 1 -5e-6 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">-2.98023e-7</roll>
+                <tip_x sid="tip_x" type="float">0</tip_x>
+                <tip_y sid="tip_y" type="float">7.805697</tip_y>
+                <tip_z sid="tip_z" type="float">0</tip_z>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="blender">
+              <layer sid="layer" type="string">0</layer>
+              <roll sid="roll" type="float">0</roll>
+              <tip_x sid="tip_x" type="float">0</tip_x>
+              <tip_y sid="tip_y" type="float">7.805697</tip_y>
+              <tip_z sid="tip_z" type="float">0</tip_z>
+            </technique>
+          </extra>
+        </node>
+        <node id="door_door_right" name="door_right" sid="door_right" type="JOINT">
+          <matrix sid="transform">0.308607 -0.766122 0.563754 9.83215 0.766122 -0.151072 -0.624687 0.035173 0.563754 0.624687 0.540321 2.867378 0 0 0 1</matrix>
+          <node id="door_pile_right" name="pile_right" sid="pile_right" type="JOINT">
+            <matrix sid="transform">1 0 0 3e-6 0 1 0 7.805695 0 0 1 3e-6 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">1.78814e-7</roll>
+                <tip_x sid="tip_x" type="float">0</tip_x>
+                <tip_y sid="tip_y" type="float">0.5</tip_y>
+                <tip_z sid="tip_z" type="float">0</tip_z>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="blender">
+              <layer sid="layer" type="string">0</layer>
+              <roll sid="roll" type="float">0</roll>
+              <tip_x sid="tip_x" type="float">0</tip_x>
+              <tip_y sid="tip_y" type="float">0.5</tip_y>
+              <tip_z sid="tip_z" type="float">0</tip_z>
+            </technique>
+          </extra>
+        </node>
+      </node>
+      <node id="pega_wall_gate_door" name="pega_wall_gate_door" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#door_pega_wall_gate_door-skin">
+          <skeleton>#door_door_left</skeleton>
+          <skeleton>#door_door_right</skeleton>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

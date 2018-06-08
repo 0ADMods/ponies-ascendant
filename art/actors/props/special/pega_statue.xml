@@ -9,7 +9,7 @@
         <prop actor="props/flora/grass_soft_small_tall.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/Pega_struct.png" name="baseTex"/>
+        <texture file="structural/pega_struct.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

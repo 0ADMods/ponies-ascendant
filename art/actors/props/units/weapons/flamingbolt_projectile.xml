@@ -5,7 +5,7 @@
     <variant frequency="100" name="Base">
       <mesh>props/weap_ballista_projectile.dae</mesh>
       <textures>
-        <texture file="structural/Pega_struct.png" name="baseTex"/>
+        <texture file="structural/pega_struct.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

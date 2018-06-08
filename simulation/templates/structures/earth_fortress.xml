@@ -77,7 +77,15 @@
     <Weight>40000</Weight>
   </TerritoryInfluence>
   <ProductionQueue>
-    <Entities datatype="tokens"> units/{civ}_mechanical_siege_mangonel_unpacked units/{civ}_mechanical_siege_trebuchet_packed units/{civ}_hero_wisebiscuit units/{civ}_champion_infantry units/{civ}_infantry_spearman_e units/{civ}_infantry_slinger_e </Entities>
+    <Entities datatype="tokens"> 
+        units/{civ}_mechanical_siege_mangonel_unpacked 
+        units/{civ}_mechanical_siege_trebuchet_packed 
+        units/{civ}_hero_wisebiscuit 
+        units/{civ}_champion_infantry 
+        units/{civ}_infantry_spearman_e 
+        units/{civ}_infantry_slinger_e 
+        units/{civ}_infantry_javelinist_e
+    </Entities>
     <Technologies datatype="tokens"> pair_siege_attack_cost pair_siege_cost_armor </Technologies>
   </ProductionQueue>
   <Vision>

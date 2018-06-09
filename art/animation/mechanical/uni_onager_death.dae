@@ -250,37 +250,37 @@
       </sampler>
       <channel source="#catapult_axle_f_pose_matrix-sampler" target="axle_f/transform"/>
     </animation>
-    <animation id="catapult_ground_pose_matrix">
-      <source id="catapult_ground_pose_matrix-input">
-        <float_array id="catapult_ground_pose_matrix-input-array" count="15">0.04166662 0.1666666 0.2083333 0.2916666 0.5416667 0.5833333 0.625 0.6666667 0.7083333 0.75 0.7916667 0.8333333 0.875 0.9583333 1.083333</float_array>
+    <animation id="catapult_uniOnagerGround_pose_matrix">
+      <source id="catapult_uniOnagerGround_pose_matrix-input">
+        <float_array id="catapult_uniOnagerGround_pose_matrix-input-array" count="15">0.04166662 0.1666666 0.2083333 0.2916666 0.5416667 0.5833333 0.625 0.6666667 0.7083333 0.75 0.7916667 0.8333333 0.875 0.9583333 1.083333</float_array>
         <technique_common>
-          <accessor source="#catapult_ground_pose_matrix-input-array" count="15" stride="1">
+          <accessor source="#catapult_uniOnagerGround_pose_matrix-input-array" count="15" stride="1">
             <param name="TIME" type="float"/>
           </accessor>
         </technique_common>
       </source>
-      <source id="catapult_ground_pose_matrix-output">
-        <float_array id="catapult_ground_pose_matrix-output-array" count="240">1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1</float_array>
+      <source id="catapult_uniOnagerGround_pose_matrix-output">
+        <float_array id="catapult_uniOnagerGround_pose_matrix-output-array" count="240">1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1 1 0 0 0 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1</float_array>
         <technique_common>
-          <accessor source="#catapult_ground_pose_matrix-output-array" count="15" stride="16">
+          <accessor source="#catapult_uniOnagerGround_pose_matrix-output-array" count="15" stride="16">
             <param name="TRANSFORM" type="float4x4"/>
           </accessor>
         </technique_common>
       </source>
-      <source id="catapult_ground_pose_matrix-interpolation">
-        <Name_array id="catapult_ground_pose_matrix-interpolation-array" count="15">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+      <source id="catapult_uniOnagerGround_pose_matrix-interpolation">
+        <Name_array id="catapult_uniOnagerGround_pose_matrix-interpolation-array" count="15">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
         <technique_common>
-          <accessor source="#catapult_ground_pose_matrix-interpolation-array" count="15" stride="1">
+          <accessor source="#catapult_uniOnagerGround_pose_matrix-interpolation-array" count="15" stride="1">
             <param name="INTERPOLATION" type="name"/>
           </accessor>
         </technique_common>
       </source>
-      <sampler id="catapult_ground_pose_matrix-sampler">
-        <input semantic="INPUT" source="#catapult_ground_pose_matrix-input"/>
-        <input semantic="OUTPUT" source="#catapult_ground_pose_matrix-output"/>
-        <input semantic="INTERPOLATION" source="#catapult_ground_pose_matrix-interpolation"/>
+      <sampler id="catapult_uniOnagerGround_pose_matrix-sampler">
+        <input semantic="INPUT" source="#catapult_uniOnagerGround_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#catapult_uniOnagerGround_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#catapult_uniOnagerGround_pose_matrix-interpolation"/>
       </sampler>
-      <channel source="#catapult_ground_pose_matrix-sampler" target="ground/transform"/>
+      <channel source="#catapult_uniOnagerGround_pose_matrix-sampler" target="uniOnagerGround/transform"/>
     </animation>
     <animation id="catapult_prop_engineer_1_pose_matrix">
       <source id="catapult_prop_engineer_1_pose_matrix-input">
@@ -352,7 +352,7 @@
       <skin source="#Cube_008-mesh">
         <bind_shape_matrix>1 0 0 0 0 1 0 1.10346e-8 0 0 1 0.1461578 0 0 0 1</bind_shape_matrix>
         <source id="catapult_onager-skin-joints">
-          <Name_array id="catapult_onager-skin-joints-array" count="9">ground frame arm prop_projectile windlass axle_b axle_f prop_engineer_1 prop_engineer_2</Name_array>
+          <Name_array id="catapult_onager-skin-joints-array" count="9">uniOnagerGround frame arm prop_projectile windlass axle_b axle_f prop_engineer_1 prop_engineer_2</Name_array>
           <technique_common>
             <accessor source="#catapult_onager-skin-joints-array" count="9" stride="1">
               <param name="JOINT" type="name"/>
@@ -414,7 +414,7 @@
             <matrix sid="transform">-0.1071019 0.9942221 0.007179629 0.2391022 0.03370166 0.01084733 -0.999373 0.07765573 -0.9936765 -0.1067928 -0.03466866 0.6575482 0 0 0 1</matrix>
           </node>
         </node>
-        <node id="ground" name="ground" sid="ground" type="JOINT">
+        <node id="uniOnagerGround" name="uniOnagerGround" sid="uniOnagerGround" type="JOINT">
           <matrix sid="transform">1 0 0 7.22673e-8 0 -2.8213e-7 -1 -0.1973689 0 1 -2.8213e-7 0.6797378 0 0 0 1</matrix>
           <node id="prop_engineer_1" name="prop_engineer_1" sid="prop_engineer_1" type="JOINT">
             <matrix sid="transform">1 -1.98376e-14 1.50996e-7 4.618223 1.98376e-14 -1 -2.62757e-7 -0.0916605 1.50996e-7 2.62757e-7 -1 -0.1973676 0 0 0 1</matrix>
@@ -432,7 +432,7 @@
         <scale sid="scale">1 1 1</scale>
         <instance_controller url="#catapult_onager-skin">
           <skeleton>#frame</skeleton>
-          <skeleton>#ground</skeleton>
+          <skeleton>#uniOnagerGround</skeleton>
         </instance_controller>
       </node>
     </visual_scene>

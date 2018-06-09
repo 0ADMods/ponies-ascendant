@@ -1,54 +1,29 @@
 <skeletons>
-
    <standard_skeleton title="uni_ram" id="uni_ram">
-
-      <bone name="ground">
-
+      <bone name="uniRamGround">
          <bone name="cat">
-
            <bone name="axle_b">
-
            </bone>
-
            <bone name="axle_f">
-
            </bone>
-
            <bone name="ram">
-
            </bone>
-
          </bone>
-
       </bone>
-
 </standard_skeleton>
-
   <skeleton title="uni_ram" target="uni_ram">
-
     <identifier>
-
-      <root>uni_ram</root>
-
+      <root>uniRamGround</root>
     </identifier>
-
-      <bone name="ground"><target>ground</target>
+      <bone name="uniRamGround"><target>uniRamGround</target>
          <bone name="cat"><target>cat</target>
            <bone name="axle_b"><target>axle_b</target>
-
            </bone>
-
            <bone name="axle_f"><target>axle_f</target>
            </bone>
-
            <bone name="ram"><target>ram</target>
-
            </bone>
-
          </bone>
-
       </bone>
-
   </skeleton>
-
 </skeletons>

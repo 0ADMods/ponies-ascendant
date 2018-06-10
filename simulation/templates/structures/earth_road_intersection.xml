@@ -6,7 +6,14 @@
   </Footprint>
   <Identity>
     <Civ>earth</Civ>
+    <SelectionGroupName>structures/earth_roadset</SelectionGroupName>
+    <SpecificName>Stone road</SpecificName>
   </Identity>
+  <Obstruction>
+    <Static width="10.0" depth="10.0"/>
+    <BlockMovement>false</BlockMovement>
+    <BlockPathfinding>false</BlockPathfinding>
+  </Obstruction>
   <VisualActor>
     <Actor>structures/earth_ponies/road_intersection.xml</Actor>
   </VisualActor>

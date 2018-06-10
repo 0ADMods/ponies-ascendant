@@ -6,13 +6,15 @@
       <animations>
         <animation event=".73" file="mechanical/trebuchet.dae" load=".66" name="attack_ranged" speed="7"/>
         <animation file="mechanical/trebuchet_idle.dae" name="idle" speed="2"/>
-        <animation file="mechanical/trebuchet_death.dae" name="death" speed="25"/>
+        <animation file="mechanical/trebuchet_death.dae" name="death" speed="45"/>
       </animations>
       <mesh>skeletal/trebuchet.dae</mesh>
       <props>
         <prop actor="props/units/weapons/rock_flaming_a.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/rock_a.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
+		<prop actor="units/earth_ponies/infantry_spearman_b.xml" attachpoint="engineer_1" maxheight="20" minheight="-20"/>
+        <prop actor="units/earth_ponies/infantry_spearman_b.xml" attachpoint="engineer_2" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/earth_struct.png" name="baseTex"/>

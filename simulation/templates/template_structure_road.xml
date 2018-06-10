@@ -41,7 +41,7 @@
   </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>1.0</BatchTimeModifier>
-</ProductionQueue>
+  </ProductionQueue>
   <RallyPoint disable=""/>
   <Sound>
     <SoundGroups>

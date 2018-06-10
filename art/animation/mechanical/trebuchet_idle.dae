@@ -263,7 +263,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="Trebuchet" name="Trebuchet" type="NODE">
-        <translate sid="location">-7.081949 0.8870455 13.42726</translate>
+        <translate sid="location">-7.101693 0.2223098 12.64308</translate>
         <rotate sid="rotationZ">0 0 1 180</rotate>
         <rotate sid="rotationY">0 1 0 0</rotate>
         <rotate sid="rotationX">1 0 0 0</rotate>

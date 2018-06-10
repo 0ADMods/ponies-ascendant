@@ -39,6 +39,7 @@
       -other/wallset_palisade
       -structures/{civ}_corral
       -structures/{civ}_sentry_tower
+	  structures/{civ}_wallset_wood
     </Entities>
   </Builder>
   <Cost>

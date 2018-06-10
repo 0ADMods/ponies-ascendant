@@ -4,7 +4,7 @@
     <Icon>units/earth_mechanical_trebuchet_unpacked.png</Icon>
   </Identity>
   <Pack>
-    <Entity>units/earth_mechanical_siege_trebuchet_packed</Entity>
+    <Entity>units/uni_mechanical_siege_trebuchet_packed</Entity>
     <Time>10000</Time>
     <State>unpacked</State>
   </Pack>

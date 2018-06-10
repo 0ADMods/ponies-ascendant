@@ -1,25 +1,28 @@
 <skeletons>
-   <standard_skeleton title="Trebuchet" id="Trebuchet">
-      <bone name="axle">
-         <bone name="sling_1">
-            <bone name="sling_2">
-            </bone>
-         </bone>
-         <bone name="counterweight">
-         </bone>
-      </bone>
-</standard_skeleton>
-  <skeleton title="Trebuchet" target="Trebuchet">
-    <identifier>
-      <root>Trebuchet</root>
-    </identifier>
-      <bone name="axle"><target>axle</target>
-         <bone name="sling_1"><target>sling_1</target>
-            <bone name="sling_2"><target>sling_2</target>
-            </bone>
-         </bone>
-         <bone name="counterweight"><target>counterweight</target>
-         </bone>
-      </bone>
-  </skeleton>
+	<standard_skeleton title="Trebuchet" id="Trebuchet">
+		<bone name="ponyTrebFrame">
+		</bone>
+			<bone name="axle">
+				<bone name="sling_1">
+					<bone name="sling_2">
+					</bone>
+				</bone>
+				<bone name="counterweight">
+				</bone>
+			</bone>
+	</standard_skeleton>
+	<skeleton title="Trebuchet" target="Trebuchet">
+		<identifier>
+			<root>Trebuchet</root>
+		</identifier>
+		<bone name="ponyTrebFrame"><target>ponyTrebFrame</target></bone>
+			<bone name="axle"><target>axle</target>
+				<bone name="sling_1"><target>sling_1</target>
+					<bone name="sling_2"><target>sling_2</target>
+					</bone>
+				</bone>
+				<bone name="counterweight"><target>counterweight</target>
+				</bone>
+			</bone>
+	</skeleton>
 </skeletons>

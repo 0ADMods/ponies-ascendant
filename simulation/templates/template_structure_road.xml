@@ -24,6 +24,7 @@
     <Classes datatype="tokens">-ConquestCritical Road</Classes>
     <GenericName>Road</GenericName>
     <Tooltip>Lay roads to boost movement speed.</Tooltip>
+    <SpecificName>Stone road</SpecificName>
     <Icon>structures/earth_road.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

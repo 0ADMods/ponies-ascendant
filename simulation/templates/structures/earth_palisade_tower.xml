@@ -50,12 +50,16 @@
     <SpecificName>Wooden Turret</SpecificName>
     <Tooltip>Shoots short ranged arrows to fend off attackers.</Tooltip>
     <RequiredTechnology>phase_village</RequiredTechnology>
+    <GenericName>Wooden Wall</GenericName>
+    <Classes datatype="tokens">-StoneWall Palisade Tower</Classes>
+    <Icon>gaia/special_palisade.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="9.0" depth="9.0"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/earth_ponies/palisade_turret.xml</Actor>
+	<FoundationActor>structures/fndn_1x1pal.xml</FoundationActor>
   </VisualActor>
   <WallPiece>
     <Length>9.0</Length>

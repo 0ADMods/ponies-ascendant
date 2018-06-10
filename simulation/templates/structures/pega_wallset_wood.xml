@@ -2,8 +2,11 @@
 <Entity parent="template_structure_defense_wallset">
   <Identity>
     <Civ>pega</Civ>
+    <GenericName>Wooden Wall</GenericName>
     <SpecificName>Palisade Wall</SpecificName>
     <RequiredTechnology>phase_village</RequiredTechnology>
+    <Classes datatype="tokens">-StoneWall Palisade</Classes>
+    <Icon>structures/palisade_wall.png</Icon>
   </Identity>
   <WallSet>
     <Templates>

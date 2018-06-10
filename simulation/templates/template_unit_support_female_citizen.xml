@@ -26,24 +26,7 @@
   <Auras datatype="tokens">units/female_inspiration</Auras>
   <Builder>
     <Rate>1.0</Rate>
-    <Entities datatype="tokens">
-      structures/{civ}_house
-      structures/{civ}_storehouse
-      structures/{civ}_farmstead
-      structures/{civ}_field
-      structures/{civ}_dock
-      structures/{civ}_temple
-      structures/{civ}_market
-      structures/{civ}_civil_centre
-      structures/{civ}_outpost
-      structures/{civ}_wallset_wood
-      structures/{civ}_barracks
-      structures/{civ}_blacksmith
-      structures/{civ}_defense_tower
-      structures/{civ}_wallset_stone
-      structures/{civ}_fortress
-      structures/{civ}_wonder
-    </Entities>
+    <Entities datatype="tokens"> structures/{civ}_house structures/{civ}_storehouse structures/{civ}_farmstead structures/{civ}_field structures/{civ}_dock structures/{civ}_temple structures/{civ}_market structures/{civ}_civil_centre structures/{civ}_outpost structures/{civ}_wallset_wood structures/{civ}_barracks structures/{civ}_blacksmith structures/{civ}_defense_tower structures/{civ}_wallset_stone structures/{civ}_fortress structures/{civ}_wonder </Entities>
   </Builder>
   <Cost>
     <Resources>
@@ -97,7 +80,7 @@
   </Sound>
   <UnitAI>
     <CanPatrol>false</CanPatrol>
-  </UnitAI>  
+  </UnitAI>
   <UnitMotion>
     <WalkSpeed>9.5</WalkSpeed>
     <Run>

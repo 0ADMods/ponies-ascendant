@@ -80,8 +80,10 @@
     <Entities datatype="tokens"> 
        units/{civ}_mechanical_siege_onager_unpacked
        units/{civ}_mechanical_siege_trebuchet_packed 
+       units/{civ}_mechanical_siege_ram
        units/{civ}_hero_wisebiscuit 
        units/{civ}_champion_infantry 
+	   units/{civ}_champion_halberdier
        units/{civ}_infantry_spearman_e 
        units/{civ}_infantry_archer_e 
        units/{civ}_infantry_slinger_e

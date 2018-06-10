@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <skeletons>
   <standard_skeleton id="ballista" title="ballista">
-    <bone name="ground">
+    <bone name="pegaBalistaGround">
       <bone name="pivot">
         <bone name="stock">
           <bone name="bow_left" />
@@ -15,10 +15,10 @@
   </standard_skeleton>
   <skeleton target="ballista" title="ballista">
     <identifier>
-      <root>ground</root>
+      <root>pegaBalistaGround</root>
     </identifier>
-    <bone name="ground">
-      <target>ground</target>
+    <bone name="pegaBalistaGround">
+      <target>pegaBalistaGround</target>
       <bone name="pivot">
         <target>pivot</target>
         <bone name="stock">

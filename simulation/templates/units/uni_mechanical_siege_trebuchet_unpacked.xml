@@ -15,6 +15,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/earth_ponies/trebuchet.xml</Actor>
+    <Actor>units/unicorns/trebuchet.xml</Actor>
   </VisualActor>
 </Entity>

@@ -3,6 +3,9 @@
   <StatusBars>
     <HeightOffset>20.0</HeightOffset>
   </StatusBars>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_wall_tower</SpawnEntityOnDeath>
+  </Health>
   <VisualActor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>

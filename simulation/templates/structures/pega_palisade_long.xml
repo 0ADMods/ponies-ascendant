@@ -24,8 +24,11 @@
 		<Max>4000</Max>
 	</Health>
 	<Identity>
-		<Civ>earth</Civ>
+		<Civ>pega</Civ>
 		<SpecificName>Palisade</SpecificName>
+		<GenericName>Wooden Wall</GenericName>
+		<Classes datatype="tokens">-StoneWall Palisade</Classes>
+		<Icon>gaia/special_palisade.png</Icon>
 		<SelectionGroupName>structures/earth_wallset_wood</SelectionGroupName>
 		<RequiredTechnology>phase_village</RequiredTechnology>
 	</Identity>
@@ -34,7 +37,13 @@
 	</Obstruction>
 	<VisualActor>
 		<Actor>structures/earth_ponies/palisade_long.xml</Actor>
+		<FoundationActor>structures/fndn_1x3pal.xml</FoundationActor>
 	</VisualActor>
+	<Upgrade>
+	<Gate>
+		<Entity>structures/pega_palisade_gate</Entity>
+	</Gate>
+  </Upgrade>
 	<WallPiece>
 		<Length>37.0</Length>
 	</WallPiece>

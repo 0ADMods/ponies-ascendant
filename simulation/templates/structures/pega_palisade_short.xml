@@ -28,12 +28,16 @@
 		<SpecificName>Palisade</SpecificName>
 		<SelectionGroupName>structures/earth_wallset_wood</SelectionGroupName>
 		<RequiredTechnology>phase_village</RequiredTechnology>
+		<GenericName>Wooden Wall</GenericName>
+		<Classes datatype="tokens">-StoneWall Palisade</Classes>
+		<Icon>gaia/special_palisade.png</Icon>
 	</Identity>
 	<Obstruction>
 		<Static width="13.0" depth="7.0"/>
 	</Obstruction>
 	<VisualActor>
 		<Actor>structures/earth_ponies/palisade_short.xml</Actor>
+		<FoundationActor>structures/fndn_1x1pal.xml</FoundationActor>
 	</VisualActor>
 	<WallPiece>
 		<Length>13.0</Length>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="ponies/pony_siege_crew.xml">
+      <mesh>skeletal/pony.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/slingrock_2.xml" attachpoint="projectile"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="10">
+      <props>
+        <prop actor="props/units/heads/earth_hood_c.xml" attachpoint="hat"/>
+        <prop actor="props/units/weapons/sling.xml" attachpoint="hoof"/>
+        <prop actor="props/units/shields/celt_round_pony.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="2">
+      <textures>
+        <texture file="skeletal/pony_sling_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="3">
+      <textures>
+        <texture file="skeletal/pony_sling_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="4">
+      <textures>
+        <texture file="skeletal/pony_sling_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="5">
+      <textures>
+        <texture file="skeletal/pony_sling_d.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant name="death"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

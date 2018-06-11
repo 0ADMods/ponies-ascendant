@@ -12,7 +12,7 @@
       </animations>
       <mesh>skeletal/earth_quinquereme.dae</mesh>
       <props>
-        <prop actor="units/earth_ponies/infantry_spearman_e.xml" attachpoint="captain"/>
+        <prop actor="units/earth_ponies/infantry_spearman_ship_crew_e.xml" attachpoint="captain"/>
         <prop actor="props/structures/earth_ponies/fortress_pennant.xml" attachpoint="flag"/>
       </props>
       <textures>

@@ -6,6 +6,7 @@
     <PlacementType>land-shore</PlacementType>
     <Category>Wall</Category>
   </BuildRestrictions>
+  <Capturable disable=""/>
   <Cost>
     <BuildTime>10</BuildTime>
     <Resources>
@@ -18,21 +19,17 @@
   </Footprint>
   <Health>
     <Max>4000</Max>
-    <SpawnEntityOnDeath>rubble/rubble_wall</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_wall</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical Road</Classes>
     <GenericName>Road</GenericName>
     <Tooltip>Lay roads to boost movement speed.</Tooltip>
-    <Icon>structures/wall.png</Icon>
+    <Icon>structures/earth_road.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
-    <xp>0</xp>
-    <food>0</food>
-    <wood>0</wood>
     <stone>10</stone>
-    <metal>0</metal>
   </Loot>
   <Obstruction>
     <Static width="6.0" depth="6.0"/>
@@ -41,7 +38,7 @@
   </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>1.0</BatchTimeModifier>
-</ProductionQueue>
+  </ProductionQueue>
   <RallyPoint disable=""/>
   <Sound>
     <SoundGroups>
@@ -60,5 +57,8 @@
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_wall_medium.xml</FoundationActor>
+    <SelectionShape>
+      <Footprint/>
+    </SelectionShape>
   </VisualActor>
 </Entity>

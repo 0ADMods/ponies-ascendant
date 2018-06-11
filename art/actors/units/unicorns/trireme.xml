@@ -13,8 +13,8 @@
       <mesh>skeletal/earth_trireme.dae</mesh>
       <props>
         <prop actor="props/units/weapons/rock_flaming.xml" attachpoint="projectile" minheight="20"/>
-        <prop actor="units/earth_ponies/infantry_spearman_e.xml" attachpoint="captain"/>
-        <prop actor="units/earth_ponies/mangonel.xml" attachpoint="archer_1"/>
+        <prop actor="units/unicorns/infantry_spearman_ship_crew_e.xml" attachpoint="captain"/>
+        <prop actor="units/unicorns/onager_ship_crew.xml" attachpoint="archer_1"/>
         <prop actor="props/structures/earth_ponies/fortress_pennant.xml" attachpoint="flag"/>
       </props>
       <textures>

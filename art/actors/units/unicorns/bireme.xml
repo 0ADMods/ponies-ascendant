@@ -14,15 +14,15 @@
       <props>
         <prop actor="props/units/weapons/slingrock_2.xml" attachpoint="projectile" minheight="20"/>
         <prop actor="props/units/weapons/slingrock_2.xml" attachpoint="loaded-projectile"/>
-        <prop actor="units/earth_ponies/infantry_spearman_e.xml" attachpoint="captain"/>
-        <prop actor="units/earth_ponies/infantry_slinger_b.xml" attachpoint="archer_1"/>
-        <prop actor="units/earth_ponies/infantry_slinger_a.xml" attachpoint="archer_2"/>
-        <prop actor="units/earth_ponies/infantry_slinger_b.xml" attachpoint="archer_3"/>
-        <prop actor="units/earth_ponies/infantry_slinger_e.xml" attachpoint="archer_4"/>
-        <prop actor="units/earth_ponies/infantry_slinger_e.xml" attachpoint="archer_5"/>
-        <prop actor="units/earth_ponies/infantry_slinger_b.xml" attachpoint="archer_6"/>
-        <prop actor="units/earth_ponies/infantry_slinger_b.xml" attachpoint="archer_7"/>
-        <prop actor="units/earth_ponies/infantry_slinger_a.xml" attachpoint="archer_8"/>
+        <prop actor="units/unicorns/infantry_spearman_ship_crew_e.xml" attachpoint="captain"/>
+        <prop actor="units/unicorns/infantry_archer_ship_crew_b.xml" attachpoint="archer_1"/>
+        <prop actor="units/unicorns/infantry_archer_ship_crew_a.xml" attachpoint="archer_2"/>
+        <prop actor="units/unicorns/infantry_archer_ship_crew_b.xml" attachpoint="archer_3"/>
+        <prop actor="units/unicorns/infantry_archer_ship_crew_e.xml" attachpoint="archer_4"/>
+        <prop actor="units/unicorns/infantry_archer_ship_crew_e.xml" attachpoint="archer_5"/>
+        <prop actor="units/unicorns/infantry_archer_ship_crew_b.xml" attachpoint="archer_6"/>
+        <prop actor="units/unicorns/infantry_archer_ship_crew_b.xml" attachpoint="archer_7"/>
+        <prop actor="units/unicorns/infantry_archer_ship_crew_a.xml" attachpoint="archer_8"/>
         <prop actor="props/structures/earth_ponies/fortress_pennant.xml" attachpoint="flag"/>
       </props>
       <textures>

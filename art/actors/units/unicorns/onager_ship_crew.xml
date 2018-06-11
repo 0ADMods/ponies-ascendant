@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="mangonel">
+      <animations>
+        <animation event=".05" file="mechanical/uni_onager.dae" load=".70" name="attack_ranged" speed="50"/>
+        <animation file="mechanical/uni_onager_death.dae" name="death" speed="45"/>
+      </animations>
+      <mesh>skeletal/uni_onager.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/rock_flaming.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/rock.xml" attachpoint="loaded-projectile"/>
+        <prop actor="units/unicorns/infantry_spearman_ship_crew_e.xml" attachpoint="engineer_1" maxheight="20" minheight="-20"/>
+        <prop actor="units/unicorns/infantry_spearman_ship_crew_e.xml" attachpoint="engineer_2" maxheight="20" minheight="-20"/>
+      </props>
+      <textures>
+        <texture file="structural/uni_struct.png" name="baseTex"/>
+        <texture file="structural/uni_struct_norm.png" name="normTex"/>
+        <texture file="structural/uni_struct_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/structures/decals/destruct_2x2.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

@@ -5,14 +5,14 @@
   <group>
     <variant frequency="100" name="bireme">
       <animations>
-        <animation event=".18" file="mechanical/earth_quinquereme_attack.dae" load="" name="attack_melee" speed="250"/>
+        <animation event=".18" file="mechanical/earth_quinquereme_attack.dae" name="attack_melee" speed="250"/>
         <animation file="mechanical/earth_quinquereme.dae" name="idle" speed="30"/>
         <animation file="mechanical/earth_quinquereme.dae" name="death" speed="1"/>
         <animation file="mechanical/earth_quinquereme.dae" name="walk" speed="6"/>
       </animations>
       <mesh>skeletal/earth_quinquereme.dae</mesh>
       <props>
-        <prop actor="units/earth_ponies/infantry_spearman_e.xml" attachpoint="captain"/>
+        <prop actor="units/unicorns/infantry_spearman_ship_crew_e.xml" attachpoint="captain"/>
         <prop actor="props/structures/earth_ponies/fortress_pennant.xml" attachpoint="flag"/>
       </props>
       <textures>

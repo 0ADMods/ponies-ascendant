@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defense_wallset">
+<Entity parent="template_structure_wooden_wall_wallset">
   <Identity>
     <Civ>uni</Civ>
-    <GenericName>Wooden Wall</GenericName>
-    <SpecificName>Palisade Wall</SpecificName>
-    <RequiredTechnology>phase_village</RequiredTechnology>
-    <Classes datatype="tokens">-StoneWall Palisade</Classes>
-    <Icon>structures/palisade_wall.png</Icon>
   </Identity>
   <WallSet>
     <Templates>
@@ -16,7 +11,5 @@
       <WallMedium>structures/uni_palisade_medium</WallMedium>
       <WallShort>structures/uni_palisade_short</WallShort>
     </Templates>
-    <MaxTowerOverlap>0.80</MaxTowerOverlap>
-    <MinTowerOverlap>0.05</MinTowerOverlap>
   </WallSet>
 </Entity>

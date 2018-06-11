@@ -11,8 +11,8 @@
       </animations>
       <mesh>skeletal/uni_siege_ram.dae</mesh>
       <props>
-        <prop actor="units/unicorns/infantry_archer_e.xml" attachpoint="engineer_1" maxheight="20" minheight="-20"/>
-        <prop actor="units/unicorns/infantry_archer_e.xml" attachpoint="engineer_2" maxheight="20" minheight="-20"/>
+        <prop actor="units/unicorns/infantry_archer_siege_crew_e.xml" attachpoint="engineer_1" maxheight="20" minheight="-20"/>
+        <prop actor="units/unicorns/infantry_archer_siege_crew_e.xml" attachpoint="engineer_2" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/uni_struct.png" name="baseTex"/>

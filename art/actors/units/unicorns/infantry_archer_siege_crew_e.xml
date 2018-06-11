@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="unicorns/uni_siege_crew.xml">
+      <mesh>skeletal/unicorn_remapped.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/arrowbuilding_uni_projectile.xml" attachpoint="projectile"/>
+        <prop actor="props/units/heads/uni_archer_sallet.xml" attachpoint="hat"/>
+        <prop actor="props/units/shields/kite_uni.xml" attachpoint="back"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="10"/>
+  </group>
+  <group>
+    <variant frequency="1" name="2">
+      <textures>
+        <texture file="skeletal/uni_archer_e_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="3">
+      <textures>
+        <texture file="skeletal/uni_archer_e_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="4">
+      <textures>
+        <texture file="skeletal/uni_archer_e_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="5">
+      <textures>
+        <texture file="skeletal/uni_archer_e_d.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="6">
+      <textures>
+        <texture file="skeletal/uni_archer_e_e.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="7">
+      <textures>
+        <texture file="skeletal/uni_archer_e_f.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="8">
+      <textures>
+        <texture file="skeletal/uni_archer_e_g.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="9">
+      <textures>
+        <texture file="skeletal/uni_archer_e_h.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant name="death"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -24,12 +24,15 @@
     </variant>
   </group>
   <group>
-    <variant frequency="100" name="Idle"/>
-    <variant name="garrisoned">
-      <props>
-        <prop actor="units/pegasi/infantry_spearman_b.xml" attachpoint="garrisoned"/>
-      </props>
+     <variant name="ungarrisoned" frequency="1"/>
+     <variant name="garrisoned">
+       <props>
+          <prop actor="units/pegasi/infantry_spearman_b.xml" attachpoint="garrisoned"/>
+       </props>
     </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
     <variant name="death">
       <props>
         <prop attachpoint="garrisoned"/>

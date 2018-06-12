@@ -14,7 +14,8 @@
         <prop actor="props/units/weapons/rock_flaming.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/rock.xml" attachpoint="loaded-projectile"/>
         <prop actor="units/earth_ponies/infantry_slinger_siege_crew_a.xml" attachpoint="engineer_1" maxheight="20" minheight="-20"/>
-        <prop actor="units/earth_ponies/infantry_spearman_siege_crew_a.xml" attachpoint="engineer_2" maxheight="20" minheight="-20"/>
+        <prop actor="units/earth_ponies/infantry_slinger_siege_crew_a.xml" attachpoint="engineer_2" maxheight="20" minheight="-20"/>
+		<prop actor="units/earth_ponies/mangonel_siege_crew_loader.xml" attachpoint="engineer_loader" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/earth_struct.png" name="baseTex"/>

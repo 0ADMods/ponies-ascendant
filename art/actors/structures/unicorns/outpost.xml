@@ -21,12 +21,16 @@
     </variant>
   </group>
   <group>
-    <variant frequency="100" name="Idle"/>
+    <variant name="ungarrisoned" frequency="1"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="units/unicorns/infantry_archer_b.xml" attachpoint="garrisoned"/>
+	    <prop actor="units/unicorns/infantry_archer_b.xml" attachpoint="garrisoned"/>
+        <prop actor="props/structures/earth_ponies/fortress_pennant.xml" attachpoint="flag"/>
       </props>
     </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
     <variant name="death">
       <props>
         <prop attachpoint="garrisoned"/>

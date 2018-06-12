@@ -7,13 +7,6 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="10">
-      <props>
-        <prop actor="props/units/shields/celt_round_pony_b.xml" attachpoint="shield"/>
-      </props>
-    </variant>
-  </group>
-  <group>
     <variant frequency="1" name="2">
       <textures>
         <texture file="skeletal/pony_grunt_a.png" name="baseTex"/>
@@ -38,11 +31,7 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle">
-      <props>
-        <prop actor="props/units/weapons/spear_pony_idle.xml" attachpoint="hoof"/>
-      </props>
-    </variant>
+    <variant frequency="1" name="Idle"/>
     <variant name="death"/>
   </group>
   <material>player_trans.xml</material>

@@ -21,7 +21,6 @@
         <prop actor="props/flora/bush_tempe_underbrush.xml" attachpoint="bush_6" maxheight="20" minheight="-20"/>
         <prop actor="props/flora/bush_tempe_underbrush.xml" attachpoint="bush_7" maxheight="20" minheight="-20"/>
         <prop actor="props/structures/earth_ponies/fortress_pennant.xml" attachpoint="pennant"/>
-        <prop actor="props/structures/earth_ponies/fortress_pennant.xml" attachpoint="pennant_2"/>
       </props>
       <textures>
         <texture file="structural/earth_struct.png" name="baseTex"/>
@@ -34,10 +33,12 @@
      <variant name="ungarrisoned" frequency="1"/>
      <variant name="garrisoned">
        <props>
+          <prop actor="props/structures/earth_ponies/fortress_pennant.xml" attachpoint="pennant_2"/>
           <prop actor="particle/smoke_light_delay.xml" attachpoint="garrisoned"/>
           <prop actor="particle/smoke_light_delay.xml" attachpoint="garrisoned_2"/>
           <prop actor="particle/smoke_light_delay.xml" attachpoint="garrisoned_3"/>
           <prop actor="particle/smoke_light_delay.xml" attachpoint="garrisoned_4"/>
+		  <prop actor="units/earth_ponies/infantry_spearman_e.xml" attachpoint="soldier"/>
        </props>
     </variant>
   </group>

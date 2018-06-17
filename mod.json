@@ -1,9 +1,9 @@
 {
-	"name": "ponies_ascendant",
-	"label": "0 A.D. Pony Extension",
-	"version": "0.0.23",
+	"name": "ponies-ascendant",
+	"label": "Ponies Ascendant",
+	"version": "1.1.0",
 	"url": "http://github.com/0ADMods/ponies_ascendant",
-	"description": "LordGood's Pony Mod",
+	"description": "LordGood's 0 A.D. Pony Extension",
 	"dependencies": ["0ad=0.0.23"],
-	"type": "content addon"
+	"type": "Factions Gameplay"
 }

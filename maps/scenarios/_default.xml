@@ -41,7 +41,10 @@
 				"Civ": "uni"
 			}
 		],
-		"CircularMap": true
+		"CircularMap": true,
+		"VictoryConditions": [
+			"conquest"
+		]
 	}
 	]]></ScriptSettings>
 </Scenario>

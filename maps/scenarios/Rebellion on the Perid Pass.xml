@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Scenario version="5">
+<Scenario version="6">
 	<Environment>
 		<SkySet>cumulus</SkySet>
 		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
@@ -17,7 +17,7 @@
 			<WaterBody>
 				<Type>clap</Type>
 				<Color r="0" g="0.0431373" b="0.282353"/>
-				<Tint r="0.470588" g="0.772549" b="0.862745"/>
+				<Tint r="0.466667" g="0.768627" b="0.858824"/>
 				<Height>19.9</Height>
 				<Waviness>3</Waviness>
 				<Murkiness>0.82</Murkiness>
@@ -33,24 +33,24 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="236.088" y="155.388" z="397.38"/>
-		<Rotation angle="0.117529"/>
-		<Declination angle="0.623074"/>
+		<Position x="352.626" y="190.816" z="516.436"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
+  "AISeed": 0,
   "BaseHeight": 3,
   "BaseTerrain": [
     "alpine_dirt_grass_50"
   ],
   "CircularMap": true,
-  "Description": "High Alpine mountains surrounding deep valleys strung with mountain streams and finger-like lakes.",
-  "GameType": "conquest",
+  "Description": "",
   "Keywords": [],
   "LockTeams": false,
-  "Name": "Alpine Lakes",
+  "Name": "Rebellion of the Perid Pass",
   "PlayerData": [
-    null,
+    "",
     {
       "Civ": "earth",
       "Color": {
@@ -79,6 +79,9 @@
   "Script": "alpine_lakes.js",
   "Seed": 4672,
   "Size": 256,
+  "VictoryConditions": [
+    "conquest"
+  ],
   "XXXXXX": "Optionally define other things here, like we would for a scenario",
   "mapType": "random"
 }

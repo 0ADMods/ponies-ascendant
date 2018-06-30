@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Scenario version="5">
+<Scenario version="6">
 	<Environment>
 		<SkySet>cumulus</SkySet>
-		<SunColor r="0.729412" g="0.745098" b="0.572549"/>
+		<SunColor r="0.729412" g="0.737255" b="0.564706"/>
 		<SunElevation angle="0.596903"/>
 		<SunRotation angle="-2.2805"/>
 		<TerrainAmbientColor r="0.447059" g="0.509804" b="0.54902"/>
-		<UnitsAmbientColor r="0.568627" g="0.576471" b="0.54902"/>
+		<UnitsAmbientColor r="0.564706" g="0.576471" b="0.54902"/>
 		<Fog>
 			<FogFactor>0.0025</FogFactor>
 			<FogThickness>0</FogThickness>
-			<FogColor r="0.85098" g="0.745098" b="0.490196"/>
+			<FogColor r="0.847059" g="0.737255" b="0.486275"/>
 		</Fog>
 		<Water>
 			<WaterBody>
 				<Type>ocean</Type>
-				<Color r="0" g="0.223529" b="0.839216"/>
-				<Tint r="0" g="0.541176" b="0.858824"/>
+				<Color r="0" g="0.219608" b="0.839216"/>
+				<Tint r="0" g="0.537255" b="0.858824"/>
 				<Height>19.9</Height>
 				<Waviness>4</Waviness>
 				<Murkiness>0.22</Murkiness>
@@ -33,25 +33,26 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="476.8" y="123.203" z="247.312"/>
-		<Rotation angle="0.0324807"/>
-		<Declination angle="0.539386"/>
+		<Position x="1321.29" y="263.89" z="908.505"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
+  "AISeed": 0,
   "BaseHeight": -5,
   "BaseTerrain": [
     "medit_sand_wet"
   ],
   "CircularMap": true,
-  "Description": "A maze of islands of different sizes and shapes. Players start with more wood than normal.",
-  "GameType": "conquest",
+  "Description": "",
   "Keywords": [
     "naval"
   ],
   "LockTeams": false,
-  "Name": "Archipelago",
+  "Name": "Unicorn City",
   "PlayerData": [
+    "",
     {
       "Civ": "uni"
     },
@@ -64,6 +65,9 @@
   "Script": "archipelago.js",
   "Seed": 3047,
   "Size": 448,
+  "VictoryConditions": [
+    "conquest"
+  ],
   "XXXXXX": "Optionally define other things here, like we would for a scenario",
   "mapType": "random"
 }
@@ -218,90 +222,6 @@
 			<Player>0</Player>
 			<Position x="1332.0438" z="1375.21834"/>
 			<Orientation y="0.92713"/>
-		</Entity>
-		<Entity uid="175">
-			<Template>gaia/special_treasure_wood</Template>
-			<Player>0</Player>
-			<Position x="1386.85645" z="1283.39988"/>
-			<Orientation y="0.96027"/>
-		</Entity>
-		<Entity uid="176">
-			<Template>gaia/special_treasure_wood</Template>
-			<Player>0</Player>
-			<Position x="1377.97965" z="1288.65291"/>
-			<Orientation y="-3.26114"/>
-		</Entity>
-		<Entity uid="177">
-			<Template>gaia/special_treasure_wood</Template>
-			<Player>0</Player>
-			<Position x="1390.47835" z="1278.99675"/>
-			<Orientation y="0.45861"/>
-		</Entity>
-		<Entity uid="178">
-			<Template>gaia/special_treasure_wood</Template>
-			<Player>0</Player>
-			<Position x="1384.48081" z="1287.55904"/>
-			<Orientation y="-2.4493"/>
-		</Entity>
-		<Entity uid="179">
-			<Template>gaia/special_treasure_wood</Template>
-			<Player>0</Player>
-			<Position x="1386.07903" z="1297.55871"/>
-			<Orientation y="1.26687"/>
-		</Entity>
-		<Entity uid="180">
-			<Template>gaia/special_treasure_wood</Template>
-			<Player>0</Player>
-			<Position x="1382.65125" z="1285.81383"/>
-			<Orientation y="-0.27616"/>
-		</Entity>
-		<Entity uid="181">
-			<Template>gaia/special_treasure_wood</Template>
-			<Player>0</Player>
-			<Position x="1381.57708" z="1284.04126"/>
-			<Orientation y="0.02457"/>
-		</Entity>
-		<Entity uid="182">
-			<Template>gaia/special_treasure_wood</Template>
-			<Player>0</Player>
-			<Position x="1384.3488" z="1299.5738"/>
-			<Orientation y="-1.398"/>
-		</Entity>
-		<Entity uid="183">
-			<Template>gaia/special_treasure_wood</Template>
-			<Player>0</Player>
-			<Position x="1387.04812" z="1292.42038"/>
-			<Orientation y="-4.57015"/>
-		</Entity>
-		<Entity uid="184">
-			<Template>gaia/special_treasure_wood</Template>
-			<Player>0</Player>
-			<Position x="1379.58011" z="1279.97213"/>
-			<Orientation y="0.62165"/>
-		</Entity>
-		<Entity uid="185">
-			<Template>gaia/special_treasure_wood</Template>
-			<Player>0</Player>
-			<Position x="1386.89798" z="1294.06096"/>
-			<Orientation y="1.33817"/>
-		</Entity>
-		<Entity uid="186">
-			<Template>gaia/special_treasure_wood</Template>
-			<Player>0</Player>
-			<Position x="1389.00835" z="1292.57488"/>
-			<Orientation y="-3.388"/>
-		</Entity>
-		<Entity uid="187">
-			<Template>gaia/special_treasure_wood</Template>
-			<Player>0</Player>
-			<Position x="1385.1574" z="1291.55202"/>
-			<Orientation y="-3.69925"/>
-		</Entity>
-		<Entity uid="188">
-			<Template>gaia/special_treasure_wood</Template>
-			<Player>0</Player>
-			<Position x="1382.50544" z="1292.50397"/>
-			<Orientation y="-0.03962"/>
 		</Entity>
 		<Entity uid="189">
 			<Template>gaia/geology_metal_desert_slabs</Template>
@@ -34038,4 +33958,4 @@
 		</Entity>
 	</Entities>
 	<Paths/>
-</Scenario>
+</Scenario>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

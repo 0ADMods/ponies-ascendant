@@ -66,7 +66,7 @@
     <WalkSpeed>10.0</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/earth_ponies/trireme.xml</Actor>
+    <Actor>units/unicorns/trireme.xml</Actor>
   </VisualActor>
   <Sound>
     <SoundGroups>

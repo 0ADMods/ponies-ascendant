@@ -2,33 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="1">
-      <animations>
-        <animation file="other/pony_walk.dae" name="Walk" speed="15"/>
-        <animation file="other/pony_running.dae" name="Run" speed="20"/>
-        <animation event="0.5" file="other/pony_spearing_b.dae" name="attack_melee" speed="250"/>
-        <animation event="0.5" file="other/pony_spearing.dae" name="attack_melee" speed="250"/>
-        <animation event="0.5" file="other/pony_slinging.dae" name="attack_ranged" speed="250"/>
-        <animation event="0.5" file="other/pony_lumbering.dae" name="attack_slaughter" speed="250"/>
-        <animation file="other/pony_walk.dae" name="carry_food" speed="15"/>
-        <animation file="other/pony_walk.dae" name="carry_meat" speed="15"/>
-        <animation file="other/pony_walk.dae" name="carry_wood" speed="15"/>
-        <animation file="other/pony_walk.dae" name="carry_stone" speed="15"/>
-        <animation file="other/pony_walk.dae" name="carry_metal" speed="15"/>
-        <animation event="0.4" file="other/pony_lumbering.dae" name="gather_tree" speed="60"/>
-        <animation file="other/pony_farming_a.dae" name="gather_grain" speed="75"/>
-        <animation file="other/pony_foraging.dae" name="gather_fruit" speed="25"/>
-        <animation file="other/pony_foraging.dae" name="gather_meat" speed="25"/>
-        <animation event="0.4" file="other/pony_mining.dae" name="gather_rock" speed="60"/>
-        <animation event="0.4" file="other/pony_mining.dae" name="gather_ore" speed="60"/>
-        <animation file="other/pony_mining.dae" name="gather_ruins" speed="60"/>
-        <animation event="0.6" file="other/pony_building.dae" name="Build" speed="70"/>
-        <animation file="other/pony_death.dae" name="Death" speed="50"/>
-        <animation file="other/pony_a_idle.dae" name="idle" speed="30"/>
-        <animation file="other/pony_a_idle_b.dae" name="idle" speed="30"/>
-        <animation file="other/pony_promotion.dae" name="promotion" speed="45"/>
-        <animation file="other/pony_death_b.dae" name="Death" speed="50"/>
-      </animations>
+    <variant file="ponies/pony_spear.xml">>
       <mesh>skeletal/pony_a.dae</mesh>
     </variant>
   </group>

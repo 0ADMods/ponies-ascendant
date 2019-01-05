@@ -30,13 +30,16 @@
     </variant>
   </group>
   <group>
-    <variant frequency="100" name="Idle"/>
-    <variant name="garrisoned">
-      <props>
-        <prop actor="particle/flame.xml" attachpoint="fire_1"/>
-        <prop actor="particle/flame.xml" attachpoint="fire_2"/>
-      </props>
+     <variant name="ungarrisoned" frequency="1"/>
+     <variant name="garrisoned">
+       <props>
+          <prop actor="particle/flame.xml" attachpoint="fire_1"/>
+          <prop actor="particle/flame.xml" attachpoint="fire_2"/>
+       </props>
     </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
     <variant name="death">
       <props>
         <prop attachpoint="garrisoned"/>

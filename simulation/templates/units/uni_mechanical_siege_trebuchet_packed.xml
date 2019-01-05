@@ -77,6 +77,6 @@
     <Range>88</Range>
   </Vision>
   <VisualActor>
-    <Actor>units/athenians/siege_rock_packed.xml</Actor>
+    <Actor>units/unicorns/siege_rock_packed.xml</Actor>
   </VisualActor>
 </Entity>

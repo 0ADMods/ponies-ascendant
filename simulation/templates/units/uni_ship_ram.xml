@@ -3,4 +3,7 @@
   <Identity>
     <Civ>uni</Civ>
   </Identity>
+  <VisualActor>
+    <Actor>units/unicorns/quinquereme.xml</Actor>
+  </VisualActor>
 </Entity>

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="pegasus">
-      <mesh>structural/pega_house_b_clouds.pmd</mesh>
+      <mesh>structural/pega_house_b_clouds.dae</mesh>
       <textures>
         <texture file="structural/pega_struct.png" name="baseTex"/>
         <texture file="structural/pega_struct_norm.png" name="normTex"/>

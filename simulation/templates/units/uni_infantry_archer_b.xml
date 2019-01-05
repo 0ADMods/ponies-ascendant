@@ -74,7 +74,6 @@
 		<Civ>uni</Civ>
 		<SelectionGroupName>units/uni_infantry_archer_b</SelectionGroupName>
 		<GenericName>Skirmisher</GenericName>
-    <SpecificName>Archer</SpecificName>
 		<SpecificName>Drafted Archer</SpecificName>
 		<Icon>units/uni_infantry_archer.png</Icon>
     <Gender>female</Gender>

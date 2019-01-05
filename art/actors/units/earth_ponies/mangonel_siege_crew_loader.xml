@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="ponies/pony_siege_crew.xml">
+	  <animations>
+	  <animation event=".68" file="other/pony_siege_down.dae" load=".50" name="attack_ranged" speed="50"/>
+	  </animations>
+      <mesh>skeletal/pony_a.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="10">
+      <props>
+        <prop actor="props/units/heads/pony_kettle.xml" attachpoint="hat"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="2">
+      <textures>
+        <texture file="skeletal/pony_grunt_a.png" name="baseTex"/>
+        <texture file="skeletal/pony_grunt_a.png" name="normTex"/>
+        <texture file="skeletal/pony_grunt_a.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="3">
+      <textures>
+        <texture file="skeletal/pony_grunt_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="4">
+      <textures>
+        <texture file="skeletal/pony_grunt_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="5">
+      <textures>
+        <texture file="skeletal/pony_grunt_d.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant name="death"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

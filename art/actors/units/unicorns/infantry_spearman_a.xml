@@ -2,38 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="1">
-      <animations>
-        <animation file="other/unicorn_walk.dae" name="Walk" speed="8"/>
-        <animation file="other/unicorn_b_syntagma_front.dae" name="syntagma_front_idle" speed="8"/>
-        <animation file="other/unicorn_b_syntagma_front_walk.dae" name="syntagma_front_walk" speed="8"/>
-        <animation file="other/unicorn_b_syntagma_front_walk.dae" name="syntagma_front_run" speed="8"/>
-        <animation file="other/unicorn_walk.dae" name="syntagma_med_walk" speed="8"/>
-        <animation file="other/unicorn_walk.dae" name="syntagma_back_walk" speed="8"/>
-        <animation file="other/unicorn_gallop.dae" name="Run" speed="10"/>
-        <animation event="0.2" file="other/unicorn_b_spearing.dae" name="attack_melee" speed="250"/>
-        <animation event="0.2" file="other/unicorn_b_spearing_2.dae" name="attack_melee" speed="250"/>
-        <animation event="0.2" file="other/unicorn_b_spearing_3.dae" name="attack_melee" speed="250"/>
-        <animation event="0.5" file="other/unicorn_lumbering.dae" name="attack_slaughter" speed="250"/>
-        <animation file="other/unicorn_walk.dae" name="carry_food" speed="8"/>
-        <animation file="other/unicorn_walk.dae" name="carry_meat" speed="8"/>
-        <animation file="other/unicorn_walk.dae" name="carry_wood" speed="8"/>
-        <animation file="other/unicorn_walk.dae" name="carry_stone" speed="8"/>
-        <animation file="other/unicorn_walk.dae" name="carry_metal" speed="8"/>
-        <animation event="0.4" file="other/unicorn_lumbering.dae" name="gather_tree" speed="60"/>
-        <animation file="other/uni_farming.dae" name="gather_grain" speed="75"/>
-        <animation file="other/uni_farming.dae" name="gather_fruit" speed="25"/>
-        <animation file="other/uni_farming.dae" name="gather_meat" speed="25"/>
-        <animation event="0.4" file="other/uni_mining.dae" name="gather_rock" speed="60"/>
-        <animation event="0.4" file="other/uni_mining.dae" name="gather_ore" speed="60"/>
-        <animation file="other/uni_mining.dae" name="gather_ruins" speed="60"/>
-        <animation event="0.6" file="other/unicorn_building.dae" name="Build" speed="70"/>
-        <animation file="other/uni_death.dae" name="Death" speed="70"/>
-        <animation file="other/uni_death_b.dae" name="Death" speed="70"/>
-        <animation file="other/uni_death_c.dae" name="Death" speed="70"/>
-        <animation file="other/unicorn_idle.dae" name="idle" speed="30"/>
-        <animation file="other/pony_promotion.dae" name="promotion" speed="60"/>
-      </animations>
+    <variant file="unicorns/uni_spearman.xml">
       <mesh>skeletal/unicorn_c.dae</mesh>
       <props>
         <prop actor="props/units/heads/uni_bascinet_a.xml" attachpoint="hat"/>

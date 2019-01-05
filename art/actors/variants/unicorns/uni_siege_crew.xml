@@ -1,0 +1,10 @@
+<variant name="Base" frequency="1">
+  <animations>
+    <animation file="other/unicorn_walk.dae" name="Walk" speed="8"/>
+    <animation file="other/unicorn_gallop.dae" name="Run" speed="10"/>
+    <animation file="other/uni_death.dae" name="Death" speed="70"/>
+    <animation file="other/uni_death_b.dae" name="Death" speed="70"/>
+    <animation file="other/uni_death_c.dae" name="Death" speed="70"/>
+    <animation file="other/unicorn_idle.dae" name="idle" speed="30"/>
+  </animations>
+</variant>

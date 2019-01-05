@@ -75,6 +75,6 @@
     <WalkSpeed>10.5</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/earth_ponies/bireme.xml</Actor>
+    <Actor>units/unicorns/bireme.xml</Actor>
   </VisualActor>
 </Entity>

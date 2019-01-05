@@ -1,45 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defense_wall_medium">
-	<Armour>
-		<Hack>10</Hack>
-		<Pierce>27</Pierce>
-		<Crush>7</Crush>
-	</Armour>
-	<BuildRestrictions>
-		<Territory>own neutral</Territory>
-	</BuildRestrictions>
-	<Cost>
-		<BuildTime>40</BuildTime>
-		<Resources>
-			<stone>0</stone>
-			<wood>100</wood>
-			<food>0</food>
-		</Resources>
-	</Cost>
-	<Footprint>
-		<Square width="26.5" depth="8.5"/>
-		<Height>9.0</Height>
-	</Footprint>
-	<Health>
-		<Max>3500</Max>
-	</Health>
-	<Identity>
-		<Civ>earth</Civ>
-		<SpecificName>Palisade</SpecificName>
-		<SelectionGroupName>structures/earth_wallset_wood</SelectionGroupName>
-		<RequiredTechnology>phase_village</RequiredTechnology>
-		<GenericName>Wooden Wall</GenericName>
-		<Classes datatype="tokens">-StoneWall Palisade</Classes>
-		<Icon>gaia/special_palisade.png</Icon>
-	</Identity>
-	<Obstruction>
-		<Static width="25.0" depth="7.0"/>
-	</Obstruction>
-	<VisualActor>
-		<Actor>structures/earth_ponies/palisade_medium.xml</Actor>
-		<FoundationActor>structures/fndn_1x3pal.xml</FoundationActor>
-	</VisualActor>
-	<WallPiece>
-		<Length>25.0</Length>
-	</WallPiece>
+<Entity parent="template_structure_wooden_wall_medium">
+ <Identity>
+    <Civ>pega</Civ>
+  </Identity>
 </Entity>

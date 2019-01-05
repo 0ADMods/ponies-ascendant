@@ -35,13 +35,16 @@
       </textures>
     </variant>
   </group>
+    <group>
+     <variant name="ungarrisoned" frequency="1"/>
+     <variant name="garrisoned">
+       <props>
+          <prop actor="units/pegasi/infantry_javelinist_e.xml" attachpoint="garrisoned"/>
+       </props>
+    </variant>
+  </group>
   <group>
     <variant frequency="100" name="Idle"/>
-    <variant name="garrisoned">
-      <props>
-        <prop actor="units/pegasi/infantry_javelinist_e.xml" attachpoint="garrisoned"/>
-      </props>
-    </variant>
     <variant name="death">
       <props>
         <prop attachpoint="garrisoned"/>

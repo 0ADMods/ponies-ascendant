@@ -22,11 +22,7 @@
   </group>
   <group>
     <variant name="ungarrisoned" frequency="1"/>
-    <variant name="garrisoned">
-      <props>
-      <prop actor="props/special/common/garrison_flag_uni.xml" attachpoint="flag"/>
-      </props>
-    </variant>
+    <variant name="garrisoned"/>
   </group>
   <group>
     <variant frequency="100" name="Idle"/>

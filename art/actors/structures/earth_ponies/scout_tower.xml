@@ -61,7 +61,6 @@
     <variant name="ungarrisoned" frequency="1"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_earth.xml" attachpoint="flag"/>
         <prop actor="particle/smoke_light_delay.xml" attachpoint="garrisoned"/>
       </props>
     </variant>

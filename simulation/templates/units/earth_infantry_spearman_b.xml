@@ -25,7 +25,8 @@
       -other/wallset_palisade
       -structures/{civ}_sentry_tower
       structures/{civ}_wallset_wood
-	  structures/{civ}_roadset
+      structures/{civ}_roadset
+      structures/{civ}_roadset
     </Entities>
   </Builder>
   <Cost>
@@ -54,9 +55,7 @@
   </Promotion>
   <UnitMotion>
     <WalkSpeed>8.2</WalkSpeed>
-    <Run>
-      <Speed>16.6</Speed>
-    </Run>
+    <RunMultiplier>2.0</RunMultiplier>
   </UnitMotion>
   <VisualActor>
     <Actor>units/earth_ponies/infantry_spearman_b.xml</Actor>

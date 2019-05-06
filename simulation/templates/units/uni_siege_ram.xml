@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_siege_ram">
+<Entity parent="template_unit_siege_ram">
   <Armour>
     <Hack>5</Hack>
     <Pierce>30</Pierce>
@@ -48,7 +48,7 @@
   <Identity>
     <Civ>uni</Civ>
     <SpecificName>Assault Ram</SpecificName>
-    <Icon>units/celt_mechanical_siege_ram.png</Icon>
+    <Icon>units/celt_siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/unicorns/ram.xml</Actor>

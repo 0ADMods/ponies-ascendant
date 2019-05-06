@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/uni_mechanical_siege_trebuchet_packed">
+<Entity parent="units/earth_siege_trebuchet_packed">
   <Identity>
     <Icon>units/earth_mechanical_trebuchet_unpacked.png</Icon>
   </Identity>
   <Pack>
-    <Entity>units/uni_mechanical_siege_trebuchet_packed</Entity>
+    <Entity>units/earth_siege_trebuchet_packed</Entity>
     <Time>10000</Time>
     <State>unpacked</State>
   </Pack>
@@ -15,6 +15,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/unicorns/trebuchet.xml</Actor>
+    <Actor>units/earth_ponies/trebuchet.xml</Actor>
   </VisualActor>
 </Entity>

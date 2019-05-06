@@ -8,12 +8,14 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-			<Pierce>15.0</Pierce>
+      <Pierce>15.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>50.0</MaxRange>
       <MinRange>5.0</MinRange>
-      <Spread>3.0</Spread>
-      <ProjectileSpeed>45.0</ProjectileSpeed>
+      <Projectile>
+        <Spread>3.0</Spread>
+        <Speed>45.0</Speed>
+      </Projectile>
       <Bonuses>
         <BonusAntiArmor>
           <Classes>AntiArmor</Classes>

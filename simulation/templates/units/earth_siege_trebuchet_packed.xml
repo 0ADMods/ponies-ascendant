@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_siege_onager">
+<Entity parent="template_unit_siege_stonethrower">
   <Armour>
     <Hack>2</Hack>
     <Pierce>40</Pierce>
@@ -57,7 +57,7 @@
     <Max>1000</Max>
   </Health>
   <Identity>
-    <Civ>uni</Civ>
+    <Civ>earth</Civ>
     <SpecificName>Trebuchet</SpecificName>
     <Icon>units/earth_mechanical_trebuchet_packed.png</Icon>
   </Identity>
@@ -69,7 +69,7 @@
     <metal>100</metal>
   </Loot>
   <Pack>
-    <Entity>units/uni_mechanical_siege_trebuchet_unpacked</Entity>
+    <Entity>units/earth_siege_trebuchet_unpacked</Entity>
     <Time>15000</Time>
     <State>packed</State>
   </Pack>
@@ -77,6 +77,6 @@
     <Range>88</Range>
   </Vision>
   <VisualActor>
-    <Actor>units/unicorns/siege_rock_packed.xml</Actor>
+    <Actor>units/earth_ponies/siege_rock_packed.xml</Actor>
   </VisualActor>
 </Entity>

@@ -7,10 +7,12 @@
       <Crush>0.0</Crush>
       <MaxRange>120.0</MaxRange>
       <ElevationBonus>15</ElevationBonus>
-      <ProjectileSpeed>60.0</ProjectileSpeed>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>2000</RepeatTime>
-      <Spread>1.5</Spread>
+	  <Projectile>
+        <Speed>60.0</Speed>
+        <Spread>1.5</Spread>
+	  </Projectile>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <Bonuses>
         <BonusShip>
@@ -67,7 +69,12 @@
     <Weight>40000</Weight>
   </TerritoryInfluence>
   <ProductionQueue>
-    <Entities datatype="tokens">units/{civ}_mechanical_siege_ballista_bolt units/{civ}_champion_infantry units/{civ}_infantry_spearman_e units/{civ}_infantry_javelinist_e</Entities>
+    <Entities datatype="tokens">
+      units/{civ}_siege_ballista_bolt
+      units/{civ}_champion_infantry
+      units/{civ}_infantry_spearman_e
+      units/{civ}_infantry_javelinist_e
+    </Entities>
     <Technologies datatype="tokens">pair_siege_attack_cost pair_siege_cost_armor</Technologies>
   </ProductionQueue>
   <Vision>

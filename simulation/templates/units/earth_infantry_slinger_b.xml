@@ -12,10 +12,12 @@
       <Crush>0.5</Crush>
       <MaxRange>80.0</MaxRange>
       <MinRange>5.0</MinRange>
-      <ProjectileSpeed>60.0</ProjectileSpeed>
       <PrepareTime>900</PrepareTime>
       <RepeatTime>1500</RepeatTime>
-      <Spread>4.0</Spread>
+      <Projectile>
+        <Speed>60.0</Speed>
+        <Spread>4.0</Spread>
+      </Projectile>
       <Bonuses>
         <BonusInfantryRanged>
           <Classes>Infantry Ranged</Classes>
@@ -49,7 +51,7 @@
       -other/wallset_palisade
       -structures/{civ}_sentry_tower
       structures/{civ}_wallset_wood
-	  structures/{civ}_roadset
+       structures/{civ}_roadset
     </Entities>
   </Builder>
   <Cost>
@@ -81,9 +83,7 @@
   </Promotion>
   <UnitMotion>
     <WalkSpeed>9.92</WalkSpeed>
-    <Run>
-      <Speed>23.76</Speed>
-    </Run>
+    <RunMultiplier>2.4</RunMultiplier>
   </UnitMotion>
   <VisualActor>
     <Actor>units/earth_ponies/infantry_slinger_b.xml</Actor>

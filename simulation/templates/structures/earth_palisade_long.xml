@@ -3,4 +3,9 @@
  <Identity>
     <Civ>earth</Civ>
   </Identity>
+  <Upgrade>
+    <Gate>
+        <Entity>structures/earth_palisade_gate</Entity>
+    </Gate>
+  </Upgrade>
 </Entity>

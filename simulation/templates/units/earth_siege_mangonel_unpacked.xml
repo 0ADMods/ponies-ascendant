@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_siege_onager">
+<Entity parent="template_unit_siege_stonethrower">
   <Armour>
     <Hack>1</Hack>
     <Pierce>25</Pierce>
@@ -9,13 +9,13 @@
     <Ranged>
       <Hack>0.0</Hack>
       <Pierce>0.0</Pierce>
-      <Crush>40.0</Crush>
-      <MaxRange>80</MaxRange>
-      <MinRange>35.0</MinRange>
-      <ProjectileSpeed>45.0</ProjectileSpeed>
-      <PrepareTime>200</PrepareTime>
-      <RepeatTime>4000</RepeatTime>
-      <Spread>8.0</Spread>
+      <Crush>60.0</Crush>
+      <MaxRange>70</MaxRange>
+      <MinRange>30.0</MinRange>
+      <ProjectileSpeed>50.0</ProjectileSpeed>
+      <PrepareTime>3300</PrepareTime>
+      <RepeatTime>5000</RepeatTime>
+      <Spread>9.0</Spread>
       <Bonuses>
         <BonusStructure>
           <Classes>Structure</Classes>
@@ -28,7 +28,7 @@
       </Bonuses>
       <Splash>
         <Shape>Circular</Shape>
-        <Range>6</Range>
+        <Range>7</Range>
         <FriendlyFire>true</FriendlyFire>
         <Hack>0.0</Hack>
         <Pierce>0.0</Pierce>
@@ -39,9 +39,9 @@
   <Cost>
     <BuildTime>50</BuildTime>
     <Resources>
-      <food>120</food>
-      <wood>150</wood>
-      <stone>60</stone>
+      <food>150</food>
+      <wood>120</wood>
+      <stone>50</stone>
       <metal>25</metal>
     </Resources>
   </Cost>
@@ -55,11 +55,11 @@
     <Height>4.5</Height>
   </Footprint>
   <Health>
-    <Max>350</Max>
+    <Max>400</Max>
   </Health>
   <Identity>
-    <Civ>uni</Civ>
-    <SpecificName>Onager</SpecificName>
+    <Civ>earth</Civ>
+    <SpecificName>Mangonel</SpecificName>
     <Icon>units/earth_mechanical_mangonel.png</Icon>
   </Identity>
   <Loot>
@@ -76,15 +76,13 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed>5.5</WalkSpeed>
-    <Run>
-      <Speed>7.0</Speed>
-    </Run>
+    <WalkSpeed>5.0</WalkSpeed>
+    <RunMultiplier>1.24</RunMultiplier>
   </UnitMotion>
   <Vision>
     <Range>88</Range>
   </Vision>
   <VisualActor>
-    <Actor>units/unicorns/onager.xml</Actor>
+    <Actor>units/earth_ponies/mangonel.xml</Actor>
   </VisualActor>
 </Entity>

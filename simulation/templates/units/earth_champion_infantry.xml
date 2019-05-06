@@ -41,9 +41,7 @@
   </Identity>
   <UnitMotion>
     <WalkSpeed>4.0</WalkSpeed>
-    <Run>
-      <Speed>6.0</Speed>
-    </Run>
+    <RunMultiplier>1.2</RunMultiplier>
   </UnitMotion>
   <Sound>
     <SoundGroups>

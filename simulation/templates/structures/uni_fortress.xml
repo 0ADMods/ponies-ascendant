@@ -13,10 +13,12 @@
       <Crush>0.0</Crush>
       <MaxRange>131.0</MaxRange>
       <MinRange>8.0</MinRange>
-      <ProjectileSpeed>60.0</ProjectileSpeed>
       <PrepareTime>900</PrepareTime>
       <RepeatTime>1100</RepeatTime>
-      <Spread>1.5</Spread>
+	  <Projectile>
+        <Spread>1.5</Spread>
+        <Speed>60.0</Speed>
+	  </Projectile>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <Bonuses>
         <BonusShip>
@@ -78,9 +80,9 @@
   </TerritoryInfluence>
   <ProductionQueue>
     <Entities datatype="tokens"> 
-       units/{civ}_mechanical_siege_onager_unpacked
-       units/{civ}_mechanical_siege_trebuchet_packed 
-       units/{civ}_mechanical_siege_ram
+       units/{civ}_siege_onager_unpacked
+       units/{civ}_siege_trebuchet_packed 
+       units/{civ}_siege_ram
        units/{civ}_hero_wisebiscuit 
        units/{civ}_champion_infantry 
 	   units/{civ}_champion_halberdier

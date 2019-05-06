@@ -7,7 +7,9 @@
   </Armour>
   <Attack>
     <Ranged>
-      <Spread>2.8</Spread>
+      <Projectile>
+         <Spread>2.8</Spread>
+      </Projectile>
       <MaxRange>45</MaxRange>
     </Ranged>
   </Attack>
@@ -25,9 +27,7 @@
   </ResourceGatherer>
   <UnitMotion>
     <WalkSpeed>14.0</WalkSpeed>
-    <Run>
-      <Speed>22.5</Speed>
-    </Run>
+    <RunMultiplier>1.6</RunMultiplier>
   </UnitMotion>
   <VisualActor>
     <Actor>units/earth_ponies/infantry_javelinist_a.xml</Actor>

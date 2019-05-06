@@ -1,60 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_siege_ballista">
+<Entity parent="template_unit_siege_stonethrower">
   <Armour>
     <Hack>1</Hack>
-    <Pierce>22</Pierce>
+    <Pierce>25</Pierce>
     <Crush>1</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>70.0</Pierce>
-      <Crush>15.0</Crush>
-      <MaxRange>100</MaxRange>
-      <ProjectileSpeed>70.0</ProjectileSpeed>
-      <PrepareTime>2666</PrepareTime>
+      <Pierce>0.0</Pierce>
+      <Crush>40.0</Crush>
+      <MaxRange>80</MaxRange>
+      <MinRange>35.0</MinRange>
+      <ProjectileSpeed>45.0</ProjectileSpeed>
+      <PrepareTime>200</PrepareTime>
       <RepeatTime>4000</RepeatTime>
-      <Spread>3.2</Spread>
+      <Spread>8.0</Spread>
       <Bonuses>
-        <NerfOrganic>
-          <Classes>Organic</Classes>
-          <Multiplier>0.5</Multiplier>
-        </NerfOrganic>
         <BonusStructure>
           <Classes>Structure</Classes>
-          <Multiplier>7.0</Multiplier>
+          <Multiplier>5.0</Multiplier>
         </BonusStructure>
-        <BonusSiege>
-          <Classes>Siege Ship</Classes>
-          <Multiplier>2.5</Multiplier>
-        </BonusSiege>
         <NerfWall>
           <Classes>StoneWall Fortress</Classes>
           <Multiplier>0.5</Multiplier>
         </NerfWall>
       </Bonuses>
       <Splash>
-        <Shape>Linear</Shape>
-        <Range>7</Range>
+        <Shape>Circular</Shape>
+        <Range>6</Range>
         <FriendlyFire>true</FriendlyFire>
         <Hack>0.0</Hack>
-        <Pierce>50.0</Pierce>
-        <Crush>0.0</Crush>
+        <Pierce>0.0</Pierce>
+        <Crush>35.0</Crush>
       </Splash>
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>45</BuildTime>
+    <BuildTime>50</BuildTime>
     <Resources>
-      <food>150</food>
+      <food>120</food>
       <wood>150</wood>
-      <stone>0</stone>
-      <metal>100</metal>
+      <stone>60</stone>
+      <metal>25</metal>
     </Resources>
   </Cost>
   <Decay>
-    <DelayTime>80.0</DelayTime>
-    <SinkRate>0.01</SinkRate>
+    <DelayTime>18.0</DelayTime>
+    <SinkRate>0.2</SinkRate>
     <SinkAccel>0.0</SinkAccel>
   </Decay>
   <Footprint replace="">
@@ -65,17 +58,16 @@
     <Max>350</Max>
   </Health>
   <Identity>
-    <Civ>pega</Civ>
-    <SpecificName>Ballista</SpecificName>
-    <Tooltip>Long range field weapon. Powerful counter to soft targets, siege weapons, and ships. Deals high damage to buildings as well.</Tooltip>
+    <Civ>uni</Civ>
+    <SpecificName>Onager</SpecificName>
     <Icon>units/earth_mechanical_mangonel.png</Icon>
   </Identity>
   <Loot>
     <xp>300</xp>
     <food>0</food>
-    <wood>75</wood>
-    <stone>0</stone>
-    <metal>145</metal>
+    <wood>100</wood>
+    <stone>25</stone>
+    <metal>25</metal>
   </Loot>
   <Pack disable=""/>
   <Sound>
@@ -84,15 +76,15 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed>7.0</WalkSpeed>
+    <WalkSpeed>5.5</WalkSpeed>
     <Run>
-      <Speed>9.2</Speed>
+      <Speed>7.0</Speed>
     </Run>
   </UnitMotion>
   <Vision>
     <Range>88</Range>
   </Vision>
   <VisualActor>
-    <Actor>units/pegasi/ballista.xml</Actor>
+    <Actor>units/unicorns/onager.xml</Actor>
   </VisualActor>
 </Entity>

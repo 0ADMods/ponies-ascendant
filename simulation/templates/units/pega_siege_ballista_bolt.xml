@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_ship_trireme">
+<Entity parent="template_unit_siege_boltshooter">
   <Armour>
     <Hack>1</Hack>
-    <Pierce>27</Pierce>
+    <Pierce>22</Pierce>
     <Crush>1</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>60.0</Pierce>
-      <Crush>25.0</Crush>
-      <MaxRange>105</MaxRange>
+      <Pierce>70.0</Pierce>
+      <Crush>15.0</Crush>
+      <MaxRange>100</MaxRange>
       <ProjectileSpeed>70.0</ProjectileSpeed>
-      <PrepareTime>3500</PrepareTime>
-      <RepeatTime>3500</RepeatTime>
-      <Spread>4.3</Spread>
+      <PrepareTime>2666</PrepareTime>
+      <RepeatTime>4000</RepeatTime>
+      <Spread>3.2</Spread>
       <Bonuses>
         <NerfOrganic>
           <Classes>Organic</Classes>
@@ -43,41 +43,56 @@
       </Splash>
     </Ranged>
   </Attack>
-  <BuildingAI disable=""/>
   <Cost>
-    <BuildTime>80</BuildTime>
+    <BuildTime>45</BuildTime>
     <Resources>
-      <wood>850</wood>
-      <food>225</food>
-      <metal>150</metal>
+      <food>150</food>
+      <wood>150</wood>
+      <stone>0</stone>
+      <metal>100</metal>
     </Resources>
   </Cost>
-  <Footprint>
-    <Square width="20.0" depth="55.0"/>
-    <Height>8.0</Height>
+  <Decay>
+    <DelayTime>80.0</DelayTime>
+    <SinkRate>0.01</SinkRate>
+    <SinkAccel>0.0</SinkAccel>
+  </Decay>
+  <Footprint replace="">
+    <Square width="12.5" depth="12.5"/>
+    <Height>4.5</Height>
   </Footprint>
-  <GarrisonHolder>
-    <Max>20</Max>
-  </GarrisonHolder>
   <Health>
-    <Max>1300</Max>
+    <Max>350</Max>
   </Health>
   <Identity>
     <Civ>pega</Civ>
-    <SpecificName>Ballista Monoreme</SpecificName>
-    <Tooltip>Pegasus siege ship. Carries 20 units. Good against light shore defenses, coastal buildings, and war ships</Tooltip>
-    <Icon>units/cart_ship_quinquereme.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SpecificName>Ballista</SpecificName>
+    <Tooltip>Long range field weapon. Powerful counter to soft targets, siege weapons, and ships. Deals high damage to buildings as well.</Tooltip>
+    <Icon>units/earth_mechanical_mangonel.png</Icon>
   </Identity>
-  <UnitMotion>
-    <WalkSpeed>10.0</WalkSpeed>
-  </UnitMotion>
-  <VisualActor>
-    <Actor>units/pegasi/ship_siege.xml</Actor>
-  </VisualActor>
+  <Loot>
+    <xp>300</xp>
+    <food>0</food>
+    <wood>75</wood>
+    <stone>0</stone>
+    <metal>145</metal>
+  </Loot>
+  <Pack disable=""/>
   <Sound>
     <SoundGroups>
       <attack>attack/siege/ram_attack_order.xml</attack>
     </SoundGroups>
   </Sound>
+  <UnitMotion>
+    <WalkSpeed>7.0</WalkSpeed>
+    <Run>
+      <Speed>9.2</Speed>
+    </Run>
+  </UnitMotion>
+  <Vision>
+    <Range>88</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/pegasi/ballista.xml</Actor>
+  </VisualActor>
 </Entity>

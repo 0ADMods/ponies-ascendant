@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defense_tower_stone">
+<Entity parent="template_structure_defensive_tower_stone">
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
@@ -8,11 +8,13 @@
       <MaxRange>60.0</MaxRange>
       <MinRange>12.0</MinRange>
       <ElevationBonus>12</ElevationBonus>
-      <ProjectileSpeed>50.0</ProjectileSpeed>
       <PrepareTime>900</PrepareTime>
       <RepeatTime>1500</RepeatTime>
-      <Spread>2.5</Spread>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
+	  <Projectile>
+        <Speed>50.0</Speed>
+        <Spread>2.5</Spread>
+	  </Projectile>
       <Bonuses>
         <BonusShip>
           <Classes>Ship</Classes>

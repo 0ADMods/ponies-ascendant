@@ -24,9 +24,7 @@
   </ResourceGatherer>
   <UnitMotion>
     <WalkSpeed>7.7</WalkSpeed>
-    <Run>
-      <Speed>23.1</Speed>
-    </Run>
+    <RunMultiplier>3.0</RunMultiplier>
   </UnitMotion>
   <VisualActor>
     <Actor>units/earth_ponies/infantry_spearman_a.xml</Actor>

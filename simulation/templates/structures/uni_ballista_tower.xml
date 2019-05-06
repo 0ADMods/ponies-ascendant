@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defense_tower_stone">
+<Entity parent="template_structure_defensive_tower_stone">
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
@@ -58,7 +58,7 @@
   </GarrisonHolder>
   <Health>
     <Max>4000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_earth_defense_tower</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_earth_defensive_tower</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>uni</Civ>

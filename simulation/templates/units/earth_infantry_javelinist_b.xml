@@ -12,8 +12,10 @@
 			<Crush>0.0</Crush>
 			<MaxRange>40.0</MaxRange>
 			<MinRange>5.0</MinRange>
-			<Spread>3.0</Spread>
-			<ProjectileSpeed>45.0</ProjectileSpeed>
+			<Projectile>
+				<Speed>45.0</Speed>
+				<Spread>3.0</Spread>
+			</Projectile>
 			<PrepareTime>720</PrepareTime>
 			<RepeatTime>2000</RepeatTime>
 			<Bonuses>
@@ -88,9 +90,7 @@
 	</Promotion>
 	<UnitMotion>
 		<WalkSpeed>14.0</WalkSpeed>
-		<Run>
-			<Speed>22.0</Speed>
-		</Run>
+		<RunMultiplier>1.58</RunMultiplier>
 	</UnitMotion>
 	<Sound>
 		<SoundGroups>

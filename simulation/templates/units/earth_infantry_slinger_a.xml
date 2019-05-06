@@ -7,7 +7,9 @@
   </Armour>
   <Attack>
     <Ranged>
-      <Spread>3.5</Spread>
+      <Projectile>
+        <Spread>3.5</Spread>
+      </Projectile>
       <MaxRange>82</MaxRange>
     </Ranged>
   </Attack>
@@ -25,9 +27,7 @@
   </ResourceGatherer>
   <UnitMotion>
     <WalkSpeed>9.48</WalkSpeed>
-    <Run>
-      <Speed>22.44</Speed>
-    </Run>
+    <RunMultiplier>2.4</RunMultiplier>
   </UnitMotion>
   <VisualActor>
     <Actor>units/earth_ponies/infantry_slinger_a.xml</Actor>

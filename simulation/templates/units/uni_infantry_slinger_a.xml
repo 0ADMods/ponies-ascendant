@@ -26,9 +26,7 @@
   </ResourceGatherer>
   <UnitMotion>
     <WalkSpeed>15.00</WalkSpeed>
-    <Run>
-      <Speed>22.44</Speed>
-    </Run>
+    <RunMultiplier>1.49</RunMultiplier>
   </UnitMotion>
   <VisualActor>
     <Actor>units/unicorns/infantry_slinger_a.xml</Actor>

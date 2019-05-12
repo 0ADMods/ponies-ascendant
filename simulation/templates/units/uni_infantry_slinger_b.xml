@@ -80,9 +80,7 @@
      </Promotion>
      <UnitMotion>
           <WalkSpeed>10.92</WalkSpeed>
-          <Run>
-               <Speed>23.76</Speed>
-          </Run>
+          <RunMultiplier>2.17</RunMultiplier>
      </UnitMotion>
      <VisualActor>
           <Actor>units/unicorns/infantry_slinger_b.xml</Actor>

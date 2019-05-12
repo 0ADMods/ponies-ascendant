@@ -25,9 +25,7 @@
   </ResourceGatherer>
   <UnitMotion>
     <WalkSpeed>10.0</WalkSpeed>
-    <Run>
-      <Speed>21.8</Speed>
-    </Run>
+    <RunMultiplier>2.18</RunMultiplier>
   </UnitMotion>
   <VisualActor>
     <Actor>units/unicorns/infantry_archer_e.xml</Actor>

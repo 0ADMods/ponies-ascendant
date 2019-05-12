@@ -9,4 +9,7 @@
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_wall_long</SpawnEntityOnDeath>
   </Health>
+  <VisualActor>
+    <FoundationActor>structures/fndn_9x3_wall.xml</FoundationActor>
+  </VisualActor>
 </Entity>

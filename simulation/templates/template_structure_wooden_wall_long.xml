@@ -36,7 +36,7 @@
   </Obstruction>
   <VisualActor>
     <Actor>structures/earth_ponies/palisade_long.xml</Actor>
-    <FoundationActor>structures/fndn_1x3pal.xml</FoundationActor>
+    <FoundationActor>structures/fndn_9x3_wall.xml</FoundationActor>
   </VisualActor>
   <Upgrade>
     <Gate>

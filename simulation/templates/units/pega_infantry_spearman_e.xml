@@ -22,9 +22,7 @@
   </ResourceGatherer>
   <UnitMotion>
     <WalkSpeed>14.0</WalkSpeed>
-    <Run>
-      <Speed>26.0</Speed>
-    </Run>
+    <RunMultiplier>1.85</RunMultiplier>
   </UnitMotion>
   <VisualActor>
     <Actor>units/pegasi/infantry_spearman_e.xml</Actor>

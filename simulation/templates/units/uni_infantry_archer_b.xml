@@ -37,7 +37,7 @@
         </BonusSoldier>
       </Bonuses>
       <Splash>
-                    <Shape>Linear</Shape>
+        <Shape>Linear</Shape>
         <Range>1.2</Range>
         <FriendlyFire>true</FriendlyFire>
         <Hack>0.0</Hack>
@@ -73,21 +73,19 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">Skirmisher</Classes>
-          <Civ>uni</Civ>
-          <SelectionGroupName>units/uni_infantry_archer_b</SelectionGroupName>
-          <GenericName>Skirmisher</GenericName>
-          <SpecificName>Drafted Archer</SpecificName>
-          <Icon>units/uni_infantry_archer.png</Icon>
+    <Civ>uni</Civ>
+    <SelectionGroupName>units/uni_infantry_archer_b</SelectionGroupName>
+    <GenericName>Skirmisher</GenericName>
+    <SpecificName>Drafted Archer</SpecificName>
+    <Icon>units/uni_infantry_archer.png</Icon>
     <Gender>female</Gender>
-     </Identity>
-     <Promotion>
-          <Entity>units/uni_infantry_archer_a</Entity>
-  </Promotion>
+  </Identity>
+    <Promotion>
+      <Entity>units/uni_infantry_archer_a</Entity>
+    </Promotion>
   <UnitMotion>
     <WalkSpeed>9.00</WalkSpeed>
-    <Run>
-      <Speed>18.76</Speed>
-    </Run>
+    <RunMultiplier>2.08</RunMultiplier>
   </UnitMotion>
   <VisualActor>
     <Actor>units/unicorns/infantry_archer_b.xml</Actor>

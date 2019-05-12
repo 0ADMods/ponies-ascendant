@@ -24,9 +24,7 @@
   </ResourceGatherer>
   <UnitMotion>
     <WalkSpeed>7.5</WalkSpeed>
-    <Run>
-      <Speed>14.1</Speed>
-    </Run>
+    <RunMultiplier>1.88</RunMultiplier>
   </UnitMotion>
   <VisualActor>
     <Actor>units/unicorns/infantry_spearman_a.xml</Actor>

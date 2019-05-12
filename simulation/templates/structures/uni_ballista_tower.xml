@@ -8,10 +8,12 @@
       <MaxRange>120.0</MaxRange>
       <MinRange>20.0</MinRange>
       <ElevationBonus>15</ElevationBonus>
-      <ProjectileSpeed>40.0</ProjectileSpeed>
       <PrepareTime>5500</PrepareTime>
       <RepeatTime>6500</RepeatTime>
-      <Spread>1.2</Spread>
+      <Projectile>
+        <Speed>40.0</Speed>
+        <Spread>1.2</Spread>
+      </Projectile>
       <PreferredClasses datatype="tokens">Mechanical Armor Organic</PreferredClasses>
       <Bonuses>
         <BonusShip>

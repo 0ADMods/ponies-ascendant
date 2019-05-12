@@ -77,9 +77,7 @@
   </Sound>
   <UnitMotion>
     <WalkSpeed>5.5</WalkSpeed>
-    <Run>
-      <Speed>7.0</Speed>
-    </Run>
+    <RunMultiplier>1.27</RunMultiplier>
   </UnitMotion>
   <Vision>
     <Range>88</Range>

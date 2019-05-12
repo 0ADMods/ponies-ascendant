@@ -56,7 +56,7 @@
     <Range>0</Range>
   </Vision>
   <VisualActor>
-    <FoundationActor>structures/fndn_wall_medium.xml</FoundationActor>
+    <FoundationActor>structures/fndn_6x3_wall.xml</FoundationActor>
     <SelectionShape>
       <Footprint/>
     </SelectionShape>

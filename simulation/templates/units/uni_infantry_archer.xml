@@ -27,9 +27,7 @@
   </ResourceGatherer>
   <UnitMotion>
     <WalkSpeed>9.48</WalkSpeed>
-    <Run>
-      <Speed>22.44</Speed>
-    </Run>
+    <RunMultiplier>2.37</RunMultiplier>
   </UnitMotion>
   <VisualActor>
     <Actor>units/earth_ponies/infantry_slinger_a.xml</Actor>

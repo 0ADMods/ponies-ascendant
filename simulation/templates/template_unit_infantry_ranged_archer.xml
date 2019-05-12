@@ -53,8 +53,6 @@ Countered by: Cavalry Swordsmen, Cavalry Skirmishers.</Tooltip>
   </Sound>
   <UnitMotion>
     <WalkSpeed>8.5</WalkSpeed>
-    <Run>
-      <Speed>17.0</Speed>
-    </Run>
+    <RunMultiplier>2.0</RunMultiplier>
   </UnitMotion>
 </Entity>

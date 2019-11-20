@@ -7,9 +7,11 @@
   </Armour>
   <Attack>
     <Ranged>
+     <Damage>
       <Hack>0.0</Hack>
       <Pierce>9.0</Pierce>
       <Crush>0.5</Crush>
+     </Damage>
       <MaxRange>80.0</MaxRange>
       <MinRange>5.0</MinRange>
       <PrepareTime>900</PrepareTime>
@@ -40,9 +42,11 @@
         <Shape>Circular</Shape>
         <Range>1.0</Range>
         <FriendlyFire>true</FriendlyFire>
-        <Hack>0.0</Hack>
-        <Pierce>8.0</Pierce>
-        <Crush>0.0</Crush>
+        <Damage>
+          <Hack>0.0</Hack>
+          <Pierce>8.0</Pierce>
+          <Crush>0.0</Crush>
+        </Damage>
       </Splash>
     </Ranged>
   </Attack>

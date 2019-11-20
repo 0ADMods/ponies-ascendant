@@ -7,7 +7,9 @@
   </Armour>
   <Attack>
     <Melee>
+     <Damage>
       <Hack>15.0</Hack>
+     </Damage>
     </Melee>
   </Attack>
   <Health>

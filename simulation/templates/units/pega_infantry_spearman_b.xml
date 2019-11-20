@@ -10,8 +10,10 @@
   </Health>
   <Attack>
     <Melee>
-      <Hack>10.0</Hack>
-      <Pierce>0.0</Pierce>
+      <Damage>
+       <Hack>10.0</Hack>
+       <Pierce>0.0</Pierce>
+      </Damage>
       <MaxRange>7.0</MaxRange>
       <Bonuses>
         <BonusAntiArmor>
@@ -26,7 +28,7 @@
       -other/wallset_palisade
       -structures/{civ}_corral
       -structures/{civ}_sentry_tower
-	  structures/{civ}_wallset_wood
+       structures/{civ}_wallset_wood
     </Entities>
   </Builder>
   <Cost>

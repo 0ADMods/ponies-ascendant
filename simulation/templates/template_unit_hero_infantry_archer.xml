@@ -7,7 +7,9 @@
   </Armour>
   <Attack>
     <Ranged>
+     <Damage>
       <Pierce>20.0</Pierce>
+     </Damage>
       <MaxRange>60</MaxRange>
        <Projectile>
         <Spread>1.0</Spread>

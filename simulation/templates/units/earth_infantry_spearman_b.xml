@@ -10,8 +10,10 @@
   </Health>
   <Attack>
     <Melee>
+     <Damage>
       <Hack>10.0</Hack>
       <Pierce>0.0</Pierce>
+     </Damage>
       <Bonuses>
         <BonusAntiArmor>
           <Classes>AntiArmor</Classes>

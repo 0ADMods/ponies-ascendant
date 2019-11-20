@@ -7,6 +7,7 @@
   </Armour>
   <Attack>
     <Ranged>
+     <Damage>
       <Projectile>
         <Spread>3.8</Spread>
       </Projectile>

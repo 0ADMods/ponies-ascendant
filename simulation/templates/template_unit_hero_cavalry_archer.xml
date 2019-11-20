@@ -7,9 +7,11 @@
   </Armour>
   <Attack>
     <Ranged>
+     <Damage>
       <Hack>0.0</Hack>
       <Pierce>40.0</Pierce>
       <Crush>0.0</Crush>
+     </Damage>
       <MaxRange>60.0</MaxRange>
       <MinRange>20.0</MinRange>
       <Projectile>

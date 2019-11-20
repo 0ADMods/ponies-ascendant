@@ -10,8 +10,10 @@
   </Health>
   <Attack>
     <Melee>
+     <Damage>
       <Hack>6.0</Hack>
       <Pierce>0.0</Pierce>
+     </Damage>
       <MaxRange>11.0</MaxRange>
       <Bonuses>
         <BonusAntiArmor>

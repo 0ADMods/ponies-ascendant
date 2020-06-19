@@ -46,23 +46,8 @@
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
       -structures/wallset_palisade
-      structures/{civ}_house 
-      structures/{civ}_storehouse 
-      structures/{civ}_farmstead 
-      structures/{civ}_field 
-      structures/{civ}_outpost 
-      structures/{civ}_dock 
-      structures/{civ}_barracks 
-      structures/{civ}_blacksmith  
-      structures/{civ}_temple 
-      structures/{civ}_market 
-      structures/{civ}_defense_tower 
       structures/{civ}_wallset_wood  
-      structures/{civ}_roadset 
-      structures/{civ}_wallset_stone 
-      structures/{civ}_civil_centre 
-      structures/{civ}_fortress 
-      structures/{civ}_wonder
+      structures/{civ}_roadset
    </Entities>
   </Builder>
   <Cost>

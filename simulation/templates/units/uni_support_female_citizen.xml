@@ -7,11 +7,6 @@
       </Damage>
     </Melee>
   </Attack>
-  <Builder>
-    <Entities datatype="tokens">
-      structures/{civ}_ballista_tower
-    </Entities>
-  </Builder>
   <Health>
     <Max>100</Max>
   </Health>

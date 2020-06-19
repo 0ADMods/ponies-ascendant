@@ -53,8 +53,6 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/wallset_palisade
-      -structures/{civ}_corral
-      -structures/{civ}_sentry_tower
       structures/{civ}_wallset_wood
       structures/{civ}_ballista_tower
     </Entities>

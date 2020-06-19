@@ -8,9 +8,11 @@
   </AlertRaiser>
   <Attack>
     <Ranged>
-      <Hack>0.0</Hack>
-      <Pierce>17.0</Pierce>
-      <Crush>0.0</Crush>
+      <Damage>
+        <Hack>0.0</Hack>
+        <Pierce>17.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
       <MaxRange>131.0</MaxRange>
       <MinRange>8.0</MinRange>
       <PrepareTime>900</PrepareTime>

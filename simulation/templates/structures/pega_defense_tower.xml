@@ -2,9 +2,11 @@
 <Entity parent="template_structure_defensive_tower_stone">
   <Attack>
     <Ranged>
-      <Hack>0.0</Hack>
-      <Pierce>38.0</Pierce>
-      <Crush>0.0</Crush>
+      <Damage>
+        <Hack>0.0</Hack>
+        <Pierce>38.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
       <MaxRange>90.0</MaxRange>
       <MinRange>9.0</MinRange>
       <ElevationBonus>15</ElevationBonus>

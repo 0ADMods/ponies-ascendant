@@ -11,10 +11,10 @@
       <PrepareTime>900</PrepareTime>
       <RepeatTime>1500</RepeatTime>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
-	  <Projectile>
+      <Projectile>
         <Speed>60.0</Speed>
         <Spread>1.5</Spread>
-	  </Projectile>
+      </Projectile>
       <Bonuses>
         <BonusShip>
           <Classes>Ship</Classes>

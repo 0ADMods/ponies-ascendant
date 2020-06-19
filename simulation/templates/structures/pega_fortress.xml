@@ -9,10 +9,10 @@
       <ElevationBonus>15</ElevationBonus>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>2000</RepeatTime>
-	  <Projectile>
+      <Projectile>
         <Speed>60.0</Speed>
         <Spread>1.5</Spread>
-	  </Projectile>
+      </Projectile>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <Bonuses>
         <BonusShip>
@@ -75,7 +75,10 @@
       units/{civ}_infantry_spearman_e
       units/{civ}_infantry_javelinist_e
     </Entities>
-    <Technologies datatype="tokens">pair_siege_attack_cost pair_siege_cost_armor</Technologies>
+    <Technologies datatype="tokens">
+      pair_siege_attack_cost
+      pair_siege_cost_armor
+    </Technologies>
   </ProductionQueue>
   <Vision>
     <Range>125</Range>

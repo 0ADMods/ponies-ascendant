@@ -7,11 +7,11 @@
   </Armour>
   <Attack>
     <Ranged>
-     <Damage>
-      <Hack>0.0</Hack>
-      <Pierce>0.0</Pierce>
-      <Crush>40.0</Crush>
-     </Damage>
+      <Damage>
+        <Hack>0.0</Hack>
+        <Pierce>0.0</Pierce>
+        <Crush>40.0</Crush>
+      </Damage>
       <MaxRange>80</MaxRange>
       <MinRange>35.0</MinRange>
       <ProjectileSpeed>45.0</ProjectileSpeed>
@@ -36,7 +36,7 @@
           <Hack>0.0</Hack>
           <Pierce>0.0</Pierce>
           <Crush>35.0</Crush>
-       </Damage>
+        </Damage>
       </Splash>
     </Ranged>
   </Attack>

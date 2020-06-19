@@ -11,8 +11,8 @@
   <Attack>
     <Melee>
       <Damage>
-       <Hack>10.0</Hack>
-       <Pierce>0.0</Pierce>
+        <Hack>10.0</Hack>
+        <Pierce>0.0</Pierce>
       </Damage>
       <MaxRange>7.0</MaxRange>
       <Bonuses>
@@ -28,7 +28,7 @@
       -other/wallset_palisade
       -structures/{civ}_corral
       -structures/{civ}_sentry_tower
-       structures/{civ}_wallset_wood
+      structures/{civ}_wallset_wood
     </Entities>
   </Builder>
   <Cost>

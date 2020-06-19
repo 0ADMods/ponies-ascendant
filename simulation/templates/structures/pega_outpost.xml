@@ -10,10 +10,10 @@
       <ElevationBonus>15</ElevationBonus>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>3000</RepeatTime>
-	  <Projectile>
-         <Spread>1.5</Spread>
-         <Speed>55.0</Speed>
-	  </Projectile>
+      <Projectile>
+        <Spread>1.5</Spread>
+        <Speed>55.0</Speed>
+      </Projectile>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <Bonuses>
         <BonusShip>

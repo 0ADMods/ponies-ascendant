@@ -8,11 +8,11 @@
   <Attack>
     <Ranged disable=""/>
     <Melee>
-     <Damage>
-      <Hack>100.0</Hack>
-      <Pierce>0.0</Pierce>
-      <Crush>300.0</Crush>
-     </Damage>
+      <Damage>
+        <Hack>100.0</Hack>
+        <Pierce>0.0</Pierce>
+        <Crush>300.0</Crush>
+      </Damage>
       <MaxRange>28.5</MaxRange>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>8000</RepeatTime>

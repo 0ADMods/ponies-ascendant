@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_long">
- <Armour>
+  <Armour>
     <Hack>10</Hack>
     <Pierce>27</Pierce>
     <Crush>7</Crush>
@@ -29,7 +29,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <GenericName>Wooden Wall</GenericName>
     <Classes datatype="tokens">-StoneWall Palisade</Classes>
-   <Icon>gaia/special_palisade.png</Icon>
+    <Icon>gaia/special_palisade.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="37.0" depth="7.0"/>
@@ -40,7 +40,7 @@
   </VisualActor>
   <Upgrade>
     <Gate>
-        <Entity>structures/uni_palisade_gate</Entity>
+      <Entity>structures/uni_palisade_gate</Entity>
     </Gate>
   </Upgrade>
   <WallPiece>

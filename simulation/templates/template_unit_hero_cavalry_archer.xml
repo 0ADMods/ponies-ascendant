@@ -7,11 +7,11 @@
   </Armour>
   <Attack>
     <Ranged>
-     <Damage>
-      <Hack>0.0</Hack>
-      <Pierce>40.0</Pierce>
-      <Crush>0.0</Crush>
-     </Damage>
+      <Damage>
+        <Hack>0.0</Hack>
+        <Pierce>40.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
       <MaxRange>60.0</MaxRange>
       <MinRange>20.0</MinRange>
       <Projectile>
@@ -49,11 +49,11 @@
   <Identity>
     <Classes datatype="tokens">Bow</Classes>
     <GenericName>Hero Cavalry Archer</GenericName>
-    <Tooltip>Hero Aura: n/a.
-Ranged attack 2x vs. spearmen. Ranged attack 1.5x vs. Swordsmen.</Tooltip>
-    <Formations datatype="tokens">
-      special/formations/skirmish
-    </Formations>
+    <Tooltip>
+Hero Aura: n/a.
+Ranged attack 2x vs. spearmen. Ranged attack 1.5x vs. Swordsmen.
+    </Tooltip>
+    <Formations datatype="tokens">special/formations/skirmish</Formations>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
   <Loot>

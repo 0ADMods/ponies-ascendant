@@ -7,9 +7,9 @@
   </Armour>
   <Attack>
     <Melee>
-     <Damage>
-      <Hack>12.0</Hack>
-     </Damage>
+      <Damage>
+        <Hack>12.0</Hack>
+      </Damage>
     </Melee>
   </Attack>
   <Health>

@@ -7,10 +7,10 @@
   </Armour>
   <Attack>
     <Melee>
-     <Damage>
-      <Crush>20.0</Crush>
-      <Hack>0.0</Hack>
-     </Damage>
+      <Damage>
+        <Crush>20.0</Crush>
+        <Hack>0.0</Hack>
+      </Damage>
       <Bonuses>
         <BonusArmor>
           <Classes>Armor</Classes>

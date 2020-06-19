@@ -8,9 +8,9 @@
   <Attack>
     <Ranged>
       <Damage>
-       <Hack>0.0</Hack>
-       <Pierce>70.0</Pierce>
-       <Crush>15.0</Crush>
+        <Hack>0.0</Hack>
+        <Pierce>70.0</Pierce>
+        <Crush>15.0</Crush>
       </Damage>
       <MaxRange>100</MaxRange>
       <ProjectileSpeed>70.0</ProjectileSpeed>
@@ -39,7 +39,7 @@
         <Shape>Linear</Shape>
         <Range>7</Range>
         <FriendlyFire>true</FriendlyFire>
-        </Damage>
+        <Damage>
           <Hack>0.0</Hack>
           <Pierce>50.0</Pierce>
           <Crush>0.0</Crush>

@@ -45,7 +45,7 @@
       -other/wallset_palisade
       -structures/{civ}_corral
       -structures/{civ}_sentry_tower
-       structures/{civ}_wallset_wood
+      structures/{civ}_wallset_wood
     </Entities>
   </Builder>
   <Cost>
@@ -69,7 +69,7 @@
     <SpecificName>Recruit Peltast</SpecificName>
     <Classes datatype="tokens">Skirmisher</Classes>
     <Icon>units/pega_infantry_javelinist.png</Icon>
-  <Gender>female</Gender>
+    <Gender>female</Gender>
   </Identity>
   <Promotion>
     <Entity>units/pega_infantry_javelinist_a</Entity>

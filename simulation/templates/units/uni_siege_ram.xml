@@ -7,11 +7,11 @@
   </Armour>
   <Attack>
     <Melee>
-     <Damage>
-      <Hack>0.0</Hack>
-      <Pierce>0.0</Pierce>
-      <Crush>300.0</Crush>
-     </Damage>
+      <Damage>
+        <Hack>0.0</Hack>
+        <Pierce>0.0</Pierce>
+        <Crush>300.0</Crush>
+      </Damage>
       <MaxRange>7.5</MaxRange>
       <RepeatTime>4000</RepeatTime>
       <RestrictedClasses datatype="tokens">/Organic</RestrictedClasses>

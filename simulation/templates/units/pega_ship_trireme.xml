@@ -43,7 +43,7 @@
           <Hack>0.0</Hack>
           <Pierce>8.0</Pierce>
           <Crush>0.0</Crush>
-       </Damage>
+        </Damage>
       </Splash>
     </Ranged>
   </Attack>

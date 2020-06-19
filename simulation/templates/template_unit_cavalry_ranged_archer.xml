@@ -2,27 +2,27 @@
 <Entity parent="template_unit_cavalry_ranged">
   <Attack>
     <Ranged>
-     <Damage>
-      <Hack>0.0</Hack>
-      <Pierce>20.0</Pierce>
-      <Crush>0.0</Crush>
-     </Damage>
+      <Damage>
+        <Hack>0.0</Hack>
+        <Pierce>20.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
       <MaxRange>56.0</MaxRange>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>2000</RepeatTime>
-       <Projectile>
+      <Projectile>
         <Speed>75.0</Speed>
-       </Projectile>
-       <Bonuses>
-          <BonusPrimary>
-            <Classes>Infantry Spear</Classes>
-            <Multiplier>2.0</Multiplier>
-          </BonusPrimary>
-          <BonusSecondary>
-            <Classes>Infantry Sword</Classes>
-            <Multiplier>1.5</Multiplier>
-          </BonusSecondary>
-       </Bonuses>
+      </Projectile>
+      <Bonuses>
+        <BonusPrimary>
+          <Classes>Infantry Spear</Classes>
+          <Multiplier>2.0</Multiplier>
+        </BonusPrimary>
+        <BonusSecondary>
+          <Classes>Infantry Sword</Classes>
+          <Multiplier>1.5</Multiplier>
+        </BonusSecondary>
+      </Bonuses>
     </Ranged>
   </Attack>
   <Cost>
@@ -35,11 +35,13 @@
     <Max>150</Max>
   </Health>
   <Identity>
-     <Classes datatype="tokens">Archer Bow</Classes>
+    <Classes datatype="tokens">Archer Bow</Classes>
     <GenericName>Cavalry Archer</GenericName>
-    <Tooltip>Classes: Citizen Ranged Cavalry Archer.
+    <Tooltip>
+Classes: Citizen Ranged Cavalry Archer.
 Counters: 2x vs. Spearmen, 1.5x vs. Swordsmen.
-Countered by: Skirmishers and Elephants.</Tooltip>
+Countered by: Skirmishers and Elephants.
+    </Tooltip>
   </Identity>
   <Loot>
     <xp>130</xp>
@@ -53,7 +55,8 @@ Countered by: Skirmishers and Elephants.</Tooltip>
     <Run>
       <Speed>28.0</Speed>
     </Run>
-  </UnitMotion><Sound>
+  </UnitMotion>
+  <Sound>
     <SoundGroups>
       <attack>attack/weapon/bow.xml</attack>
     </SoundGroups>

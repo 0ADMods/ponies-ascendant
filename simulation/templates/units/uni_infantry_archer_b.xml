@@ -7,17 +7,17 @@
   </Armour>
   <Attack>
     <Ranged>
-     <Damage>
-      <Hack>0.0</Hack>
-      <Pierce>14.0</Pierce>
-      <Crush>0.0</Crush>
-     </Damage>
+      <Damage>
+        <Hack>0.0</Hack>
+        <Pierce>14.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
       <MaxRange>90.0</MaxRange>
       <MinRange>10.0</MinRange>
-       <Projectile>
+      <Projectile>
         <Speed>55.0</Speed>
         <Spread>2.5</Spread>
-       </Projectile>
+      </Projectile>
       <PrepareTime>900</PrepareTime>
       <RepeatTime>2000</RepeatTime>
       <Bonuses>
@@ -84,9 +84,9 @@
     <Icon>units/uni_infantry_archer.png</Icon>
     <Gender>female</Gender>
   </Identity>
-    <Promotion>
-      <Entity>units/uni_infantry_archer_a</Entity>
-    </Promotion>
+  <Promotion>
+    <Entity>units/uni_infantry_archer_a</Entity>
+  </Promotion>
   <UnitMotion>
     <WalkSpeed>9.00</WalkSpeed>
     <RunMultiplier>2.08</RunMultiplier>

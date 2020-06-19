@@ -7,9 +7,9 @@
   </Armour>
   <Attack>
     <Melee>
-     <Damage>
-      <Hack>25.0</Hack>
-     </Damage>
+      <Damage>
+        <Hack>25.0</Hack>
+      </Damage>
       <Bonuses>
         <BonusSoldier>
           <Classes>Soldier Skirmisher</Classes>

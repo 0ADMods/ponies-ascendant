@@ -7,28 +7,28 @@
   </Armour>
   <Attack>
     <Ranged>
-     <Damage>
-      <Hack>0.0</Hack>
-      <Pierce>15.0</Pierce>
-      <Crush>0.0</Crush>
-     </Damage>
+      <Damage>
+        <Hack>0.0</Hack>
+        <Pierce>15.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
       <MaxRange>50.0</MaxRange>
       <MinRange>0.0</MinRange>
       <Projectile>
-         <Speed>75.0</Speed>
+        <Speed>75.0</Speed>
       </Projectile>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>2000</RepeatTime>
-       <Bonuses>
-          <BonusPrimary>
-            <Classes>Infantry Sword</Classes>
-            <Multiplier>2.0</Multiplier>
-          </BonusPrimary>
-          <BonusSecondary>
-            <Classes>Cavalry Spear</Classes>
-            <Multiplier>1.25</Multiplier>
-          </BonusSecondary>
-       </Bonuses>
+      <Bonuses>
+        <BonusPrimary>
+          <Classes>Infantry Sword</Classes>
+          <Multiplier>2.0</Multiplier>
+        </BonusPrimary>
+        <BonusSecondary>
+          <Classes>Cavalry Spear</Classes>
+          <Multiplier>1.25</Multiplier>
+        </BonusSecondary>
+      </Bonuses>
     </Ranged>
   </Attack>
   <Cost>
@@ -41,9 +41,11 @@
     <Classes datatype="tokens">Archer Bow</Classes>
     <GenericName>Archer</GenericName>
     <History>They tended to be lightly armored. They usually only participated in the first stage of a battle, sending a volley of arrows raining down the enemy. Of course they would have to stop shooting once the melee units closed in. This means their job was largely over once the 'true battle' was underway. They spent hours training with a bow, but if you were hit by an arrow it was more likely an act of random chance than being specifically targeted by an archer.</History>
-    <Tooltip>Classes: Citizen Ranged Infantry Archer.
+    <Tooltip>
+Classes: Citizen Ranged Infantry Archer.
 Counters: 2x vs. Swordsmen, 1.25x vs. Cavalry Spearmen.
-Countered by: Cavalry Swordsmen, Cavalry Skirmishers.</Tooltip>
+Countered by: Cavalry Swordsmen, Cavalry Skirmishers.
+    </Tooltip>
   </Identity>
   <Loot>
     <wood>6</wood>

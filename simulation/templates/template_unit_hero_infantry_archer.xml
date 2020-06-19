@@ -7,23 +7,23 @@
   </Armour>
   <Attack>
     <Ranged>
-     <Damage>
-      <Pierce>20.0</Pierce>
-     </Damage>
+      <Damage>
+        <Pierce>20.0</Pierce>
+      </Damage>
       <MaxRange>60</MaxRange>
-       <Projectile>
+      <Projectile>
         <Spread>1.0</Spread>
-       </Projectile>
-       <Bonuses>
-          <BonusPrimary>
-            <Classes>Infantry Sword</Classes>
-            <Multiplier>3.0</Multiplier>
-          </BonusPrimary>
-          <BonusSecondary>
-            <Classes>Cavalry Spear</Classes>
-            <Multiplier>1.25</Multiplier>
-          </BonusSecondary>
-       </Bonuses>
+      </Projectile>
+      <Bonuses>
+        <BonusPrimary>
+          <Classes>Infantry Sword</Classes>
+          <Multiplier>3.0</Multiplier>
+        </BonusPrimary>
+        <BonusSecondary>
+          <Classes>Cavalry Spear</Classes>
+          <Multiplier>1.25</Multiplier>
+        </BonusSecondary>
+      </Bonuses>
     </Ranged>
   </Attack>
   <Cost>
@@ -42,13 +42,13 @@
   <Identity>
     <GenericName>Hero Archer</GenericName>
     <Classes datatype="tokens">Hero Archer Bow</Classes>
-     <Tooltip>Classes: Hero Infantry Ranged Archer Bow.
+    <Tooltip>
+Classes: Hero Infantry Ranged Archer Bow.
 Counters: 2x vs. Swordsmen, 1.25x vs. Cavalry Spearmen.
-Countered by: Cavalry Swordsmen, Cavalry Skirmishers.</Tooltip>
+Countered by: Cavalry Swordsmen, Cavalry Skirmishers.
+    </Tooltip>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <Formations datatype="tokens">
-      special/formations/skirmish
-    </Formations>
+    <Formations datatype="tokens">special/formations/skirmish</Formations>
   </Identity>
   <Loot>
     <xp>350</xp>

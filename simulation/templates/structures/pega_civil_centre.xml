@@ -5,9 +5,9 @@
       <MaxRange>80.0</MaxRange>
       <ElevationBonus>12</ElevationBonus>
       <Projectile>
-         <Speed>55.0</Speed>
+        <Speed>55.0</Speed>
         <Spread>1.5</Spread>
-       </Projectile>
+      </Projectile>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>2000</RepeatTime>
       <Bonuses>

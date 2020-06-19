@@ -8,7 +8,7 @@
   <Attack>
     <Ranged>
       <Projectile>
-         <Spread>2.6</Spread>
+        <Spread>2.6</Spread>
       </Projectile>
       <MaxRange>48</MaxRange>
     </Ranged>
@@ -17,7 +17,8 @@
     <Max>120</Max>
   </Health>
   <Identity>
-    <Rank>Elite</Rank> <SpecificName>Proven Javelinist</SpecificName>
+    <Rank>Elite</Rank>
+    <SpecificName>Proven Javelinist</SpecificName>
   </Identity>
   <Promotion disable=""/>
   <ResourceGatherer>

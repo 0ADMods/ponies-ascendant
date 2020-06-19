@@ -8,7 +8,7 @@
   <Attack>
     <Ranged>
       <Projectile>
-         <Spread>3.4</Spread>
+        <Spread>3.4</Spread>
       </Projectile>
       <MaxRange>89</MaxRange>
     </Ranged>
@@ -17,7 +17,8 @@
     <Max>90</Max>
   </Health>
   <Identity>
-    <Rank>Elite</Rank><SpecificName>Disciplined Auxiliary</SpecificName>
+    <Rank>Elite</Rank>
+    <SpecificName>Disciplined Auxiliary</SpecificName>
   </Identity>
   <Promotion disable=""/>
   <ResourceGatherer>

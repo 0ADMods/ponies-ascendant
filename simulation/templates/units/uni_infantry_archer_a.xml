@@ -10,7 +10,7 @@
       <Projectile>
         <Spread>2.0</Spread>
       </Projectile>
-       <MaxRange>92</MaxRange>
+      <MaxRange>92</MaxRange>
     </Ranged>
   </Attack>
   <Health>

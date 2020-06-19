@@ -8,7 +8,7 @@
   <Attack>
     <Melee>
       <Damage>
-       <Hack>17.0</Hack>
+        <Hack>17.0</Hack>
       </Damage>
       <Bonuses>
         <BonusSoldier>

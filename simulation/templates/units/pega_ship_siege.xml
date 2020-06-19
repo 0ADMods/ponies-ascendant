@@ -40,10 +40,10 @@
         <Range>7</Range>
         <FriendlyFire>true</FriendlyFire>
         <Damage>
-         <Hack>0.0</Hack>
-         <Pierce>50.0</Pierce>
-         <Crush>0.0</Crush>
-       </Damage>
+          <Hack>0.0</Hack>
+          <Pierce>50.0</Pierce>
+          <Crush>0.0</Crush>
+        </Damage>
       </Splash>
     </Ranged>
   </Attack>

@@ -9,7 +9,7 @@
     <Ranged>
       <Projectile>
         <Spread>3.0</Spread>
-       </Projectile>
+      </Projectile>
       <MaxRange>89</MaxRange>
     </Ranged>
   </Attack>

@@ -7,7 +7,7 @@
   </Armour>
   <Attack>
     <Melee>
-       <Damage>
+      <Damage>
         <Crush>8.0</Crush>
         <Hack>7.0</Hack>
       </Damage>

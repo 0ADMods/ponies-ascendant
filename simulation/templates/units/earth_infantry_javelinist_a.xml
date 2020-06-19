@@ -8,7 +8,7 @@
   <Attack>
     <Ranged>
       <Projectile>
-         <Spread>2.8</Spread>
+        <Spread>2.8</Spread>
       </Projectile>
       <MaxRange>45</MaxRange>
     </Ranged>
@@ -18,7 +18,8 @@
   </Health>
   <Identity>
     <Rank>Advanced</Rank>
- <SpecificName>Ranked Javelinist</SpecificName> </Identity>
+    <SpecificName>Ranked Javelinist</SpecificName>
+  </Identity>
   <Promotion>
     <Entity>units/earth_infantry_javelinist_e</Entity>
   </Promotion>

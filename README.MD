@@ -11,14 +11,14 @@ Feel free to contact us if you want to contribute or report bugs. We are open to
 
 # Status
 
-The current version is compatible with 0 A.D. Alpha 23: Ken Wood.
+The currently published version is compatible with 0 A.D. Alpha 23: Ken Wood; this repository requires the still-under-development Alpha 24.
 
 Three factions are available, but some buildings are still placeholders
 
 # Credits:
 
 - Lordgood (Most of the models, animations, sounds, music, and textures)
-- S0604002 (Gameplay fixes, maintenance, and updating)
+- s0600204 (Gameplay fixes, maintenance, and updating)
 - Stanislas Dolcini (Maintenance, Art fixes)
 - Slavomir Slovenkai aka Angen  (Maintenance)
 - Asterix (Annoucements and Changelogs)

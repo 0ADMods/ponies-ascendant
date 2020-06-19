@@ -53,7 +53,7 @@
   <Builder>
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
-      -other/wallset_palisade
+      -structures/wallset_palisade
       structures/{civ}_house
       structures/{civ}_storehouse
       structures/{civ}_farmstead

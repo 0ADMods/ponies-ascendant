@@ -24,7 +24,7 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-      -other/wallset_palisade
+      -structures/wallset_palisade
       -structures/{civ}_sentry_tower
       structures/{civ}_wallset_wood
       structures/{civ}_roadset

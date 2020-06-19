@@ -48,7 +48,7 @@
     <SpecificName>Recruit Hoplite</SpecificName>
     <GenericName>Soldier</GenericName>
     <Icon>units/pega_infantry_spearman.png</Icon>
-    <Gender>female</Gender>
+    <Phenotype>female</Phenotype>
   </Identity>
   <Promotion>
     <Entity>units/pega_infantry_spearman_a</Entity>

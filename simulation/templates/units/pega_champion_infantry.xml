@@ -40,7 +40,7 @@
     <GenericName>Armor</GenericName>
     <SpecificName>Cataphract</SpecificName>
     <Icon>units/pega_champion_infantry.png</Icon>
-    <Gender>female</Gender>
+    <Phenotype>female</Phenotype>
   </Identity>
   <UnitMotion>
     <WalkSpeed>6.5</WalkSpeed>

@@ -60,7 +60,7 @@
   </Health>
   <Identity>
     <GenericName>Female Citizen</GenericName>
-    <Gender>female</Gender>
+    <Phenotype>female</Phenotype>
     <Classes datatype="tokens">FemaleCitizen</Classes>
     <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>
     <Formations disable=""/>

@@ -45,7 +45,7 @@
     <GenericName>Anti Armor</GenericName>
     <SpecificName>Halberdier</SpecificName>
     <Icon>units/uni_champion_halberdier.png</Icon>
-    <Gender>female</Gender>
+    <Phenotype>female</Phenotype>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <UnitMotion>

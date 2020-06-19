@@ -46,7 +46,7 @@
     <SpecificName>Brute</SpecificName>
     <Icon>units/earth_champion_maceman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <Gender>female</Gender>
+    <Phenotype>female</Phenotype>
   </Identity>
   <UnitMotion>
     <WalkSpeed>12.0</WalkSpeed>

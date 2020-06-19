@@ -39,7 +39,7 @@
     <GenericName>Armor</GenericName>
     <SpecificName>Cavalier</SpecificName>
     <Icon>units/earth_champion_infantry.png</Icon>
-    <Gender>female</Gender>
+    <Phenotype>female</Phenotype>
   </Identity>
   <UnitMotion>
     <WalkSpeed>5.0</WalkSpeed>

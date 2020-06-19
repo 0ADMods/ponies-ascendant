@@ -79,7 +79,7 @@
     <GenericName>Skirmisher</GenericName>
     <SpecificName>Slinger</SpecificName>
     <Icon>units/earth_infantry_slinger.png</Icon>
-    <Gender>female</Gender>
+    <Phenotype>female</Phenotype>
   </Identity>
   <Promotion>
     <Entity>units/earth_infantry_slinger_a</Entity>

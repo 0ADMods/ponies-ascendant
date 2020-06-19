@@ -53,7 +53,7 @@
     <SpecificName>Drafted Infantry</SpecificName>
     <GenericName>Soldier</GenericName>
     <Icon>units/uni_infantry_spearman.png</Icon>
-    <Gender>female</Gender>
+    <Phenotype>female</Phenotype>
   </Identity>
   <Promotion>
     <Entity>units/uni_infantry_spearman_a</Entity>

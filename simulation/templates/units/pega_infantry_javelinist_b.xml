@@ -67,7 +67,7 @@
     <SpecificName>Recruit Peltast</SpecificName>
     <Classes datatype="tokens">Skirmisher</Classes>
     <Icon>units/pega_infantry_javelinist.png</Icon>
-    <Gender>female</Gender>
+    <Phenotype>female</Phenotype>
   </Identity>
   <Promotion>
     <Entity>units/pega_infantry_javelinist_a</Entity>

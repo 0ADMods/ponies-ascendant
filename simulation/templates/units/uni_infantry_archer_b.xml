@@ -80,7 +80,7 @@
     <GenericName>Skirmisher</GenericName>
     <SpecificName>Drafted Archer</SpecificName>
     <Icon>units/uni_infantry_archer.png</Icon>
-    <Gender>female</Gender>
+    <Phenotype>female</Phenotype>
   </Identity>
   <Promotion>
     <Entity>units/uni_infantry_archer_a</Entity>

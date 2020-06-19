@@ -13,7 +13,7 @@
     <SpecificName>Advisor Wisebiscuit</SpecificName>
     <Icon>units/earth_hero_wisebiscuit.png</Icon>
     <Tooltip>Level headed advisor of high chancellor Jellyhat. Her sense for enemy weakness, as well as her uncanny situational awareness, inspires her troops to fight harder.She can also build field fortifications.</Tooltip>
-    <Gender>female</Gender>
+    <Phenotype>female</Phenotype>
   </Identity>
   <Sound>
     <SoundGroups>

@@ -23,7 +23,7 @@
     <SelectionGroupName>structures/earth_wallset_wood</SelectionGroupName>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <GenericName>Wooden Wall</GenericName>
-    <Classes datatype="tokens">-StoneWall Palisade</Classes>
+    <Classes datatype="tokens">Palisade</Classes>
     <Icon>gaia/special_palisade.png</Icon>
   </Identity>
   <Obstruction>

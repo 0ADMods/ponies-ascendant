@@ -49,7 +49,7 @@
     <Tooltip>Shoots short ranged arrows to fend off attackers.</Tooltip>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <GenericName>Wooden Wall</GenericName>
-    <Classes datatype="tokens">-StoneWall Palisade Tower</Classes>
+    <Classes datatype="tokens">Palisade Tower</Classes>
     <Icon>gaia/special_palisade.png</Icon>
   </Identity>
   <Obstruction>

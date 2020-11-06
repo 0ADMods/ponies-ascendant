@@ -2,7 +2,7 @@
 <Entity parent="units/brit_support_healer_a">
   <Heal>
     <Range>20</Range>
-    <HP>10</HP>
+    <Health>10</Health>
   </Heal>
   <Health>
     <Max>105</Max>

@@ -1,35 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defensive_outpost">
+<Entity parent="template_structure_defensive_pony_outpost">
   <Attack>
     <Ranged>
       <Damage>
-        <Hack>0.0</Hack>
         <Pierce>20.0</Pierce>
-        <Crush>0.0</Crush>
       </Damage>
-      <MaxRange>100.0</MaxRange>
-      <MinRange>12.0</MinRange>
-      <ElevationBonus>15</ElevationBonus>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>2000</RepeatTime>
-      <Delay>0</Delay>
-      <Projectile>
-        <FriendlyFire>false</FriendlyFire>
-        <Gravity>9.81</Gravity>
-        <Spread>1.5</Spread>
-        <Speed>55.0</Speed>
-      </Projectile>
-      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
-      <Bonuses>
-        <BonusShip>
-          <Classes>Ship</Classes>
-          <Multiplier>3.5</Multiplier>
-        </BonusShip>
-        <NerfSiege>
-          <Classes>Siege</Classes>
-          <Multiplier>0.5</Multiplier>
-        </NerfSiege>
-      </Bonuses>
     </Ranged>
   </Attack>
   <Cost>
@@ -42,9 +19,6 @@
     <Civ>earth</Civ>
     <SpecificName>Lookout Tower</SpecificName>
   </Identity>
-  <Vision>
-    <Range>100</Range>
-  </Vision>
   <VisualActor>
     <Actor>structures/earth_ponies/outpost.xml</Actor>
   </VisualActor>

@@ -40,9 +40,6 @@
     <Civ>pega</Civ>
     <SpecificName>Outpost</SpecificName>
   </Identity>
-  <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
-  </ProductionQueue>
   <Vision>
     <Range>125</Range>
   </Vision>

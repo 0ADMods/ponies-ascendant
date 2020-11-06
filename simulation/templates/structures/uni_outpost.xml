@@ -40,9 +40,6 @@
     <Civ>uni</Civ>
     <SpecificName>Observation Post</SpecificName>
   </Identity>
-  <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
-  </ProductionQueue>
   <Vision>
     <Range>100</Range>
   </Vision>

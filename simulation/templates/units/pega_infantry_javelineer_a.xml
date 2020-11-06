@@ -32,9 +32,7 @@
   </ResourceGatherer>
   <UnitMotion>
     <WalkSpeed>16.0</WalkSpeed>
-    <Run>
-      <Speed>22.5</Speed>
-    </Run>
+    <RunMultiplier>1.4</RunMultiplier>
   </UnitMotion>
   <VisualActor>
     <Actor>units/pegasi/infantry_javelinist_a.xml</Actor>

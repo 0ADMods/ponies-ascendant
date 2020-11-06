@@ -13,6 +13,7 @@
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>1500</RepeatTime>
       <Projectile>
+        <FriendlyFire>false</FriendlyFire>
         <Spread>1.0</Spread>
         <Speed>55.0</Speed>
       </Projectile>

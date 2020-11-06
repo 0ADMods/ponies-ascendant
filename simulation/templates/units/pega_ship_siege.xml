@@ -8,10 +8,12 @@
         <Crush>25.0</Crush>
       </Damage>
       <MaxRange>105</MaxRange>
-      <ProjectileSpeed>70.0</ProjectileSpeed>
       <PrepareTime>3500</PrepareTime>
       <RepeatTime>3500</RepeatTime>
-      <Spread>4.3</Spread>
+      <Projectile>
+        <Speed>70.0</Speed>
+        <Spread>4.3</Spread>
+      </Projectile>
       <Bonuses>
         <NerfOrganic>
           <Classes>Organic</Classes>

@@ -8,10 +8,12 @@
         <Crush>0.0</Crush>
       </Damage>
       <MaxRange>85.0</MaxRange>
-      <ProjectileSpeed>60.0</ProjectileSpeed>
       <PrepareTime>900</PrepareTime>
       <RepeatTime>1500</RepeatTime>
-      <Spread>4.5</Spread>
+      <Projectile>
+        <Speed>60.0</Speed>
+        <Spread>4.5</Spread>
+      </Projectile>
       <Bonuses>
         <BonusInfantryRanged>
           <Classes>Infantry Ranged</Classes>

@@ -9,10 +9,12 @@
       </Damage>
       <MaxRange>70</MaxRange>
       <MinRange>30.0</MinRange>
-      <ProjectileSpeed>50.0</ProjectileSpeed>
       <PrepareTime>3300</PrepareTime>
       <RepeatTime>5000</RepeatTime>
-      <Spread>9.0</Spread>
+      <Projectile>
+        <Speed>50.0</Speed>
+        <Spread>9.0</Spread>
+      </Projectile>
       <Bonuses>
         <BonusStructure>
           <Classes>Structure</Classes>

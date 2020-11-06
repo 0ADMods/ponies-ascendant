@@ -8,10 +8,12 @@
         <Crush>60.0</Crush>
       </Damage>
       <MaxRange>75</MaxRange>
-      <ProjectileSpeed>40.0</ProjectileSpeed>
       <PrepareTime>2480</PrepareTime>
       <RepeatTime>5000</RepeatTime>
-      <Spread>10.5</Spread>
+      <Projectile>
+        <Speed>40.0</Speed>
+        <Spread>10.5</Spread>
+      </Projectile>
       <Bonuses>
         <BonusStructure>
           <Classes>Structure</Classes>

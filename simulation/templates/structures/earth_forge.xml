@@ -1,36 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_blacksmith">
+<Entity parent="template_structure_military_forge">
   <Cost>
-    <BuildTime>240</BuildTime>
+    <BuildTime>230</BuildTime>
     <Resources>
-      <wood>550</wood>
-      <stone>170</stone>
+      <wood>600</wood>
+      <stone>150</stone>
       <metal>200</metal>
     </Resources>
   </Cost>
   <Health>
-    <Max>4500</Max>
+    <Max>5000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
-  <Footprint>
-    <Square width="30.0" depth="30.0"/>
-    <Height>2.0</Height>
-  </Footprint>
   <Identity>
-    <Civ>uni</Civ>
+    <Civ>earth</Civ>
     <SpecificName>Blacksmith</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
-  <Obstruction>
-    <Static width="28.0" depth="28.0"/>
-  </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_mechanical_siege_onager_unpacked
+      units/{civ}_mechanical_siege_mangonel_unpacked
     </Entities>
     <Technologies datatype="tokens"/>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/unicorns/blacksmith.xml</Actor>
+    <Actor>structures/earth_ponies/blacksmith.xml</Actor>
   </VisualActor>
 </Entity>

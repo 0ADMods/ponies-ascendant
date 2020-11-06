@@ -20217,7 +20217,7 @@
 			<Actor seed="43956"/>
 		</Entity>
 		<Entity uid="3801">
-			<Template>structures/uni_blacksmith</Template>
+			<Template>structures/uni_forge</Template>
 			<Player>3</Player>
 			<Position x="275.3224" z="1075.75184"/>
 			<Orientation y="2.35621"/>
@@ -20514,7 +20514,7 @@
 			<Actor seed="13772"/>
 		</Entity>
 		<Entity uid="3843">
-			<Template>structures/pega_blacksmith</Template>
+			<Template>structures/pega_forge</Template>
 			<Player>2</Player>
 			<Position x="715.7798" z="1066.5746"/>
 			<Orientation y="2.35621"/>
@@ -20528,14 +20528,14 @@
 			<Actor seed="4140"/>
 		</Entity>
 		<Entity uid="3845">
-			<Template>structures/pega_blacksmith</Template>
+			<Template>structures/pega_forge</Template>
 			<Player>2</Player>
 			<Position x="730.21344" z="1108.52088"/>
 			<Orientation y="-0.70849"/>
 			<Actor seed="48076"/>
 		</Entity>
 		<Entity uid="3846">
-			<Template>structures/ptol_blacksmith</Template>
+			<Template>structures/ptol_forge</Template>
 			<Player>0</Player>
 			<Position x="869.61573" z="565.8194"/>
 			<Orientation y="2.35621"/>
@@ -20549,7 +20549,7 @@
 			<Actor seed="13612"/>
 		</Entity>
 		<Entity uid="3848">
-			<Template>structures/ptol_blacksmith</Template>
+			<Template>structures/ptol_forge</Template>
 			<Player>0</Player>
 			<Position x="908.27674" z="578.87366"/>
 			<Orientation y="-0.82648"/>
@@ -21108,14 +21108,14 @@
 			<Actor seed="57534"/>
 		</Entity>
 		<Entity uid="3927">
-			<Template>structures/earth_blacksmith</Template>
+			<Template>structures/earth_forge</Template>
 			<Player>1</Player>
 			<Position x="315.63349" z="597.60077"/>
 			<Orientation y="-2.22661"/>
 			<Actor seed="24772"/>
 		</Entity>
 		<Entity uid="3928">
-			<Template>structures/earth_blacksmith</Template>
+			<Template>structures/earth_forge</Template>
 			<Player>1</Player>
 			<Position x="327.63471" z="576.26594"/>
 			<Orientation y="2.35621"/>

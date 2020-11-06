@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_archer">
-  <Armour>
-    <Hack>5</Hack>
-    <Pierce>6</Pierce>
-    <Crush>7</Crush>
-  </Armour>
   <Attack>
     <Ranged>
       <Damage>
@@ -60,6 +55,15 @@ Countered by: Cavalry Swordsmen, Cavalry Skirmishers.
   <Minimap>
     <Type>hero</Type>
   </Minimap>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5</Hack>
+        <Pierce>6</Pierce>
+        <Crush>7</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <Selectable>
     <Overlay>
       <AlwaysVisible/>

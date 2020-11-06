@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_ship_trireme">
-  <Armour>
-    <Hack>10</Hack>
-    <Pierce>20</Pierce>
-    <Crush>2</Crush>
-  </Armour>
   <Attack>
     <Ranged>
       <Damage>
@@ -75,6 +70,15 @@
     <Tooltip>Transport many soldiers across the sea.</Tooltip>
     <Icon>units/cart_ship_trireme.png</Icon>
   </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>10</Hack>
+        <Pierce>20</Pierce>
+        <Crush>2</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <UnitMotion>
     <WalkSpeed>10.5</WalkSpeed>
   </UnitMotion>

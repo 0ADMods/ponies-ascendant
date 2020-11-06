@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/pega_infantry_javelineer_b">
-  <Armour>
-    <Hack>0</Hack>
-    <Pierce>4</Pierce>
-    <Crush>1</Crush>
-  </Armour>
   <Attack>
     <Ranged>
       <Projectile>
@@ -23,6 +18,15 @@
   <Promotion>
     <Entity>units/pega_infantry_javelineer_e</Entity>
   </Promotion>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>4</Pierce>
+        <Crush>1</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <ResourceGatherer>
     <BaseSpeed>0.75</BaseSpeed>
   </ResourceGatherer>

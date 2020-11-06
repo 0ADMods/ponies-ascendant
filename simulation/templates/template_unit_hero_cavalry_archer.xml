@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry">
-  <Armour>
-    <Hack>5</Hack>
-    <Pierce>7</Pierce>
-    <Crush>8</Crush>
-  </Armour>
   <Attack>
     <Ranged>
       <Damage>
@@ -63,6 +58,15 @@ Ranged attack 2x vs. spearmen. Ranged attack 1.5x vs. Swordsmen.
     <stone>0</stone>
     <metal>0</metal>
   </Loot>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5</Hack>
+        <Pierce>7</Pierce>
+        <Crush>8</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <Sound>
     <SoundGroups>
       <attack>attack/weapon/bow.xml</attack>

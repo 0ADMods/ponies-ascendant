@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_tower">
-  <Armour>
-    <Hack>10</Hack>
-    <Pierce>27</Pierce>
-    <Crush>7</Crush>
-  </Armour>
   <Attack>
     <Ranged>
       <Damage>
@@ -60,6 +55,15 @@
   <Obstruction>
     <Static width="9.0" depth="9.0"/>
   </Obstruction>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>10</Hack>
+        <Pierce>27</Pierce>
+        <Crush>7</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <VisualActor>
     <Actor>structures/earth_ponies/palisade_turret.xml</Actor>
     <FoundationActor>structures/fndn_1x1pal.xml</FoundationActor>

@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
-  <Armour>
-    <Hack>14</Hack>
-    <Pierce>20</Pierce>
-    <Crush>7</Crush>
-  </Armour>
   <Attack>
     <Melee>
       <Damage>
@@ -42,6 +37,15 @@
     <Icon>units/pega_champion_infantry.png</Icon>
     <Phenotype>female</Phenotype>
   </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>14</Hack>
+        <Pierce>20</Pierce>
+        <Crush>7</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <UnitMotion>
     <WalkSpeed>6.5</WalkSpeed>
     <RunMultiplier>1.3</RunMultiplier>

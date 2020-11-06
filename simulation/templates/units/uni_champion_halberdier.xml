@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
-  <Armour>
-    <Hack>9</Hack>
-    <Pierce>6</Pierce>
-    <Crush>7</Crush>
-  </Armour>
   <Attack>
     <Melee>
       <Damage>
@@ -48,6 +43,15 @@
     <Phenotype>female</Phenotype>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>9</Hack>
+        <Pierce>6</Pierce>
+        <Crush>7</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <UnitMotion>
     <WalkSpeed>8.0</WalkSpeed>
     <RunMultiplier>1.8</RunMultiplier>

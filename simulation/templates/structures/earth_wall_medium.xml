@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_medium">
-  <Armour>
-    <Hack>40</Hack>
-    <Pierce>100</Pierce>
-    <Crush>5</Crush>
-  </Armour>
   <Footprint>
     <Square width="26.5" depth="8.5"/>
     <Height>9.0</Height>
@@ -20,6 +15,15 @@
   <Obstruction>
     <Static width="25.0" depth="7.0"/>
   </Obstruction>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>40</Hack>
+        <Pierce>100</Pierce>
+        <Crush>5</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <TurretHolder>
     <TurretPoints>
       <Archer1>

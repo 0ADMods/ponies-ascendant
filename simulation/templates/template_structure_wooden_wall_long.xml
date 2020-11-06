@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_long">
-  <Armour>
-    <Hack>10</Hack>
-    <Pierce>27</Pierce>
-    <Crush>7</Crush>
-  </Armour>
   <BuildRestrictions>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
@@ -34,6 +29,15 @@
   <Obstruction>
     <Static width="37.0" depth="7.0"/>
   </Obstruction>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>10</Hack>
+        <Pierce>27</Pierce>
+        <Crush>7</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <VisualActor>
     <Actor>structures/earth_ponies/palisade_long.xml</Actor>
     <FoundationActor>structures/fndn_9x3_wall.xml</FoundationActor>

@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_siege_stonethrower">
-  <Armour>
-    <Hack>2</Hack>
-    <Pierce>40</Pierce>
-    <Crush>1</Crush>
-  </Armour>
   <Attack>
     <Ranged>
       <Damage>
@@ -72,6 +67,15 @@
     <stone>100</stone>
     <metal>100</metal>
   </Loot>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>2</Hack>
+        <Pierce>40</Pierce>
+        <Crush>1</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <Pack>
     <Entity>units/earth_siege_trebuchet_unpacked</Entity>
     <Time>15000</Time>

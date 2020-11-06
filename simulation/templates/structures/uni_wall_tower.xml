@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_tower">
-  <Armour>
-    <Hack>40</Hack>
-    <Pierce>100</Pierce>
-    <Crush>5</Crush>
-  </Armour>
   <Attack>
     <Ranged>
       <Damage>
@@ -54,6 +49,15 @@
   <Obstruction>
     <Static width="9.0" depth="9.0"/>
   </Obstruction>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>40</Hack>
+        <Pierce>100</Pierce>
+        <Crush>5</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <VisualActor>
     <Actor>structures/unicorns/wall_turret.xml</Actor>
   </VisualActor>

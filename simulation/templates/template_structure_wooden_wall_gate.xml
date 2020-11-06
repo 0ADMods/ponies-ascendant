@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
-  <Armour>
-    <Hack>10</Hack>
-    <Pierce>27</Pierce>
-    <Crush>5</Crush>
-  </Armour>
   <Cost>
     <BuildTime>30</BuildTime>
     <Resources>
@@ -28,6 +23,15 @@
       <Door width="15" depth="8" x="0" z="0"/>
     </Obstructions>
   </Obstruction>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>10</Hack>
+        <Pierce>27</Pierce>
+        <Crush>5</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <VisualActor>
     <Actor>structures/earth_ponies/palisade_gate.xml</Actor>
   </VisualActor>

@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/earth_infantry_spearman_a">
-  <Armour>
-    <Hack>3</Hack>
-    <Pierce>4</Pierce>
-    <Crush>7</Crush>
-  </Armour>
   <Attack>
     <Melee>
       <Damage>
@@ -19,6 +14,15 @@
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>3</Hack>
+        <Pierce>4</Pierce>
+        <Crush>7</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <ResourceGatherer>
     <BaseSpeed>0.5</BaseSpeed>
   </ResourceGatherer>

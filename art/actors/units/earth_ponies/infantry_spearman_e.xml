@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="ponies/pony_spear.xml">>
+    <variant file="ponies/pony_spear.xml">
       <mesh>skeletal/pony_a.dae</mesh>
     </variant>
   </group>

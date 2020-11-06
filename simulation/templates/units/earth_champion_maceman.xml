@@ -35,7 +35,7 @@
     <Max>220</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">AntiArmor /Champion Sword</Classes>
+    <Classes datatype="tokens">AntiArmor Champion Sword</Classes>
     <Civ>earth</Civ>
     <GenericName>Anti Armor</GenericName>
     <SpecificName>Brute</SpecificName>

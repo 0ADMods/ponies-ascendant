@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/pega_infantry_javelineer_a">
-  <Attack>
-    <Ranged>
-      <Projectile>
-        <Spread>2.0</Spread>
-      </Projectile>
-      <MaxRange>48</MaxRange>
-    </Ranged>
-  </Attack>
-  <Health>
-    <Max>110</Max>
-  </Health>
   <Identity>
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack>1</Hack>
-        <Pierce>5</Pierce>
-        <Crush>2</Crush>
-      </Damage>
-    </Entity>
-  </Resistance>
-  <ResourceGatherer>
-    <BaseSpeed>0.5</BaseSpeed>
-  </ResourceGatherer>
-  <UnitMotion>
-    <WalkSpeed>17.5</WalkSpeed>
-    <RunMultiplier>1.21</RunMultiplier>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/pegasi/infantry_javelinist_e.xml</Actor>
   </VisualActor>

@@ -1,37 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/earth_infantry_javelineer_a">
-  <Attack>
-    <Ranged>
-      <Projectile>
-        <Spread>2.6</Spread>
-      </Projectile>
-      <MaxRange>48</MaxRange>
-    </Ranged>
-  </Attack>
-  <Health>
-    <Max>120</Max>
-  </Health>
   <Identity>
     <Rank>Elite</Rank>
     <SpecificName>Proven Javelinist</SpecificName>
   </Identity>
   <Promotion disable=""/>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack>1</Hack>
-        <Pierce>8</Pierce>
-        <Crush>2</Crush>
-      </Damage>
-    </Entity>
-  </Resistance>
-  <ResourceGatherer>
-    <BaseSpeed>0.5</BaseSpeed>
-  </ResourceGatherer>
-  <UnitMotion>
-    <WalkSpeed>14.5</WalkSpeed>
-    <RunMultiplier>1.5</RunMultiplier>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/earth_ponies/infantry_javelinist_e.xml</Actor>
   </VisualActor>

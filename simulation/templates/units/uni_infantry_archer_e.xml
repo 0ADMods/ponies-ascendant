@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/uni_infantry_archer_a">
-  <Attack>
-    <Ranged>
-      <Projectile>
-        <Spread>1.5</Spread>
-      </Projectile>
-      <MaxRange>100</MaxRange>
-    </Ranged>
-  </Attack>
-  <Health>
-    <Max>100</Max>
-  </Health>
   <Identity>
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack>3</Hack>
-        <Pierce>2</Pierce>
-        <Crush>2</Crush>
-      </Damage>
-    </Entity>
-  </Resistance>
-  <ResourceGatherer>
-    <BaseSpeed>0.5</BaseSpeed>
-  </ResourceGatherer>
-  <UnitMotion>
-    <WalkSpeed>10.0</WalkSpeed>
-    <RunMultiplier>2.18</RunMultiplier>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/unicorns/infantry_archer_e.xml</Actor>
   </VisualActor>

@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/brit_support_healer_b">
-  <Heal>
-    <Range>15</Range>
-    <Health>7</Health>
-  </Heal>
-  <Health>
-    <Max>95</Max>
-  </Health>
+<Entity parent="units/pega_support_healer_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/brit_support_healer_e</Entity>
+    <Entity>units/pega_support_healer_e</Entity>
   </Promotion>
 </Entity>

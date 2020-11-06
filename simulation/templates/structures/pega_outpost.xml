@@ -12,6 +12,7 @@
       <ElevationBonus>15</ElevationBonus>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>3000</RepeatTime>
+      <Delay>0</Delay>
       <Projectile>
         <FriendlyFire>false</FriendlyFire>
         <Gravity>9.81</Gravity>

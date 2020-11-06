@@ -63,6 +63,7 @@
     <Phenotype>female</Phenotype>
     <Classes datatype="tokens">FemaleCitizen</Classes>
     <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>
+    <SelectionGroupName>template_unit_support_female_citizen</SelectionGroupName>
     <Formations disable=""/>
   </Identity>
   <ResourceGatherer>

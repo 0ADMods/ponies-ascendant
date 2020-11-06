@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/earth_infantry_javelinist_b">
+<Entity parent="units/earth_infantry_javelineer_b">
   <Armour>
     <Hack>0</Hack>
     <Pierce>7</Pierce>
@@ -21,7 +21,7 @@
     <SpecificName>Ranked Javelinist</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/earth_infantry_javelinist_e</Entity>
+    <Entity>units/earth_infantry_javelineer_e</Entity>
   </Promotion>
   <ResourceGatherer>
     <BaseSpeed>0.75</BaseSpeed>

@@ -54,7 +54,7 @@
 			"Count": 3
 		},
 		{
-			"Template": "units/pega_infantry_javelinist_b",
+			"Template": "units/pega_infantry_javelineer_b",
 			"Count": 2
 		}
 	],
@@ -87,7 +87,7 @@
 		"Sergeant Stratus"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_infantry_ranged_b": "units/pega_infantry_javelinist_b",
+		"skirmish/units/default_infantry_ranged_b": "units/pega_infantry_javelineer_b",
 		"skirmish/units/default_cavalry": "units/pega_infantry_spearman_b"
 	},
 	"SelectableInGameSetup": true

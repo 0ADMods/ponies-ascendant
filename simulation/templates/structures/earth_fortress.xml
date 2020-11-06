@@ -89,7 +89,7 @@
       units/{civ}_champion_maceman
       units/{civ}_infantry_spearman_e 
       units/{civ}_infantry_slinger_e 
-      units/{civ}_infantry_javelinist_e
+      units/{civ}_infantry_javelineer_e
     </Entities>
     <Technologies datatype="tokens">
       pair_siege_attack_cost

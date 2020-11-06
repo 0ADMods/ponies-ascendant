@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/pega_infantry_javelinist_a">
+<Entity parent="units/earth_infantry_javelineer_a">
   <Armour>
     <Hack>1</Hack>
-    <Pierce>5</Pierce>
+    <Pierce>8</Pierce>
     <Crush>2</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Projectile>
-        <Spread>2.0</Spread>
+        <Spread>2.6</Spread>
       </Projectile>
       <MaxRange>48</MaxRange>
     </Ranged>
   </Attack>
   <Health>
-    <Max>110</Max>
+    <Max>120</Max>
   </Health>
   <Identity>
     <Rank>Elite</Rank>
+    <SpecificName>Proven Javelinist</SpecificName>
   </Identity>
   <Promotion disable=""/>
   <ResourceGatherer>
     <BaseSpeed>0.5</BaseSpeed>
   </ResourceGatherer>
   <UnitMotion>
-    <WalkSpeed>17.5</WalkSpeed>
-    <RunMultiplier>1.21</RunMultiplier>
+    <WalkSpeed>14.5</WalkSpeed>
+    <RunMultiplier>1.5</RunMultiplier>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/pegasi/infantry_javelinist_e.xml</Actor>
+    <Actor>units/earth_ponies/infantry_javelinist_e.xml</Actor>
   </VisualActor>
 </Entity>

@@ -75,7 +75,7 @@
       units/{civ}_siege_ballista_bolt
       units/{civ}_champion_infantry
       units/{civ}_infantry_spearman_e
-      units/{civ}_infantry_javelinist_e
+      units/{civ}_infantry_javelineer_e
     </Entities>
     <Technologies datatype="tokens">
       pair_siege_attack_cost

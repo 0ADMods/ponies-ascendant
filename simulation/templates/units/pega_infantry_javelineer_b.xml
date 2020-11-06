@@ -1,59 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_javelinist">
+<Entity parent="template_unit_infantry_ranged_javelineer">
   <Armour>
     <Hack>0</Hack>
-    <Pierce>6</Pierce>
-    <Crush>0</Crush>
+    <Pierce>1</Pierce>
+    <Crush>1</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Damage>
         <Hack>0.0</Hack>
-        <Pierce>10.0</Pierce>
+        <Pierce>15.0</Pierce>
         <Crush>0.0</Crush>
       </Damage>
-      <MaxRange>40.0</MaxRange>
+      <MaxRange>50.0</MaxRange>
       <MinRange>5.0</MinRange>
       <Projectile>
-        <Speed>45.0</Speed>
         <Spread>3.0</Spread>
+        <Speed>45.0</Speed>
       </Projectile>
-      <PrepareTime>720</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
       <Bonuses>
         <BonusAntiArmor>
           <Classes>AntiArmor</Classes>
-          <Multiplier>1.0</Multiplier>
+          <Multiplier>1.5</Multiplier>
         </BonusAntiArmor>
         <BonusSoldier>
           <Classes>Skirmisher</Classes>
-          <Multiplier>2.0</Multiplier>
+          <Multiplier>1.5</Multiplier>
         </BonusSoldier>
       </Bonuses>
       <Splash>
         <Shape>Linear</Shape>
-        <Range>4.3</Range>
+        <Range>3.3</Range>
         <FriendlyFire>true</FriendlyFire>
         <Damage>
           <Hack>0.0</Hack>
-          <Pierce>10.0</Pierce>
+          <Pierce>12.0</Pierce>
           <Crush>0.0</Crush>
         </Damage>
       </Splash>
     </Ranged>
   </Attack>
   <Builder>
-    <Rate>1.0</Rate>
     <Entities datatype="tokens">
       -structures/wallset_palisade
-      structures/{civ}_wallset_wood  
-      structures/{civ}_roadset
-   </Entities>
+      structures/{civ}_wallset_wood
+    </Entities>
   </Builder>
   <Cost>
     <BuildTime>8</BuildTime>
     <Resources>
-      <wood>60</wood>
+      <wood>50</wood>
       <food>75</food>
     </Resources>
   </Cost>
@@ -62,24 +58,23 @@
     <Height>7.0</Height>
   </Footprint>
   <Health>
-    <Max>100</Max>
+    <Max>90</Max>
   </Health>
   <Identity>
-    <Civ>earth</Civ>
-    <SelectionGroupName>units/earth_infantry_javelinist_b</SelectionGroupName>
+    <Civ>pega</Civ>
+    <SelectionGroupName>units/pega_infantry_javelineer_b</SelectionGroupName>
     <GenericName>Skirmisher</GenericName>
-    <SpecificName>Green Javelinist</SpecificName>
+    <SpecificName>Recruit Peltast</SpecificName>
     <Classes datatype="tokens">Skirmisher</Classes>
-    <History>Gesatae were young men who devoted themselves to war, often serving as mercenaries for other tribes. They were the last Celts to fight stark naked to show their courage, often carrying only a shield with several javelins and a regular Celtic spear. More often than not they were covered in geometric designs painted in woad, a blue dye.</History>
     <Icon>units/pega_infantry_javelinist.png</Icon>
     <Phenotype>female</Phenotype>
   </Identity>
   <Promotion>
-    <Entity>units/earth_infantry_javelinist_a</Entity>
+    <Entity>units/pega_infantry_javelineer_a</Entity>
   </Promotion>
   <UnitMotion>
-    <WalkSpeed>14.0</WalkSpeed>
-    <RunMultiplier>1.58</RunMultiplier>
+    <WalkSpeed>15.0</WalkSpeed>
+    <RunMultiplier>1.46</RunMultiplier>
   </UnitMotion>
   <Sound>
     <SoundGroups>
@@ -91,18 +86,11 @@
       <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
       <order_repair>voice/{lang}/civ/civ_{gender}_repair.xml</order_repair>
       <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
-      <attack_melee>attack/weapon/sword.xml</attack_melee>
       <death>actor/human/death/{gender}_death.xml</death>
-      <build>resource/construction/con_wood.xml</build>
-      <gather_fruit>resource/foraging/forage_leaves.xml</gather_fruit>
-      <gather_grain>resource/farming/farm.xml</gather_grain>
-      <gather_tree>resource/lumbering/lumbering.xml</gather_tree>
-      <gather_rock>resource/mining/pickaxe.xml</gather_rock>
-      <gather_ore>resource/mining/mining.xml</gather_ore>
-      <gather_ruins>resource/mining/mining.xml</gather_ruins>
+      <attack>attack/weapon/javelin.xml</attack>
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>units/earth_ponies/infantry_javelinist_b.xml</Actor>
+    <Actor>units/pegasi/infantry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>

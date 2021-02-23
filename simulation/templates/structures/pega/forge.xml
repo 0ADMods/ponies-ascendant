@@ -14,7 +14,7 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_mechanical_siege_ballista_bolt
+      units/{civ}/mechanical_siege_ballista_bolt
     </Entities>
   </ProductionQueue>
   <VisualActor>

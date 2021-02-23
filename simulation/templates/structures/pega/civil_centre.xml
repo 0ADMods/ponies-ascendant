@@ -40,8 +40,8 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_infantry_spearman_b
-      units/{civ}_infantry_javelineer_b
+      units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_javelineer_b
     </Entities>
   </ProductionQueue>
   <VisualActor>

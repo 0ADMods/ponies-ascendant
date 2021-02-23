@@ -5,7 +5,7 @@
   </Identity>
   <Upgrade>
     <Gate>
-      <Entity>structures/pega_palisade_gate</Entity>
+      <Entity>structures/pega/palisade_gate</Entity>
     </Gate>
   </Upgrade>
 </Entity>

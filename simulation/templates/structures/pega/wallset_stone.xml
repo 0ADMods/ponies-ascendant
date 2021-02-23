@@ -6,11 +6,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/pega_wall_tower</Tower>
-      <Gate>structures/pega_wall_gate</Gate>
-      <WallLong>structures/pega_wall_long</WallLong>
-      <WallMedium>structures/pega_wall_medium</WallMedium>
-      <WallShort>structures/pega_wall_short</WallShort>
+      <Tower>structures/pega/wall_tower</Tower>
+      <Gate>structures/pega/wall_gate</Gate>
+      <WallLong>structures/pega/wall_long</WallLong>
+      <WallMedium>structures/pega/wall_medium</WallMedium>
+      <WallShort>structures/pega/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.80</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>

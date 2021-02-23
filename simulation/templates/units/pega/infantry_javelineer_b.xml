@@ -38,7 +38,7 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/wallset_palisade
-      structures/{civ}_wallset_wood
+      structures/{civ}/wallset_wood
     </Entities>
   </Builder>
   <Cost>
@@ -57,7 +57,7 @@
   </Health>
   <Identity>
     <Civ>pega</Civ>
-    <SelectionGroupName>units/pega_infantry_javelineer_b</SelectionGroupName>
+    <SelectionGroupName>units/pega/infantry_javelineer_b</SelectionGroupName>
     <GenericName>Skirmisher</GenericName>
     <SpecificName>Recruit Peltast</SpecificName>
     <Classes datatype="tokens">Skirmisher</Classes>
@@ -65,7 +65,7 @@
     <Phenotype>female</Phenotype>
   </Identity>
   <Promotion>
-    <Entity>units/pega_infantry_javelineer_a</Entity>
+    <Entity>units/pega/infantry_javelineer_a</Entity>
   </Promotion>
   <Resistance>
     <Entity>

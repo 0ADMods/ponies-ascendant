@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/pega_infantry_javelineer_b">
+<Entity parent="units/pega/infantry_javelineer_b">
   <Identity>
     <Rank>Advanced</Rank>
     <SpecificName>Trained Peltast</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/pega_infantry_javelineer_e</Entity>
+    <Entity>units/pega/infantry_javelineer_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/pegasi/infantry_javelinist_a.xml</Actor>

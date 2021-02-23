@@ -9,7 +9,7 @@
   </Health>
   <Identity>
     <Civ>pega</Civ>
-    <SelectionGroupName>structures/celt_wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/celt/wallset_stone</SelectionGroupName>
     <SpecificName>Gwarchglawdd</SpecificName>
   </Identity>
   <Obstruction>

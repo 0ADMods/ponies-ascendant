@@ -26,10 +26,10 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      -units/{civ}_infantry_spearman_b
-      -units/{civ}_infantry_javelineer_b
-      units/{civ}_infantry_spearman_a
-      units/{civ}_infantry_javelineer_a
+      -units/{civ}/infantry_spearman_b
+      -units/{civ}/infantry_javelineer_b
+      units/{civ}/infantry_spearman_a
+      units/{civ}/infantry_javelineer_a
     </Entities>
   </ProductionQueue>
   <VisualActor>

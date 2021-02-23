@@ -9,7 +9,7 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-      -structures/{civ}_wallset_wood
+      -structures/{civ}/wallset_wood
     </Entities>
   </Builder>
   <Health>

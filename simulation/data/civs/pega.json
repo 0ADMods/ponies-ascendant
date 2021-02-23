@@ -43,18 +43,18 @@
 	],
 	"StartEntities": [
 		{
-			"Template": "structures/pega_civil_centre"
+			"Template": "structures/pega/civil_centre"
 		},
 		{
-			"Template": "units/pega_support_female_citizen",
+			"Template": "units/pega/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/pega_infantry_spearman_b",
+			"Template": "units/pega/infantry_spearman_b",
 			"Count": 3
 		},
 		{
-			"Template": "units/pega_infantry_javelineer_b",
+			"Template": "units/pega/infantry_javelineer_b",
 			"Count": 2
 		}
 	],
@@ -87,8 +87,8 @@
 		"Sergeant Stratus"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_infantry_ranged_b": "units/pega_infantry_javelineer_b",
-		"skirmish/units/default_cavalry": "units/pega_infantry_spearman_b"
+		"skirmish/units/default_infantry_ranged_b": "units/pega/infantry_javelineer_b",
+		"skirmish/units/default_cavalry": "units/pega/infantry_spearman_b"
 	},
 	"SelectableInGameSetup": true
 }

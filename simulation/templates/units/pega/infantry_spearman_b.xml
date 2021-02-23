@@ -21,7 +21,7 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/wallset_palisade
-      structures/{civ}_wallset_wood
+      structures/{civ}/wallset_wood
     </Entities>
   </Builder>
   <Cost>
@@ -39,14 +39,14 @@
   <Identity>
     <Classes datatype="tokens">Soldier</Classes>
     <Civ>pega</Civ>
-    <SelectionGroupName>units/pega_infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/pega/infantry_spearman_b</SelectionGroupName>
     <SpecificName>Recruit Hoplite</SpecificName>
     <GenericName>Soldier</GenericName>
     <Icon>units/pega_infantry_spearman.png</Icon>
     <Phenotype>female</Phenotype>
   </Identity>
   <Promotion>
-    <Entity>units/pega_infantry_spearman_a</Entity>
+    <Entity>units/pega/infantry_spearman_a</Entity>
   </Promotion>
   <Resistance>
     <Entity>

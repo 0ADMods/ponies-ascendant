@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_house">
   <Cost>
-    <PopulationBonus>8</PopulationBonus>
     <BuildTime>150</BuildTime>
     <Resources>
       <wood>100</wood>
@@ -27,6 +26,9 @@
   <Obstruction>
     <Static width="10.0" depth="10.0"/>
   </Obstruction>
+  <Population>
+    <Bonus>8</Bonus>
+  </Population>
   <TerritoryInfluence>
     <Radius>17</Radius>
     <Weight>65535</Weight>

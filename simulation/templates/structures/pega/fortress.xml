@@ -40,7 +40,6 @@
       <stone>2450</stone>
       <metal>2500</metal>
     </Resources>
-    <PopulationBonus>20</PopulationBonus>
   </Cost>
   <Footprint replace="">
     <Circle radius="32.0"/>
@@ -58,6 +57,9 @@
   <Obstruction>
     <Static width="64.5" depth="64.5"/>
   </Obstruction>
+  <Population>
+    <Bonus>20</Bonus>
+  </Population>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_broch.xml</select>

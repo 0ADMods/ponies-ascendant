@@ -2,7 +2,6 @@
 <Entity parent="template_structure_civic_temple">
   <Auras datatype="tokens">structures/temple_heal_r160</Auras>
   <Cost>
-    <PopulationBonus>0</PopulationBonus>
     <BuildTime>400</BuildTime>
     <Resources>
       <stone>300</stone>
@@ -25,6 +24,9 @@
   <Obstruction>
     <Static width="30.5" depth="50.5"/>
   </Obstruction>
+  <Population>
+    <Bonus>0</Bonus>
+  </Population>
   <VisualActor>
     <Actor>structures/pegasi/temple.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

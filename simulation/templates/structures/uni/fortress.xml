@@ -46,7 +46,6 @@
       <stone>5200</stone>
       <metal>600</metal>
     </Resources>
-    <PopulationBonus>30</PopulationBonus>
   </Cost>
   <Footprint>
     <Square width="52.0" depth="53.0"/>
@@ -65,6 +64,9 @@
   <Obstruction>
     <Static width="39.0" depth="40.0"/>
   </Obstruction>
+  <Population>
+    <Bonus>30</Bonus>
+  </Population>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_broch.xml</select>

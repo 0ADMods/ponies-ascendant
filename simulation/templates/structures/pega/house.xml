@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_house">
   <Cost>
-    <PopulationBonus>5</PopulationBonus>
     <BuildTime>53</BuildTime>
     <Resources>
       <wood>200</wood>
@@ -22,6 +21,9 @@
     <Civ>pega</Civ>
     <SpecificName>Oîkos</SpecificName>
   </Identity>
+  <Population>
+    <Bonus>5</Bonus>
+  </Population>
   <VisualActor>
     <Actor>structures/pegasi/house.xml</Actor>
   </VisualActor>

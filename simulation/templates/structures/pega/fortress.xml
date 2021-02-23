@@ -77,10 +77,6 @@
       units/{civ}/infantry_spearman_e
       units/{civ}/infantry_javelineer_e
     </Entities>
-    <Technologies datatype="tokens">
-      pair_siege_attack_cost
-      pair_siege_cost_armor
-    </Technologies>
   </ProductionQueue>
   <Vision>
     <Range>125</Range>

@@ -16,6 +16,13 @@
     <Entities datatype="tokens">
       units/{civ}/mechanical_siege_ballista_bolt
     </Entities>
+    <Technologies datatype="tokens">
+      siege_attack
+      siege_cost_time
+      siege_health
+      siege_pack_unpack
+      siege_bolt_accuracy
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/pegasi/blacksmith.xml</Actor>

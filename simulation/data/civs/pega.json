@@ -34,10 +34,7 @@
 			"Type": "battle"
 		}
 	],
-	"Factions": [],
 	"CivBonuses": [],
-	"TeamBonuses": [],
-	"Structures": [],
 	"WallSets": [
 		"structures/pega_wallset_stone"
 	],

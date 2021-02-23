@@ -42,10 +42,7 @@
 			"Type": "battle"
 		}
 	],
-	"Factions": [],
 	"CivBonuses": [],
-	"TeamBonuses": [],
-	"Structures": [],
 	"WallSets": [
 		"structures/uni_wallset_wood",
 		"structures/uni_wallset_stone"

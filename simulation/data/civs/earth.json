@@ -18,15 +18,7 @@
 			"Type": "peace"
 		}
 	],
-	"Factions": [
-		{
-			"Name": "Earth Ponies",
-			"Description": "The strong ponies who lack wings or a horn."
-		}
-	],
 	"CivBonuses": [],
-	"TeamBonuses": [],
-	"Structures": [],
 	"WallSets": [
 		"structures/earth_wallset_wood",
 		"structures/earth_wallset_stone"

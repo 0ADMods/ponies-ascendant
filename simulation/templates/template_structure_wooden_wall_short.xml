@@ -20,7 +20,7 @@
   </Health>
   <Identity>
     <SpecificName>Palisade</SpecificName>
-    <SelectionGroupName>structures/earth_wallset_wood</SelectionGroupName>
+    <SelectionGroupName>structures/earth/wallset_wood</SelectionGroupName>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <GenericName>Wooden Wall</GenericName>
     <Classes datatype="tokens">Palisade</Classes>

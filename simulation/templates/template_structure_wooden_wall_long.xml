@@ -20,7 +20,7 @@
   </Health>
   <Identity>
     <SpecificName>Palisade</SpecificName>
-    <SelectionGroupName>structures/earth_wallset_wood</SelectionGroupName>
+    <SelectionGroupName>structures/earth/wallset_wood</SelectionGroupName>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <GenericName>Wooden Wall</GenericName>
     <Classes datatype="tokens">Palisade</Classes>
@@ -44,7 +44,7 @@
   </VisualActor>
   <Upgrade>
     <Gate>
-      <Entity>structures/uni_palisade_gate</Entity>
+      <Entity>structures/uni/palisade_gate</Entity>
     </Gate>
   </Upgrade>
   <WallPiece>

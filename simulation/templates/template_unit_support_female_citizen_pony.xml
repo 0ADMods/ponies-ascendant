@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <BonusStructure>
+          <Classes>Structure</Classes>
+          <Multiplier>7.0</Multiplier>
+        </BonusStructure>
+      </Bonuses>
+      <RestrictedClasses datatype="tokens">Infantry Cavalry Champion Structure Ship CitizenSoldier Hero</RestrictedClasses>
+    </Melee>
+  </Attack>
+  <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens" replace="">
+      structures/{civ}/civil_centre
+      structures/{civ}/house
+      structures/{civ}/storehouse
+      structures/{civ}/farmstead
+      structures/{civ}/field
+      structures/{civ}/dock
+      structures/{civ}/temple
+      structures/{civ}/market
+      structures/{civ}/outpost
+      structures/{civ}/wallset_wood
+      structures/{civ}/barracks
+      structures/{civ}/forge
+      structures/{civ}/defense_tower
+      structures/{civ}/ballista_tower
+      structures/{civ}/wallset_stone
+      structures/{civ}/fortress
+      structures/{civ}/wonder
+    </Entities>
+  </Builder>
+  <Health>
+    <Max>50</Max>
+  </Health>
+</Entity>

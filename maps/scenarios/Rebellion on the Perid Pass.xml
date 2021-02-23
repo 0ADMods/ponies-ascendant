@@ -88,61 +88,61 @@
 ]]></ScriptSettings>
 	<Entities>
 		<Entity uid="150">
-			<Template>structures/uni_civil_centre</Template>
+			<Template>structures/uni/civil_centre</Template>
 			<Player>2</Player>
 			<Position x="305.17763" z="804.70304"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="151">
-			<Template>units/uni_support_female_citizen</Template>
+			<Template>units/uni/support_female_citizen</Template>
 			<Player>2</Player>
 			<Position x="283.96444" z="791.97512"/>
 			<Orientation y="3.927"/>
 		</Entity>
 		<Entity uid="152">
-			<Template>units/uni_support_female_citizen</Template>
+			<Template>units/uni/support_female_citizen</Template>
 			<Player>2</Player>
 			<Position x="289.62128" z="786.31826"/>
 			<Orientation y="3.927"/>
 		</Entity>
 		<Entity uid="153">
-			<Template>units/uni_support_female_citizen</Template>
+			<Template>units/uni/support_female_citizen</Template>
 			<Player>2</Player>
 			<Position x="295.27814" z="780.66141"/>
 			<Orientation y="3.927"/>
 		</Entity>
 		<Entity uid="154">
-			<Template>units/uni_infantry_spearman_b</Template>
+			<Template>units/uni/infantry_spearman_b</Template>
 			<Player>2</Player>
 			<Position x="317.90555" z="783.48984"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="155">
-			<Template>units/uni_infantry_spearman_b</Template>
+			<Template>units/uni/infantry_spearman_b</Template>
 			<Player>2</Player>
 			<Position x="323.56241" z="789.14669"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="156">
-			<Template>units/uni_infantry_spearman_b</Template>
+			<Template>units/uni/infantry_spearman_b</Template>
 			<Player>2</Player>
 			<Position x="329.21927" z="794.80355"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="157">
-			<Template>units/uni_infantry_archer_b</Template>
+			<Template>units/uni/infantry_archer_b</Template>
 			<Player>2</Player>
 			<Position x="326.39084" z="817.43096"/>
 			<Orientation y="0.78541"/>
 		</Entity>
 		<Entity uid="158">
-			<Template>units/uni_infantry_archer_b</Template>
+			<Template>units/uni/infantry_archer_b</Template>
 			<Player>2</Player>
 			<Position x="320.73398" z="823.08782"/>
 			<Orientation y="0.78541"/>
 		</Entity>
 		<Entity uid="159">
-			<Template>units/uni_infantry_archer_b</Template>
+			<Template>units/uni/infantry_archer_b</Template>
 			<Player>2</Player>
 			<Position x="315.07714" z="828.74466"/>
 			<Orientation y="0.78541"/>
@@ -400,61 +400,61 @@
 			<Orientation y="1.29821"/>
 		</Entity>
 		<Entity uid="205">
-			<Template>structures/earth_civil_centre</Template>
+			<Template>structures/earth/civil_centre</Template>
 			<Player>1</Player>
 			<Position x="573.56312" z="222.65104"/>
 			<Orientation y="2.18171"/>
 		</Entity>
 		<Entity uid="206">
-			<Template>units/earth_support_female_citizen</Template>
+			<Template>units/earth/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="581.80982" z="188.46262"/>
 			<Orientation y="3.927"/>
 		</Entity>
 		<Entity uid="207">
-			<Template>units/earth_support_female_citizen</Template>
+			<Template>units/earth/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="587.46668" z="182.80576"/>
 			<Orientation y="3.927"/>
 		</Entity>
 		<Entity uid="208">
-			<Template>units/earth_support_female_citizen</Template>
+			<Template>units/earth/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="593.12354" z="177.1489"/>
 			<Orientation y="3.927"/>
 		</Entity>
 		<Entity uid="209">
-			<Template>units/earth_support_female_citizen</Template>
+			<Template>units/earth/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="598.7804" z="171.49207"/>
 			<Orientation y="3.927"/>
 		</Entity>
 		<Entity uid="210">
-			<Template>units/earth_infantry_spearman_b</Template>
+			<Template>units/earth/infantry_spearman_b</Template>
 			<Player>1</Player>
 			<Position x="609.27991" z="200.30958"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="211">
-			<Template>units/earth_infantry_spearman_b</Template>
+			<Template>units/earth/infantry_spearman_b</Template>
 			<Player>1</Player>
 			<Position x="614.80567" z="205.94217"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="212">
-			<Template>units/earth_infantry_slinger_b</Template>
+			<Template>units/earth/infantry_slinger_b</Template>
 			<Player>1</Player>
 			<Position x="601.19196" z="240.49363"/>
 			<Orientation y="0.78541"/>
 		</Entity>
 		<Entity uid="213">
-			<Template>units/earth_infantry_slinger_b</Template>
+			<Template>units/earth/infantry_slinger_b</Template>
 			<Player>1</Player>
 			<Position x="595.5351" z="246.15049"/>
 			<Orientation y="0.78541"/>
 		</Entity>
 		<Entity uid="214">
-			<Template>units/earth_infantry_slinger_b</Template>
+			<Template>units/earth/infantry_slinger_b</Template>
 			<Player>1</Player>
 			<Position x="589.87824" z="251.80729"/>
 			<Orientation y="0.78541"/>
@@ -11499,28 +11499,28 @@
 			<Actor seed="25620"/>
 		</Entity>
 		<Entity uid="2563">
-			<Template>structures/uni_wall_gate</Template>
+			<Template>structures/uni/wall_gate</Template>
 			<Player>2</Player>
 			<Position x="399.60044" z="670.19751"/>
 			<Orientation y="-0.25452"/>
 			<Actor seed="22702"/>
 		</Entity>
 		<Entity uid="2564">
-			<Template>structures/uni_wall_tower</Template>
+			<Template>structures/uni/wall_tower</Template>
 			<Player>2</Player>
 			<Position x="424.32374" z="675.22712"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="64040"/>
 		</Entity>
 		<Entity uid="2565">
-			<Template>structures/uni_wall_tower</Template>
+			<Template>structures/uni/wall_tower</Template>
 			<Player>2</Player>
 			<Position x="375.0478" z="663.63392"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="64676"/>
 		</Entity>
 		<Entity uid="2566">
-			<Template>structures/uni_wall_short</Template>
+			<Template>structures/uni/wall_short</Template>
 			<Player>2</Player>
 			<Position x="426.5141" z="682.34272"/>
 			<Orientation y="2.02279"/>
@@ -11528,14 +11528,14 @@
 			<Actor seed="40852"/>
 		</Entity>
 		<Entity uid="2567">
-			<Template>structures/uni_wall_tower</Template>
+			<Template>structures/uni/wall_tower</Template>
 			<Player>2</Player>
 			<Position x="431.26536" z="690.03193"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6626"/>
 		</Entity>
 		<Entity uid="2568">
-			<Template>structures/uni_wall_short</Template>
+			<Template>structures/uni/wall_short</Template>
 			<Player>2</Player>
 			<Position x="440.21686" z="690.90754"/>
 			<Orientation y="-0.17222"/>
@@ -11543,7 +11543,7 @@
 			<Actor seed="19070"/>
 		</Entity>
 		<Entity uid="2569">
-			<Template>structures/uni_defense_tower</Template>
+			<Template>structures/uni/defense_tower</Template>
 			<Player>2</Player>
 			<Position x="433.27347" z="690.78815"/>
 			<Orientation y="-0.624"/>
@@ -11551,14 +11551,14 @@
 			<Actor seed="47260"/>
 		</Entity>
 		<Entity uid="2570">
-			<Template>structures/uni_wall_tower</Template>
+			<Template>structures/uni/wall_tower</Template>
 			<Player>2</Player>
 			<Position x="445.81354" z="690.71424"/>
 			<Orientation y="-0.03121"/>
 			<Actor seed="65066"/>
 		</Entity>
 		<Entity uid="2571">
-			<Template>structures/uni_wall_short</Template>
+			<Template>structures/uni/wall_short</Template>
 			<Player>2</Player>
 			<Position x="371.79834" z="673.5558"/>
 			<Orientation y="-1.96036"/>
@@ -11566,7 +11566,7 @@
 			<Actor seed="43094"/>
 		</Entity>
 		<Entity uid="2572">
-			<Template>structures/uni_wall_medium</Template>
+			<Template>structures/uni/wall_medium</Template>
 			<Player>2</Player>
 			<Position x="360.05994" z="691.86084"/>
 			<Orientation y="-2.2493"/>
@@ -11574,7 +11574,7 @@
 			<Actor seed="52784"/>
 		</Entity>
 		<Entity uid="2573">
-			<Template>structures/uni_wall_medium</Template>
+			<Template>structures/uni/wall_medium</Template>
 			<Player>2</Player>
 			<Position x="336.9784" z="702.35993"/>
 			<Orientation y="3.05059"/>
@@ -11582,7 +11582,7 @@
 			<Actor seed="3344"/>
 		</Entity>
 		<Entity uid="2574">
-			<Template>structures/uni_wall_medium</Template>
+			<Template>structures/uni/wall_medium</Template>
 			<Player>2</Player>
 			<Position x="311.30774" z="702.141"/>
 			<Orientation y="-3.09495"/>
@@ -11590,7 +11590,7 @@
 			<Actor seed="42062"/>
 		</Entity>
 		<Entity uid="2575">
-			<Template>structures/uni_wall_medium</Template>
+			<Template>structures/uni/wall_medium</Template>
 			<Player>2</Player>
 			<Position x="285.05619" z="698.76935"/>
 			<Orientation y="2.77698"/>
@@ -11598,119 +11598,119 @@
 			<Actor seed="64168"/>
 		</Entity>
 		<Entity uid="2576">
-			<Template>structures/uni_wall_tower</Template>
+			<Template>structures/uni/wall_tower</Template>
 			<Player>2</Player>
 			<Position x="350.7009" z="701.69745"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="60798"/>
 		</Entity>
 		<Entity uid="2577">
-			<Template>structures/uni_wall_tower</Template>
+			<Template>structures/uni/wall_tower</Template>
 			<Player>2</Player>
 			<Position x="369.67902" z="680.01874"/>
 			<Orientation y="-2.50423"/>
 			<Actor seed="12744"/>
 		</Entity>
 		<Entity uid="2578">
-			<Template>structures/uni_wall_tower</Template>
+			<Template>structures/uni/wall_tower</Template>
 			<Player>2</Player>
 			<Position x="296.24787" z="702.50116"/>
 			<Orientation y="-2.91712"/>
 			<Actor seed="44728"/>
 		</Entity>
 		<Entity uid="2579">
-			<Template>structures/uni_wall_tower</Template>
+			<Template>structures/uni/wall_tower</Template>
 			<Player>2</Player>
 			<Position x="323.86832" z="701.78986"/>
 			<Orientation y="-2.72397"/>
 			<Actor seed="23508"/>
 		</Entity>
 		<Entity uid="2580">
-			<Template>structures/uni_wall_tower</Template>
+			<Template>structures/uni/wall_tower</Template>
 			<Player>2</Player>
 			<Position x="270.99857" z="693.55207"/>
 			<Orientation y="2.92338"/>
 			<Actor seed="25752"/>
 		</Entity>
 		<Entity uid="2581">
-			<Template>structures/uni_defense_tower</Template>
+			<Template>structures/uni/defense_tower</Template>
 			<Player>2</Player>
 			<Position x="383.7623" z="679.37446"/>
 			<Orientation y="-0.28066"/>
 			<Actor seed="42892"/>
 		</Entity>
 		<Entity uid="2583">
-			<Template>structures/uni_outpost</Template>
+			<Template>structures/uni/outpost</Template>
 			<Player>2</Player>
 			<Position x="417.97654" z="682.98224"/>
 			<Orientation y="0.02016"/>
 			<Actor seed="6516"/>
 		</Entity>
 		<Entity uid="2585">
-			<Template>structures/earth_civil_centre</Template>
+			<Template>structures/earth/civil_centre</Template>
 			<Player>3</Player>
 			<Position x="796.74177" z="533.25721"/>
 			<Orientation y="2.64461"/>
 			<Actor seed="43556"/>
 		</Entity>
 		<Entity uid="2588">
-			<Template>units/earth_infantry_slinger_b</Template>
+			<Template>units/earth/infantry_slinger_b</Template>
 			<Player>3</Player>
 			<Position x="819.6435" z="529.79175"/>
 			<Orientation y="0.12629"/>
 			<Actor seed="59036"/>
 		</Entity>
 		<Entity uid="2589">
-			<Template>units/earth_infantry_slinger_b</Template>
+			<Template>units/earth/infantry_slinger_b</Template>
 			<Player>3</Player>
 			<Position x="820.79731" z="533.0218"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37768"/>
 		</Entity>
 		<Entity uid="2590">
-			<Template>units/earth_infantry_slinger_b</Template>
+			<Template>units/earth/infantry_slinger_b</Template>
 			<Player>3</Player>
 			<Position x="822.85792" z="536.29975"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="12650"/>
 		</Entity>
 		<Entity uid="2591">
-			<Template>units/earth_infantry_spearman_b</Template>
+			<Template>units/earth/infantry_spearman_b</Template>
 			<Player>3</Player>
 			<Position x="804.00831" z="507.10944"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="59238"/>
 		</Entity>
 		<Entity uid="2592">
-			<Template>units/earth_infantry_spearman_b</Template>
+			<Template>units/earth/infantry_spearman_b</Template>
 			<Player>3</Player>
 			<Position x="808.47046" z="509.71232"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38006"/>
 		</Entity>
 		<Entity uid="2593">
-			<Template>units/earth_support_female_citizen</Template>
+			<Template>units/earth/support_female_citizen</Template>
 			<Player>3</Player>
 			<Position x="770.84595" z="514.69825"/>
 			<Orientation y="-2.21276"/>
 			<Actor seed="34228"/>
 		</Entity>
 		<Entity uid="2594">
-			<Template>units/earth_support_female_citizen</Template>
+			<Template>units/earth/support_female_citizen</Template>
 			<Player>3</Player>
 			<Position x="764.58002" z="508.96265"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19696"/>
 		</Entity>
 		<Entity uid="2595">
-			<Template>units/earth_support_female_citizen</Template>
+			<Template>units/earth/support_female_citizen</Template>
 			<Player>3</Player>
 			<Position x="759.7425" z="502.91828"/>
 			<Orientation y="-2.60238"/>
 			<Actor seed="23094"/>
 		</Entity>
 		<Entity uid="2596">
-			<Template>units/earth_support_female_citizen</Template>
+			<Template>units/earth/support_female_citizen</Template>
 			<Player>3</Player>
 			<Position x="751.50226" z="499.28696"/>
 			<Orientation y="2.35621"/>

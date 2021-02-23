@@ -3,6 +3,7 @@
   <Attack>
     <Ranged disable=""/>
     <Melee>
+      <AttackName>Ram</AttackName>
       <Damage>
         <Hack>100.0</Hack>
         <Pierce>0.0</Pierce>

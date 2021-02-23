@@ -70,7 +70,7 @@
     <metal>100</metal>
   </Loot>
   <Pack>
-    <Entity>units/uni_siege_trebuchet_unpacked</Entity>
+    <Entity>units/uni/siege_trebuchet_unpacked</Entity>
     <Time>15000</Time>
     <State>packed</State>
   </Pack>

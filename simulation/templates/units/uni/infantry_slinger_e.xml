@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/uni_infantry_slinger_a">
+<Entity parent="units/uni/infantry_slinger_a">
   <Identity>
     <Rank>Elite</Rank>
     <SpecificName>Disciplined Auxiliary</SpecificName>

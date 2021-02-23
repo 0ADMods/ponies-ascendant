@@ -82,15 +82,15 @@
   </TerritoryInfluence>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_siege_onager_unpacked
-      units/{civ}_siege_trebuchet_packed 
-      units/{civ}_siege_ram
-      units/{civ}_hero_wisebiscuit 
-      units/{civ}_champion_infantry 
-      units/{civ}_champion_halberdier
-      units/{civ}_infantry_spearman_e 
-      units/{civ}_infantry_archer_e 
-      units/{civ}_infantry_slinger_e
+      units/{civ}/siege_onager_unpacked
+      units/{civ}/siege_trebuchet_packed 
+      units/{civ}/siege_ram
+      units/{civ}/hero_wisebiscuit 
+      units/{civ}/champion_infantry 
+      units/{civ}/champion_halberdier
+      units/{civ}/infantry_spearman_e 
+      units/{civ}/infantry_archer_e 
+      units/{civ}/infantry_slinger_e
     </Entities>
     <Technologies datatype="tokens">
       pair_siege_attack_cost

@@ -26,7 +26,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_mechanical_siege_onager_unpacked
+      units/{civ}/mechanical_siege_onager_unpacked
     </Entities>
     <Technologies datatype="tokens"/>
   </ProductionQueue>

@@ -9,7 +9,7 @@
   </Health>
   <Identity>
     <Civ>uni</Civ>
-    <SelectionGroupName>structures/uni_wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/uni/wallset_stone</SelectionGroupName>
     <SpecificName>City Wall</SpecificName>
   </Identity>
   <Obstruction>

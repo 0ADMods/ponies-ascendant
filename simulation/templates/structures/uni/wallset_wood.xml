@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wooden_wall_wallset">
+  <Identity>
+    <Civ>uni</Civ>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/uni/palisade_tower</Tower>
+      <WallLong>structures/uni/palisade_long</WallLong>
+      <Gate>structures/uni/palisade_gate</Gate>
+      <WallMedium>structures/uni/palisade_medium</WallMedium>
+      <WallShort>structures/uni/palisade_short</WallShort>
+    </Templates>
+  </WallSet>
+</Entity>

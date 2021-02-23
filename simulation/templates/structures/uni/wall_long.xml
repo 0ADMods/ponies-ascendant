@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defensive_wall_medium">
+<Entity parent="template_structure_defensive_wall_long">
   <Footprint>
-    <Square width="26.5" depth="8.5"/>
+    <Square width="38.5" depth="8.5"/>
     <Height>9.0</Height>
   </Footprint>
   <Health>
-    <Max>7000</Max>
+    <Max>9000</Max>
   </Health>
   <Identity>
     <Civ>uni</Civ>
-    <SelectionGroupName>structures/uni_wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/uni/wallset_stone</SelectionGroupName>
     <SpecificName>City Wall</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="25.0" depth="7.0"/>
+    <Static width="37.0" depth="7.0"/>
   </Obstruction>
   <Resistance>
     <Entity>
@@ -30,17 +30,23 @@
         <X>0</X><Y>10</Y><Z>0</Z>
       </Archer1>
       <Archer2>
-        <X>4</X><Y>10</Y><Z>0</Z>
+        <X>8</X><Y>10</Y><Z>0</Z>
       </Archer2>
       <Archer3>
-        <X>-4</X><Y>10</Y><Z>0</Z>
+        <X>-8</X><Y>10</Y><Z>0</Z>
       </Archer3>
+      <Archer4>
+        <X>4</X><Y>10</Y><Z>0</Z>
+      </Archer4>
+      <Archer5>
+        <X>-4</X><Y>10</Y><Z>0</Z>
+      </Archer5>
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/unicorns/wall_medium.xml</Actor>
+    <Actor>structures/unicorns/wall_long.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>25.0</Length>
+    <Length>37.0</Length>
   </WallPiece>
 </Entity>

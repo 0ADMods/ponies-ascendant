@@ -4,8 +4,8 @@
   <Builder>
     <Rate>2.0</Rate>
     <Entities datatype="tokens">
-      structures/{civ}_outpost
-      structures/{civ}_wallset_wood
+      structures/{civ}/outpost
+      structures/{civ}/wallset_wood
     </Entities>
   </Builder>
   <Identity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/uni_support_healer_b">
+<Entity parent="units/uni/support_healer_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/uni_support_healer_e</Entity>
+    <Entity>units/uni/support_healer_e</Entity>
   </Promotion>
 </Entity>

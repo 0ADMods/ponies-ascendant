@@ -25,8 +25,8 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/wallset_palisade
-      structures/{civ}_wallset_wood
-      structures/{civ}_ballista_tower
+      structures/{civ}/wallset_wood
+      structures/{civ}/ballista_tower
     </Entities>
   </Builder>
   <Cost>
@@ -44,14 +44,14 @@
   <Identity>
     <Classes datatype="tokens">Soldier</Classes>
     <Civ>uni</Civ>
-    <SelectionGroupName>units/uni_infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/uni/infantry_spearman_b</SelectionGroupName>
     <SpecificName>Drafted Infantry</SpecificName>
     <GenericName>Soldier</GenericName>
     <Icon>units/uni_infantry_spearman.png</Icon>
     <Phenotype>female</Phenotype>
   </Identity>
   <Promotion>
-    <Entity>units/uni_infantry_spearman_a</Entity>
+    <Entity>units/uni/infantry_spearman_a</Entity>
   </Promotion>
   <Resistance>
     <Entity>

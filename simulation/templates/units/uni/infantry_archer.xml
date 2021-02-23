@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/earth_infantry_slinger_b">
+<Entity parent="units/earth/infantry_slinger_b">
   <Attack>
     <Ranged>
       <Projectile>
@@ -15,7 +15,7 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/earth_infantry_slinger_e</Entity>
+    <Entity>units/earth/infantry_slinger_e</Entity>
   </Promotion>
   <Resistance>
     <Entity>

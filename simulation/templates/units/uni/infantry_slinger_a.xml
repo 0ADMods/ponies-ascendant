@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/uni_infantry_slinger_b">
+<Entity parent="units/uni/infantry_slinger_b">
   <Identity>
     <Rank>Advanced</Rank>
     <SpecificName>Competent Auxiliary</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/uni_infantry_slinger_e</Entity>
+    <Entity>units/uni/infantry_slinger_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/unicorns/infantry_slinger_a.xml</Actor>

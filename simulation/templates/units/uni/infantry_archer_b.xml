@@ -48,8 +48,8 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/wallset_palisade
-      structures/{civ}_wallset_wood
-      structures/{civ}_ballista_tower
+      structures/{civ}/wallset_wood
+      structures/{civ}/ballista_tower
     </Entities>
   </Builder>
   <Cost>
@@ -71,14 +71,14 @@
   <Identity>
     <Classes datatype="tokens">Skirmisher</Classes>
     <Civ>uni</Civ>
-    <SelectionGroupName>units/uni_infantry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/uni/infantry_archer_b</SelectionGroupName>
     <GenericName>Skirmisher</GenericName>
     <SpecificName>Drafted Archer</SpecificName>
     <Icon>units/uni_infantry_archer.png</Icon>
     <Phenotype>female</Phenotype>
   </Identity>
   <Promotion>
-    <Entity>units/uni_infantry_archer_a</Entity>
+    <Entity>units/uni/infantry_archer_a</Entity>
   </Promotion>
   <Resistance>
     <Entity>

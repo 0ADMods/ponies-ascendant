@@ -6,11 +6,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/uni_wall_tower</Tower>
-      <WallLong>structures/uni_wall_long</WallLong>
-      <Gate>structures/uni_wall_gate</Gate>
-      <WallMedium>structures/uni_wall_medium</WallMedium>
-      <WallShort>structures/uni_wall_short</WallShort>
+      <Tower>structures/uni/wall_tower</Tower>
+      <WallLong>structures/uni/wall_long</WallLong>
+      <Gate>structures/uni/wall_gate</Gate>
+      <WallMedium>structures/uni/wall_medium</WallMedium>
+      <WallShort>structures/uni/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.80</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>

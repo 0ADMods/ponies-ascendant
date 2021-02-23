@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">units/heroes/hero_wisebiscuit</Auras>
+  <Builder>
+    <Rate>2.0</Rate>
+    <Entities datatype="tokens">
+      structures/{civ}/outpost
+      structures/{civ}/wallset_wood
+    </Entities>
+  </Builder>
+  <Footprint>
+    <Circle radius="3.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>earth</Civ>
+    <SpecificName>Advisor Wisebiscuit</SpecificName>
+    <Icon>units/earth_hero_wisebiscuit.png</Icon>
+    <Tooltip>Level headed advisor of high chancellor Jellyhat. Her sense for enemy weakness, as well as her uncanny situational awareness, inspires her troops to fight harder.She can also build field fortifications.</Tooltip>
+    <Phenotype>female</Phenotype>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <trained>interface/alarm/alarm_create_female.xml</trained>
+      <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
+      <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
+      <order_attack>voice/{lang}/civ/civ_{gender}_attack.xml</order_attack>
+      <order_build>voice/{lang}/civ/civ_{gender}_build.xml</order_build>
+      <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
+      <order_repair>voice/{lang}/civ/civ_{gender}_repair.xml</order_repair>
+      <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
+      <death>actor/human/death/{gender}_death.xml</death>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/earth_ponies/hero_wisebiscuit.xml</Actor>
+  </VisualActor>
+</Entity>

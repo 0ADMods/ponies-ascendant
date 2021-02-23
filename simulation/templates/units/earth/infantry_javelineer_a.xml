@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/earth/infantry_javelineer_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+    <SpecificName>Ranked Javelinist</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>units/earth/infantry_javelineer_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/earth_ponies/infantry_javelinist_a.xml</Actor>
+  </VisualActor>
+</Entity>

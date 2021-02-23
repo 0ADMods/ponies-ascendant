@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Identity>
+    <Civ>earth</Civ>
+    <SelectionGroupName>units/earth/support_healer_b</SelectionGroupName>
+    <SpecificName>Druides</SpecificName>
+    <Icon>units/celt_support_healer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/earth/support_healer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/celts/healer.xml</Actor>
+  </VisualActor>
+</Entity>

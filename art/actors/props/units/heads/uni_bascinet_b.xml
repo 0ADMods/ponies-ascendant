@@ -12,8 +12,8 @@
   <group>
     <variant frequency="1" name="leather">
       <textures>
-        <texture file="props/helmet/mace-g-silver.dds" name="baseTex"/>
-        <texture file="props/helmet/mace-g-silver_spec.png" name="specTex"/>
+        <texture file="props/helmet/old/mace-g-silver.dds" name="baseTex"/>
+        <texture file="props/helmet/old/mace-g-silver_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

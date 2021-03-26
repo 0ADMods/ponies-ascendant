@@ -5,13 +5,13 @@
     <variant frequency="1" name="we">
       <mesh>props/helmet/feathers.dae</mesh>
       <textures>
-        <texture file="props/helmet/rome-a.dds" name="baseTex"/>
+        <texture file="props/helmet/old/rome-a.dds" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="2" name="er">
       <mesh>props/helmet/feather.dae</mesh>
       <textures>
-        <texture file="props/helmet/rome-a.dds" name="baseTex"/>
+        <texture file="props/helmet/old/rome-a.dds" name="baseTex"/>
       </textures>
     </variant>
   </group>

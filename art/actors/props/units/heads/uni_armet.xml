@@ -13,7 +13,7 @@
       </props>
       <textures>
         <texture file="skeletal/uni_cavalier.png" name="baseTex"/>
-        <texture file="props/helmet/mace-g-silver_spec.png" name="specTex"/>
+        <texture file="props/helmet/old/mace-g-silver_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

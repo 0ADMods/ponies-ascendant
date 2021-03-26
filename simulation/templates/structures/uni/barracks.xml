@@ -37,6 +37,10 @@
       units/{civ}/infantry_slinger_a
       units/{civ}/champion_halberdier
     </Entities>
+     <Technologies datatype="tokens">
+      -unlock_champion_infantry
+      -pair_unlock_champions_sele
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/unicorns/barracks.xml</Actor>

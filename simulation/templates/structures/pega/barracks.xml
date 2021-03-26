@@ -33,6 +33,10 @@
       units/{civ}/infantry_spearman_a
       units/{civ}/infantry_javelineer_a
     </Entities>
+     <Technologies datatype="tokens">
+      -unlock_champion_infantry
+      -pair_unlock_champions_sele
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/pegasi/barracks.xml</Actor>

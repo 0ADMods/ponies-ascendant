@@ -37,6 +37,10 @@
       units/{civ}/infantry_javelineer_a
       units/{civ}/champion_maceman
      </Entities>
+     <Technologies datatype="tokens">
+      -unlock_champion_infantry
+      -pair_unlock_champions_sele
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/earth_ponies/barracks.xml</Actor>

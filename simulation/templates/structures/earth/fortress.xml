@@ -48,7 +48,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="52.0" depth="53.0"/>
+    <Square width="44.0" depth="45.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>

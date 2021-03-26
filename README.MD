@@ -22,4 +22,4 @@ Three factions are available, but some buildings are still placeholders
 - Stanislas Dolcini (Maintenance, Art fixes)
 - Slavomir Slovenkai aka Angen  (Maintenance)
 - Asterix (Annoucements and Changelogs)
-
+- Welton d.S. Lopes (Maintenance)

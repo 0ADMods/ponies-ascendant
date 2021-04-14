@@ -58,7 +58,7 @@
   </UnitMotion>
   <Sound>
     <SoundGroups>
-      <attack>attack/impact/shield_wooden.xml</attack>
+      <attack>attack/impact/shield_wood.xml</attack>
       <trained>interface/alarm/alarm_create_female.xml</trained>
       <select>voice/{lang}/civ/civ_{phenotype}_select.xml</select>
       <order_walk>voice/{lang}/civ/civ_{phenotype}_walk.xml</order_walk>

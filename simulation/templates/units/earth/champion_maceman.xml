@@ -67,7 +67,7 @@
       <order_repair>voice/{lang}/civ/civ_{phenotype}_repair.xml</order_repair>
       <order_garrison>voice/{lang}/civ/civ_{phenotype}_garrison.xml</order_garrison>
       <death>actor/human/death/{phenotype}_death.xml</death>
-      <attack>attack/impact/shield_wooden.xml</attack>
+      <attack>attack/impact/shield_wood.xml</attack>
     </SoundGroups>
   </Sound>
   <VisualActor>

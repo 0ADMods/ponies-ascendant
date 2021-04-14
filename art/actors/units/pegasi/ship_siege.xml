@@ -16,7 +16,7 @@
         <prop actor="props/units/weapons/flamingbolt_projectile.xml" attachpoint="projectile" minheight="20"/>
         <prop actor="units/pegasi/ballista.xml" attachpoint="archer_1"/>
         <prop actor="props/structures/earth_ponies/fortress_pennant.xml" attachpoint="flag"/>
-        <prop actor="particle/blowing_snow.xml" attachpoint="root"/>
+        <!-- <prop actor="particle/blowing_snow.xml" attachpoint="root"/> -->
       </props>
       <textures>
         <texture file="structural/pega_ship.png" name="baseTex"/>
@@ -29,7 +29,6 @@
     <variant frequency="100" name="Idle"/>
     <variant name="death">
       <props>
-        <prop actor="props/structures/decals/destruct_2x2.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
       </props>
     </variant>

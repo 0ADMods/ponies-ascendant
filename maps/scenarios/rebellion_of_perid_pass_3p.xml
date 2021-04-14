@@ -237,13 +237,13 @@
 			<Orientation y="-1.78774"/>
 		</Entity>
 		<Entity uid="175">
-			<Template>gaia/geology_metal_alpine_slabs</Template>
+			<Template>gaia/ore/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="231.32642" z="865.61799"/>
 			<Orientation y="-4.13712"/>
 		</Entity>
 		<Entity uid="176">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="313.0636" z="925.04041"/>
 			<Orientation y="0.54584"/>
@@ -549,13 +549,13 @@
 			<Orientation y="0.16201"/>
 		</Entity>
 		<Entity uid="230">
-			<Template>gaia/geology_metal_alpine_slabs</Template>
+			<Template>gaia/ore/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="845.02411" z="201.06556"/>
 			<Orientation y="-2.38915"/>
 		</Entity>
 		<Entity uid="231">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="824.73157" z="169.33286"/>
 			<Orientation y="-3.96538"/>
@@ -3123,169 +3123,169 @@
 			<Orientation y="1.66422"/>
 		</Entity>
 		<Entity uid="933">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="275.81376" z="196.6512"/>
 			<Orientation y="1.33887"/>
 		</Entity>
 		<Entity uid="934">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="165.36274" z="167.74323"/>
 			<Orientation y="0.6703"/>
 		</Entity>
 		<Entity uid="935">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="462.87113" z="64.95759"/>
 			<Orientation y="-4.01613"/>
 		</Entity>
 		<Entity uid="936">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="461.94982" z="54.74206"/>
 			<Orientation y="-1.92034"/>
 		</Entity>
 		<Entity uid="937">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="437.339" z="324.00904"/>
 			<Orientation y="-2.75731"/>
 		</Entity>
 		<Entity uid="938">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="741.70295" z="581.93152"/>
 			<Orientation y="1.46334"/>
 		</Entity>
 		<Entity uid="939">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="725.09809" z="583.96711"/>
 			<Orientation y="-3.36596"/>
 		</Entity>
 		<Entity uid="940">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="850.63497" z="454.1498"/>
 			<Orientation y="-2.20815"/>
 		</Entity>
 		<Entity uid="941">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="853.18171" z="451.43474"/>
 			<Orientation y="-1.25689"/>
 		</Entity>
 		<Entity uid="942">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="844.56525" z="438.11158"/>
 			<Orientation y="-4.51787"/>
 		</Entity>
 		<Entity uid="943">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="414.73975" z="656.55201"/>
 			<Orientation y="-0.24587"/>
 		</Entity>
 		<Entity uid="944">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="419.95093" z="646.78626"/>
 			<Orientation y="-2.78638"/>
 		</Entity>
 		<Entity uid="945">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="574.48293" z="537.36651"/>
 			<Orientation y="1.40297"/>
 		</Entity>
 		<Entity uid="946">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="576.80697" z="541.50318"/>
 			<Orientation y="-2.80544"/>
 		</Entity>
 		<Entity uid="947">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="949.1093" z="370.06461"/>
 			<Orientation y="-4.34488"/>
 		</Entity>
 		<Entity uid="948">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="960.95517" z="360.64402"/>
 			<Orientation y="-4.36982"/>
 		</Entity>
 		<Entity uid="949">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="959.6376" z="363.02295"/>
 			<Orientation y="-0.7807"/>
 		</Entity>
 		<Entity uid="950">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="956.44135" z="365.79744"/>
 			<Orientation y="-1.79903"/>
 		</Entity>
 		<Entity uid="951">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="631.46784" z="389.03757"/>
 			<Orientation y="-1.00507"/>
 		</Entity>
 		<Entity uid="952">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="623.45496" z="385.06"/>
 			<Orientation y="0.58451"/>
 		</Entity>
 		<Entity uid="953">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="640.75422" z="393.30066"/>
 			<Orientation y="-3.0959"/>
 		</Entity>
 		<Entity uid="954">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="103.14971" z="748.50631"/>
 			<Orientation y="-4.35055"/>
 		</Entity>
 		<Entity uid="955">
-			<Template>gaia/geology_stone_alpine_a</Template>
+			<Template>gaia/rock/alpine_small</Template>
 			<Player>0</Player>
 			<Position x="93.70557" z="748.90862"/>
 			<Orientation y="-1.35561"/>
 		</Entity>
 		<Entity uid="956">
-			<Template>gaia/geology_metal_alpine_slabs</Template>
+			<Template>gaia/ore/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="265.2574" z="536.57735"/>
 			<Orientation y="-2.27982"/>
 		</Entity>
 		<Entity uid="957">
-			<Template>gaia/geology_metal_alpine_slabs</Template>
+			<Template>gaia/ore/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="330.70525" z="291.67963"/>
 			<Orientation y="0.92881"/>
 		</Entity>
 		<Entity uid="958">
-			<Template>gaia/geology_metal_alpine_slabs</Template>
+			<Template>gaia/ore/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="447.70185" z="336.675"/>
 			<Orientation y="-0.86706"/>
 		</Entity>
 		<Entity uid="959">
-			<Template>gaia/geology_metal_alpine_slabs</Template>
+			<Template>gaia/ore/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="556.03522" z="348.60584"/>
 			<Orientation y="0.84591"/>
 		</Entity>
 		<Entity uid="960">
-			<Template>gaia/geology_metal_alpine_slabs</Template>
+			<Template>gaia/ore/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="827.05854" z="827.18126"/>
 			<Orientation y="1.39329"/>
@@ -8141,49 +8141,49 @@
 			<Orientation y="-3.63932"/>
 		</Entity>
 		<Entity uid="1964">
-			<Template>gaia/fish_generic</Template>
+			<Template>gaia/fish/generic</Template>
 			<Player>0</Player>
 			<Position x="299.613" z="637.44997"/>
 			<Orientation y="-4.42219"/>
 		</Entity>
 		<Entity uid="1965">
-			<Template>gaia/fish_generic</Template>
+			<Template>gaia/fish/generic</Template>
 			<Player>0</Player>
 			<Position x="312.40891" z="641.71134"/>
 			<Orientation y="-2.72039"/>
 		</Entity>
 		<Entity uid="1966">
-			<Template>gaia/fish_generic</Template>
+			<Template>gaia/fish/generic</Template>
 			<Player>0</Player>
 			<Position x="305.79053" z="643.42025"/>
 			<Orientation y="-1.65615"/>
 		</Entity>
 		<Entity uid="1967">
-			<Template>gaia/fish_generic</Template>
+			<Template>gaia/fish/generic</Template>
 			<Player>0</Player>
 			<Position x="376.10407" z="444.05062"/>
 			<Orientation y="-1.79801"/>
 		</Entity>
 		<Entity uid="1968">
-			<Template>gaia/fish_generic</Template>
+			<Template>gaia/fish/generic</Template>
 			<Player>0</Player>
 			<Position x="374.88695" z="438.81727"/>
 			<Orientation y="-0.12951"/>
 		</Entity>
 		<Entity uid="1969">
-			<Template>gaia/fish_generic</Template>
+			<Template>gaia/fish/generic</Template>
 			<Player>0</Player>
 			<Position x="516.40754" z="278.86442"/>
 			<Orientation y="-3.94243"/>
 		</Entity>
 		<Entity uid="1970">
-			<Template>gaia/fish_generic</Template>
+			<Template>gaia/fish/generic</Template>
 			<Player>0</Player>
 			<Position x="514.81344" z="284.69321"/>
 			<Orientation y="-0.06298"/>
 		</Entity>
 		<Entity uid="1971">
-			<Template>gaia/fish_generic</Template>
+			<Template>gaia/fish/generic</Template>
 			<Player>0</Player>
 			<Position x="516.69866" z="283.56093"/>
 			<Orientation y="0.92553"/>
@@ -11716,7 +11716,7 @@
 			<Actor seed="59742"/>
 		</Entity>
 		<Entity uid="2599">
-			<Template>other/bridge_hele</Template>
+			<Template>structures/bridge_hele</Template>
 			<Player>3</Player>
 			<Position x="382.21009" z="636.7834"/>
 			<Orientation y="-1.66001"/>

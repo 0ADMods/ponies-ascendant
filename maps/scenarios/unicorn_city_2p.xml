@@ -193,43 +193,43 @@
 			<Orientation y="-1.71633"/>
 		</Entity>
 		<Entity uid="170">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="1330.23264" z="1376.27218"/>
 			<Orientation y="-4.37647"/>
 		</Entity>
 		<Entity uid="171">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="1332.85651" z="1371.15934"/>
 			<Orientation y="-1.46792"/>
 		</Entity>
 		<Entity uid="172">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="1327.12165" z="1363.16285"/>
 			<Orientation y="-2.92565"/>
 		</Entity>
 		<Entity uid="173">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="1330.94861" z="1374.47597"/>
 			<Orientation y="0.1773"/>
 		</Entity>
 		<Entity uid="174">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="1332.0438" z="1375.21834"/>
 			<Orientation y="0.92713"/>
 		</Entity>
 		<Entity uid="189">
-			<Template>gaia/geology_metal_desert_slabs</Template>
+			<Template>gaia/ore/desert_large</Template>
 			<Player>0</Player>
 			<Position x="1350" z="1378"/>
 			<Orientation y="-3.831"/>
 		</Entity>
 		<Entity uid="190">
-			<Template>gaia/geology_stonemine_desert_quarry</Template>
+			<Template>gaia/rock/desert_large</Template>
 			<Player>0</Player>
 			<Position x="1330.76742" z="1376.11023"/>
 			<Orientation y="-0.19562"/>
@@ -22691,199 +22691,199 @@
 			<Orientation y="3.40514"/>
 		</Entity>
 		<Entity uid="3997">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="349.34415" z="906.26291"/>
 			<Orientation y="0.06469"/>
 		</Entity>
 		<Entity uid="3998">
-			<Template>gaia/geology_stonemine_desert_quarry</Template>
+			<Template>gaia/rock/desert_large</Template>
 			<Player>0</Player>
 			<Position x="346.57294" z="907.57642"/>
 			<Orientation y="-3.5254"/>
 		</Entity>
 		<Entity uid="3999">
-			<Template>gaia/geology_stonemine_desert_quarry</Template>
+			<Template>gaia/rock/desert_large</Template>
 			<Player>0</Player>
 			<Position x="875.4159" z="1395.75243"/>
 			<Orientation y="1.14853"/>
 		</Entity>
 		<Entity uid="4000">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="184.65964" z="566.74741"/>
 			<Orientation y="0.32425"/>
 		</Entity>
 		<Entity uid="4001">
-			<Template>gaia/geology_stonemine_desert_quarry</Template>
+			<Template>gaia/rock/desert_large</Template>
 			<Player>0</Player>
 			<Position x="169.02834" z="560.10265"/>
 			<Orientation y="0.94416"/>
 		</Entity>
 		<Entity uid="4002">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="337.8504" z="658.4408"/>
 			<Orientation y="-0.3031"/>
 		</Entity>
 		<Entity uid="4003">
-			<Template>gaia/geology_stonemine_desert_quarry</Template>
+			<Template>gaia/rock/desert_large</Template>
 			<Player>0</Player>
 			<Position x="345.74839" z="667.89646"/>
 			<Orientation y="-0.75895"/>
 		</Entity>
 		<Entity uid="4004">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="233.63828" z="856.59363"/>
 			<Orientation y="-2.57511"/>
 		</Entity>
 		<Entity uid="4005">
-			<Template>gaia/geology_stonemine_desert_quarry</Template>
+			<Template>gaia/rock/desert_large</Template>
 			<Player>0</Player>
 			<Position x="236.86754" z="853.80121"/>
 			<Orientation y="-3.1799"/>
 		</Entity>
 		<Entity uid="4006">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="1352.11545" z="1079.43108"/>
 			<Orientation y="0.4897"/>
 		</Entity>
 		<Entity uid="4007">
-			<Template>gaia/geology_stonemine_desert_quarry</Template>
+			<Template>gaia/rock/desert_large</Template>
 			<Player>0</Player>
 			<Position x="1352.02747" z="1078.64666"/>
 			<Orientation y="-0.68143"/>
 		</Entity>
 		<Entity uid="4008">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="1378.49628" z="559.07486"/>
 			<Orientation y="-3.13242"/>
 		</Entity>
 		<Entity uid="4009">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="1382.591" z="559.81347"/>
 			<Orientation y="-4.57653"/>
 		</Entity>
 		<Entity uid="4010">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="1368.64452" z="552.17852"/>
 			<Orientation y="0.05875"/>
 		</Entity>
 		<Entity uid="4011">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="600.85125" z="416.26871"/>
 			<Orientation y="-3.7399"/>
 		</Entity>
 		<Entity uid="4012">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="602.76474" z="413.19602"/>
 			<Orientation y="-3.68935"/>
 		</Entity>
 		<Entity uid="4013">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="879.05613" z="1439.53779"/>
 			<Orientation y="0.1135"/>
 		</Entity>
 		<Entity uid="4014">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="886.42821" z="1439.1402"/>
 			<Orientation y="-1.52503"/>
 		</Entity>
 		<Entity uid="4015">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="886.40879" z="1435.90467"/>
 			<Orientation y="-1.52608"/>
 		</Entity>
 		<Entity uid="4016">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="889.03133" z="1435.41153"/>
 			<Orientation y="-0.37191"/>
 		</Entity>
 		<Entity uid="4017">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="891.26201" z="1435.75734"/>
 			<Orientation y="-0.24593"/>
 		</Entity>
 		<Entity uid="4018">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="1127.84867" z="1195.67627"/>
 			<Orientation y="-0.08439"/>
 		</Entity>
 		<Entity uid="4019">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="1116.83799" z="1208.9783"/>
 			<Orientation y="0.53174"/>
 		</Entity>
 		<Entity uid="4020">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="1126.50745" z="1197.55929"/>
 			<Orientation y="-0.73218"/>
 		</Entity>
 		<Entity uid="4021">
-			<Template>gaia/geology_stone_desert_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="1123.39403" z="1204.42922"/>
 			<Orientation y="-2.6163"/>
 		</Entity>
 		<Entity uid="4022">
-			<Template>gaia/geology_metal_desert_slabs</Template>
+			<Template>gaia/ore/desert_large</Template>
 			<Player>0</Player>
 			<Position x="1384.40824" z="179.917"/>
 			<Orientation y="-1.975"/>
 		</Entity>
 		<Entity uid="4023">
-			<Template>gaia/geology_metal_desert_slabs</Template>
+			<Template>gaia/ore/desert_large</Template>
 			<Player>0</Player>
 			<Position x="1601.75823" z="965.01825"/>
 			<Orientation y="0.79023"/>
 		</Entity>
 		<Entity uid="4024">
-			<Template>gaia/geology_metal_desert_slabs</Template>
+			<Template>gaia/ore/desert_large</Template>
 			<Player>0</Player>
 			<Position x="1308.00805" z="863.23002"/>
 			<Orientation y="-2.06012"/>
 		</Entity>
 		<Entity uid="4025">
-			<Template>gaia/geology_metal_desert_slabs</Template>
+			<Template>gaia/ore/desert_large</Template>
 			<Player>0</Player>
 			<Position x="95.32767" z="841.74976"/>
 			<Orientation y="-2.50731"/>
 		</Entity>
 		<Entity uid="4026">
-			<Template>gaia/geology_metal_desert_slabs</Template>
+			<Template>gaia/ore/desert_large</Template>
 			<Player>0</Player>
 			<Position x="1227.77306" z="151.29448"/>
 			<Orientation y="-0.68837"/>
 		</Entity>
 		<Entity uid="4027">
-			<Template>gaia/geology_metal_desert_slabs</Template>
+			<Template>gaia/ore/desert_large</Template>
 			<Player>0</Player>
 			<Position x="671.73285" z="781.28235"/>
 			<Orientation y="0.00579"/>
 		</Entity>
 		<Entity uid="4028">
-			<Template>gaia/geology_metal_desert_slabs</Template>
+			<Template>gaia/ore/desert_large</Template>
 			<Player>0</Player>
 			<Position x="840.01417" z="983.75199"/>
 			<Orientation y="-3.36857"/>
 		</Entity>
 		<Entity uid="4029">
-			<Template>gaia/geology_metal_desert_slabs</Template>
+			<Template>gaia/ore/desert_large</Template>
 			<Player>0</Player>
 			<Position x="566.01125" z="253.67244"/>
 			<Orientation y="0.3883"/>
@@ -30607,115 +30607,115 @@
 			<Orientation y="-2.09127"/>
 		</Entity>
 		<Entity uid="5615">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="191.84452" z="719.81868"/>
 			<Orientation y="-3.77395"/>
 		</Entity>
 		<Entity uid="5616">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="194.54328" z="715.9687"/>
 			<Orientation y="-4.63834"/>
 		</Entity>
 		<Entity uid="5617">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="195.5506" z="718.50158"/>
 			<Orientation y="-4.7046"/>
 		</Entity>
 		<Entity uid="5618">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="194.26856" z="716.17885"/>
 			<Orientation y="0.6381"/>
 		</Entity>
 		<Entity uid="5619">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="190.45534" z="706.01165"/>
 			<Orientation y="-0.95386"/>
 		</Entity>
 		<Entity uid="5620">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="185.40084" z="716.14336"/>
 			<Orientation y="-3.10535"/>
 		</Entity>
 		<Entity uid="5621">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="815.07424" z="1518.78373"/>
 			<Orientation y="-1.62227"/>
 		</Entity>
 		<Entity uid="5622">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="817.80874" z="1509.81637"/>
 			<Orientation y="-4.23896"/>
 		</Entity>
 		<Entity uid="5623">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="840.8378" z="1518.94994"/>
 			<Orientation y="-2.01265"/>
 		</Entity>
 		<Entity uid="5624">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="838.11124" z="1515.59638"/>
 			<Orientation y="-1.7985"/>
 		</Entity>
 		<Entity uid="5625">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="823.6747" z="1516.51145"/>
 			<Orientation y="-3.70728"/>
 		</Entity>
 		<Entity uid="5626">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="815.90229" z="1523.67115"/>
 			<Orientation y="1.08825"/>
 		</Entity>
 		<Entity uid="5627">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="822.09035" z="1517.59873"/>
 			<Orientation y="-3.96026"/>
 		</Entity>
 		<Entity uid="5635">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="150.14858" z="467.7835"/>
 			<Orientation y="1.42377"/>
 		</Entity>
 		<Entity uid="5636">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="153.87125" z="480.81298"/>
 			<Orientation y="-4.66866"/>
 		</Entity>
 		<Entity uid="5637">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="158.57045" z="476.4916"/>
 			<Orientation y="-0.03956"/>
 		</Entity>
 		<Entity uid="5638">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="146.12424" z="472.73871"/>
 			<Orientation y="-1.0347"/>
 		</Entity>
 		<Entity uid="5639">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="158.17096" z="477.4492"/>
 			<Orientation y="1.43647"/>
 		</Entity>
 		<Entity uid="5640">
-			<Template>gaia/flora_bush_grapes</Template>
+			<Template>gaia/fruit/grapes</Template>
 			<Player>0</Player>
 			<Position x="152.59073" z="468.53309"/>
 			<Orientation y="0.77387"/>
@@ -31903,157 +31903,157 @@
 			<Orientation y="-0.98177"/>
 		</Entity>
 		<Entity uid="5842">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="1623.54863" z="593.06333"/>
 			<Orientation y="1.38196"/>
 		</Entity>
 		<Entity uid="5843">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="502.01581" z="798.08597"/>
 			<Orientation y="-0.3818"/>
 		</Entity>
 		<Entity uid="5844">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="510.62417" z="165.20502"/>
 			<Orientation y="-0.5455"/>
 		</Entity>
 		<Entity uid="5845">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="1220.47106" z="774.65531"/>
 			<Orientation y="-3.53153"/>
 		</Entity>
 		<Entity uid="5846">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="1117.71111" z="918.82703"/>
 			<Orientation y="0.22075"/>
 		</Entity>
 		<Entity uid="5847">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="1020.43532" z="1060.10692"/>
 			<Orientation y="-4.34545"/>
 		</Entity>
 		<Entity uid="5848">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="797.54984" z="367.71755"/>
 			<Orientation y="1.09966"/>
 		</Entity>
 		<Entity uid="5849">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="1461.96547" z="1125.4962"/>
 			<Orientation y="-2.678"/>
 		</Entity>
 		<Entity uid="5850">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="1448.37809" z="445.74537"/>
 			<Orientation y="0.5126"/>
 		</Entity>
 		<Entity uid="5851">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="621.56484" z="1521.51903"/>
 			<Orientation y="-3.18108"/>
 		</Entity>
 		<Entity uid="5852">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="1216.05306" z="240.43413"/>
 			<Orientation y="0.49077"/>
 		</Entity>
 		<Entity uid="5853">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="1682.41784" z="744.34421"/>
 			<Orientation y="-3.99042"/>
 		</Entity>
 		<Entity uid="5854">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="1550.52741" z="991.01055"/>
 			<Orientation y="-1.08443"/>
 		</Entity>
 		<Entity uid="5855">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="1333.73154" z="880.30211"/>
 			<Orientation y="-2.64834"/>
 		</Entity>
 		<Entity uid="5856">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="1315.12702" z="908.70276"/>
 			<Orientation y="1.3252"/>
 		</Entity>
 		<Entity uid="5857">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="814.51201" z="1359.85918"/>
 			<Orientation y="-1.7262"/>
 		</Entity>
 		<Entity uid="5858">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="1340.18113" z="656.09942"/>
 			<Orientation y="-2.26024"/>
 		</Entity>
 		<Entity uid="5859">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="1158.96607" z="1333.58568"/>
 			<Orientation y="-3.49885"/>
 		</Entity>
 		<Entity uid="5860">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="1198.05335" z="680.10622"/>
 			<Orientation y="0.5427"/>
 		</Entity>
 		<Entity uid="5861">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="1191.95363" z="367.9012"/>
 			<Orientation y="-3.57293"/>
 		</Entity>
 		<Entity uid="5862">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="76.92125" z="632.69118"/>
 			<Orientation y="0.67936"/>
 		</Entity>
 		<Entity uid="5863">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="713.48588" z="1540.00672"/>
 			<Orientation y="-0.23621"/>
 		</Entity>
 		<Entity uid="5864">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="580.74024" z="256.52105"/>
 			<Orientation y="1.43248"/>
 		</Entity>
 		<Entity uid="5865">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="1666.75504" z="1056.05425"/>
 			<Orientation y="0.12281"/>
 		</Entity>
 		<Entity uid="5866">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="688.42847" z="1069.8676"/>
 			<Orientation y="1.54422"/>
 		</Entity>
 		<Entity uid="5867">
-			<Template>gaia/tree/fig</Template>
+			<Template>gaia/fruit/fig</Template>
 			<Player>0</Player>
 			<Position x="882.15247" z="1415.67116"/>
 			<Orientation y="-1.43699"/>
@@ -32080,7 +32080,7 @@
 			<Actor seed="56812"/>
 		</Entity>
 		<Entity uid="5871">
-			<Template>structures/uni/blacksmith</Template>
+			<Template>structures/uni/forge</Template>
 			<Player>0</Player>
 			<Position x="511.90616" z="392.03806"/>
 			<Orientation y="-0.75168"/>
@@ -33319,14 +33319,14 @@
 			<Actor seed="55204"/>
 		</Entity>
 		<Entity uid="6051">
-			<Template>units/uni/mechanical_siege_onager_unpacked</Template>
+			<Template>units/uni/siege_onager_unpacked</Template>
 			<Player>0</Player>
 			<Position x="576.23475" z="659.97364"/>
 			<Orientation y="0.36942"/>
 			<Actor seed="6574"/>
 		</Entity>
 		<Entity uid="6052">
-			<Template>units/uni/mechanical_siege_onager_unpacked</Template>
+			<Template>units/uni/siege_onager_unpacked</Template>
 			<Player>0</Player>
 			<Position x="611.1808" z="625.688"/>
 			<Orientation y="0.39582"/>
@@ -33942,14 +33942,14 @@
 			<Actor seed="40090"/>
 		</Entity>
 		<Entity uid="6142">
-			<Template>units/uni/mechanical_siege_trebuchet_unpacked</Template>
+			<Template>units/uni/siege_trebuchet_unpacked</Template>
 			<Player>0</Player>
 			<Position x="591.54035" z="539.54047"/>
 			<Orientation y="0.40223"/>
 			<Actor seed="11316"/>
 		</Entity>
 		<Entity uid="6143">
-			<Template>units/uni/mechanical_siege_onager_unpacked</Template>
+			<Template>units/uni/siege_onager_unpacked</Template>
 			<Player>0</Player>
 			<Position x="382.84681" z="633.10621"/>
 			<Orientation y="-0.49798"/>

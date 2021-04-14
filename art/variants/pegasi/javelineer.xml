@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<variant frequency="1" name="base-javelineer">
+  <animations>
+    <animation file="other/pegasus_hover.dae" name="Walk" speed="7"/>
+    <animation file="other/pegasus_hover.dae" name="Run" speed="15"/>
+    <animation event="1" file="other/pegasus_spearing.dae" name="attack_melee" speed="250"/>
+    <animation event="1" file="other/pegasus_lumbering.dae" name="attack_slaughter" speed="250"/>
+    <animation event=".8" file="other/pegasus_throwing.dae" name="attack_ranged" speed="250"/>
+    <animation file="other/pegasus_hover.dae" name="carry_food" speed="15"/>
+    <animation file="other/pegasus_hover.dae" name="carry_meat" speed="15"/>
+    <animation file="other/pegasus_hover.dae" name="carry_wood" speed="15"/>
+    <animation file="other/pegasus_hover.dae" name="carry_stone" speed="15"/>
+    <animation file="other/pegasus_hover.dae" name="carry_metal" speed="15"/>
+    <animation event="1" file="other/pegasus_lumbering.dae" name="gather_tree" speed="40"/>
+    <animation file="other/pegasus_farming.dae" name="gather_grain" speed="75"/>
+    <animation file="other/pegasus_hover.dae" name="gather_fruit" speed="25"/>
+    <animation file="other/pegasus_hover.dae" name="gather_meat" speed="25"/>
+    <animation event="1" file="other/pegasus_mining.dae" name="gather_rock" speed="45"/>
+    <animation event="1" file="other/pegasus_mining.dae" name="gather_ore" speed="45"/>
+    <animation event="1" file="other/pegasus_mining.dae" name="gather_ruins" speed="45"/>
+    <animation event="0.6" file="other/pegasus_building.dae" name="Build" speed="70"/>
+    <animation file="other/pegasus_death.dae" name="Death" speed="50"/>
+    <animation file="other/pegasus_hover.dae" name="idle" speed="40"/>
+    <animation file="other/pegasus_idle.dae" name="idle" speed="40"/>
+    <animation file="other/pegasus_preening.dae" name="idle" speed="40"/>
+    <animation file="other/pegasus_idle_2.dae" name="idle" speed="30"/>
+    <animation file="other/pegasus_idle_2.dae" name="idle" speed="30"/>
+    <animation file="other/pegasus_idle.dae" name="idle" speed="40"/>
+    <animation file="other/pegasus_idle.dae" name="idle" speed="40"/>
+  </animations>
+  <mesh>skeletal/pony_pegasus.dae</mesh>
+</variant>

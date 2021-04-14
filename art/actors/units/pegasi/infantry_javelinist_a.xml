@@ -2,30 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="1">
-      <animations>
-        <animation file="other/pegasus_hover.dae" name="Walk" speed="7"/>
-        <animation file="other/pegasus_hover.dae" name="Run" speed="15"/>
-        <animation event="1" file="other/pegasus_spearing.dae" name="attack_melee" speed="250"/>
-        <animation event="1" file="other/pegasus_lumbering.dae" name="attack_slaughter" speed="250"/>
-        <animation event=".8" file="other/pegasus_throwing.dae" name="attack_ranged" speed="250"/>
-        <animation file="other/pegasus_hover.dae" name="carry_food" speed="15"/>
-        <animation file="other/pegasus_hover.dae" name="carry_meat" speed="15"/>
-        <animation file="other/pegasus_hover.dae" name="carry_wood" speed="15"/>
-        <animation file="other/pegasus_hover.dae" name="carry_stone" speed="15"/>
-        <animation file="other/pegasus_hover.dae" name="carry_metal" speed="15"/>
-        <animation event="1" file="other/pegasus_lumbering.dae" name="gather_tree" speed="40"/>
-        <animation file="other/pegasus_farming.dae" name="gather_grain" speed="75"/>
-        <animation file="other/pegasus_hover.dae" name="gather_fruit" speed="25"/>
-        <animation file="other/pegasus_hover.dae" name="gather_meat" speed="25"/>
-        <animation event="1" file="other/pegasus_mining.dae" name="gather_rock" speed="45"/>
-        <animation event="1" file="other/pegasus_mining.dae" name="gather_ore" speed="45"/>
-        <animation event="1" file="other/pegasus_mining.dae" name="gather_ruins" speed="45"/>
-        <animation event="0.6" file="other/pegasus_building.dae" name="Build" speed="70"/>
-        <animation file="other/pegasus_death.dae" name="Death" speed="50"/>
-        <animation file="other/pegasus_hover.dae" name="idle" speed="40"/>
-      </animations>
-      <mesh>skeletal/pony_pegasus.dae</mesh>
+    <variant file="pegasi/javelineer.xml" frequency="1">
       <props>
         <prop actor="props/units/weapons/jav_pega_projectile.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="shield"/>
@@ -34,22 +11,11 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="13">
-      <animations>
-        <animation file="other/pegasus_idle.dae" name="idle" speed="40"/>
-        <animation file="other/pegasus_preening.dae" name="idle" speed="40"/>
-        <animation file="other/pegasus_idle_2.dae" name="idle" speed="30"/>
-        <animation file="other/pegasus_idle_2.dae" name="idle" speed="30"/>
-        <animation file="other/pegasus_idle.dae" name="idle" speed="40"/>
-        <animation file="other/pegasus_idle.dae" name="idle" speed="40"/>      
-      </animations>
+    <variant frequency="1" name="1">
+      <textures>
+        <texture file="skeletal/pegasus_spear_a.png" name="baseTex"/>
+      </textures>
     </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="10"/>
-    <variant frequency="1" name="11"/>
-  </group>
-  <group>
     <variant frequency="33" name="2">
       <textures>
         <texture file="skeletal/pegasus_spear_b.png" name="baseTex"/>
@@ -63,31 +29,6 @@
     <variant frequency="33" name="4">
       <textures>
         <texture file="skeletal/pegasus_spear_d.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="5">
-      <textures>
-        <texture file="skeletal/pegasus_spear_a.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="6">
-      <textures>
-        <texture file="skeletal/pony_e.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="7">
-      <textures>
-        <texture file="skeletal/pony_f.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="8">
-      <textures>
-        <texture file="skeletal/pony_g.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="9">
-      <textures>
-        <texture file="skeletal/pony_h.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

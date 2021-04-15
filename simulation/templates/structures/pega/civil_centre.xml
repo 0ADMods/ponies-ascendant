@@ -37,6 +37,7 @@
     <Civ>pega</Civ>
     <SpecificName>Agorā́</SpecificName>
     <History>This was a place for public speeches and was the stage for civic life and commercial interests.</History>
+    <Icon>structures/earth_civic_center.png</Icon>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">

@@ -20,6 +20,7 @@
   <Identity>
     <Civ>pega</Civ>
     <SpecificName>Oîkos</SpecificName>
+    <Icon>structures/earth_house.png</Icon>
   </Identity>
   <Population>
     <Bonus>5</Bonus>

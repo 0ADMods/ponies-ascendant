@@ -53,6 +53,7 @@
     <Civ>pega</Civ>
     <SpecificName>Pegacenean Citadel</SpecificName>
     <Tooltip>Train Pegasus heroes, champions, and elite soldiers. Construct siege weapons. Powerful defensive structure.</Tooltip>
+    <Icon>structures/earth_fortress.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="64.5" depth="64.5"/>

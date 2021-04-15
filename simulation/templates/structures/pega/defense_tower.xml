@@ -48,6 +48,7 @@
     <Civ>pega</Civ>
     <GenericName>Sentry Tower</GenericName>
     <History>Towers were an important part of city fortifications. The defending troops shot arrows at the enemy and poured boiling oil over the assailants.</History>
+    <Icon>structures/earth_scout_tower.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="11.0" depth="11.5"/>

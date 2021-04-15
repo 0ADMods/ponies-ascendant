@@ -10,6 +10,7 @@
     <Civ>pega</Civ>
     <SpecificName>Farm</SpecificName>
     <History>A farmer's field.</History>
+    <Icon>structures/earth_field.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/plot_field_medit.xml</Actor>

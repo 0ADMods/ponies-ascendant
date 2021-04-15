@@ -19,6 +19,7 @@
   <Identity>
     <Civ>pega</Civ>
     <SpecificName>Academy</SpecificName>
+    <Icon>structures/earth_barracks.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="29.0" depth="29.0"/>

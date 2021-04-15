@@ -26,7 +26,6 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}/ship_skirmish
       units/{civ}/ship_ram
       units/{civ}/ship_siege
     </Entities>

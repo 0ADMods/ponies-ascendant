@@ -44,8 +44,8 @@
 	],
 	"CivBonuses": [],
 	"WallSets": [
-		"structures/uni_wallset_wood",
-		"structures/uni_wallset_stone"
+		"structures/uni/wallset_wood",
+		"structures/uni/wallset_stone"
 	],
 	"StartEntities": [
 		{

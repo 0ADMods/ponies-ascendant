@@ -36,7 +36,7 @@
 	],
 	"CivBonuses": [],
 	"WallSets": [
-		"structures/pega_wallset_stone"
+		"structures/pega/wallset_stone"
 	],
 	"StartEntities": [
 		{

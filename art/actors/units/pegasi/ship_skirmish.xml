@@ -13,7 +13,7 @@
       </animations>
       <mesh>skeletal/pega_ship_skirmish.dae</mesh>
       <props>
-        <prop actor="props/units/weapons/jav_pega_projectile.xml" attachpoint="projectile" minheight="20"/>
+        <prop actor="props/units/weapons/jav_pega_projectile.xml" attachpoint="projectile" />
         <prop actor="props/units/weapons/jav_pega_projectile.xml" attachpoint="loaded-projectile"/>
         <prop actor="units/pegasi/infantry_spearman_e.xml" attachpoint="captain"/>
         <prop actor="units/pegasi/infantry_javelinist_b.xml" attachpoint="archer_1"/>

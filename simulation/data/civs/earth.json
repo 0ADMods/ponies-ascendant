@@ -20,8 +20,8 @@
 	],
 	"CivBonuses": [],
 	"WallSets": [
-		"structures/earth_wallset_wood",
-		"structures/earth_wallset_stone"
+		"structures/earth/wallset_wood",
+		"structures/earth/wallset_stone"
 	],
 	"StartEntities": [
 		{

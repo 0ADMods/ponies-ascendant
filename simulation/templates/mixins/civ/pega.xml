@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Builder merge="">
+    <Entities datatype="tokens">
+      -structures/wallset_palisade
+      structures/{civ}/wallset_wood
+   </Entities>
+  </Builder>
+  <Identity>
+    <Civ>pega</Civ>
+    <Phenotype>female</Phenotype>
+  </Identity>
+</Entity>

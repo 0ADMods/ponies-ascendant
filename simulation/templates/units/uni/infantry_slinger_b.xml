@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_slinger">
+<Entity parent="civ/uni|template_unit_infantry_ranged_slinger">
   <Attack>
     <Ranged>
       <Damage>
@@ -45,14 +45,6 @@
       </Splash>
     </Ranged>
   </Attack>
-  <Builder>
-    <Rate>1.0</Rate>
-    <Entities datatype="tokens">
-      -structures/wallset_palisade
-      structures/{civ}/wallset_wood
-      structures/{civ}/ballista_tower
-    </Entities>
-  </Builder>
   <Cost>
     <BuildTime>8</BuildTime>
     <Resources>
@@ -70,13 +62,11 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">Skirmisher</Classes>
-    <Civ>uni</Civ>
     <SelectionGroupName>units/uni/infantry_slinger_b</SelectionGroupName>
     <GenericName>Skirmisher</GenericName>
     <SpecificName>Drafted Auxiliary</SpecificName>
     <History>Sling bullets are found in enormous numbers in Celtic sites, made of lead, though clay bullets would also have been used. Slings figure prominently in Celtic myth, and were not associated with any sense of shame. To the contrary, the great skill needed to use a sling well was highly rewarded and favored, so they found much more use in Celtic society for a ranged weapon than bows, outside of specific tribes. The god Lugos, in Irish myth Lug, is associated closely with many weapons, among them his sling. Slings were the primary weapon of Celtic hunters as well.</History>
     <Icon>units/earth_infantry_slinger.png</Icon>
-    <Phenotype>female</Phenotype>
   </Identity>
   <Promotion>
     <Entity>units/uni/infantry_slinger_a</Entity>

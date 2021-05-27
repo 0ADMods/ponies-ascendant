@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_javelineer">
+<Entity parent="civ/pega|template_unit_infantry_ranged_javelineer">
   <Attack>
     <Ranged>
       <Damage>
@@ -35,12 +35,6 @@
       </Splash>
     </Ranged>
   </Attack>
-  <Builder>
-    <Entities datatype="tokens">
-      -structures/wallset_palisade
-      structures/{civ}/wallset_wood
-    </Entities>
-  </Builder>
   <Cost>
     <BuildTime>8</BuildTime>
     <Resources>
@@ -56,13 +50,11 @@
     <Max>90</Max>
   </Health>
   <Identity>
-    <Civ>pega</Civ>
     <SelectionGroupName>units/pega/infantry_javelineer_b</SelectionGroupName>
     <GenericName>Skirmisher</GenericName>
     <SpecificName>Recruit Peltast</SpecificName>
     <Classes datatype="tokens">Skirmisher</Classes>
     <Icon>units/pega_infantry_javelinist.png</Icon>
-    <Phenotype>female</Phenotype>
   </Identity>
   <Promotion>
     <Entity>units/pega/infantry_javelineer_a</Entity>

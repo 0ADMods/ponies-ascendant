@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_archer">
+<Entity parent="civ/uni|template_unit_infantry_ranged_archer">
   <Attack>
     <Ranged>
       <Damage>
@@ -45,13 +45,6 @@
       </Splash>
     </Ranged>
   </Attack>
-  <Builder>
-    <Entities datatype="tokens">
-      -structures/wallset_palisade
-      structures/{civ}/wallset_wood
-      structures/{civ}/ballista_tower
-    </Entities>
-  </Builder>
   <Cost>
     <BuildTime>8</BuildTime>
     <Resources>
@@ -70,12 +63,10 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">Skirmisher</Classes>
-    <Civ>uni</Civ>
     <SelectionGroupName>units/uni/infantry_archer_b</SelectionGroupName>
     <GenericName>Skirmisher</GenericName>
     <SpecificName>Drafted Archer</SpecificName>
     <Icon>units/uni_infantry_archer.png</Icon>
-    <Phenotype>female</Phenotype>
   </Identity>
   <Promotion>
     <Entity>units/uni/infantry_archer_a</Entity>

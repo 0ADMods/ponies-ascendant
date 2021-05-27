@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_slinger">
+<Entity parent="civ/earth|template_unit_infantry_ranged_slinger">
   <Attack>
     <Ranged>
       <Damage>
@@ -45,13 +45,6 @@
       </Splash>
     </Ranged>
   </Attack>
-  <Builder>
-    <Entities datatype="tokens">
-      -structures/wallset_palisade
-      structures/{civ}/wallset_wood
-      structures/{civ}/roadset
-    </Entities>
-  </Builder>
   <Cost>
     <BuildTime>8</BuildTime>
     <Resources>
@@ -69,12 +62,10 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">Skirmisher</Classes>
-    <Civ>earth</Civ>
     <SelectionGroupName>units/earth/infantry_slinger_b</SelectionGroupName>
     <GenericName>Skirmisher</GenericName>
     <SpecificName>Slinger</SpecificName>
     <Icon>units/earth_infantry_slinger.png</Icon>
-    <Phenotype>female</Phenotype>
   </Identity>
   <Promotion>
     <Entity>units/earth/infantry_slinger_a</Entity>

@@ -7,9 +7,6 @@
       </Damage>
     </Melee>
   </Attack>
-  <Health>
-    <Max>100</Max>
-  </Health>
   <Identity>
     <Civ>earth</Civ>
     <SpecificName>Serf</SpecificName>

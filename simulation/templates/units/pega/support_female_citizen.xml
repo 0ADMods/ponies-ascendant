@@ -7,14 +7,6 @@
       </Damage>
     </Melee>
   </Attack>
-  <Builder>
-    <Entities datatype="tokens">
-      -structures/{civ}/wallset_wood
-    </Entities>
-  </Builder>
-  <Health>
-    <Max>100</Max>
-  </Health>
   <Identity>
     <Civ>pega</Civ>
     <SpecificName>Citizen</SpecificName>

@@ -1,35 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_tower">
-  <Attack>
-    <Ranged>
-      <AttackName>Bow</AttackName>
-      <Damage>
-        <Hack>0.0</Hack>
-        <Pierce>20.0</Pierce>
-        <Crush>0.0</Crush>
-      </Damage>
-      <MaxRange>50.0</MaxRange>
-      <MinRange>0.0</MinRange>
-      <ElevationBonus>7</ElevationBonus>
-      <PrepareTime>900</PrepareTime>
-      <RepeatTime>1500</RepeatTime>
-      <Projectile>
-        <Spread>1.5</Spread>
-        <Speed>50.0</Speed>
-      </Projectile>
-      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
-      <Bonuses>
-        <BonusShip>
-          <Classes>Ship</Classes>
-          <Multiplier>3.5</Multiplier>
-        </BonusShip>
-        <NerfSiege>
-          <Classes>Siege</Classes>
-          <Multiplier>0.5</Multiplier>
-        </NerfSiege>
-      </Bonuses>
-    </Ranged>
-  </Attack>
   <BuildRestrictions>
     <Territory>own neutral</Territory>
   </BuildRestrictions>

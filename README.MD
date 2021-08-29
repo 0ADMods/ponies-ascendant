@@ -11,7 +11,7 @@ Feel free to contact us if you want to contribute or report bugs. We are open to
 
 # Status
 
-The currently published version is compatible with 0 A.D. Alpha 23: Ken Wood; this repository requires the still-under-development Alpha 24.
+The currently published version is compatible with New Release: 0 A.D. Alpha 25: Yaunā; this repository requires the still-under-development Alpha 26.
 
 Three factions are available, but some buildings are still placeholders
 

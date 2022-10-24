@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_dock">
   <Cost>
     <BuildTime>360</BuildTime>
@@ -24,12 +24,12 @@
   <Obstruction>
     <Static width="23.0" depth="35.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/ship_ram
       units/{civ}/ship_siege
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/earth_ponies/dock.xml</Actor>
     <FoundationActor>structures/fndn_celt_dock.xml</FoundationActor>

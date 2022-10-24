@@ -1,51 +1,56 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
   <Attack>
     <Ranged>
-      <MaxRange>80.0</MaxRange>
-      <ElevationBonus>12</ElevationBonus>
-      <Projectile>
-        <Speed>55.0</Speed>
-        <Spread>1.5</Spread>
-      </Projectile>
-      <PrepareTime>1200</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
       <Bonuses>
         <BonusShip>
           <Classes>Ship</Classes>
           <Multiplier>3.5</Multiplier>
         </BonusShip>
       </Bonuses>
+      <MaxRange>80.0</MaxRange>
+      <Origin>
+        <X>0</X>
+        <Y>12</Y>
+        <Z>0</Z>
+      </Origin>
+      <PrepareTime>1200</PrepareTime>
+      <Projectile>
+        <Speed>55.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>2000</RepeatTime>
     </Ranged>
   </Attack>
   <Cost>
     <BuildTime>500</BuildTime>
     <Resources>
-      <wood>1700</wood>
       <metal>2000</metal>
+      <wood>1700</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="42.0" depth="41.0"/>
     <Height>15.0</Height>
+    <Square width="42.0" depth="41.0"/>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_hele_cc</SpawnEntityOnDeath>
     <Max>10000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_hele_cc</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>pega</Civ>
-    <SpecificName>Agorā́</SpecificName>
     <History>This was a place for public speeches and was the stage for civic life and commercial interests.</History>
     <Icon>structures/earth_civic_center.png</Icon>
+    <SpecificName>Agorā́</SpecificName>
   </Identity>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_spearman_b
       units/{civ}/infantry_javelineer_b
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/pegasi/civ_center.xml</Actor>
   </VisualActor>
 </Entity>
+

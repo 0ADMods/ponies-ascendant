@@ -36,9 +36,6 @@
     <BlockMovement>false</BlockMovement>
     <BlockPathfinding>false</BlockPathfinding>
   </Obstruction>
-  <ProductionQueue>
-    <BatchTimeModifier>1.0</BatchTimeModifier>
-  </ProductionQueue>
   <RallyPoint disable=""/>
   <Sound>
     <SoundGroups>
@@ -52,6 +49,9 @@
     <Radius>20</Radius>
     <Weight>65535</Weight>
   </TerritoryInfluence>
+  <Trainer>
+    <BatchTimeModifier>1.0</BatchTimeModifier>
+  </Trainer>
   <Vision>
     <Range>0</Range>
   </Vision>

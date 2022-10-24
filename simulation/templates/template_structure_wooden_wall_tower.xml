@@ -21,7 +21,7 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <GenericName>Wooden Wall</GenericName>
     <Classes datatype="tokens">Palisade Tower</Classes>
-    <Icon>gaia/special_palisade.png</Icon>
+    <Icon>structures/palisade_wall.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="9.0" depth="9.0"/>

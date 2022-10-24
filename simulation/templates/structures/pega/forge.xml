@@ -12,10 +12,7 @@
     <Civ>pega</Civ>
     <SpecificName>Blacksmith</SpecificName>
   </Identity>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}/mechanical_siege_ballista_bolt
-    </Entities>
+  <Researcher>
     <Technologies datatype="tokens">
       siege_attack
       siege_cost_time
@@ -23,7 +20,12 @@
       siege_pack_unpack
       siege_bolt_accuracy
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/mechanical_siege_ballista_bolt
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/pegasi/blacksmith.xml</Actor>
   </VisualActor>

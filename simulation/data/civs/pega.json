@@ -1,9 +1,6 @@
 {
 	"Code": "pega",
 	"Culture": "pega",
-	"Name": "Pegasi",
-	"Emblem": "session/portraits/emblems/emblem_earth_ponies.png",
-	"History": "",
 	"Music": [
 		{
 			"File": "Cirrus.ogg",
@@ -54,19 +51,6 @@
 			"Template": "units/pega/infantry_javelineer_b",
 			"Count": 2
 		}
-	],
-	"Formations": [
-		"special/formations/null",
-		"special/formations/box",
-		"special/formations/column_closed",
-		"special/formations/line_closed",
-		"special/formations/column_open",
-		"special/formations/line_open",
-		"special/formations/flank",
-		"special/formations/skirmish",
-		"special/formations/wedge",
-		"special/formations/battle_line",
-		"special/formations/phalanx"
 	],
 	"AINames": [
 		"Commander Cyclone",

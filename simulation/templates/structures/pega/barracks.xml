@@ -27,18 +27,20 @@
   <Population>
     <Bonus>5</Bonus>
   </Population>
-  <ProductionQueue>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -unlock_champion_infantry
+      -pair_unlock_champions_sele
+    </Technologies>
+  </Researcher>
+  <Trainer>
     <Entities datatype="tokens">
       -units/{civ}/infantry_spearman_b
       -units/{civ}/infantry_javelineer_b
       units/{civ}/infantry_spearman_a
       units/{civ}/infantry_javelineer_a
     </Entities>
-     <Technologies datatype="tokens">
-      -unlock_champion_infantry
-      -pair_unlock_champions_sele
-    </Technologies>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/pegasi/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

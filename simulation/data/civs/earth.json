@@ -1,9 +1,6 @@
 {
 	"Code": "earth",
 	"Culture": "earth",
-	"Name": "Earth Ponies",
-	"Emblem": "session/portraits/emblems/emblem_earth_ponies.png",
-	"History": "",
 	"Music": [
 		{
 			"File": "Old_Thatch.ogg",
@@ -39,12 +36,6 @@
 			"Template": "units/earth/infantry_slinger_b",
 			"Count": 3
 		}
-	],
-	"Formations": [
-		"special/formations/null",
-		"special/formations/line_closed",
-		"special/formations/line_open",
-		"special/formations/flank"
 	],
 	"AINames": [
 		"Chancellor Jellyhat",

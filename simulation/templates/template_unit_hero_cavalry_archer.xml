@@ -3,22 +3,6 @@
   <Attack>
     <Ranged>
       <AttackName>Bow</AttackName>
-      <Damage>
-        <Hack>0.0</Hack>
-        <Pierce>40.0</Pierce>
-        <Crush>0.0</Crush>
-      </Damage>
-      <MaxRange>60.0</MaxRange>
-      <MinRange>20.0</MinRange>
-      <Projectile>
-        <Speed>75.0</Speed>
-        <Spread>1.5</Spread>
-        <Gravity>9.81</Gravity>
-        <FriendlyFire>false</FriendlyFire>
-      </Projectile>
-      <PrepareTime>1200</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
-      <Delay>0</Delay>
       <Bonuses>
         <BonusPrimary>
           <Classes>Infantry Spear</Classes>
@@ -29,14 +13,30 @@
           <Multiplier>1.5</Multiplier>
         </BonusSecondary>
       </Bonuses>
+      <Damage>
+        <Crush>0.0</Crush>
+        <Hack>0.0</Hack>
+        <Pierce>40.0</Pierce>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>60.0</MaxRange>
+      <MinRange>20.0</MinRange>
+      <PrepareTime>1200</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>2000</RepeatTime>
     </Ranged>
   </Attack>
   <Cost>
     <BuildTime>45</BuildTime>
     <Resources>
       <food>100</food>
-      <wood>100</wood>
       <metal>100</metal>
+      <wood>100</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -50,22 +50,21 @@
 Hero Aura: n/a.
 Ranged attack 2x vs. spearmen. Ranged attack 1.5x vs. Swordsmen.
     </Tooltip>
-    <Formations datatype="tokens">special/formations/skirmish</Formations>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
   <Loot>
-    <xp>450</xp>
     <food>10</food>
-    <wood>20</wood>
-    <stone>0</stone>
     <metal>0</metal>
+    <stone>0</stone>
+    <wood>20</wood>
+    <xp>450</xp>
   </Loot>
   <Resistance>
     <Entity>
       <Damage>
+        <Crush>8</Crush>
         <Hack>5</Hack>
         <Pierce>7</Pierce>
-        <Crush>8</Crush>
       </Damage>
     </Entity>
   </Resistance>
@@ -74,8 +73,12 @@ Ranged attack 2x vs. spearmen. Ranged attack 1.5x vs. Swordsmen.
       <attack>attack/weapon/bow.xml</attack>
     </SoundGroups>
   </Sound>
+  <UnitAI>
+    <Formations datatype="tokens">special/formations/skirmish</Formations>
+  </UnitAI>
   <UnitMotion>
-    <WalkSpeed>14.0</WalkSpeed>
     <RunMultiplier>2.0</RunMultiplier>
+    <WalkSpeed>14.0</WalkSpeed>
   </UnitMotion>
 </Entity>
+

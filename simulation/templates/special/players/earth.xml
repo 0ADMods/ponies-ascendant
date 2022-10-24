@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>earth</Civ>
+    <GenericName>Earth Ponies</GenericName>
+    <History/>
+    <Icon>emblems/emblem_earth_ponies.png</Icon>
+  </Identity>
+  <Player>
+    <Formations>special/formations/null special/formations/line_closed special/formations/line_open special/formations/flank</Formations>
+  </Player>
+</Entity>
+

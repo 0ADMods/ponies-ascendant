@@ -2,54 +2,59 @@
 <Entity parent="template_structure_civic_civil_centre">
   <Attack>
     <Ranged>
-      <MaxRange>80.0</MaxRange>
-      <ElevationBonus>10</ElevationBonus>
-      <Projectile>
-        <Speed>55.0</Speed>
-        <Spread>1.5</Spread>
-      </Projectile>
-      <PrepareTime>900</PrepareTime>
-      <RepeatTime>1500</RepeatTime>
       <Bonuses>
         <BonusShip>
           <Classes>Ship</Classes>
           <Multiplier>3.5</Multiplier>
         </BonusShip>
       </Bonuses>
+      <MaxRange>80.0</MaxRange>
+      <Origin>
+        <X>0</X>
+        <Y>10</Y>
+        <Z>0</Z>
+      </Origin>
+      <PrepareTime>900</PrepareTime>
+      <Projectile>
+        <Speed>55.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>1500</RepeatTime>
     </Ranged>
   </Attack>
   <Cost>
     <BuildTime>1500</BuildTime>
     <Resources>
-      <wood>1200</wood>
-      <stone>2400</stone>
       <metal>150</metal>
+      <stone>2400</stone>
+      <wood>1200</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="36.0" depth="38.0"/>
     <Height>15.0</Height>
+    <Square width="36.0" depth="38.0"/>
   </Footprint>
-  <Identity>
-    <Civ>earth</Civ>
-    <SpecificName>Manor</SpecificName>
-    <History>This was the center of the town, a great hall where the chancellor resided. All political matters were probably performed inside such a structure.</History>
-    <Icon>structures/earth_civic_center.png</Icon>
-  </Identity>
   <Health>
     <Max>15000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_brit_cc</SpawnEntityOnDeath>
   </Health>
+  <Identity>
+    <Civ>earth</Civ>
+    <History>This was the center of the town, a great hall where the chancellor resided. All political matters were probably performed inside such a structure.</History>
+    <Icon>structures/earth_civic_center.png</Icon>
+    <SpecificName>Manor</SpecificName>
+  </Identity>
   <Obstruction>
     <Static width="36.0" depth="38.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_spearman_b
       units/{civ}/infantry_slinger_b
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/earth_ponies/civic_centre.xml</Actor>
   </VisualActor>
 </Entity>
+

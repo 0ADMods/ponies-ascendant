@@ -2,20 +2,6 @@
 <Entity parent="template_structure_military_fortress">
   <Attack>
     <Ranged>
-      <Damage>
-        <Hack>0.0</Hack>
-        <Pierce>38.0</Pierce>
-        <Crush>0.0</Crush>
-      </Damage>
-      <MaxRange>120.0</MaxRange>
-      <ElevationBonus>15</ElevationBonus>
-      <PrepareTime>1200</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
-      <Projectile>
-        <Speed>60.0</Speed>
-        <Spread>1.5</Spread>
-      </Projectile>
-      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <Bonuses>
         <BonusShip>
           <Classes>Ship</Classes>
@@ -26,6 +12,24 @@
           <Multiplier>0.5</Multiplier>
         </NerfSiege>
       </Bonuses>
+      <Damage>
+        <Crush>0.0</Crush>
+        <Hack>0.0</Hack>
+        <Pierce>38.0</Pierce>
+      </Damage>
+      <MaxRange>120.0</MaxRange>
+      <Origin>
+        <X>0</X>
+        <Y>15</Y>
+        <Z>0</Z>
+      </Origin>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
+      <PrepareTime>1200</PrepareTime>
+      <Projectile>
+        <Speed>60.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>2000</RepeatTime>
     </Ranged>
   </Attack>
   <BuildingAI>
@@ -36,9 +40,9 @@
     <BuildTime>2000</BuildTime>
     <Resources>
       <food>450</food>
-      <wood>2600</wood>
-      <stone>2450</stone>
       <metal>2500</metal>
+      <stone>2450</stone>
+      <wood>2600</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -51,9 +55,9 @@
   </Health>
   <Identity>
     <Civ>pega</Civ>
+    <Icon>structures/earth_fortress.png</Icon>
     <SpecificName>Pegacenean Citadel</SpecificName>
     <Tooltip>Train Pegasus heroes, champions, and elite soldiers. Construct siege weapons. Powerful defensive structure.</Tooltip>
-    <Icon>structures/earth_fortress.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="64.5" depth="64.5"/>
@@ -63,24 +67,24 @@
   </Population>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_broch.xml</select>
       <constructed>interface/complete/building/complete_broch.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_broch.xml</select>
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>
-    <Root>true</Root>
     <Radius>140</Radius>
+    <Root>true</Root>
     <Weight>40000</Weight>
   </TerritoryInfluence>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/siege_ballista_bolt
       units/{civ}/champion_infantry
       units/{civ}/infantry_spearman_e
       units/{civ}/infantry_javelineer_e
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <Vision>
     <Range>125</Range>
   </Vision>
@@ -89,7 +93,8 @@
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
   <WallPiece>
-    <Length>23</Length>
     <Indent>7.8</Indent>
+    <Length>23</Length>
   </WallPiece>
 </Entity>
+

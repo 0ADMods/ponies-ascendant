@@ -2,44 +2,43 @@
 <Entity parent="template_structure_defensive_tower_stone">
   <Attack>
     <Ranged>
-      <Damage>
-        <Hack>0.0</Hack>
-        <Pierce>70.0</Pierce>
-        <Crush>60.0</Crush>
-      </Damage>
-      <MaxRange>120.0</MaxRange>
-      <MinRange>20.0</MinRange>
-      <ElevationBonus>15</ElevationBonus>
-      <PrepareTime>5500</PrepareTime>
-      <RepeatTime>6500</RepeatTime>
-      <Projectile>
-        <Speed>40.0</Speed>
-        <Spread>1.2</Spread>
-      </Projectile>
-      <PreferredClasses datatype="tokens">Mechanical Armor Organic</PreferredClasses>
       <Bonuses>
         <BonusShip>
           <Classes>Ship Siege</Classes>
           <Multiplier>3.0</Multiplier>
         </BonusShip>
       </Bonuses>
+      <Damage>
+        <Crush>60.0</Crush>
+        <Hack>0.0</Hack>
+        <Pierce>70.0</Pierce>
+      </Damage>
+      <MaxRange>120.0</MaxRange>
+      <MinRange>20.0</MinRange>
+      <Origin>
+        <X>0</X>
+        <Y>15</Y>
+        <Z>0</Z>
+      </Origin>
+      <PreferredClasses datatype="tokens">Mechanical Armor Organic</PreferredClasses>
+      <PrepareTime>5500</PrepareTime>
+      <Projectile>
+        <Speed>40.0</Speed>
+        <Spread>1.2</Spread>
+      </Projectile>
+      <RepeatTime>6500</RepeatTime>
       <Splash>
-        <Shape>Linear</Shape>
-        <Range>7</Range>
-        <FriendlyFire>true</FriendlyFire>
         <Damage>
           <Hack>0.0</Hack>
           <Pierce>50.0</Pierce>
           <Crush>40.0</Crush>
         </Damage>
+        <FriendlyFire>true</FriendlyFire>
+        <Range>7</Range>
+        <Shape>Linear</Shape>
       </Splash>
     </Ranged>
   </Attack>
-  <BuildingAI>
-    <DefaultArrowCount>1</DefaultArrowCount>
-    <GarrisonArrowMultiplier>0.1</GarrisonArrowMultiplier>
-    <GarrisonArrowClasses>Infantry Ranged</GarrisonArrowClasses>
-  </BuildingAI>
   <BuildRestrictions>
     <Category>DefenseTower</Category>
     <Distance>
@@ -47,12 +46,17 @@
       <MinDistance>5</MinDistance>
     </Distance>
   </BuildRestrictions>
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+    <GarrisonArrowClasses>Infantry Ranged</GarrisonArrowClasses>
+    <GarrisonArrowMultiplier>0.1</GarrisonArrowMultiplier>
+  </BuildingAI>
   <Cost>
     <BuildTime>500</BuildTime>
     <Resources>
       <metal>150</metal>
-      <wood>350</wood>
       <stone>300</stone>
+      <wood>350</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -70,18 +74,19 @@
     <Civ>uni</Civ>
     <GenericName>Artillery Tower</GenericName>
     <Icon>structures/earth_scout_tower.png</Icon>
-    <Tooltip>Long range counter-siege tower. Deals high damage to a single target over a long range, however it is very slow to fire and will damage friendly units should they get in the way.</Tooltip>
     <RequiredTechnology>phase_city</RequiredTechnology>
+    <Tooltip>Long range counter-siege tower. Deals high damage to a single target over a long range, however it is very slow to fire and will damage friendly units should they get in the way.</Tooltip>
   </Identity>
+  <Obstruction>
+    <Static width="12.0" depth="12.0"/>
+  </Obstruction>
   <Sound>
     <SoundGroups>
       <attack>attack/siege/ram_attack_order.xml</attack>
     </SoundGroups>
   </Sound>
-  <Obstruction>
-    <Static width="12.0" depth="12.0"/>
-  </Obstruction>
   <VisualActor>
     <Actor>structures/unicorns/ballista_tower.xml</Actor>
   </VisualActor>
 </Entity>
+

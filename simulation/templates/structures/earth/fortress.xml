@@ -82,7 +82,7 @@
     <Radius>140</Radius>
     <Weight>40000</Weight>
   </TerritoryInfluence>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/siege_mangonel_unpacked 
       units/{civ}/siege_trebuchet_packed 
@@ -93,7 +93,7 @@
       units/{civ}/infantry_slinger_e 
       units/{civ}/infantry_javelineer_e
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <Vision>
     <Range>140</Range>
   </Vision>

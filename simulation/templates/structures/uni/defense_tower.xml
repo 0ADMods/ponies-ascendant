@@ -2,21 +2,6 @@
 <Entity parent="template_structure_defensive_tower_stone">
   <Attack>
     <Ranged>
-      <Damage>
-        <Hack>0.0</Hack>
-        <Pierce>20.0</Pierce>
-        <Crush>0.0</Crush>
-      </Damage>
-      <MaxRange>100.0</MaxRange>
-      <MinRange>8.0</MinRange>
-      <ElevationBonus>15</ElevationBonus>
-      <PrepareTime>900</PrepareTime>
-      <RepeatTime>1100</RepeatTime>
-      <Projectile>
-        <Spread>1.6</Spread>
-        <Speed>60.0</Speed>
-      </Projectile>
-      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <Bonuses>
         <BonusShip>
           <Classes>Ship</Classes>
@@ -27,6 +12,25 @@
           <Multiplier>0.5</Multiplier>
         </NerfSiege>
       </Bonuses>
+      <Damage>
+        <Crush>0.0</Crush>
+        <Hack>0.0</Hack>
+        <Pierce>20.0</Pierce>
+      </Damage>
+      <MaxRange>100.0</MaxRange>
+      <MinRange>8.0</MinRange>
+      <Origin>
+        <X>0</X>
+        <Y>15</Y>
+        <Z>0</Z>
+      </Origin>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
+      <PrepareTime>900</PrepareTime>
+      <Projectile>
+        <Speed>60.0</Speed>
+        <Spread>1.6</Spread>
+      </Projectile>
+      <RepeatTime>1100</RepeatTime>
     </Ranged>
   </Attack>
   <BuildRestrictions>
@@ -39,8 +43,8 @@
   <Cost>
     <BuildTime>450</BuildTime>
     <Resources>
-      <wood>100</wood>
       <stone>300</stone>
+      <wood>100</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -67,3 +71,4 @@
     <Actor>structures/unicorns/scout_tower.xml</Actor>
   </VisualActor>
 </Entity>
+

@@ -8,14 +8,14 @@
       <metal>200</metal>
     </Resources>
   </Cost>
-  <Health>
-    <Max>4500</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
-  </Health>
   <Footprint>
     <Square width="30.0" depth="30.0"/>
     <Height>2.0</Height>
   </Footprint>
+  <Health>
+    <Max>4500</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>uni</Civ>
     <SpecificName>Blacksmith</SpecificName>
@@ -24,10 +24,7 @@
   <Obstruction>
     <Static width="28.0" depth="28.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}/mechanical_siege_onager_unpacked
-    </Entities>
+  <Researcher>
     <Technologies datatype="tokens">
       siege_attack
       siege_cost_time
@@ -35,7 +32,12 @@
       siege_pack_unpack
       siege_bolt_accuracy
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/mechanical_siege_onager_unpacked
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/unicorns/blacksmith.xml</Actor>
   </VisualActor>

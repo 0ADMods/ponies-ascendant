@@ -27,7 +27,13 @@
   <Population>
     <Bonus>5</Bonus>
   </Population>
-  <ProductionQueue>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -unlock_champion_infantry
+      -pair_unlock_champions_sele
+    </Technologies>
+  </Researcher>
+  <Trainer>
     <Entities datatype="tokens">
       -units/{civ}/infantry_spearman_b
       -units/{civ}/infantry_archer_b
@@ -37,11 +43,7 @@
       units/{civ}/infantry_slinger_a
       units/{civ}/champion_halberdier
     </Entities>
-     <Technologies datatype="tokens">
-      -unlock_champion_infantry
-      -pair_unlock_champions_sele
-    </Technologies>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/unicorns/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

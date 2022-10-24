@@ -17,10 +17,7 @@
     <SpecificName>Blacksmith</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}/mechanical_siege_mangonel_unpacked
-    </Entities>
+  <Researcher>
     <Technologies datatype="tokens">
       siege_attack
       siege_cost_time
@@ -28,7 +25,12 @@
       siege_pack_unpack
       siege_bolt_accuracy
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/mechanical_siege_mangonel_unpacked
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/earth_ponies/blacksmith.xml</Actor>
   </VisualActor>

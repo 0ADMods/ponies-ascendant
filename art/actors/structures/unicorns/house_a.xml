@@ -49,7 +49,7 @@
       </textures>
     </variant>
     <variant frequency="0" name="brit house d">
-      <mesh>structural/brit_house_d.dae</mesh>
+      <mesh>structural/brit_house_04.dae</mesh>
       <props>
         <prop actor="props/structures/britons/house_d_props_new.xml" attachpoint="root"/>
         <prop actor="props/structures/britons/house_d_props_1.xml" attachpoint="root"/>

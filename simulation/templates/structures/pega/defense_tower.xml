@@ -1,49 +1,53 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_tower_stone">
   <Attack>
     <Ranged>
-      <Damage>
-        <Hack>0.0</Hack>
-        <Pierce>38.0</Pierce>
-        <Crush>0.0</Crush>
-      </Damage>
-      <MaxRange>90.0</MaxRange>
-      <MinRange>9.0</MinRange>
-      <ElevationBonus>15</ElevationBonus>
-      <PrepareTime>1200</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
-      <Projectile>
-        <Speed>55.0</Speed>
-        <Spread>1.5</Spread>
-      </Projectile>
-      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <Bonuses>
         <NerfSiege>
           <Classes>Siege</Classes>
           <Multiplier>0.5</Multiplier>
         </NerfSiege>
       </Bonuses>
+      <Damage>
+        <Crush>0.0</Crush>
+        <Hack>0.0</Hack>
+        <Pierce>38.0</Pierce>
+      </Damage>
+      <MaxRange>90.0</MaxRange>
+      <MinRange>9.0</MinRange>
+      <Origin>
+        <X>0</X>
+        <Y>15</Y>
+        <Z>0</Z>
+      </Origin>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
+      <PrepareTime>1200</PrepareTime>
+      <Projectile>
+        <Speed>55.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>2000</RepeatTime>
     </Ranged>
   </Attack>
   <Cost>
     <BuildTime>150</BuildTime>
     <Resources>
-      <wood>200</wood>
-      <stone>200</stone>
-      <metal>50</metal>
       <food>75</food>
+      <metal>50</metal>
+      <stone>200</stone>
+      <wood>200</wood>
     </Resources>
   </Cost>
+  <Footprint>
+    <Height>45.0</Height>
+    <Square width="11.5" depth="12.0"/>
+  </Footprint>
   <GarrisonHolder>
     <Max>2</Max>
   </GarrisonHolder>
   <Health>
     <Max>2000</Max>
   </Health>
-  <Footprint>
-    <Square width="11.5" depth="12.0"/>
-    <Height>45.0</Height>
-  </Footprint>
   <Identity>
     <Civ>pega</Civ>
     <GenericName>Sentry Tower</GenericName>
@@ -54,11 +58,12 @@
     <Static width="11.0" depth="11.5"/>
   </Obstruction>
   <StatusBars>
-    <BarWidth>6.0</BarWidth>
     <BarHeight>0.6</BarHeight>
+    <BarWidth>6.0</BarWidth>
     <HeightOffset>22.0</HeightOffset>
   </StatusBars>
   <VisualActor>
     <Actor>structures/pegasi/scout_tower.xml</Actor>
   </VisualActor>
 </Entity>
+

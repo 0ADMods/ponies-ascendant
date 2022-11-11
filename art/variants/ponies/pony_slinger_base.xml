@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <variant file="ponies/pony_base.xml">
   <animations>
-    <animation event="0.35" file="other/pony_throwing.dae" name="attack_ranged" speed="250"/>
+    <animation event="0.4" file="other/pony_slinging.dae" name="attack_ranged" speed="250"/>
   </animations>
 </variant>

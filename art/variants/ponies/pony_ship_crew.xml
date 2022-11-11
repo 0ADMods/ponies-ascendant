@@ -1,7 +1,8 @@
 <variant name="Base" frequency="1">
- <animations>
-   <animation file="other/pony_death.dae" name="Death" speed="50"/>
-   <animation file="other/pony_idle.dae" name="idle" speed="30"/>
-   <animation file="other/pony_death_b.dae" name="Death" speed="50"/>
- </animations>
+  <animations>
+    <animation file="other/pony_a_idle.dae" name="idle" speed="30"/>
+    <animation file="other/pony_a_idle_b.dae" name="idle" speed="30"/>
+    <animation file="other/pony_death.dae" name="Death" speed="50"/>
+    <animation file="other/pony_death_b.dae" name="Death" speed="50"/>
+  </animations>
 </variant>

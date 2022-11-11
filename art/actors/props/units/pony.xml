@@ -2,11 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="pone">
-      <animations>
-        <animation event="0" file="other/pony_running.dae" load="0" name="run" speed="15"/>
-        <animation file="other/pony_walk.dae" name="walk" speed="15"/>
-      </animations>
+    <variant file="ponies/pony_base.xml">
       <mesh>skeletal/pony.dae</mesh>
       <textures>
         <texture file="skeletal/pony_a.png" name="baseTex"/>

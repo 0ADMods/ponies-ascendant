@@ -2,7 +2,5 @@
 <variant file="ponies/pony_base.xml">
   <animations>
     <animation event="0.5" file="other/pony_lumbering.dae" name="attack_melee" speed="250"/>
-    <animation event="0.5" file="other/pony_lumbering.dae" name="attack_slaughter" speed="250"/>
-    <animation event="0.4" file="other/pony_lumbering.dae" name="gather_tree" speed="60"/>
   </animations>
 </variant>

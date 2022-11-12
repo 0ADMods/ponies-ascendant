@@ -20657,7 +20657,7 @@
 			<Actor seed="44836"/>
 		</Entity>
 		<Entity uid="3863">
-			<Template>structures/maur/elephant_stables</Template>
+			<Template>structures/maur/elephant_stable</Template>
 			<Player>0</Player>
 			<Position x="1156.62867" z="1002.52991"/>
 			<Orientation y="2.35621"/>

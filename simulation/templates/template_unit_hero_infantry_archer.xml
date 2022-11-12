@@ -9,6 +9,7 @@
       <MaxRange>60</MaxRange>
       <Projectile>
         <Spread>1.0</Spread>
+        <LaunchPoint y="5"/>
       </Projectile>
       <Bonuses>
         <BonusPrimary>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <variant name="Base" frequency="1">
   <animations>
-    <!-- <animation file="other/pony_walk.dae" name="Walk" speed="12"/>
-    <animation file="other/pony_running.dae" name="Run" speed="17"/>
-    <animation file="other/pony_walk.dae" name="carry_food" speed="15"/>
-    <animation file="other/pony_walk.dae" name="carry_meat" speed="15"/>
-    <animation file="other/pony_walk.dae" name="carry_wood" speed="15"/>
-    <animation file="other/pony_walk.dae" name="carry_stone" speed="15"/>
-    <animation file="other/pony_walk.dae" name="carry_metal" speed="15"/>
-    <animation file="other/pony_farming_a.dae" name="gather_grain" speed="75"/>
-    <animation event="0.5" file="other/pony_lumbering.dae" name="attack_slaughter" speed="250"/>
-    <animation file="other/pony_foraging.dae" name="gather_fruit" speed="25"/>
-    <animation file="other/pony_foraging.dae" name="gather_meat" speed="25"/>
-    <animation event="0.4" file="other/pony_lumbering.dae" name="gather_tree" speed="60"/>
-    <animation event="0.4" file="other/pony_mining.dae" name="gather_rock" speed="60"/>
-    <animation event="0.4" file="other/pony_mining.dae" name="gather_ore" speed="60"/>
-    <animation file="other/pony_mining.dae" name="gather_ruins" speed="60"/>
-    <animation event="0.6" file="other/pony_building.dae" name="Build" speed="70"/>
-    <animation file="other/pony_death.dae" name="Death" speed="50"/>
-    <animation file="other/pony_a_idle.dae" name="idle" speed="30"/>
-    <animation file="other/pony_a_idle_b.dae" name="idle" speed="30"/>
-    <animation file="other/pony_death_b.dae" name="Death" speed="50"/> -->
+    <animation file="other/pony_walk.dae" id="pony_walk_01" name="walk" speed="12"/>
+    <animation file="other/pony_walk.dae" id="pony_carry_food_01" name="carry_food" speed="12"/>
+    <animation file="other/pony_walk.dae" id="pony_carry_meat_01" name="carry_meat" speed="12"/>
+    <animation file="other/pony_walk.dae" id="pony_carry_wood_01" name="carry_wood" speed="12"/>
+    <animation file="other/pony_walk.dae" id="pony_carry_stone_01" name="carry_stone" speed="12"/>
+    <animation file="other/pony_walk.dae" id="pony_carry_metal_01" name="carry_metal" speed="12"/>
+    <animation file="other/pony_running.dae" id="pony_run_01" name="Run" speed="17"/>
+    <animation event="0.4" file="other/pony_farming_a.dae" id="pony_gather_grain_01" name="gather_grain" speed="75"/>
+    <animation event="0.4" file="other/pony_foraging.dae" id="pony_gather_fruit_01" name="gather_fruit" speed="25"/>
+    <animation event="0.4" file="other/pony_foraging.dae" id="pony_gather_meat_01" name="gather_meat" speed="25"/>
+    <animation event="0.4" file="other/pony_lumbering.dae" id="pony_gather_tree_01" name="gather_tree" speed="60"/>
+    <animation event="0.4" file="other/pony_mining.dae" id="pony_gather_rock_01" name="gather_rock" speed="60"/>
+    <animation event="0.4" file="other/pony_mining.dae" id="pony_gather_ore_01" name="gather_ore" speed="60"/>
+    <animation event="0.4" file="other/pony_mining.dae" id="pony_gather_ruins_01" name="gather_ruins" speed="60"/>
+    <animation event="0.6" file="other/pony_building.dae" id="pony_build_01" name="build" speed="70"/>
+    <animation event="0.5" file="other/pony_lumbering.dae" id="pony_attack_slaughter_01" name="attack_slaughter" speed="250"/>
+    <animation file="other/pony_a_idle.dae" id="pony_idle_01" name="idle" speed="30"/>
+    <animation file="other/pony_a_idle_b.dae" id="pony_idle_02" name="idle" speed="30"/>
+    <animation file="other/pony_death.dae" id="pony_death_01" name="death" speed="50"/>
+    <animation file="other/pony_death_b.dae" id="pony_death_02" name="death" speed="50"/>
   </animations>
 </variant>

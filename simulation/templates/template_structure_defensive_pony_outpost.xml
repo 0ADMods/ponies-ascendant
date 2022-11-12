@@ -27,6 +27,7 @@
         <Gravity>9.81</Gravity>
         <Speed>55.0</Speed>
         <Spread>1.5</Spread>
+        <LaunchPoint y="5"/>
       </Projectile>
     </Ranged>
   </Attack>

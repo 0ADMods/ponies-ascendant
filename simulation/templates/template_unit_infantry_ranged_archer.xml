@@ -12,6 +12,7 @@
         <Spread>2.5</Spread>
         <FriendlyFire>false</FriendlyFire>
         <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
       </Projectile>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>2000</RepeatTime>

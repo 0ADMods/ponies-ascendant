@@ -8,6 +8,12 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Undeletable>true</Undeletable>
   </Identity>
+  <Visibility>
+    <RetainInFog>true</RetainInFog>
+    <AlwaysVisible>false</AlwaysVisible>
+    <Corpse>false</Corpse>
+    <Preview>false</Preview>
+  </Visibility>
   <WallSet>
     <MaxTowerOverlap>0.85</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>

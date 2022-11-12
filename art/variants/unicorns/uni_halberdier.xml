@@ -12,11 +12,6 @@
     <animation event="0.5" file="other/unicorn_halberding_a.dae" name="attack_melee" speed="250"/>
     <animation event="0.5" file="other/unicorn_halberding_b.dae" name="attack_melee" speed="250"/>
     <animation event="0.5" file="other/unicorn_lumbering.dae" name="attack_slaughter" speed="250"/>
-    <animation file="other/unicorn_walk.dae" name="carry_food" speed="8"/>
-    <animation file="other/unicorn_walk.dae" name="carry_meat" speed="8"/>
-    <animation file="other/unicorn_walk.dae" name="carry_wood" speed="8"/>
-    <animation file="other/unicorn_walk.dae" name="carry_stone" speed="8"/>
-    <animation file="other/unicorn_walk.dae" name="carry_metal" speed="8"/>
     <animation event="0.4" file="other/unicorn_lumbering.dae" name="gather_tree" speed="60"/>
     <animation file="other/pony_farming_a.dae" name="gather_grain" speed="75"/>
     <animation file="other/pony_foraging.dae" name="gather_fruit" speed="25"/>

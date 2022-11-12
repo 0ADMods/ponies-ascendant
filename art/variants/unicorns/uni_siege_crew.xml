@@ -1,6 +1,6 @@
-<variant name="Base" frequency="1">
+<?xml version="1.0" encoding="utf-8"?>
+<variant file="unicorns/uni_base.xml">
   <animations>
-    <animation file="other/unicorn_walk.dae" name="Walk" speed="8"/>
     <animation file="other/unicorn_gallop.dae" name="Run" speed="10"/>
     <animation file="other/uni_death.dae" name="Death" speed="70"/>
     <animation file="other/uni_death_b.dae" name="Death" speed="70"/>

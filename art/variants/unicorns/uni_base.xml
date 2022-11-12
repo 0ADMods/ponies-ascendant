@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base" frequency="1">
+  <animations>
+    <animation file="other/unicorn_walk.dae" id="uni_walk_01" name="walk" speed="8"/>
+    <animation file="other/unicorn_walk.dae" id="uni_carry_food_01" name="carry_food" speed="8"/>
+    <animation file="other/unicorn_walk.dae" id="uni_carry_meat_01" name="carry_meat" speed="8"/>
+    <animation file="other/unicorn_walk.dae" id="uni_carry_wood_01" name="carry_wood" speed="8"/>
+    <animation file="other/unicorn_walk.dae" id="uni_carry_stone_01" name="carry_stone" speed="8"/>
+    <animation file="other/unicorn_walk.dae" id="uni_carry_metal_01" name="carry_metal" speed="8"/>
+  </animations>
+</variant>

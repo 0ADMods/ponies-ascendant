@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <variant name="Base" frequency="1">
   <animations>
-    <animation file="other/unicorn_walk.dae" name="Walk" speed="8"/>
     <animation file="other/unicorn_b_syntagma_front.dae" name="syntagma_front_idle" speed="8"/>
     <animation file="other/unicorn_b_syntagma_front_walk.dae" name="syntagma_front_walk" speed="8"/>
     <animation file="other/unicorn_b_syntagma_front_walk.dae" name="syntagma_front_run" speed="8"/>
@@ -12,11 +11,6 @@
     <animation event="0.2" file="other/unicorn_b_spearing_2.dae" name="attack_melee" speed="250"/>
     <animation event="0.2" file="other/unicorn_b_spearing_3.dae" name="attack_melee" speed="250"/>
     <animation event="0.5" file="other/unicorn_lumbering.dae" name="attack_slaughter" speed="250"/>
-    <animation file="other/unicorn_walk.dae" name="carry_food" speed="8"/>
-    <animation file="other/unicorn_walk.dae" name="carry_meat" speed="8"/>
-    <animation file="other/unicorn_walk.dae" name="carry_wood" speed="8"/>
-    <animation file="other/unicorn_walk.dae" name="carry_stone" speed="8"/>
-    <animation file="other/unicorn_walk.dae" name="carry_metal" speed="8"/>
     <animation event="0.4" file="other/unicorn_lumbering.dae" name="gather_tree" speed="60"/>
     <animation file="other/uni_farming.dae" name="gather_grain" speed="75"/>
     <animation file="other/uni_farming.dae" name="gather_fruit" speed="25"/>

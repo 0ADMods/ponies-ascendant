@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant file="ponies/pony_slinger_prop.xml">
-      <mesh>skeletal/pony.dae</mesh>
+      <mesh>skeletal/pony_pa.dae</mesh>
       <props>
         <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
       </props>
@@ -120,5 +120,13 @@
       </props>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

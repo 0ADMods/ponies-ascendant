@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant file="ponies/pony_spear.xml">
-      <mesh>skeletal/pony.dae</mesh>
+      <mesh>skeletal/pony_pa.dae</mesh>
     </variant>
   </group>
   <group>
@@ -25,16 +25,22 @@
     <variant frequency="0" name="3">
       <textures>
         <texture file="skeletal/pony_grunt_b.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="0" name="4">
       <textures>
         <texture file="skeletal/pony_grunt_c.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="5">
       <textures>
         <texture file="skeletal/pony_wisebiscuit.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -117,5 +123,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

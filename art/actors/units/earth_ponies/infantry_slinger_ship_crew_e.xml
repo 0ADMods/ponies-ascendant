@@ -6,7 +6,7 @@
       <animations>
         <animation event="0.4" file="other/pony_slinging.dae" name="attack_ranged" speed="250"/>
       </animations>
-      <mesh>skeletal/pony.dae</mesh>
+      <mesh>skeletal/pony_pa.dae</mesh>
       <props>
         <prop actor="props/units/weapons/slingrock_2.xml" attachpoint="projectile"/>
       </props>
@@ -52,5 +52,13 @@
     </variant>
     <variant name="death"/>
   </group>
-  <material>player_trans.xml</material>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

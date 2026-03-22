@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant file="ponies/pony_base.xml">
-      <mesh>skeletal/pony.dae</mesh>
+      <mesh>skeletal/pony_pa.dae</mesh>
       <textures>
         <texture file="skeletal/pony_a.png" name="baseTex"/>
         <texture file="skeletal/pony_a.png" name="specTex"/>
@@ -11,5 +11,5 @@
       </textures>
     </variant>
   </group>
-  <material>basic_trans_spec.xml</material>
+  <material>basic_trans_norm_spec.xml</material>
 </actor>

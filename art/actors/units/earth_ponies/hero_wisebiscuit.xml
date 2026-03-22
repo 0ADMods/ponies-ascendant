@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant file="ponies/pony_spear.xml">
-      <mesh>skeletal/pony.dae</mesh>
+      <mesh>skeletal/pony_pa.dae</mesh>
     </variant>
   </group>
   <group>

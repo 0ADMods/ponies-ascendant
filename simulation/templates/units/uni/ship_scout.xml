@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_warship_scout">
+  <Identity>
+    <Civ>uni</Civ>
+    <SpecificName>Scout Galley</SpecificName>
+    <Icon>units/cart/ship_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/unicorns/bireme.xml</Actor>
+  </VisualActor>
+</Entity>

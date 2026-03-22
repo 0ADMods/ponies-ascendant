@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_ship_trireme">
+<Entity parent="template_unit_ship_warship_arrow">
   <Attack>
     <Ranged>
       <Damage>
@@ -46,6 +46,7 @@
   </Attack>
   <BuildingAI>
     <DefaultArrowCount>8</DefaultArrowCount>
+    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
   </BuildingAI>
   <Cost>
@@ -69,7 +70,7 @@
     <Civ>pega</Civ>
     <SpecificName>War Monoreme</SpecificName>
     <Tooltip>Pegasus skirmish ship. Holds 25 units. Effective for harassing shore units and fighting ramming ships. Battle effectiveness increases with troops garrisoned.</Tooltip>
-    <Icon>units/cart_ship_trireme.png</Icon>
+    <Icon>units/cart/ship_arrow.png</Icon>
   </Identity>
   <Resistance>
     <Entity>

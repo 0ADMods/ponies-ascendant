@@ -40,7 +40,7 @@
 			"Template": "structures/pega/civil_centre"
 		},
 		{
-			"Template": "units/pega/support_female_citizen",
+			"Template": "units/pega/support_civilian",
 			"Count": 4
 		},
 		{
@@ -68,6 +68,7 @@
 		"Sergeant Stratus"
 	],
 	"SkirmishReplacements": {
+		"skirmish/units/default_support_civilian": "units/pega/support_civilian",
 		"skirmish/units/default_infantry_ranged_b": "units/pega/infantry_javelineer_b",
 		"skirmish/units/default_cavalry": "units/pega/infantry_spearman_b"
 	},

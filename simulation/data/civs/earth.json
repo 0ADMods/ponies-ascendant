@@ -25,7 +25,7 @@
 			"Template": "structures/earth/civil_centre"
 		},
 		{
-			"Template": "units/earth/support_female_citizen",
+			"Template": "units/earth/support_civilian",
 			"Count": 4
 		},
 		{
@@ -51,7 +51,7 @@
 		"Sir Whooves"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_support_female_citizen": "units/earth/support_female_citizen",
+		"skirmish/units/default_support_civilian": "units/earth/support_civilian",
 		"skirmish/units/default_infantry_ranged_b": "units/earth/infantry_slinger_b",
 		"skirmish/units/default_cavalry": "units/earth/infantry_spearman_b",
 		"skirmish/structures/default_house_10": "structures/{civ}/house"

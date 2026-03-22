@@ -49,7 +49,7 @@
 			"Template": "structures/uni/civil_centre"
 		},
 		{
-			"Template": "units/uni/support_female_citizen",
+			"Template": "units/uni/support_civilian",
 			"Count": 3
 		},
 		{
@@ -75,7 +75,7 @@
 		"Count Lunata"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_support_female_citizen": "units/uni/support_female_citizen",
+		"skirmish/units/default_support_civilian": "units/uni/support_civilian",
 		"skirmish/units/default_infantry_ranged_b": "units/uni/infantry_archer_b",
 		"skirmish/units/default_cavalry": "units/uni/infantry_spearman_b",
 		"skirmish/structures/default_house_10": "structures/{civ}/house"

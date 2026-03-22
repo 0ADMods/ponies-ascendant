@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding='utf-8'?>
 <Entity parent="template_structure_defensive_wall_long">
   <BuildRestrictions>
     <Territory>own neutral</Territory>
@@ -12,7 +12,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="38.5" depth="8.5"/>
+    <Square width="38.5" depth="8.5" />
     <Height>9.0</Height>
   </Footprint>
   <Health>
@@ -21,13 +21,15 @@
   <Identity>
     <SpecificName>Palisade</SpecificName>
     <SelectionGroupName>structures/earth/wallset_wood</SelectionGroupName>
-    <RequiredTechnology>phase_village</RequiredTechnology>
     <GenericName>Wooden Wall</GenericName>
     <Classes datatype="tokens">Palisade</Classes>
     <Icon>structures/palisade_wall.png</Icon>
+    <Requirements replace="">
+      <Techs datatype="tokens">phase_village</Techs>
+    </Requirements>
   </Identity>
   <Obstruction>
-    <Static width="37.0" depth="7.0"/>
+    <Static width="37.0" depth="7.0" />
   </Obstruction>
   <Resistance>
     <Entity>
@@ -38,15 +40,15 @@
       </Damage>
     </Entity>
   </Resistance>
-  <VisualActor>
-    <Actor>structures/earth_ponies/palisade_long.xml</Actor>
-    <FoundationActor>structures/fndn_9x3_wall.xml</FoundationActor>
-  </VisualActor>
   <Upgrade>
     <Gate>
       <Entity>structures/uni/palisade_gate</Entity>
     </Gate>
   </Upgrade>
+  <VisualActor>
+    <Actor>structures/earth_ponies/palisade_long.xml</Actor>
+    <FoundationActor>structures/fndn_9x3_wall.xml</FoundationActor>
+  </VisualActor>
   <WallPiece>
     <Length>37.0</Length>
   </WallPiece>

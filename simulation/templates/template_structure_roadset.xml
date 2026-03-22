@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding='utf-8'?>
 <Entity>
   <Identity>
     <Icon>structures/earth_road.png</Icon>
     <Classes datatype="tokens">Town Road</Classes>
     <GenericName>Road</GenericName>
     <Tooltip>Build roads to increase troop mobility.</Tooltip>
-    <RequiredTechnology>phase_town</RequiredTechnology>
     <Undeletable>true</Undeletable>
+    <Requirements replace="">
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Visibility>
     <RetainInFog>true</RetainInFog>

@@ -44,7 +44,9 @@ Classes: Hero Infantry Ranged Archer Bow.
 Counters: 2x vs. Swordsmen, 1.25x vs. Cavalry Spearmen.
 Countered by: Cavalry Swordsmen, Cavalry Skirmishers.
     </Tooltip>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Requirements replace="">
+      <Techs datatype="tokens">phase_city</Techs>
+    </Requirements>
   </Identity>
   <Loot>
     <xp>350</xp>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding='utf-8'?>
 <Entity parent="template_structure_defensive">
   <Auras datatype="tokens">structures/road_speed_aura</Auras>
   <BuildRestrictions>
@@ -6,7 +6,7 @@
     <PlacementType>land-shore</PlacementType>
     <Category>Wall</Category>
   </BuildRestrictions>
-  <Capturable disable=""/>
+  <Capturable disable="" />
   <Cost>
     <BuildTime>10</BuildTime>
     <Resources>
@@ -14,7 +14,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="6.0" depth="6.0"/>
+    <Square width="6.0" depth="6.0" />
     <Height>8.0</Height>
   </Footprint>
   <Health>
@@ -26,17 +26,19 @@
     <GenericName>Road</GenericName>
     <Tooltip>Lay roads to boost movement speed.</Tooltip>
     <Icon>structures/earth_road.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements replace="">
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Loot>
     <stone>10</stone>
   </Loot>
   <Obstruction>
-    <Static width="6.0" depth="6.0"/>
+    <Static width="6.0" depth="6.0" />
     <BlockMovement>false</BlockMovement>
     <BlockPathfinding>false</BlockPathfinding>
   </Obstruction>
-  <RallyPoint disable=""/>
+  <RallyPoint disable="" />
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_wall.xml</select>
@@ -58,7 +60,7 @@
   <VisualActor>
     <FoundationActor>structures/fndn_6x3_wall.xml</FoundationActor>
     <SelectionShape>
-      <Footprint/>
+      <Footprint />
     </SelectionShape>
   </VisualActor>
 </Entity>

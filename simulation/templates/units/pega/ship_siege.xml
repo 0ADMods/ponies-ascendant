@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_ship_trireme">
+<Entity parent="template_unit_ship_warship_siege">
   <Attack>
     <Ranged>
       <Damage>
@@ -67,8 +67,10 @@
     <Civ>pega</Civ>
     <SpecificName>Ballista Monoreme</SpecificName>
     <Tooltip>Pegasus siege ship. Carries 20 units. Good against light shore defenses, coastal buildings, and war ships</Tooltip>
-    <Icon>units/cart_ship_quinquereme.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Icon>units/cart/ship_siege.png</Icon>
+    <Requirements replace="">
+      <Techs datatype="tokens">phase_city</Techs>
+    </Requirements>
   </Identity>
   <Resistance>
     <Entity>
@@ -79,15 +81,15 @@
       </Damage>
     </Entity>
   </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack>attack/siege/ram_attack_order.xml</attack>
+    </SoundGroups>
+  </Sound>
   <UnitMotion>
     <WalkSpeed>10.0</WalkSpeed>
   </UnitMotion>
   <VisualActor>
     <Actor>units/pegasi/ship_siege.xml</Actor>
   </VisualActor>
-  <Sound>
-    <SoundGroups>
-      <attack>attack/siege/ram_attack_order.xml</attack>
-    </SoundGroups>
-  </Sound>
 </Entity>

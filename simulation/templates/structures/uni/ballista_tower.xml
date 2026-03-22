@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding='utf-8'?>
 <Entity parent="template_structure_defensive_tower_stone">
   <Attack>
     <Ranged>
@@ -60,7 +60,7 @@
     </Resources>
   </Cost>
   <Footprint replace="">
-    <Circle radius="8.0"/>
+    <Circle radius="8.0" />
     <Height>12.0</Height>
   </Footprint>
   <GarrisonHolder>
@@ -74,11 +74,13 @@
     <Civ>uni</Civ>
     <GenericName>Artillery Tower</GenericName>
     <Icon>structures/earth_scout_tower.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Long range counter-siege tower. Deals high damage to a single target over a long range, however it is very slow to fire and will damage friendly units should they get in the way.</Tooltip>
+    <Requirements replace="">
+      <Techs datatype="tokens">phase_city</Techs>
+    </Requirements>
   </Identity>
   <Obstruction>
-    <Static width="12.0" depth="12.0"/>
+    <Static width="12.0" depth="12.0" />
   </Obstruction>
   <Sound>
     <SoundGroups>
@@ -89,4 +91,3 @@
     <Actor>structures/unicorns/ballista_tower.xml</Actor>
   </VisualActor>
 </Entity>
-

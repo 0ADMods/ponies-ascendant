@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding='utf-8'?>
 <Entity parent="template_structure_military_forge">
   <Cost>
     <BuildTime>240</BuildTime>
@@ -9,7 +9,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="30.0" depth="30.0"/>
+    <Square width="30.0" depth="30.0" />
     <Height>2.0</Height>
   </Footprint>
   <Health>
@@ -19,10 +19,12 @@
   <Identity>
     <Civ>uni</Civ>
     <SpecificName>Blacksmith</SpecificName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements replace="">
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Obstruction>
-    <Static width="28.0" depth="28.0"/>
+    <Static width="28.0" depth="28.0" />
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding='utf-8'?>
 <Entity parent="template_unit_champion_infantry_spearman">
   <Attack>
     <Melee>
@@ -28,7 +28,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Circle radius="2.5"/>
+    <Circle radius="2.5" />
     <Height>5.0</Height>
   </Footprint>
   <Health>
@@ -41,7 +41,9 @@
     <SpecificName>Halberdier</SpecificName>
     <Icon>units/uni_champion_halberdier.png</Icon>
     <Phenotype>female</Phenotype>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements replace="">
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Resistance>
     <Entity>
@@ -52,10 +54,6 @@
       </Damage>
     </Entity>
   </Resistance>
-  <UnitMotion>
-    <WalkSpeed>8.0</WalkSpeed>
-    <RunMultiplier>1.8</RunMultiplier>
-  </UnitMotion>
   <Sound>
     <SoundGroups>
       <attack>attack/impact/shield_wood.xml</attack>
@@ -70,6 +68,10 @@
       <death>actor/human/death/{phenotype}_death.xml</death>
     </SoundGroups>
   </Sound>
+  <UnitMotion>
+    <WalkSpeed>8.0</WalkSpeed>
+    <RunMultiplier>1.8</RunMultiplier>
+  </UnitMotion>
   <VisualActor>
     <Actor>units/unicorns/infantry_halberdier.xml</Actor>
   </VisualActor>

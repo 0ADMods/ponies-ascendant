@@ -38,7 +38,6 @@
         <animation file="other/pegasus_idle_2.dae" name="idle" speed="10"/>
         <animation file="other/pegasus_idle.dae" name="idle" speed="25"/>
         <animation file="other/pegasus_idle.dae" name="idle" speed="25"/>
-        
       </animations>
     </variant>
   </group>
@@ -174,5 +173,13 @@
       </props>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

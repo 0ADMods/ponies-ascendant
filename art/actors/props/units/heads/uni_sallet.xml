@@ -13,9 +13,10 @@
       </props>
       <textures>
         <texture file="skeletal/uni_cavalier.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="props/helmet/old/mace-g-silver_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
-  <material>playercolor_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

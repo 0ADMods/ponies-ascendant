@@ -4,7 +4,7 @@
   <group>
     <variant file="unicorns/uni_ship_crew.xml">
       <animations>
-         <animation event="0.5" file="other/unicorn_shooting.dae" name="attack_ranged" speed="250"/>
+        <animation event="0.5" file="other/unicorn_shooting.dae" name="attack_ranged" speed="250"/>
       </animations>
       <mesh>skeletal/unicorn_remapped.dae</mesh>
       <props>
@@ -68,5 +68,13 @@
     </variant>
     <variant name="death"/>
   </group>
-  <material>player_trans.xml</material>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

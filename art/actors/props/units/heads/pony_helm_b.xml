@@ -13,8 +13,10 @@
     <variant frequency="1" name="leather">
       <textures>
         <texture file="skeletal/pony_knight_a.png" name="baseTex"/>
+        <texture name="specTex" file="null_white.dds"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
-  <material>playercolor_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

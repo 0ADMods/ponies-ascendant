@@ -37,13 +37,13 @@
         <animation file="other/pegasus_idle_2.dae" name="idle" speed="10"/>
         <animation file="other/pegasus_idle_2.dae" name="idle" speed="10"/>
         <animation file="other/pegasus_idle.dae" name="idle" speed="25"/>
-        <animation file="other/pegasus_idle.dae" name="idle" speed="25"/>       
+        <animation file="other/pegasus_idle.dae" name="idle" speed="25"/>
       </animations>
     </variant>
     <variant frequency="1" name="14">
       <animations>
         <animation file="other/cataphract_idle.dae" name="idle" speed="15"/>
-        <animation file="other/cataphract_idle.dae" name="idle" speed="20"/>       
+        <animation file="other/cataphract_idle.dae" name="idle" speed="20"/>
       </animations>
     </variant>
   </group>
@@ -59,41 +59,57 @@
     <variant frequency="33" name="2">
       <textures>
         <texture file="skeletal/pegasus_cataphract_a.png" name="baseTex"/>
+        <texture name="specTex" file="null_white.dds"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="33" name="3">
       <textures>
         <texture file="skeletal/pegasus_cataphract_b.png" name="baseTex"/>
+        <texture name="specTex" file="null_white.dds"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="33" name="4">
       <textures>
         <texture file="skeletal/pegasus_cataphract_c.png" name="baseTex"/>
+        <texture name="specTex" file="null_white.dds"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="5">
       <textures>
         <texture file="skeletal/pegasus_cataphract_derpy.png" name="baseTex"/>
+        <texture name="specTex" file="null_white.dds"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="0" name="6">
       <textures>
         <texture file="skeletal/pony_e.png" name="baseTex"/>
+        <texture name="specTex" file="null_white.dds"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="0" name="7">
       <textures>
         <texture file="skeletal/pony_f.png" name="baseTex"/>
+        <texture name="specTex" file="null_white.dds"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="0" name="8">
       <textures>
         <texture file="skeletal/pony_g.png" name="baseTex"/>
+        <texture name="specTex" file="null_white.dds"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="0" name="9">
       <textures>
         <texture file="skeletal/pony_h.png" name="baseTex"/>
+        <texture name="specTex" file="null_white.dds"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
@@ -183,5 +199,5 @@
       </props>
     </variant>
   </group>
-  <material>playercolor_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

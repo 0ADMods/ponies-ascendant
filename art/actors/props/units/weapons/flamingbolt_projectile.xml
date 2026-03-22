@@ -6,6 +6,8 @@
       <mesh>props/weap_ballista_projectile.dae</mesh>
       <textures>
         <texture file="structural/pega_struct.png" name="baseTex"/>
+        <texture name="specTex" file="null_white.dds"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
@@ -17,5 +19,5 @@
       </props>
     </variant>
   </group>
-  <material>blend_spec.xml</material>
+  <material>basic_trans_norm_spec.xml</material>
 </actor>

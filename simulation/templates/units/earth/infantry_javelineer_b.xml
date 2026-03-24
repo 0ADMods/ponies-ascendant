@@ -57,7 +57,7 @@
     <SpecificName>Green Javelinist</SpecificName>
     <Classes datatype="tokens">Skirmisher</Classes>
     <History>Gesatae were young men who devoted themselves to war, often serving as mercenaries for other tribes. They were the last Celts to fight stark naked to show their courage, often carrying only a shield with several javelins and a regular Celtic spear. More often than not they were covered in geometric designs painted in woad, a blue dye.</History>
-    <Icon>units/pega_infantry_javelinist.png</Icon>
+    <Icon>units/pega/infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/earth/infantry_javelineer_a</Entity>
@@ -100,3 +100,4 @@
     <Actor>units/earth_ponies/infantry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>
+

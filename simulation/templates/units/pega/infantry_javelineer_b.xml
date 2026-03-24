@@ -54,7 +54,7 @@
     <GenericName>Skirmisher</GenericName>
     <SpecificName>Recruit Peltast</SpecificName>
     <Classes datatype="tokens">Skirmisher</Classes>
-    <Icon>units/pega_infantry_javelinist.png</Icon>
+    <Icon>units/pega/infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/pega/infantry_javelineer_a</Entity>
@@ -90,3 +90,4 @@
     <Actor>units/pegasi/infantry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>
+

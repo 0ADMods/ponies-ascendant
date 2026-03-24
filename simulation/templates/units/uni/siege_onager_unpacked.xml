@@ -61,7 +61,7 @@
   <Identity>
     <Civ>uni</Civ>
     <SpecificName>Onager</SpecificName>
-    <Icon>units/earth_mechanical_mangonel.png</Icon>
+    <Icon>units/earth/mechanical_mangonel.png</Icon>
   </Identity>
   <Loot>
     <xp>300</xp>
@@ -96,3 +96,4 @@
     <Actor>units/unicorns/onager.xml</Actor>
   </VisualActor>
 </Entity>
+

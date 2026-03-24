@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Attack>
     <Melee>
@@ -28,7 +28,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Circle radius="2.5" />
+    <Circle radius="2.5"/>
     <Height>6.0</Height>
   </Footprint>
   <Health>
@@ -39,7 +39,7 @@
     <Civ>earth</Civ>
     <GenericName>Anti Armor</GenericName>
     <SpecificName>Brute</SpecificName>
-    <Icon>units/earth_champion_maceman.png</Icon>
+    <Icon>units/earth/champion_maceman.png</Icon>
     <Phenotype>female</Phenotype>
     <Requirements replace="">
       <Techs datatype="tokens">phase_town</Techs>
@@ -76,3 +76,4 @@
     <Actor>units/earth_ponies/infantry_maceman.xml</Actor>
   </VisualActor>
 </Entity>
+

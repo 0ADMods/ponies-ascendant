@@ -11,9 +11,10 @@
     <Civ>pega</Civ>
     <SpecificName>Citizen</SpecificName>
     <GenericName>Civilian</GenericName>
-    <Icon>units/earth_support_female_citizen.png</Icon>
+    <Icon>units/earth/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/pegasi/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>
+

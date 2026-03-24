@@ -69,7 +69,7 @@
     <Civ>pega</Civ>
     <SpecificName>Ballista</SpecificName>
     <Tooltip>Long range field weapon. Powerful counter to soft targets, siege weapons, and ships. Deals high damage to buildings as well.</Tooltip>
-    <Icon>units/earth_mechanical_mangonel.png</Icon>
+    <Icon>units/earth/mechanical_mangonel.png</Icon>
   </Identity>
   <Loot>
     <xp>300</xp>
@@ -104,3 +104,4 @@
     <Actor>units/pegasi/ballista.xml</Actor>
   </VisualActor>
 </Entity>
+

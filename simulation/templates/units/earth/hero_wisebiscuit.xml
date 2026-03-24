@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_swordsman">
   <Auras datatype="tokens">units/heroes/hero_wisebiscuit</Auras>
   <Builder>
@@ -15,7 +15,7 @@
   <Identity>
     <Civ>earth</Civ>
     <SpecificName>Advisor Wisebiscuit</SpecificName>
-    <Icon>units/earth_hero_wisebiscuit.png</Icon>
+    <Icon>units/earth/hero_wisebiscuit.png</Icon>
     <Tooltip>Level headed advisor of high chancellor Jellyhat. Her sense for enemy weakness, as well as her uncanny situational awareness, inspires her troops to fight harder.She can also build field fortifications.</Tooltip>
     <Phenotype>female</Phenotype>
   </Identity>
@@ -36,3 +36,4 @@
     <Actor>units/earth_ponies/hero_wisebiscuit.xml</Actor>
   </VisualActor>
 </Entity>
+

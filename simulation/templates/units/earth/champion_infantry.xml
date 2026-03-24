@@ -33,7 +33,7 @@
     <Civ>earth</Civ>
     <GenericName>Armor</GenericName>
     <SpecificName>Knight</SpecificName>
-    <Icon>units/earth_champion_infantry.png</Icon>
+    <Icon>units/earth/champion_infantry.png</Icon>
     <Phenotype>female</Phenotype>
   </Identity>
   <Resistance>
@@ -67,3 +67,4 @@
     <Actor>units/earth_ponies/champion_infantry.xml</Actor>
   </VisualActor>
 </Entity>
+

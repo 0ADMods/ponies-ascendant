@@ -66,7 +66,7 @@
     <SelectionGroupName>units/uni/infantry_archer_b</SelectionGroupName>
     <GenericName>Skirmisher</GenericName>
     <SpecificName>Drafted Archer</SpecificName>
-    <Icon>units/uni_infantry_archer.png</Icon>
+    <Icon>units/uni/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/uni/infantry_archer_a</Entity>
@@ -102,3 +102,4 @@
     </SoundGroups>
   </Sound>
 </Entity>
+

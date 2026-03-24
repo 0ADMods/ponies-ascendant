@@ -35,7 +35,7 @@
     <SelectionGroupName>units/pega/infantry_spearman_b</SelectionGroupName>
     <SpecificName>Recruit Hoplite</SpecificName>
     <GenericName>Soldier</GenericName>
-    <Icon>units/pega_infantry_spearman.png</Icon>
+    <Icon>units/pega/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/pega/infantry_spearman_a</Entity>
@@ -70,3 +70,4 @@
     </SoundGroups>
   </Sound>
 </Entity>
+

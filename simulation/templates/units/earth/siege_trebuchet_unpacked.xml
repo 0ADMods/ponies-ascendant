@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/earth/siege_trebuchet_packed">
   <Identity>
-    <Icon>units/earth_mechanical_trebuchet_unpacked.png</Icon>
+    <Icon>units/earth/mechanical_trebuchet_unpacked.png</Icon>
   </Identity>
   <Pack>
     <Entity>units/earth/siege_trebuchet_packed</Entity>
@@ -15,3 +15,4 @@
     <Actor>units/earth_ponies/trebuchet.xml</Actor>
   </VisualActor>
 </Entity>
+

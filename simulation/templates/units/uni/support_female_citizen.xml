@@ -11,9 +11,10 @@
     <Civ>uni</Civ>
     <SpecificName>Subject</SpecificName>
     <GenericName>Civilian</GenericName>
-    <Icon>units/earth_support_female_citizen.png</Icon>
+    <Icon>units/earth/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/unicorns/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>
+

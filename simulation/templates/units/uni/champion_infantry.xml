@@ -33,7 +33,7 @@
     <Civ>uni</Civ>
     <GenericName>Armor</GenericName>
     <SpecificName>Cavalier</SpecificName>
-    <Icon>units/earth_champion_infantry.png</Icon>
+    <Icon>units/earth/champion_infantry.png</Icon>
     <Phenotype>female</Phenotype>
   </Identity>
   <Resistance>
@@ -67,3 +67,4 @@
     <Actor>units/unicorns/champion_infantry.xml</Actor>
   </VisualActor>
 </Entity>
+

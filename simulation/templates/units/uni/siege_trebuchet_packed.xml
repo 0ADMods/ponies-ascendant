@@ -60,7 +60,7 @@
   <Identity>
     <Civ>uni</Civ>
     <SpecificName>Trebuchet</SpecificName>
-    <Icon>units/earth_mechanical_trebuchet_packed.png</Icon>
+    <Icon>units/earth/mechanical_trebuchet_packed.png</Icon>
   </Identity>
   <Loot>
     <xp>300</xp>
@@ -90,3 +90,4 @@
     <Actor>units/unicorns/siege_rock_packed.xml</Actor>
   </VisualActor>
 </Entity>
+

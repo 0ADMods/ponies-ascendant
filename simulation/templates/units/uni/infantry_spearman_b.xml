@@ -39,7 +39,7 @@
     <SelectionGroupName>units/uni/infantry_spearman_b</SelectionGroupName>
     <SpecificName>Drafted Infantry</SpecificName>
     <GenericName>Soldier</GenericName>
-    <Icon>units/uni_infantry_spearman.png</Icon>
+    <Icon>units/uni/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/uni/infantry_spearman_a</Entity>
@@ -75,3 +75,4 @@
     </SoundGroups>
   </Sound>
 </Entity>
+

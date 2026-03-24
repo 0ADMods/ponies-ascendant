@@ -34,7 +34,7 @@
     <Civ>pega</Civ>
     <GenericName>Armor</GenericName>
     <SpecificName>Cataphract</SpecificName>
-    <Icon>units/pega_champion_infantry.png</Icon>
+    <Icon>units/pega/champion_infantry.png</Icon>
     <Phenotype>female</Phenotype>
   </Identity>
   <Resistance>
@@ -68,3 +68,4 @@
     <Actor>units/pegasi/champion_infantry.xml</Actor>
   </VisualActor>
 </Entity>
+

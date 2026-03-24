@@ -34,7 +34,7 @@
     <SelectionGroupName>units/earth/infantry_spearman_b</SelectionGroupName>
     <SpecificName>Militia</SpecificName>
     <GenericName>Soldier</GenericName>
-    <Icon>units/earth_infantry_spearman.png</Icon>
+    <Icon>units/earth/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/earth/infantry_spearman_a</Entity>
@@ -69,3 +69,4 @@
     </SoundGroups>
   </Sound>
 </Entity>
+

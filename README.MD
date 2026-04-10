@@ -11,7 +11,7 @@ Feel free to contact us if you want to contribute or report bugs. We are open to
 
 # Status
 
-The currently published version is compatible with New Release: 0 A.D. Alpha 25: Yaunā; this repository requires the still-under-development Alpha 26.
+The currently published version is compatible with New Release: 0 A.D. Release 28: Boiorix; this repository requires the still-under-development Release 28.
 
 Three factions are available, but some buildings are still placeholders
 
